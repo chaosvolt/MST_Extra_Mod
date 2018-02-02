@@ -1,0 +1,147 @@
+[
+  {
+    "type" : "terrain",
+    "id" : "t_hive_young",
+    "name": "empty beehive",
+    "symbol": "^",
+    "color": "light_gray",
+    "move_cost": 0,
+    "transforms_into": "t_hive_growing",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [ { "item": "beehive_empty", "count": 1 } ]
+    },
+    "flags": ["FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED"],
+    "bash": {
+      "str_min": 12, "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "2x4", "count": [1, 4] },
+        { "item": "nail", "charges": [4, 8] },
+        { "item": "splinter", "count": [2, 6] }
+      ]
+    }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_hive_growing",
+    "name": "growing beehive",
+    "symbol": "^",
+    "color": "brown",
+    "move_cost": 0,
+    "transforms_into": "t_hive_ready",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "beehive_empty", "count": 1 },
+        { "item": "wax", "count": [1, 2] }
+      ]
+    },
+    "flags": ["FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED"],
+    "bash": {
+      "str_min": 12, "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "wax", "count": [0, 1] },
+        { "item": "2x4", "count": [1, 4] },
+        { "item": "nail", "charges": [4, 8] },
+        { "item": "splinter", "count": [2, 6] }
+      ]
+    }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_hive_ready",
+    "name": "mature beehive",
+    "symbol": "^",
+    "color": "yellow",
+    "move_cost": 0,
+    "transforms_into": "t_hive_recovering",
+    "examine_action": "harvest_ter",
+    "harvest_by_season" : [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "entries": [ { "drop": "honeycomb", "base_num": 1 } ] } ],
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "beehive_empty", "count": 1 },
+        { "item": "honeycomb", "count": [1, 2] }
+      ]
+    },
+    "flags": ["FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT"],
+    "bash": {
+      "str_min": 12, "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "wax", "count": [1, 2] },
+        { "item": "honeycomb", "count": [0, 1] },
+        { "item": "2x4", "count": [1, 4] },
+        { "item": "nail", "charges": [4, 8] },
+        { "item": "splinter", "count": [2, 6] }
+      ]
+    }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_hive_recovering",
+    "name": "recovering beehive",
+    "symbol": "^",
+    "color": "brown",
+    "move_cost": 0,
+    "transforms_into": "t_hive_regrowing",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "beehive_empty", "count": 1 },
+        { "item": "honeycomb", "count": [0, 1] }
+      ]
+    },
+    "flags": ["FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED"],
+    "bash": {
+      "str_min": 12, "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "wax", "count": [0, 2] },
+        { "item": "2x4", "count": [1, 4] },
+        { "item": "nail", "charges": [4, 8] },
+        { "item": "splinter", "count": [2, 6] }
+      ]
+    }
+  },
+  {
+    "type" : "terrain",
+    "id" : "t_hive_regrowing",
+    "name": "regrowing beehive",
+    "symbol": "^",
+    "color": "brown",
+    "move_cost": 0,
+    "transforms_into": "t_hive_ready",
+    "deconstruct": {
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "beehive_empty", "count": 1 },
+        { "item": "honeycomb", "count": 1 }
+      ]
+    },
+    "flags": ["FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED"],
+    "bash": {
+      "str_min": 12, "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "ter_set": "t_dirt",
+      "items": [
+        { "item": "wax", "count": [2, 3] },
+        { "item": "honeycomb", "count": [0, 1] },
+        { "item": "2x4", "count": [1, 4] },
+        { "item": "nail", "charges": [4, 8] },
+        { "item": "splinter", "count": [2, 6] }
+      ]
+    }
+  }
+]

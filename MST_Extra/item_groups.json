@@ -1,0 +1,11 @@
+[
+  {
+    "id": "museum_primitive",
+    "type": "item_group",
+    "items": [
+      [ "primitive_hoe", 10 ],
+      [ "pitch_wood", 5 ],
+      [ "makeshift_sled_item", 1 ]
+    ]
+  }
+]
