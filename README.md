@@ -2,14 +2,14 @@
 
 A mod for Cataclysm: Dark Days Ahead that requires More Survival Tools and Boatmod. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
 
-Recipe Additons/Overrides for Existing Items:
+Recipe Additions/Overrides for Existing Items:
 * Added the option of making waterskins using sealed stomachs. The idea is it isn't that complicated to add a strap to an already usable water container.
 * Added overrides for some of the most basic leather and fur recipes, allowing the use of cured pelts/hides. The idea is that rawhide is still usable for some limited applications.
-* Added both an override and an alternative recipe for boat oars, changing the material demand and making it non-reversible. The alternative version allows use of cordage instead of nails, and cutting intstead of hammering.
-* The `adhesive` crafting requirement has been overidden to allow pitch (see below) as an option. This does not yet make it an option for all recipes as not all have been converted to use the requirements system, but this should improve over time.
+* Added both an override and an alternative recipe for boat oars, changing the material demand and making it non-reversible. The alternative version allows use of cordage instead of nails, and cutting instead of hammering.
+* The `adhesive` crafting requirement has been overridden to allow pitch (see below) as an option. This does not yet make it an option for all recipes as not all have been converted to use the requirements system, but this should improve over time.
 
 New Clothing:
-* Pack baskets, allowing a basic sotrage item to be crafted without access to cloth or leather.
+* Pack baskets, allowing a basic storage item to be crafted without access to cloth or leather.
 * Birchbark sheathes, something that might be useful for players innawoods, similar to how birchbark quivers are an option.
 
 Medical/Chemistry Items:
@@ -29,4 +29,4 @@ Vehicles and Parts:
 * A log canoe that can be made from several logs, representing the dugout style. Made as a single item, the resulting vehicle can be packed up to carry if it you have the strength to.
 
 Construction:
-* Beehives. This was an idea that came up during the Utterly Mad succession game, and works in a somewhat hacky way. No use of the bees field for you, because holy crap bees are awful about homing in on players and never disappating. Producing honeycombs still takes time and some established initial resources to begin with, but the result should be worth it.
+* Beehives. This was an idea that came up during the Utterly Mad succession game, and works in a somewhat hacky way. No use of the bees field for you, because holy crap bees are awful about homing in on players and never dissipating. Producing honeycombs still takes time and some established initial resources to begin with, but the result should be worth it.
