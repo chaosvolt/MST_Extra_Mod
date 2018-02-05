@@ -132,7 +132,7 @@
   {
     "type": "recipe",
     "result": "hand_paddles",
-    "suffix": "cordage",
+    "id_suffix": "cordage",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
