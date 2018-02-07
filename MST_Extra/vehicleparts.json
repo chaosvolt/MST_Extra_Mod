@@ -35,7 +35,7 @@
     "flags": [ "WHEEL", "STABLE", "FOLDABLE" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "components": [ [ [ "rope_6", 1 ] ] ] },
+      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "adhesive", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": 20000 },
       "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "adhesive", 1 ] ] }
     }
