@@ -26,108 +26,18 @@
     "components": [ [ [ "large_stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 90, "LIST" ] ] ]
   },
   {
-    "result": "chestwrap_fur",
     "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "result": "chestwrap_leather",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "result": "gloves_wraps_fur",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HANDS",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "fur", 6 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "result": "gloves_wraps_leather",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HANDS",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "leather", 6 ], [ "tanned_hide", 1 ], [ "cured_hide", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "result": "loincloth_fur",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "time": 1000,
-    "reversible": true,
-    "autolearn": true,
-    "tools": [  ],
-    "components": [ [ [ "fur", 2 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 1 ] ] ]
-  },
-  {
-    "result": "footrags_fur",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "fur", 9 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "result": "footrags_leather",
-    "type": "recipe",
-    "override": true,
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "time": 1500,
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "leather", 9 ], [ "tanned_hide", 1 ], [ "cured_hide", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
-  },
-  {
-    "type": "recipe",
-    "result": "hand_paddles",
-    "override": true,
+    "result": "tree_spile",
+    "id_suffix": "bone",
     "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
+    "skills_required": [ "survival", 1 ],
     "difficulty": 1,
-    "time": 500,
+    "time": 2000,
     "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "2x4", 2 ], [ "stick", 2 ] ], [ [ "nail", 5 ] ] ]
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "bone", 1 ], [ "bone_human", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -354,5 +264,23 @@
     "tools": [ [ [ "fire", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
     "components": [ [ [ "log", 3 ] ], [ [ "hand_paddles", 1 ] ] ]
+  },
+  {
+    "result": "canteen_birchbark",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "skills_required": [ "survival", 2 ],
+    "time": 30000,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "birchbark", 7 ] ],
+      [ [ "cordage_short", 4, "LIST" ], [ "filament", 80, "LIST" ] ],
+      [ [ "pine_bough", 10 ], [ "pitch_wood", 2 ] ]
+    ]
   }
 ]

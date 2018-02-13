@@ -180,5 +180,26 @@
       "unfold_msg": "You deploy the log canoe.",
       "moves": 100
     }
+  },
+  {
+    "id": "canteen_birchbark",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "birchbark canteen",
+    "description": "A small container make from pieces of birchbark stitched together, sealed with pitch or similar material.  Holds 1.5 liters and has a simple carry strap.",
+    "weight": 853,
+    "volume": 6,
+    "price": 2000,
+    "to_hit": -1,
+    "bashing": 1,
+    "rigid": true,
+    "material": "wood",
+    "symbol": ")",
+    "color": "light_gray",
+    "contains": 6,
+    "seals": true,
+    "watertight": true,
+    "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
+    "flags": [ "WAIST" ]
   }
 ]
