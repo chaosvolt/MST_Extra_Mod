@@ -201,5 +201,36 @@
     "watertight": true,
     "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
     "flags": [ "WAIST" ]
+  },
+  {
+    "id": "jar_clay",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": clay jar",
+    "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.",
+    "weight": 150,
+    "volume": 2,
+    "price": 0,
+    "bashing": 4,
+    "material": "clay",
+    "symbol": ")",
+    "color": "brown",
+    "contains": 2,
+    "seals": true,
+    "watertight": true,
+    "unseals_into": "null",
+    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ]
+  },
+  {
+    "id": "jar_clay_sealed",
+    "copy-from": "jar_clay",
+    "type": "CONTAINER",
+    "name": "sealed clay jar",
+    "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot.",
+    "symbol": ")",
+    "color": "brown",
+    "seals": false,
+    "preserves": true,
+    "unseals_into": "jar_clay"
   }
 ]
