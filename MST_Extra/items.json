@@ -206,7 +206,7 @@
     "id": "jar_clay",
     "type": "CONTAINER",
     "category": "other",
-    "name": clay jar",
+    "name": "clay jar",
     "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.",
     "weight": 150,
     "volume": 2,
