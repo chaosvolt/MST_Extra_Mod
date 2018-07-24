@@ -104,16 +104,7 @@
     "time": 60000,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
-    "tools": [
-      [ [ "fire", -1 ] ],
-      [
-        [ "can_drink_unsealed", -1 ],
-        [ "can_food_unsealed", -1 ],
-        [ "metal_funnel", -1 ],
-        [ "tinderbox", -1 ],
-        [ "hobo_stove", -1 ]
-      ]
-    ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [ [ [ "pine_bough", 5 ], [ "birchbark", 5 ] ] ]
   },
   {
