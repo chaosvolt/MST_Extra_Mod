@@ -2,15 +2,23 @@
   {
     "type": "construction",
     "description": "Build Beehive",
+    "//": "Hive lure includes classic of sweet water, or a few other substitutes.  Bee balm tea however is because we don't have lemongrass.",
     "category": "FURN",
     "required_skills": [ [ "survival", 2 ] ],
     "time": 30,
     "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
     "components": [
       [ [ "beehive_empty", 1 ] ],
-      [ [ "sweet_water", 4 ], [ "honey_bottled", 4 ], [ "honey_glassed", 4 ], [ "syrup", 4 ], [ "beet_syrup", 4 ] ]
+      [
+        [ "sweet_water", 1 ],
+        [ "bee_balm_tea", 1 ],
+        [ "honey_bottled", 3 ],
+        [ "honey_glassed", 3 ],
+        [ "syrup", 3 ],
+        [ "beet_syrup", 5 ]
+      ]
     ],
-    "pre_flags" : "DIGGABLE",
-    "post_terrain" : "t_hive_young"
+    "pre_flags": "DIGGABLE",
+    "post_terrain": "t_hive_young"
   }
 ]
