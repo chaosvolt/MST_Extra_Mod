@@ -220,13 +220,13 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "difficulty": 5,
+    "difficulty": 4,
     "skills_required": [ "survival", 3 ],
     "time": 10000,
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 4 ], [ "atomic_survival", 3 ], [ "survival_book", 3 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "2x4", 8 ] ], [ [ "nail", 30 ] ] ]
+    "components": [ [ [ "2x4", 4 ], [ "stick", 8 ] ], [ [ "nail", 10 ], [ "pointy_stick", 5 ], [ "spike", 5 ] ] ]
   },
   {
     "type": "recipe",
