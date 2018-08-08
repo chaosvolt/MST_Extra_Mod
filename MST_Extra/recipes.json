@@ -454,5 +454,20 @@
     "autolearn": true,
     "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
     "flags": [ "BLIND_HARD" ]
+  },
+  {
+    "type": "recipe",
+    "result": "chem_saltpetre",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "skills_required": [ "survival", 3 ],
+    "time": 100000,
+    "batch_time_factors": [ 80, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "BOIL", "level": 1 } ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ], [ [ "rag", -1 ], [ "felt_patch", -1 ] ] ],
+    "components": [ [ [ "feces_bird", 20 ] ], [ [ "water", 5 ], [ "water_clean", 5 ] ] ]
   }
 ]
