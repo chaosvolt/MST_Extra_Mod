@@ -2,10 +2,26 @@
   {
     "id": "museum_primitive",
     "type": "item_group",
-    "items": [
-      [ "primitive_hoe", 10 ],
-      [ "pitch_wood", 5 ],
-      [ "makeshift_sled_item", 1 ]
-    ]
+    "items": [ [ "primitive_hoe", 10 ], [ "pitch_wood", 5 ], [ "makeshift_sled_item", 1 ] ]
+  },
+  {
+    "id": "hive",
+    "type": "item_group",
+    "items": [ [ "beehive_empty", 1 ] ]
+  },
+  {
+    "id": "museum_misc",
+    "type": "item_group",
+    "items": [ [ "jar_clay", 20 ] ]
+  },
+  {
+    "id": "kitchen",
+    "type": "item_group",
+    "items": [ [ "bread_garlic", 7 ] ]
+  },
+  {
+    "id": "kitchen",
+    "type": "item_group",
+    "items": [ [ "bread_garlic", 14 ] ]
   }
 ]
