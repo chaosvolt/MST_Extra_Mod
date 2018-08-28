@@ -31,7 +31,7 @@
     "symbol": "~",
     "color": "yellow",
     "phase": "liquid",
-    "use_action": { "type": "heal", "limb_power": 0, "head_power": 0, "torso_power": 0, "bite": 0.85, "move_cost": 100 }
+    "use_action": { "type": "heal", "disinfectant_power": 2, "bite": 0.8, "move_cost": 100 }
   },
   {
     "type": "GENERIC",
@@ -361,7 +361,7 @@
     "quench": -2,
     "description": "Bread cooked with garlic and seasonings.",
     "price": 300,
-    "material": ["wheat", "garlic"],
+    "material": [ "wheat", "garlic" ],
     "volume": 2,
     "charges": 6,
     "flags": [ "EATEN_HOT" ],
@@ -384,5 +384,21 @@
     "material": "veggy",
     "volume": 1,
     "fun": 1
+  },
+  {
+    "id": "makeshift_poultice",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "makeshift poultice",
+    "description": "A primitive poultice using improvised antiseptic, held in place by a cloth or leather wrap.  Applied loosely, it is designed to stave off infection but can still help staunch bleeding.",
+    "weight": 70,
+    "volume": 1,
+    "price": 300,
+    "material": "veggy",
+    "symbol": "!",
+    "color": "light_gray",
+    "charges": 5,
+    "stack_size": 5,
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.75, "bite": 0.75, "move_cost": 300 }
   }
 ]
