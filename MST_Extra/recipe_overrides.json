@@ -8,8 +8,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 3 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "chestwrap_leather",
@@ -20,8 +20,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 3 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "gloves_wraps_fur",
@@ -32,8 +32,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 6 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "fur", 6 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "gloves_wraps_leather",
@@ -44,8 +44,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 6 ], [ "tanned_hide", 1 ], [ "cured_hide", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "leather", 6 ], [ "tanned_hide", 1 ], [ "cured_hide", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "loincloth_fur",
@@ -68,8 +68,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 9 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "fur", 9 ], [ "tanned_pelt", 1 ], [ "cured_pelt", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "footrags_leather",
@@ -80,8 +80,8 @@
     "time": 1500,
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 9 ], [ "tanned_hide", 1 ], [ "cured_hide", 1 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "components": [ [ [ "leather", 9 ], [ "tanned_hide", 1 ], [ "cured_hide", 2 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -94,5 +94,168 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 1 } ],
     "components": [ [ [ "2x4", 2 ], [ "stick", 2 ] ], [ [ "nail", 5 ] ] ]
-  }
+  },
+  {
+    "result": "footrags",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "rag", 6 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "footrags_wool",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "felt_patch", 6 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "gloves_wraps",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "rag", 4 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "gloves_wraps_wool",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "felt_patch", 4 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "chestwrap",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "rag", 9 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "chestwrap_wool",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "time": 1000,
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "felt_patch", 9 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "category": "CC_FOOD",
+    "id_suffix": "using_water_purifier",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "time": 150,
+    "autolearn": true,
+    "tools": [ [ [ "water_purifier", 1 ] ] ],
+    "components": [ [ [ "water", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "screwdriver",
+    "id_suffix": "forged",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": 180000,
+    "autolearn": true,
+    "using": [ [ "forging_standard", 10 ], [ "steel_tiny", 1 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "components": [ [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pliers",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": 300000,
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ], [ "oxy_torch", 20 ] ] ],
+    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ], [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ], [ "hose", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "hacksaw",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": 320000,
+    "autolearn": true,
+    "book_learn": [ [ "manual_mechanics", 3 ], [ "manual_fabrication", 3 ], [ "textbook_fabrication", 4 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 200 ], [ "oxy_torch", 40 ] ] ],
+    "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 12 ] ], [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "boltcutters",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "note": "not so much the engineering as hardening the edge",
+    "time": 380000,
+    "autolearn": true,
+    "book_learn": [ [ "manual_mechanics", 4 ], [ "manual_fabrication", 4 ], [ "textbook_fabrication", 4 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 300 ], [ "oxy_torch", 60 ] ] ],
+    "components": [ [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ], [ "scrap", 24 ] ], [ [ "plastic_chunk", 2 ], [ "stick", 2 ], [ "2x4", 2 ], [ "hose", 2 ] ] ]
+  },
+{
+  "type" : "recipe",
+  "result": "pot_makeshift",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_TOOLS",
+  "skill_used": "survival",
+  "skills_required": [ "cooking", 1 ],
+  "difficulty": 1,
+  "time": 20000,
+  "autolearn": true,
+  "qualities":[
+    {"id":"HAMMER","level":1}
+  ],
+  "components":
+    [
+     [
+     [ "sheet_metal", 1 ],
+     [ "sheet_metal_small", 4 ]
+     ]
+    ]
+}
 ]

@@ -417,7 +417,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "armwrap_fur",
@@ -429,7 +429,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "legwrap_leather",
@@ -441,7 +441,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "result": "legwrap_fur",
@@ -453,7 +453,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
-    "flags": [ "BLIND_HARD" ]
+    "flags": [ "BLIND_EASY" ]
   },
   {
     "type": "recipe",
