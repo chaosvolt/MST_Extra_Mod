@@ -19,5 +19,12 @@
     "type": "GENERIC",
     "name": "makeshift copper pot",
     "use_action": "HEAT_FOOD"
+  },
+  {
+    "id": "char_purifier",
+    "copy-from": "char_purifier",
+    "type": "GENERIC",
+    "name": "charcoal water purifier",
+    "sub": "water_purifier"
   }
 ]
