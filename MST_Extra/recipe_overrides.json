@@ -280,7 +280,7 @@
         [ "pepper", 2 ],
         [ "chem_saltpetre", 1 ]
       ],
-      [ [ "meat", 1 ], [ "meat_scrap", 1 ] ]
+      [ [ "meat", 1 ], [ "meat_scrap", 10 ] ]
     ]
   },
   {
