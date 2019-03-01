@@ -525,7 +525,7 @@
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [ [ "flatbread", 1 ], [ "bread", 1 ], [ "cornbread", 1 ], [ "wastebread", 1 ] ],
-      [ [ "garlic_clove", 2 ] ],
+      [ [ "garlic_roasted", 1 ] ],
       [
         [ "salt", 10 ],
         [ "seasoning_salt", 10 ],

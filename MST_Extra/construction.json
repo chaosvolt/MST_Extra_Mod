@@ -1,6 +1,18 @@
 [
   {
     "type": "construction",
+    "description": "Build Door",
+    "//": "Step 1: door frame",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 1 ] ],
+    "time": 60,
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 6 ] ], [ [ "nail", 12 ] ] ],
+    "pre_terrain": "t_window_empty",
+    "post_terrain": "t_door_frame"
+  },
+  {
+    "type": "construction",
     "description": "Build Beehive",
     "//": "Hive lure includes classic of sweet water, or a few other substitutes.  Bee balm tea however is because we don't have lemongrass.",
     "category": "FURN",

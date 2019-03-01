@@ -14,7 +14,7 @@
     "price": 1250,
     "volume": 1,
     "phase": "liquid",
-    "flags": [ "EATEN_HOT" ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ],
     "fun": -3,
     "use_action": { "type": "consume_drug", "effects": [ { "id": "pkill1", "duration": 90 } ] }
   },
@@ -324,7 +324,7 @@
     "phase": "liquid",
     "fun": -8,
     "use_action": "WEAK_ANTIBIOTIC",
-    "flags": "NPC_SAFE"
+    "flags": [ "NPC_SAFE", "NUTRIENT_OVERRIDE" ]
   },
   {
     "type": "COMESTIBLE",
@@ -338,13 +338,12 @@
     "symbol": "%",
     "quench": -1,
     "healthy": 1,
-    "nutrition": 6,
+    "calories": 42,
     "description": "Cloves of garlic, lightly seasoned and roasted.",
     "price": 60,
-    "charges": 6,
-    "stack_size": 6,
     "material": "garlic",
-    "volume": 1
+    "volume": 1,
+    "flags": "NUTRIENT_OVERRIDE"
   },
   {
     "type": "COMESTIBLE",
@@ -357,7 +356,7 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 1,
-    "nutrition": 25,
+    "calories": 206,
     "quench": -2,
     "description": "Bread cooked with garlic and seasonings.",
     "price": 300,
@@ -378,12 +377,14 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 1,
-    "nutrition": 10,
+    "calories": 42,
     "description": "Spicy chili pepper, lightly seasoned and roasted.",
     "price": 50,
     "material": "veggy",
     "volume": 1,
-    "fun": 1
+    "fun": 1,
+    "vitamins": [ [ "vitC", 10 ] ],
+    "flags": "NUTRIENT_OVERRIDE"
   },
   {
     "id": "makeshift_poultice",
