@@ -401,5 +401,21 @@
     "charges": 3,
     "stack_size": 9,
     "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.75, "bite": 0.75, "move_cost": 300 }
+  },
+  {
+    "id": "mound_distillation",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "name": "makeshift distillation",
+    "description": "This exists only to allow makeshift stills to provide distilling quality.",
+    "qualities": [ [ "DISTILL", 1 ] ]
+  },
+  {
+    "id": "pulley lifting",
+    "type": "TOOL",
+    "copy-from": "fake_item",
+    "name": "pulley lifting",
+    "description": "This exists only to allow rope and pulley lifters to provide some engineering qualities.",
+    "qualities": [ [ "LIFT", 1 ], [ "JACK", 1 ] ]
   }
 ]
