@@ -105,6 +105,7 @@
     "id": "t_tarptent_leather",
     "type": "terrain",
     "name": "leather tarp lean-to",
+    "description": "A makeshift shelter made from a lather tarp and stakes driven into the ground.",
     "symbol": ";",
     "looks_like": "t_tarptent",
     "color": [ "brown" ],
