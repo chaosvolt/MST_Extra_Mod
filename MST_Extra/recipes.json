@@ -665,7 +665,7 @@
       [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
       [ [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
       [ [ "adhesive", 1, "LIST" ] ],
-      [ [ "cordage", 2, "LIST" ] ]
+      [ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
   {
