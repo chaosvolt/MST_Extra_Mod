@@ -644,5 +644,23 @@
     "qualities": [ { "id": "DISTILL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ] ],
     "components": [ [ [ "salt_water", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "spear_stone",
+    "id_suffix": "realism",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "book_learn": [ [ "manual_survival", 3 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
+      [ [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
+      [ [ "cordage", 2, "LIST" ] ]
+    ]
   }
 ]

@@ -103,7 +103,7 @@
     ],
     "pre_note": "Can be deconstructed without tools.",
     "pre_flags": [ "INDOORS", "SUPPORTS_ROOF" ],
-    "post_terrain": "t_palisade_pulley"
+    "post_terrain": "f_pulley_lifter"
   },
   {
     "type": "construction",

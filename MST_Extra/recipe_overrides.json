@@ -206,42 +206,7 @@
     "autolearn": true,
     "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 100 ], [ "oxy_torch", 20 ] ] ],
-    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ], [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ], [ "hose", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "hacksaw",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 4,
-    "time": "320 m",
-    "autolearn": true,
-    "book_learn": [ [ "manual_mechanics", 3 ], [ "manual_fabrication", 3 ], [ "textbook_fabrication", 4 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 200 ], [ "oxy_torch", 40 ] ] ],
-    "components": [
-      [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 12 ] ],
-      [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "boltcutters",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 6,
-    "note": "not so much the engineering as hardening the edge",
-    "time": "380 m",
-    "autolearn": true,
-    "book_learn": [ [ "manual_mechanics", 4 ], [ "manual_fabrication", 4 ], [ "textbook_fabrication", 4 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 300 ], [ "oxy_torch", 60 ] ] ],
-    "components": [
-      [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
-      [ [ "plastic_chunk", 2 ], [ "stick", 2 ], [ "2x4", 2 ], [ "hose", 2 ] ]
-    ]
+    "components": [ [ [ "steel_chunk", 1 ], [ "scrap", 3 ] ], [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -255,46 +220,6 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "sheet_metal", 1 ], [ "sheet_metal_small", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "jerky",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "60 m",
-    "charges": 1,
-    "autolearn": true,
-    "batch_time_factors": [ 83, 5 ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [
-      [
-        [ "salt_water", 1 ],
-        [ "saline", 1 ],
-        [ "salt", 1 ],
-        [ "soysauce", 1 ],
-        [ "seasoning_salt", 1 ],
-        [ "pepper", 2 ],
-        [ "chem_saltpetre", 1 ]
-      ],
-      [ [ "meat", 1 ], [ "meat_scrap", 10 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "meat_smoked",
-    "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
-    "skill_used": "cooking",
-    "difficulty": 3,
-    "time": "60 m",
-    "charges": 1,
-    "autolearn": true,
-    "batch_time_factors": [ 83, 3 ],
-    "qualities": [ { "id": "COOK", "level": 1 } ],
-    "tools": [ [ [ "char_smoker", 15 ] ] ],
-    "components": [ [ [ "meat", 1 ], [ "meat_scrap", 10 ] ] ]
   },
   {
     "type": "recipe",

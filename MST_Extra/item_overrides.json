@@ -1,26 +1,5 @@
 [
   {
-    "id": "mess_tin",
-    "copy-from": "mess_tin",
-    "type": "GENERIC",
-    "name": "mess tin",
-    "use_action": "HEAT_FOOD"
-  },
-  {
-    "id": "pot_makeshift",
-    "copy-from": "pot_makeshift",
-    "type": "GENERIC",
-    "name": "makeshift pot",
-    "use_action": "HEAT_FOOD"
-  },
-  {
-    "id": "pot_makeshift_copper",
-    "copy-from": "pot_makeshift_copper",
-    "type": "GENERIC",
-    "name": "makeshift copper pot",
-    "use_action": "HEAT_FOOD"
-  },
-  {
     "id": "char_purifier",
     "copy-from": "char_purifier",
     "type": "GENERIC",

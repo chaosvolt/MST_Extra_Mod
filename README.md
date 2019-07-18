@@ -1,6 +1,6 @@
 # MST_Extra_Mod
 
-A mod for Cataclysm: Dark Days Ahead that requires More Survival Tools and Boatmod. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
+A mod for Cataclysm: Dark Days Ahead that requires More Survival Tools. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
 
 Recipe Additions/Overrides for Existing Items:
 * Added the option of making waterskins using sealed stomachs. The idea is it isn't that complicated to add a strap to an already usable water container.
@@ -10,6 +10,12 @@ Recipe Additions/Overrides for Existing Items:
 * Added a recipe for carving a spile out of bone. Hand drill will still be required, and I might plan to add a flint drill in the future.
 * Use of pitch in the waterproofing crafting requirement.
 * A recipe for leaching saltpeter out of bird droppings.
+* Certain recipes have been made `BLIND_EASY`.
+* Overrides allowing bologna, dog food, and cat food to use meat scraps as an option.
+* Re-added a recipe for the stone spear. There, it's book-learn only and only works with sharp rocks or ceramic shards. It wasn't that difficult compared to removing the recipe entirely.
+
+Item Edits:
+* Set charcoal water purifier to count as a substitute for electronic water purifiers. The `use_action` works the same consistently, so why shouldn't they be used the same in recipes?
 
 New Clothing:
 * Pack baskets, allowing a basic storage item to be crafted without access to cloth or leather.
@@ -42,6 +48,13 @@ Vehicles and Parts:
 
 Construction:
 * Beehives. This was an idea that came up during the Utterly Mad succession game, and works in a somewhat hacky way. No use of the bees field for you, because holy crap bees are awful about homing in on players and never dissipating. Producing honeycombs still takes time and some established initial resources to begin with, but the result should be worth it.
+* An option to convert window frames into door frames, as that has been my number one most common cause of roof collapses that shouldn't be happening anyway.
+* Constructable version of charcoal water purifiers.
+* Leather version of door curtains.
+* Makeshift stills, based off a technique looked up that uses sand or earth to insulate glass containers for distillation.
+* Pulley lifters that can be constructed indoors, to provide a source of lifting quality for more advanced bases in isolated areas.
+* Wooden windbreaks, simple barricades mainly to block wind for basic shelters.
+* Version of the tarp lean-to using the leather tarp.
 
 Other:
 * Escaped livestock now start to filter into the standard forest monstertgroup as time goes on, remaining relatively rare but allowing the player some shot at finding livestock to tame.
