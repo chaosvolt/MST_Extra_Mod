@@ -653,6 +653,7 @@
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
     "difficulty": 2,
+    "skills_required": [ "survival", 2 ],
     "time": "30 m",
     "book_learn": [ [ "manual_survival", 3 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
