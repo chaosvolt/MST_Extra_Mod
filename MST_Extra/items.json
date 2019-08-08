@@ -417,5 +417,46 @@
     "name": "pulley lifting",
     "description": "This exists only to allow rope and pulley lifters to provide some engineering qualities.",
     "qualities": [ [ "LIFT", 1 ], [ "JACK", 1 ] ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "cured_hide_small",
+    "copy-from": "cured_hide",
+    "looks_like": "leather",
+    "name": "cured hide patch",
+    "name_plural": "cured hide patches",
+    "description": "A scrap of animal hide, scraped of extraneous hair and flesh and treated to prevent decay.",
+    "price": 500,
+    "weight": 120,
+    "volume": "150 ml"
+  },
+  {
+    "type": "GENERIC",
+    "id": "cured_pelt_small",
+    "copy-from": "cured_pelt",
+    "looks_like": "leather",
+    "name": "cured hide patch",
+    "name_plural": "cured hide patches",
+    "description": "A scrap of animal hide, scraped of extraneous hair and flesh and treated to prevent decay.",
+    "price": 500,
+    "weight": 135,
+    "volume": "200 ml"
+  },
+  {
+    "type": "TOOL",
+    "id": "tarp_raincatcher_leather",
+    "copy-from": "tarp_raincatcher",
+    "name": "leather tarp raincatcher",
+    "description": "Some sticks and string with a leather tarp, to set up an improvised raincatcher.",
+    "weight": 4736,
+    "material": [ "wood", "leather" ],
+    "use_action": {
+      "type": "place_trap",
+      "allow_under_player": true,
+      "trap": "tr_raincatcher_leather",
+      "moves": 100,
+      "practice": 0,
+      "done_message": "You set up the raincatcher, waiting to collect water."
+    }
   }
 ]

@@ -416,7 +416,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
+    "components": [ [ [ "leather", 12 ], [ "cured_hide_small", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -428,7 +428,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
+    "components": [ [ [ "fur", 12 ], [ "cured_pelt_small", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -440,7 +440,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "tanned_hide", 2 ], [ "cured_hide", 2 ] ] ],
+    "components": [ [ [ "leather", 12 ], [ "cured_hide_small", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -452,7 +452,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "tanned_pelt", 2 ], [ "cured_pelt", 2 ] ] ],
+    "components": [ [ [ "fur", 12 ], [ "cured_pelt_small", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -584,6 +584,8 @@
         [ "tanned_pelt", 1 ],
         [ "cured_hide", 1 ],
         [ "cured_pelt", 1 ],
+        [ "cured_hide_small", 5 ],
+        [ "cured_pelt_small", 5 ],
         [ "birchbark", 5 ]
       ],
       [ [ "thyme", 2 ], [ "garlic", 1 ], [ "garlic_clove", 6 ], [ "raw_dandelion", 8 ] ]
@@ -611,6 +613,8 @@
         [ "tanned_pelt", 1 ],
         [ "cured_hide", 1 ],
         [ "cured_pelt", 1 ],
+        [ "cured_hide_small", 5 ],
+        [ "cured_pelt_small", 5 ],
         [ "birchbark", 5 ]
       ],
       [ [ "thyme_oil", 1 ], [ "tar_oil", 1 ], [ "honey_glassed", 5 ], [ "honey_bottled", 5 ], [ "oil_garlic", 6 ] ],
@@ -663,5 +667,103 @@
       [ [ "adhesive", 1, "LIST" ] ],
       [ [ "cordage", 2, "LIST" ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "cured_hide_small",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 1 ],
+    "difficulty": 1,
+    "time": "6 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cured_hide_small",
+    "id_suffix": "scraped",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 1,
+    "time": "4 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "cured_pelt_small", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cured_pelt_small",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 1 ],
+    "difficulty": 1,
+    "time": "6 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cured_hide_small",
+    "id_suffix": "drying",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 3,
+    "time": "18 m",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cured_pelt_small",
+    "id_suffix": "drying",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 3,
+    "time": "18 m",
+    "autolearn": true,
+    "batch_time_factors": [ 83, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
+  },
+  {
+    "result": "cured_hide",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "cured_hide_small", 5 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "result": "cured_pelt",
+    "type": "uncraft",
+    "time": "1 m",
+    "components": [ [ [ "cured_pelt_small", 5 ] ] ],
+    "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "tarp_raincatcher_leather",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "45 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "pointy_stick", 3 ] ], [ [ "cordage_short", 3, "LIST" ] ], [ [ "leather_tarp", 1 ] ] ]
   }
 ]
