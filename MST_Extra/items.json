@@ -52,7 +52,7 @@
     "id": "primitive_hoe",
     "type": "TOOL",
     "name": "stone hoe",
-    "description": "This is a farming implement made with a  broad stone blade, that can be used to till earth.",
+    "description": "This is a farming implement made with a broad stone blade, that can be used to till earth.",
     "weight": 1300,
     "volume": 4,
     "price": 1000,
@@ -457,6 +457,44 @@
       "moves": 100,
       "practice": 0,
       "done_message": "You set up the raincatcher, waiting to collect water."
+    }
+  },
+  {
+    "id": "tanning_hide_small",
+    "copy-from": "tanning_hide",
+    "type": "TOOL",
+    "name": "scrap of tanning leather",
+    "name_plural": "scrap of tanning leather",
+    "description": "A small piece of treated animal hide, undergoing the chemical processes required to become leather.  You will be able to activate it to unroll and make use of it when it is done.",
+    "weight": 80,
+    "volume": "200 ml",
+    "use_action": {
+      "target": "leather",
+      "msg": "You carefully unfold the tanning leather scrap and shake it clean.",
+      "moves": 150,
+      "type": "delayed_transform",
+      "transform_age": 5760,
+      "not_ready_msg": "The scrap of tanning leather isn't done yet.",
+      "//": "Should be 9.6 hours, but I suspect the timing hasn't been updated yet."
+    }
+  },
+  {
+    "id": "tanning_pelt_small",
+    "copy-from": "tanning_pelt",
+    "type": "TOOL",
+    "name": "scrap of tanning leather",
+    "name_plural": "scrap of tanning leather",
+    "description": "A small piece of treated animal pelt, undergoing the chemical processes required to become fur.  You will be able to activate it to unroll and make use of it when it is done.",
+    "weight": 80,
+    "volume": "200 ml",
+    "use_action": {
+      "target": "fur",
+      "msg": "You carefully unfold the tanning fur scrap and shake it clean.",
+      "moves": 150,
+      "type": "delayed_transform",
+      "transform_age": 5760,
+      "not_ready_msg": "The scrap of tanning fur isn't done yet.",
+      "//": "Should be 9.6 hours, but I suspect the timing hasn't been updated yet."
     }
   }
 ]

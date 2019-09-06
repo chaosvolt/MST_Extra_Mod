@@ -301,7 +301,7 @@
       [ [ "water_clean", 2 ], [ "water", 2 ] ],
       [ [ "tanbark", 1 ], [ "acorns", 2 ], [ "hops", 2 ], [ "pine_bough", 6 ] ],
       [ [ "salt_water", 2 ], [ "saline", 10 ], [ "salt", 10 ] ],
-      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ] ],
+      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ], [ "cooking_oil2", 8 ], [ "lamp_oil", 125 ] ],
       [ [ "cured_hide", 1 ], [ "cured_hide_small", 5 ] ]
     ]
   },
@@ -327,7 +327,7 @@
       [ [ "water_clean", 2 ], [ "water", 2 ] ],
       [ [ "tanbark", 1 ], [ "acorns", 2 ], [ "hops", 2 ], [ "pine_bough", 6 ] ],
       [ [ "salt_water", 2 ], [ "saline", 10 ], [ "salt", 10 ] ],
-      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ] ],
+      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ], [ "cooking_oil2", 8 ], [ "lamp_oil", 125 ] ],
       [ [ "cured_pelt", 1 ], [ "cured_pelt_small", 5 ] ]
     ]
   },

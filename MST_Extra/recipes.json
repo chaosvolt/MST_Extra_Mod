@@ -720,7 +720,7 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
     "components": [ [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
   },
   {
@@ -736,7 +736,7 @@
     "autolearn": true,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
     "components": [ [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
   },
   {
@@ -765,5 +765,107 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "pointy_stick", 3 ] ], [ [ "cordage_short", 3, "LIST" ] ], [ [ "leather_tarp", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "tanning_hide_small",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 3,
+    "time": "10 m",
+    "batch_time_factors": [ 20, 10 ],
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "COOK", "level": 2 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "pine_bough", 1 ] ],
+      [ [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
+      [ [ "cured_hide_small", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tanning_pelt_small",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "skills_required": [ "cooking", 2 ],
+    "difficulty": 3,
+    "time": "10 m",
+    "batch_time_factors": [ 20, 10 ],
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "COOK", "level": 2 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "pine_bough", 1 ] ],
+      [ [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
+      [ [ "cured_pelt_small", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tanning_hide_small",
+    "id_suffix": "modern",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 3 ],
+    "difficulty": 4,
+    "time": "5 m",
+    "batch_time_factors": [ 50, 5 ],
+    "book_learn": [ [ "textbook_survival", 6 ], [ "textbook_chemistry", 5 ], [ "modern_tanner", 4 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ],
+      [ [ "cured_hide_small", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "tanning_pelt_small",
+    "id_suffix": "modern",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ "survival", 3 ],
+    "difficulty": 4,
+    "time": "5 m",
+    "batch_time_factors": [ 50, 5 ],
+    "book_learn": [ [ "textbook_survival", 6 ], [ "textbook_chemistry", 5 ], [ "modern_tanner", 4 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ],
+      [ [ "cured_pelt_small", 1 ] ]
+    ]
   }
 ]
