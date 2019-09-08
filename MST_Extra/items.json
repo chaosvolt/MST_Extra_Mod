@@ -500,9 +500,9 @@
   {
     "type": "TOOL_ARMOR",
     "id": "side_drum_makeshift",
-    "name": "makeshift side drum",
+    "name": "side drum",
     "category": "tools",
-    "weight": 1000,
+    "weight": 1800,
     "color": "brown",
     "covers": [ "TORSO" ],
     "max_charges": 1,
@@ -519,7 +519,11 @@
         "You strike a steady beat on the side drum.",
         "Your drum beats with the cadence of an army on the march."
       ],
-      "npc_descriptions": [ "play a simple rhythm on the drum.", "strike a steady beat on the side drum.", "the drumming of an army on the march." ]
+      "npc_descriptions": [
+        "play a simple rhythm on the drum.",
+        "strike a steady beat on the side drum.",
+        "sound the cadence of an army on the march."
+      ]
     },
     "symbol": "-",
     "description": "A handmade side drum with a shoulder strap, allowing you to wear it while playing.",
@@ -531,5 +535,50 @@
     "flags": [ "WAIST" ],
     "coverage": 10,
     "material_thickness": 2
+  },
+  {
+    "id": "pot_canning_clay",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": "clay canning pot",
+    "sub": "pot_canning",
+    "looks_like": "pot_canning",
+    "description": "A very large 25 liter earthenware pot, primarily meant for canning food via the water bath method, though it can cook normal foods just as well.  Canning foods with it will require a lot of water.  If you're only canning a couple of jars at a time, you'd fill it up with rocks or something to displace the water above the lids.",
+    "weight": "3250 g",
+    "volume": "25 L",
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": "clay",
+    "symbol": ")",
+    "color": "brown",
+    "container_data": { "contains": "25 L", "watertight": true },
+    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
+    "use_action": "HEAT_FOOD"
+  },
+  {
+    "id": "posca",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "name": "posca",
+    "name_plural": "posca",
+    "description": "A traditional Roman drink made of cheap, often sour wine watered down, and usually made more palatable with herbs and honey.",
+    "weight": 230,
+    "volume": 1,
+    "price": 250,
+    "phase": "liquid",
+    "container": "waterskin",
+    "material": [ "alcohol", "water" ],
+    "symbol": "~",
+    "color": "light_red",
+    "vitamins": [ [ "vitA", 10 ], [ "vitC", 6 ], [ "calcium", 2 ], [ "iron", 1 ] ],
+    "calories": 60,
+    "quench": 40,
+    "stim": -1,
+    "fun": 6,
+    "addiction_type": "alcohol",
+    "addiction_potential": 1,
+    "use_action": "ALCOHOL_WEAK",
+    "flags": [ "EATEN_COLD" ]
   }
 ]
