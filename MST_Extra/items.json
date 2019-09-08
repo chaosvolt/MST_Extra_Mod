@@ -580,5 +580,20 @@
     "addiction_potential": 1,
     "use_action": "ALCOHOL_WEAK",
     "flags": [ "EATEN_COLD" ]
+  },
+  {
+    "id": "bucket_log",
+    "type": "CONTAINER",
+    "name": "makeshift wooden bucket",
+    "description": "A large bucket for holding water, made from hollowing out a log and adding handles made of natural cordage.  Can hold 7 liters.",
+    "weight": "2725 g",
+    "volume": "10 L",
+    "price": 100,
+    "material": "wood",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "7 L",
+    "watertight": true,
+    "qualities": [ [ "CONTAIN", 1 ] ]
   }
 ]
