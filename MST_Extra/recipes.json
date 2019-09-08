@@ -873,6 +873,7 @@
     "using": [ [ "sewing_standard", 25 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ], 
       [ [ "cured_hide", 1 ], [ "tanned_hide", 1 ] ],
       [ [ "cordage_short", 6, "LIST" ], [ "filament", 120, "LIST" ] ],
       [ [ "log", 1 ] ]
