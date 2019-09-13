@@ -129,5 +129,80 @@
     "pre_note": "Can be deconstructed without tools.",
     "pre_flags": [ "DIGGABLE", "FLAT" ],
     "post_terrain": "t_tarptent_leather"
+  },
+  {
+    "type": "construction",
+    "description": "Build Wooden Rack",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "160 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 14 ], [ "stick", 14 ] ], [ [ "adhesive", 3, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_rack_wood_makeshift"
+  },
+  {
+    "type": "construction",
+    "description": "Build Counter",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "60 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 6 ], [ "stick", 6 ] ], [ [ "adhesive", 2, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_counter_makeshift"
+  },
+  {
+    "type": "construction",
+    "description": "Build Table",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "60 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 6 ], [ "stick", 6 ] ], [ [ "adhesive", 2, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_table_makeshift"
+  },
+  {
+    "type": "construction",
+    "description": "Build Chair",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+    "time": "60 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 4 ], [ "stick", 4 ] ], [ [ "adhesive", 1, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_chair_makeshift"
+  },
+  {
+    "type": "construction",
+    "description": "Build Bench",
+    "category": "FURN",
+    "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+    "time": "60 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 4 ], [ "stick", 4 ] ], [ [ "adhesive", 1, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "f_bench_makeshift"
   }
 ]
