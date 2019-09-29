@@ -873,7 +873,7 @@
     "using": [ [ "sewing_standard", 25 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [
-      [ [ "water_clean", 1 ], [ "water", 1 ] ], 
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
       [ [ "cured_hide", 1 ], [ "tanned_hide", 1 ] ],
       [ [ "cordage_short", 6, "LIST" ], [ "filament", 120, "LIST" ] ],
       [ [ "log", 1 ] ]
@@ -924,5 +924,22 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
     "components": [ [ [ "log", 1 ] ], [ [ "cordage", 3, "LIST" ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cattail_rhizome_cooked",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "//": "Slight waste as can't specify two and a half stacks of plant fiber, but this would be less thorough than rendering it into starch anyway.",
+    "byproducts": [ [ "plant_fibre", 2 ] ],
+    "skills_required": [ "survival", 1 ],
+    "time": "18 m",
+    "autolearn": true,
+    "batch_time_factors": [ 40, 5 ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "components": [ [ [ "cattail_rhizome", 1 ] ] ]
   }
 ]
