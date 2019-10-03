@@ -5,5 +5,25 @@
     "type": "GENERIC",
     "name": "charcoal water purifier",
     "sub": "water_purifier"
+  },
+  {
+    "id": "hobo_stove",
+    "copy-from": "hobo_stove",
+    "type": "TOOL",
+    "name": "hobo stove",
+    "description": "This is a small improvised wood stove, made from a metal can or similar container of the right size.  Use it to place on the ground, allowing you to keep a small fire safe from wind and rain.  Can also be lit with simple tinder, for defrosting and reheating food.",
+    "charges_per_use": 0,
+    "use_action": [
+      { "type": "deploy_furn", "furn_type": "f_hobo_stove_placed" },
+      {
+        "target": "hobo_stove_on",
+        "msg": "The hobo stove is lit.",
+        "need_fire": 1,
+        "need_fire_msg": "You need a source of fire!",
+        "active": false,
+        "menu_text": "Light",
+        "type": "transform"
+      }
+    ]
   }
 ]
