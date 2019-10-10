@@ -99,8 +99,8 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "cooking",
-    "difficulty": 4,
-    "skills_required": [ "survival", 4 ],
+    "difficulty": 3,
+    "skills_required": [ "survival", 3 ],
     "time": "60 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
@@ -416,7 +416,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "cured_hide_small", 12 ] ] ],
+    "components": [ [ [ "leather", 12 ], [ "cured_hide", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -428,7 +428,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "cured_pelt_small", 12 ] ] ],
+    "components": [ [ [ "fur", 12 ], [ "cured_pelt", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -440,7 +440,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "cured_hide_small", 12 ] ] ],
+    "components": [ [ [ "leather", 12 ], [ "cured_hide", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -452,7 +452,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "cured_pelt_small", 12 ] ] ],
+    "components": [ [ [ "fur", 12 ], [ "cured_pelt", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -582,10 +582,8 @@
         [ "tanned_hide", 1 ],
         [ "fur", 5 ],
         [ "tanned_pelt", 1 ],
-        [ "cured_hide", 1 ],
-        [ "cured_pelt", 1 ],
-        [ "cured_hide_small", 5 ],
-        [ "cured_pelt_small", 5 ],
+        [ "cured_hide", 5 ],
+        [ "cured_pelt", 5 ],
         [ "birchbark", 5 ]
       ],
       [ [ "thyme", 2 ], [ "garlic", 1 ], [ "garlic_clove", 6 ], [ "raw_dandelion", 8 ] ]
@@ -611,10 +609,8 @@
         [ "tanned_hide", 1 ],
         [ "fur", 5 ],
         [ "tanned_pelt", 1 ],
-        [ "cured_hide", 1 ],
-        [ "cured_pelt", 1 ],
-        [ "cured_hide_small", 5 ],
-        [ "cured_pelt_small", 5 ],
+        [ "cured_hide", 5 ],
+        [ "cured_pelt", 5 ],
         [ "birchbark", 5 ]
       ],
       [ [ "thyme_oil", 1 ], [ "tar_oil", 1 ], [ "honey_glassed", 5 ], [ "honey_bottled", 5 ], [ "oil_garlic", 6 ] ],
@@ -659,7 +655,8 @@
     "difficulty": 2,
     "skills_required": [ "survival", 2 ],
     "time": "30 m",
-    "book_learn": [ [ "manual_survival", 3 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
+    "book_learn": [ [ "manual_survival", 2 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
+    "autolearn": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "components": [
       [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
@@ -667,91 +664,6 @@
       [ [ "adhesive", 1, "LIST" ] ],
       [ [ "cordage_short", 2, "LIST" ] ]
     ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_hide_small",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "6 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_hide_small",
-    "id_suffix": "scraped",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "difficulty": 1,
-    "time": "4 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cured_pelt_small", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_pelt_small",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "6 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_hide_small",
-    "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "18 m",
-    "autolearn": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_pelt_small",
-    "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "18 m",
-    "autolearn": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
-  },
-  {
-    "result": "cured_hide",
-    "type": "uncraft",
-    "time": "1 m",
-    "components": [ [ [ "cured_hide_small", 5 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "cured_pelt",
-    "type": "uncraft",
-    "time": "1 m",
-    "components": [ [ [ "cured_pelt_small", 5 ] ] ],
-    "flags": [ "BLIND_EASY" ]
   },
   {
     "type": "recipe",
@@ -789,7 +701,7 @@
       [ [ "pine_bough", 1 ] ],
       [ [ "saline", 2 ], [ "salt", 2 ] ],
       [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
-      [ [ "cured_hide_small", 1 ] ]
+      [ [ "cured_hide", 1 ] ]
     ]
   },
   {
@@ -815,7 +727,7 @@
       [ [ "pine_bough", 1 ] ],
       [ [ "saline", 2 ], [ "salt", 2 ] ],
       [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
-      [ [ "cured_pelt_small", 1 ] ]
+      [ [ "cured_pelt", 1 ] ]
     ]
   },
   {
@@ -837,7 +749,7 @@
       { "id": "CONTAIN", "level": 1 }
     ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ], [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ], [ [ "cured_hide_small", 1 ] ] ]
+    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ], [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ], [ [ "cured_hide", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -858,7 +770,7 @@
       { "id": "CONTAIN", "level": 1 }
     ],
     "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ], [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ], [ [ "cured_pelt_small", 1 ] ] ]
+    "components": [ [ [ "water_clean", 1 ], [ "water", 1 ] ], [ [ "lye_powder", 2 ], [ "aspirin", 2 ] ], [ [ "cured_pelt", 1 ] ] ]
   },
   {
     "result": "side_drum_makeshift",
@@ -874,7 +786,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "cured_hide", 1 ], [ "tanned_hide", 1 ] ],
+      [ [ "cured_hide", 1 ], [ "tanned_hide", 6 ] ],
       [ [ "cordage_short", 6, "LIST" ], [ "filament", 120, "LIST" ] ],
       [ [ "log", 1 ] ]
     ]
@@ -941,5 +853,29 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "cattail_rhizome", 1 ] ] ]
+  },
+  {
+    "result": "mask_gas_makeshift",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "skills_required": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "25 m",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 3,
+    "book_learn": [
+      [ "textbook_fireman", 2 ],
+      [ "atomic_survival", 2 ],
+      [ "textbook_gaswarfare", 2 ]
+    ],
+    "using": [ [ "sewing_standard", 60 ] ],
+    "components": [
+      [ [ "rag", 8 ] ],
+      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
+      [ [ "charcoal", 10, "NO_RECOVER" ] ]
+    ]
   }
 ]

@@ -8,7 +8,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 12 ], [ "cured_pelt_small", 12 ] ] ],
+    "components": [ [ [ "fur", 12 ], [ "cured_pelt", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -20,7 +20,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 12 ], [ "cured_hide_small", 12 ] ] ],
+    "components": [ [ [ "leather", 12 ], [ "cured_hide", 12 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -32,7 +32,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 6 ], [ "cured_pelt_small", 6 ] ] ],
+    "components": [ [ [ "fur", 6 ], [ "cured_pelt", 6 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -44,7 +44,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 6 ], [ "cured_hide_small", 6 ] ] ],
+    "components": [ [ [ "leather", 6 ], [ "cured_hide", 6 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -56,7 +56,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 2 ], [ "cured_pelt_small", 2 ] ] ]
+    "components": [ [ [ "fur", 2 ], [ "cured_pelt", 2 ] ] ]
   },
   {
     "result": "loincloth_leather",
@@ -67,7 +67,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 2 ], [ "cured_hide_small", 2 ] ] ]
+    "components": [ [ [ "leather", 2 ], [ "cured_hide", 2 ] ] ]
   },
   {
     "result": "footrags_fur",
@@ -78,7 +78,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 9 ], [ "cured_pelt_small", 9 ] ] ],
+    "components": [ [ [ "fur", 9 ], [ "cured_pelt", 9 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -90,7 +90,7 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 9 ], [ "cured_hide_small", 9 ] ] ],
+    "components": [ [ [ "leather", 9 ], [ "cured_hide", 9 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
   {
@@ -278,107 +278,5 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 2 } ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "components": [ [ [ "meat", 2 ], [ "meat_scrap", 20 ], [ "fish", 2 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "tanning_hide",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "48 m",
-    "batch_time_factors": [ 20, 10 ],
-    "autolearn": true,
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "COOK", "level": 2 },
-      { "id": "BOIL", "level": 1 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "tanbark", 1 ], [ "acorns", 2 ], [ "hops", 2 ], [ "pine_bough", 6 ] ],
-      [ [ "salt_water", 2 ], [ "saline", 10 ], [ "salt", 10 ] ],
-      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ], [ "cooking_oil2", 8 ], [ "lamp_oil", 125 ] ],
-      [ [ "cured_hide", 1 ], [ "cured_hide_small", 5 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "tanning_pelt",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "48 m",
-    "batch_time_factors": [ 20, 10 ],
-    "autolearn": true,
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "COOK", "level": 2 },
-      { "id": "BOIL", "level": 1 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "tanbark", 1 ], [ "acorns", 2 ], [ "hops", 2 ], [ "pine_bough", 6 ] ],
-      [ [ "salt_water", 2 ], [ "saline", 10 ], [ "salt", 10 ] ],
-      [ [ "tallow", 1 ], [ "tallow_tainted", 1 ], [ "lard", 1 ], [ "cooking_oil2", 8 ], [ "lamp_oil", 125 ] ],
-      [ [ "cured_pelt", 1 ], [ "cured_pelt_small", 5 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "tanning_hide",
-    "id_suffix": "modern",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "cooking",
-    "skills_required": [ "survival", 3 ],
-    "difficulty": 4,
-    "time": "20 m",
-    "batch_time_factors": [ 50, 5 ],
-    "book_learn": [ [ "textbook_survival", 6 ], [ "textbook_chemistry", 5 ], [ "modern_tanner", 4 ] ],
-    "qualities": [
-      { "id": "CHEM", "level": 1 },
-      { "id": "COOK", "level": 3 },
-      { "id": "BOIL", "level": 2 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "lye_powder", 10 ], [ "aspirin", 10 ] ],
-      [ [ "cured_hide", 1 ], [ "cured_hide_small", 5 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "tanning_pelt",
-    "id_suffix": "modern",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "cooking",
-    "skills_required": [ "survival", 3 ],
-    "difficulty": 4,
-    "time": "20 m",
-    "batch_time_factors": [ 50, 5 ],
-    "book_learn": [ [ "textbook_survival", 6 ], [ "textbook_chemistry", 5 ], [ "modern_tanner", 4 ] ],
-    "qualities": [
-      { "id": "CHEM", "level": 1 },
-      { "id": "COOK", "level": 3 },
-      { "id": "BOIL", "level": 2 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 2 ], [ "water", 2 ] ],
-      [ [ "lye_powder", 10 ], [ "aspirin", 10 ] ],
-      [ [ "cured_pelt", 1 ], [ "cured_pelt_small", 5 ] ]
-    ]
   }
 ]

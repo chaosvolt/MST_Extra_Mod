@@ -273,14 +273,14 @@
     "flags": [ "PLACE_ITEM", "TRANSPARENT", "FIRE_CONTAINER", "EASY_DECONSTRUCT", "INDOORS", "BLOCK_WIND" ],
     "deployed_item": "hobo_stove",
     "examine_action": "fireplace",
-    "max_volume": 10,
+    "max_volume": 4,
     "bash": {
-      "str_min": 8,
-      "str_max": 30,
-      "sound": "metal screeching!",
+      "str_min": 4,
+      "str_max": 10,
+      "sound": "clatter!",
       "sound_fail": "clang!",
       "items": [
-        { "item": "scrap", "count": [ 2, 5 ] }
+        { "item": "hobo_stove", "count": 1 }
       ]
     }
   }
