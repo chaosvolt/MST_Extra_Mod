@@ -585,6 +585,6 @@
     "symbol": "%",
     "description": "Simple fare made from cooking wheat or barley, bland but filling.",
     "flags": [ "EATEN_HOT" ],
-    "fun": 1
+    "fun": -1
   }
 ]
