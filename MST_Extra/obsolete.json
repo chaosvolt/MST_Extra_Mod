@@ -8,7 +8,7 @@
     "name_plural": "cured hide patches",
     "description": "A scrap of animal hide, scraped of extraneous hair and flesh and treated to prevent decay.",
     "price": 500,
-    "weight": 120,
+    "weight": "120 g",
     "volume": "150 ml"
   },
   {
@@ -20,7 +20,7 @@
     "name_plural": "cured hide patches",
     "description": "A scrap of animal hide, scraped of extraneous hair and flesh and treated to prevent decay.",
     "price": 500,
-    "weight": 135,
+    "weight": "135 g",
     "volume": "200 ml"
   },
   {
