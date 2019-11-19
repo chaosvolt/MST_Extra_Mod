@@ -585,5 +585,18 @@
     "description": "Simple fare made from cooking wheat or barley, bland but filling.",
     "flags": [ "EATEN_HOT" ],
     "fun": -1
+  },
+  {
+    "id": "jerky_offal",
+    "copy-from": "jerky",
+    "type": "COMESTIBLE",
+    "name": "jerked offal",
+    "name_plural": "jerked offal",
+    "description": "Salty dried organ meat.  Smells a bit like dog food, but will last a long time.",
+    "fun": -2,
+    "healthy": -1,
+    "calories": 92,
+    "proportional": { "price": 0.8 },
+    "delete": { "flags": [ "NO_CRAFT_INHERIT" ] }
   }
 ]

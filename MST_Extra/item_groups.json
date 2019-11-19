@@ -23,5 +23,10 @@
     "id": "kitchen",
     "type": "item_group",
     "items": [ [ "bread_garlic", 14 ] ]
+  },
+  {
+    "id": "vet_utility",
+    "type": "item_group",
+    "items": [ [ "jerky_offal", 20 ] ]
   }
 ]
