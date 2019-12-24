@@ -34,7 +34,7 @@
     "crafting_pseudo_item": "mound_distillation",
     "flags": [ "PLACE_ITEM", "TRANSPARENT", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "bottle_glass", "count": 2 } ] },
-    "max_volume": 3000,
+    "max_volume": "3000 L",
     "bash": {
       "str_min": 12,
       "str_max": 40,
@@ -144,7 +144,7 @@
         { "item": "2x4", "count": 12 }
       ]
     },
-    "max_volume": 6000,
+    "max_volume": "6000 L",
     "bash": {
       "str_min": 5,
       "str_max": 38,
@@ -168,7 +168,7 @@
     "deconstruct": {
       "items": [ { "item": "2x4", "count": 6 } ]
     },
-    "max_volume": 4000,
+    "max_volume": "4000 L",
     "bash": {
       "str_min": 11,
       "str_max": 38,
@@ -190,7 +190,7 @@
     "move_cost_mod": 2,
     "coverage": 50,
     "required_str": 6,
-    "max_volume": 4000,
+    "max_volume": "4000 L",
     "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
     "deconstruct": {
       "items": [ { "item": "2x4", "count": 6 } ]
@@ -224,7 +224,7 @@
     "required_str": 5,
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "ORGANIC", "MOUNTABLE", "CAN_SIT", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "2x4", "count": 3 } ] },
-    "max_volume": 4000,
+    "max_volume": "4000 L",
     "bash": {
       "str_min": 5,
       "str_max": 18,
@@ -248,7 +248,7 @@
     "bonus_fire_warmth_feet": 1000,
     "required_str": 9,
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "ORGANIC", "MOUNTABLE", "SHORT", "CAN_SIT", "EASY_DECONSTRUCT" ],
-    "max_volume": 4000,
+    "max_volume": "4000 L",
     "deconstruct": { "items": [ { "item": "2x4", "count": 3 } ] },
     "bash": {
       "str_min": 11,
@@ -273,7 +273,7 @@
     "flags": [ "PLACE_ITEM", "TRANSPARENT", "FIRE_CONTAINER", "EASY_DECONSTRUCT", "INDOORS", "BLOCK_WIND" ],
     "deployed_item": "hobo_stove",
     "examine_action": "fireplace",
-    "max_volume": 4,
+    "max_volume": "4 L",
     "bash": {
       "str_min": 4,
       "str_max": 10,
