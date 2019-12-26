@@ -37,7 +37,7 @@
     "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty usages, but it can be used as a varnish or holding together small items.",
     "price": 900,
     "material": "oil",
-    "weight": 45,
+    "weight": "45 g",
     "volume": "250 ml",
     "to_hit": -2,
     "flags": [ "UNRECOVERABLE" ]
@@ -47,7 +47,7 @@
     "type": "TOOL",
     "name": "stone hoe",
     "description": "This is a farming implement made with a broad stone blade, that can be used to till earth.",
-    "weight": 1300,
+    "weight": "1300 g",
     "volume": "1 L",
     "price": 1000,
     "to_hit": 1,
@@ -63,7 +63,7 @@
     "id": "makeshift_sled_frame_item",
     "name": "sled frame",
     "description": "A flexible frame made from wooden crosspieces lashed together.",
-    "weight": 4000,
+    "weight": "4000 g",
     "to_hit": -2,
     "color": "brown",
     "symbol": "]",
@@ -552,7 +552,7 @@
     "looks_like": "balclava",
     "category": "clothing",
     "//": "Realistically it would be always on, but there's no way to make it only deplete charges in gas without the use action.",
-    "description": "A hood with added lenses and filter material sewn between layers of fabric, similiar to designs common in WWI.  It is designed to be worn over a helmet.  More breathable than a modern gas mask but not as effective, the only way to change the filter is to take it apart.  It still must be prepared before use.",
+    "description": "A hood with added lenses and filter material sewn between layers of fabric, similar to designs common in WWI.  It is designed to be worn over a helmet.  More breathable than a modern gas mask but not as effective, the only way to change the filter is to take it apart.  It still must be prepared before use.",
     "weight": "850 g",
     "volume": "1500 ml",
     "price": 4000,
@@ -596,7 +596,6 @@
     "fun": -2,
     "healthy": -1,
     "calories": 92,
-    "proportional": { "price": 0.8 },
-    "delete": { "flags": [ "NO_CRAFT_INHERIT" ] }
+    "proportional": { "price": 0.8 }
   }
 ]
