@@ -359,5 +359,17 @@
       ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
+  },
+  {
+    "result": "bandages_makeshift",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MEDICAL",
+    "skill_used": "tailor",
+    "time": "9 s",
+    "autolearn": true,
+    "charges": 1,
+    "components": [ [ [ "rag", 1 ] ] ],
+    "flags": [ "BLIND_EASY" ]
   }
 ]
