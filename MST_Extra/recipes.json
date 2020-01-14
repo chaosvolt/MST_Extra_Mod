@@ -171,8 +171,8 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
-    "skills_required": [ "survival", 3 ],
-    "difficulty": 4,
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 3,
     "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -184,8 +184,8 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
-    "skills_required": [ "survival", 3 ],
-    "difficulty": 4,
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -924,5 +924,46 @@
       ],
       [ [ "lung", 1 ], [ "liver", 1 ], [ "kidney", 1 ], [ "sweetbread", 1 ], [ "offal", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "oil_lamp_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 1 ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 70 ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 3 ] ], [ [ "cordage_short", 2, "LIST" ], [ "rag", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "tinderbox_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "skills_required": [ "fabrication", 2 ],
+    "difficulty": 2,
+    "time": "45 m",
+    "book_learn": [ [ "mag_survival", 1 ], [ "textbook_survival", 1 ] ],
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 90 ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ] ] 
+  },
+  {
+    "type": "recipe",
+    "result": "hobo_stove_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "skills_required": [ "fabrication", 2 ],
+    "difficulty": 3,
+    "time": "30 m",
+    "book_learn": [ [ "mag_survival", 2 ], [ "textbook_survival", 1 ], [ "cookbook", 2 ] ],
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 100 ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 8 ] ] ]
   }
 ]

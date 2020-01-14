@@ -12,7 +12,22 @@
   {
     "id": "museum_misc",
     "type": "item_group",
-    "items": [ [ "jar_clay", 20 ] ]
+    "items": [ [ "jar_clay", 20 ], [ "oil_lamp_clay", 20 ], [ "tinderbox_clay", 5 ], [ "hobo_stove_clay", 10 ] ]
+  },
+  {
+    "id": "antique",
+    "type": "item_group",
+    "items": [ [ "oil_lamp_clay", 10 ] ]
+  },
+  {
+    "id": "church",
+    "type": "item_group",
+    "items": [ [ "oil_lamp_clay", 20 ] ]
+  },
+  {
+    "id": "reading_lights",
+    "type": "item_group",
+    "items": [ [ "oil_lamp_clay", 20 ] ]
   },
   {
     "id": "kitchen",
@@ -20,7 +35,12 @@
     "items": [ [ "bread_garlic", 7 ] ]
   },
   {
-    "id": "kitchen",
+    "id": "groce_bread",
+    "type": "item_group",
+    "items": [ [ "bread_garlic", 20 ] ]
+  },
+  {
+    "id": "restaur_kitchen",
     "type": "item_group",
     "items": [ [ "bread_garlic", 14 ] ]
   },
