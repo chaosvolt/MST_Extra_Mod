@@ -230,6 +230,7 @@
     "components": [ [ [ "cured_pelt_small", 5 ] ] ],
     "flags": [ "BLIND_EASY" ]
   },
+  {
     "type": "recipe",
     "result": "bolt_bone",
     "obsolete": true
