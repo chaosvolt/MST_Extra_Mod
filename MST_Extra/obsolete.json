@@ -1,5 +1,101 @@
 [
   {
+    "id": "milk_curdling",
+    "type": "TOOL",
+    "category": "food",
+    "name": "small batch of curdling milk",
+    "name_plural": "small batches of curdling milk",
+    "description": "A sealed small waterskin filled with milk that is undergoing the process to become a crude form of cheese, having had vinegar and natural rennet added.",
+    "weight": "1870 g",
+    "volume": "1750 ml",
+    "price": 2000,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "milk", "leather" ],
+    "symbol": ")",
+    "color": "white",
+    "use_action": {
+      "target": "milk_curdled",
+      "msg": "The milk appears to have finished curdling, and is ready for further processing.  Checking on it has exposed the mixture to the atmosphere.",
+      "container": "waterskin",
+      "target_charges": 6,
+      "moves": 150,
+      "type": "delayed_transform",
+      "transform_age": 28800,
+      "not_ready_msg": "The milk is still curdling."
+    }
+  },
+  {
+    "id": "milk_curdling2",
+    "type": "TOOL",
+    "category": "food",
+    "name": "batch of curdling milk",
+    "name_plural": "batches of curdling milk",
+    "description": "A sealed waterskin filled with milk that is undergoing the process to become a crude form of cheese, having had vinegar and natural rennet added.",
+    "weight": "3617 g",
+    "volume": "3500 ml",
+    "price": 4000,
+    "to_hit": -1,
+    "bashing": 2,
+    "material": [ "milk", "leather" ],
+    "symbol": ")",
+    "color": "white",
+    "use_action": {
+      "target": "milk_curdled",
+      "msg": "The milk appears to have finished curdling, and is ready for further processing.  Checking on it has exposed the mixture to the atmosphere.",
+      "container": "waterskin2",
+      "target_charges": 12,
+      "moves": 150,
+      "type": "delayed_transform",
+      "transform_age": 36000,
+      "not_ready_msg": "The milk is still curdling."
+    }
+  },
+  {
+    "id": "milk_curdling3",
+    "type": "TOOL",
+    "category": "food",
+    "name": "large batch of curdling milk",
+    "name_plural": "large batches of curdling milk",
+    "description": "A sealed large waterskin filled with milk that is undergoing the process to become a crude form of cheese, having had vinegar and natural rennet added.",
+    "weight": "5241 g",
+    "volume": "5250 ml",
+    "price": 6000,
+    "to_hit": -1,
+    "bashing": 3,
+    "material": [ "milk", "leather" ],
+    "symbol": ")",
+    "color": "white",
+    "use_action": {
+      "target": "milk_curdled",
+      "msg": "The milk appears to have finished curdling, and is ready for further processing.  Checking on it has exposed the mixture to the atmosphere.",
+      "container": "waterskin3",
+      "target_charges": 18,
+      "moves": 150,
+      "type": "delayed_transform",
+      "transform_age": 43200,
+      "not_ready_msg": "The milk is still curdling."
+    }
+  },
+  {
+    "id": "foil_alum",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": "aluminum foil wrap",
+    "//": "Dummied out way back when.",
+    "description": "A half crumpled sheet of aluminum foil, used for cooking and baking.",
+    "weight": "5 g",
+    "volume": 0,
+    "price": 0,
+    "to_hit": -2,
+    "rigid": false,
+    "material": "aluminum",
+    "symbol": ",",
+    "color": "light_gray",
+    "contains": "2500 ml",
+    "qualities": [ [ "COOK", 1 ] ]
+  },
+  {
     "type": "GENERIC",
     "id": "cured_hide_small",
     "copy-from": "cured_hide",
@@ -133,5 +229,25 @@
     "time": "1 m",
     "components": [ [ [ "cured_pelt_small", 5 ] ] ],
     "flags": [ "BLIND_EASY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_bone",
+    "obsolete": true
+  },
+  {
+    "id": "bolt_bone",
+    "type": "MIGRATION",
+    "replace": "bolt_crude"
+  },
+  {
+    "id": "resin_cord",
+    "type": "MIGRATION",
+    "replace": "slime_scrap"
+  },
+  {
+    "type": "recipe",
+    "result": "resin_cord",
+    "obsolete": true
   }
 ]

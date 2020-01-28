@@ -1,6 +1,8 @@
 # MST_Extra_Mod
 
-A mod for Cataclysm: Dark Days Ahead that requires More Survival Tools. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
+A mod for Cataclysm: Dark Days Ahead, the official followup to the now-obsolete More Survival Tools mod formerly present in the repo. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
+
+The following list of content is not only incomplete and unlikely to be out of date, it's also specifically only what MST Extra adds that was not originally present in More Survival Tools. All content that was part of the original MST at the time of its obsolescence is also now a part of this mod.
 
 Recipe Additions/Overrides for Existing Items:
 * Added the option of making waterskins using sealed stomachs. The idea is it isn't that complicated to add a strap to an already usable water container.
