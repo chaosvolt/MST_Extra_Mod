@@ -1,6 +1,7 @@
 [
   {
     "type": "construction",
+    "id": "constr_mst_door_frame",
     "description": "Build Door",
     "//": "Step 1: door frame",
     "category": "CONSTRUCT",
@@ -13,6 +14,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_beehive",
     "description": "Build Beehive",
     "//": "Hive lure includes classic of sweet water, or a few other substitutes.  Bee balm tea however is because we don't have lemongrass.",
     "category": "FURN",
@@ -35,6 +37,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_cpurifier",
     "description": "Build Charcoal Purifier",
     "category": "FURN",
     "required_skills": [ [ "survival", 2 ] ],
@@ -50,6 +53,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_leather_curtain",
     "description": "Build Leather Door Curtain",
     "//": "Door frame not required",
     "category": "CONSTRUCT",
@@ -68,6 +72,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_sill_dirt",
     "description": "Build Makeshift Still",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
@@ -80,6 +85,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_sill_sand",
     "description": "Build Makeshift Still",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
@@ -91,6 +97,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_pulley_lifter",
     "description": "Build Pulley Lifter",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 5 ], [ "mechanics", 2 ] ],
@@ -107,6 +114,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_wood_windbreak",
     "description": "Build Wooden Windbreak",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 0 ] ],
@@ -119,6 +127,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_tarp_leanto",
     "skill": "survival",
     "description": "Build Leather Tarp Lean-To",
     "category": "CONSTRUCT",
@@ -132,6 +141,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_rack",
     "description": "Build Wooden Rack",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
@@ -147,6 +157,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_counter",
     "description": "Build Counter",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
@@ -162,6 +173,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_table",
     "description": "Build Table",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
@@ -177,6 +189,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_chair",
     "description": "Build Chair",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
@@ -192,6 +205,7 @@
   },
   {
     "type": "construction",
+    "id": "constr_mst_makeshift_bench",
     "description": "Build Bench",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
