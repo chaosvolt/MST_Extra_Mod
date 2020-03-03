@@ -7,10 +7,57 @@
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 1 ] ],
     "time": "60 m",
-    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
     "components": [ [ [ "2x4", 6 ] ], [ [ "nail", 12 ] ] ],
     "pre_terrain": "t_window_empty",
     "post_terrain": "t_door_frame"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_door_frame_2",
+    "description": "Build Door",
+    "//": "Step 1: door frame",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "80 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 6 ], [ "stick", 6 ] ], [ [ "adhesive", 4, "LIST" ] ] ],
+    "pre_terrain": "t_window_empty",
+    "post_terrain": "t_door_frame"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_door_frame_3",
+    "description": "Build Door",
+    "//": "Step 1: door frame",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "80 m",
+    "qualities": [
+      [ { "id": "HAMMER", "level": 2 } ],
+      [ { "id": "CUT", "level": 1 } ],
+      [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ]
+    ],
+    "components": [ [ [ "2x4", 12 ], [ "stick", 12 ] ], [ [ "adhesive", 4, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "t_door_frame"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_window_empty",
+    "description": "Build Window",
+    "//": "Step 1: window frame",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+    "time": "90 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "components": [ [ [ "2x4", 15 ], [ "stick", 15 ], [ "log", 2 ] ], [ [ "adhesive", 2, "LIST" ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "t_window_empty"
   },
   {
     "type": "construction",
@@ -218,5 +265,116 @@
     "components": [ [ [ "2x4", 4 ], [ "stick", 4 ] ], [ [ "adhesive", 1, "LIST" ] ] ],
     "pre_special": "check_empty",
     "post_terrain": "f_bench_makeshift"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wood_stairs_up_half",
+    "description": "Build Wooden Staircase",
+    "//": "Step 1: stairs frame in an empty space",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 5 ], [ "survival", 5 ] ],
+    "time": "360 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 8 ], [ "stick", 8 ] ], [ [ "log", 1 ] ] ],
+    "pre_special": "check_empty_up_OK",
+    "post_terrain": "t_wood_stairs_up_half"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wood_stairs_up",
+    "description": "Build Wooden Staircase",
+    "//": "Step 2: complete the half made stairs with timber framework",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 5 ], [ "survival", 5 ] ],
+    "time": "360 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "log", 4 ] ] ],
+    "pre_terrain": "t_wood_stairs_up_half",
+    "post_terrain": "t_wood_stairs_up",
+    "post_special": "done_wood_stairs"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wooden_platform_1",
+    "description": "Build Wooden Platform",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "120 m",
+    "qualities": [ [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "log", 1 ] ], [ [ "2x4", 12 ], [ "stick", 12 ] ] ],
+    "pre_note": "Must be built over ledges or other open space.  Limited constructions can be built on top of it.",
+    "pre_flags": "NO_FLOOR",
+    "post_terrain": "t_wooden_scaffolding"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wooden_platform_2",
+    "description": "Build Wooden Platform",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
+    "time": "100 m",
+    "qualities": [ [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ], [ { "id": "HAMMER", "level": 2 } ] ],
+    "components": [ [ [ "2x4", 4 ], [ "stick", 4 ] ], [ [ "2x4", 12 ], [ "wood_panel", 3 ] ] ],
+    "pre_note": "Must be built over ledges or other open space.  Limited constructions can be built on top of it.",
+    "pre_flags": "NO_FLOOR",
+    "post_terrain": "t_wooden_scaffolding"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wall_wattle_half_platform",
+    "description": "Build Wattle-and-Daub Wall",
+    "//": "Step 1: half of a wall on a wooden platform",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+    "time": "50 m",
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "2x4", 5 ], [ "stick", 10 ] ],
+      [ [ "material_quicklime", 4 ], [ "material_limestone", 4 ], [ "clay_lump", 4 ] ],
+      [ [ "pebble", 10 ], [ "material_sand", 10 ] ],
+      [ [ "straw_pile", 4 ], [ "cattail_stalk", 4 ], [ "dogbane", 4 ], [ "pine_bough", 4 ] ],
+      [ [ "water", 5 ], [ "water_clean", 5 ] ]
+    ],
+    "pre_terrain": "t_wooden_scaffolding",
+    "post_terrain": "t_wall_wattle_half"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wall_half_platform",
+    "description": "Build Wood Wall",
+    "//": "frame wall on a wooden platform",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 2 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "components": [ [ [ "2x4", 10 ] ], [ [ "nail", 20 ] ] ],
+    "pre_terrain": "t_wooden_scaffolding",
+    "post_terrain": "t_wall_half"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_wall_log_half_platform",
+    "description": "Build Log Wall",
+    "//": "Step 1: half of a log wall on a wooden platform",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 3 ] ],
+    "time": "60 m",
+    "qualities": [ [ { "id": "AXE", "level": 2 }, { "id": "SAW_W", "level": 1 } ] ],
+    "components": [ [ [ "log", 2 ] ], [ [ "stick", 3 ], [ "2x4", 6 ] ] ],
+    "pre_terrain": "t_wooden_scaffolding",
+    "post_terrain": "t_wall_log_half"
+  },
+  {
+    "type": "construction",
+    "id": "constr_mst_floor_noroof_platform",
+    "description": "Build Wooden Floor",
+    "//": "Makes an outside wooden paving, similar to what would be used in patios.",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 1 ] ],
+    "time": "100 m",
+    "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
+    "components": [ [ [ "2x4", 14 ] ], [ [ "nail", 28 ] ] ],
+    "pre_terrain": "t_wooden_scaffolding",
+    "post_terrain": "t_floor_noroof"
   }
 ]

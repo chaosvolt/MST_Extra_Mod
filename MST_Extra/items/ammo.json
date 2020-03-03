@@ -58,5 +58,22 @@
     "proportional": { "price": 0.5, "cutting": 0.85 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
     "flags": [ "FRAGILE_MELEE", "JAVELIN" ]
+  },
+  {
+    "type": "AMMO",
+    "id": "pitch_wood",
+    "category": "spare_parts",
+    "symbol": ",",
+    "color": "brown",
+    "name": "pitch",
+    "name_plural": "pitch",
+    "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty usages, but it can be used as a varnish or holding together small items, or for improvised repairs with the right tools.",
+    "price": 900,
+    "material": "oil",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "ammo_type": "pitch_wood",
+    "count": 50,
+    "flags": [ "UNRECOVERABLE" ]
   }
 ]

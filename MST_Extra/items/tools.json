@@ -272,5 +272,46 @@
     "symbol": ",",
     "color": "brown",
     "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ]
+  },
+  {
+    "id": "misc_repairkit_makeshift",
+    "looks_like": "misc_repairkit",
+    "type": "TOOL",
+    "name": "markeshift repair kit",
+    "description": "This is a portable toolkit, consisting of a primitive knife for carving replacement parts, an adze for more heavy-duty wood cutting, and a patch of soft material for cleaning surfaces.  It can be used to repair certain items if supplied with pitch, though it isn't ideal for complex work.",
+    "weight": "1800 g",
+    "volume": "1500 ml",
+    "price": 1000,
+    "to_hit": -1,
+    "bashing": 2,
+    "material": [ "stone", "wood" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "ammo": "pitch_wood",
+    "max_charges": 100,
+    "charges_per_use": 1,
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 11 ], [ "SAW_W", 1 ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "acidchitin", "bone", "chitin", "paper", "cardboard", "wood", "kevlar_rigid" ],
+        "skill": "fabrication",
+        "tool_quality": 1,
+        "cost_scaling": 0.1,
+        "move_cost": 2000
+      }
+    ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "id": "hand_drill_makeshift",
+    "copy-from": "hand_drill",
+    "type": "TOOL",
+    "name": "flint drill",
+    "description": "A prehistoric woodworking tool, little more than a fine sharp blade tipping a makeshift bow drill.  It's rather limited in usage, primarily meant to be used on wood.",
+    "price": 200,
+    "material": [ "wood", "stone" ],
+    "qualities": [ [ "DRILL", 1 ] ]
   }
 ]

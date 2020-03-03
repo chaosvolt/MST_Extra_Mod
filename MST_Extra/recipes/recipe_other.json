@@ -333,7 +333,7 @@
     "components": [
       [ [ "birchbark", 7 ] ],
       [ [ "cordage_short", 4, "LIST" ], [ "filament", 80, "LIST" ] ],
-      [ [ "pine_bough", 10 ], [ "pitch_wood", 2 ] ]
+      [ [ "pine_bough", 10 ], [ "pitch_wood", 100 ] ]
     ]
   },
   {
@@ -609,5 +609,42 @@
     "autolearn": true,
     "using": [ [ "earthenware_firing", 100 ] ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 8 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "misc_repairkit_makeshift",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "skills_required": [ "survival", 1 ],
+    "time": "1 m",
+    "reversible": true,
+    "autolearn": true,
+    "decomp_learn": 1,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "primitive_knife", 1 ], [ "copper_knife", 1 ], [ "makeshift_knife", 1 ] ],
+      [ [ "primitive_adze", 1 ] ],
+      [ [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "hand_drill_makeshift",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "survival", 4 ],
+    "time": "25 m",
+    "autolearn": true,
+    "using": [ [ "cordage_short", 1 ], [ "adhesive", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [
+      [ [ "stick", 2 ], [ "2x4", 1 ] ],
+      [ [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ],
+      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
+    ]
   }
 ]

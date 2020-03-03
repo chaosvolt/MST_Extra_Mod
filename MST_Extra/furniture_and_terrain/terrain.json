@@ -3,7 +3,7 @@
     "type": "terrain",
     "id": "t_hive_young",
     "name": "empty beehive",
-    "description": "A traditional beehive, dug in slightly and baited to attract bees.  It will take a while before any bees decide to make use of it",
+    "description": "A traditional beehive, dug in slightly and baited to attract bees.  It will take a while before any bees decide to make use of it.",
     "symbol": "^",
     "color": "light_gray",
     "move_cost": 0,
@@ -203,6 +203,25 @@
         { "item": "stick", "count": 1 },
         { "item": "withered", "count": [ 2, 12 ] }
       ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_wooden_scaffolding",
+    "looks_like": "t_sh_bridge",
+    "name": "wooden platform",
+    "description": "A surface of wooden scaffolding extending out, supported by solid wooden joists and brackets to transfer the weight onto other supporting structure.  Solid enough to build further wood or similar constructions onto it.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 4,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_HARD" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_null",
+      "items": [ { "item": "splinter", "count": [ 15, 30 ] } ]
     }
   }
 ]

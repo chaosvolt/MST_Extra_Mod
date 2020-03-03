@@ -1,21 +1,6 @@
 [
   {
     "type": "GENERIC",
-    "id": "pitch_wood",
-    "symbol": ",",
-    "color": "brown",
-    "name": "pitch",
-    "name_plural": "pitch",
-    "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty usages, but it can be used as a varnish or holding together small items.",
-    "price": 900,
-    "material": "oil",
-    "weight": "45 g",
-    "volume": "250 ml",
-    "to_hit": -2,
-    "flags": [ "UNRECOVERABLE" ]
-  },
-  {
-    "type": "GENERIC",
     "id": "makeshift_sled_frame_item",
     "name": "sled frame",
     "description": "A flexible frame made from wooden crosspieces lashed together.",
