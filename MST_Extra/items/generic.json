@@ -60,5 +60,23 @@
     "container_data": { "contains": "25 L", "watertight": true },
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
     "use_action": "HEAT_FOOD"
+  },
+  {
+    "id": "cordage_6_leather",
+    "copy-from": "string_6",
+    "type": "GENERIC",
+    "name": "short leather cord",
+    "description": "A 6-inch (or about 15 cm) long piece of rawhide or leather cord.  Useful for some purposes, but not as strong or flexible as proper string.",
+    "proportional": { "price": 0.5 },
+    "material": "leather"
+  },
+  {
+    "id": "cordage_36_leather",
+    "copy-from": "string_36",
+    "type": "GENERIC",
+    "name": "long leather cord",
+    "description": "A 3-foot (or about 90 cm) long piece of rawhide or leather cord.  Useful for some purposes, but not as strong or flexible as proper string.",
+    "proportional": { "price": 0.5 },
+    "material": "leather"
   }
 ]

@@ -313,5 +313,22 @@
     "price": 200,
     "material": [ "wood", "stone" ],
     "qualities": [ [ "DRILL", 1 ] ]
+  },
+  {
+    "id": "fire_plough",
+    "type": "TOOL",
+    "name": "fire plough",
+    "description": "A simple form of primitive firemaking, little more than two pieces of wood with a groove worn into one of them, to light an ember through friction.  Starting a fire with this will be laborious and slow, but it's better than nothing.",
+    "weight": "1040 g",
+    "volume": "2500 ml",
+    "price": 0,
+    "material": "wood",
+    "symbol": ",",
+    "color": "brown",
+    "initial_charges": 25,
+    "max_charges": 25,
+    "charges_per_use": 1,
+    "use_action": { "type": "firestarter", "moves": 1000, "moves_slow": 50000 },
+    "flags": [ "FIRESTARTER" ]
   }
 ]

@@ -646,5 +646,55 @@
       [ [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ],
       [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "fire_plough",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "survival",
+    "difficulty": 2,
+    "time": "50 m",
+    "autolearn": true,
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [ [ "stick", 1 ], [ "2x4", 1 ], [ "pointy_stick", 1 ] ],
+      [ [ "stick", 1 ], [ "2x4", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "cordage_6_leather",
+    "result_mult": 3,
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 1 ], [ "fur", 1 ], [ "cured_hide", 1 ], [ "cured_pelt", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cordage_36_leather",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "time": "40 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "leather", 2 ], [ "fur", 2 ], [ "cured_hide", 2 ], [ "cured_pelt", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "cordage_36_leather",
+    "id_suffix": "weaving",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "time": "5 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "cordage_6_leather", 6 ] ] ]
   }
 ]
