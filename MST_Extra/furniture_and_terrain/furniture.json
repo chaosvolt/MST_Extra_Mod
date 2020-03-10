@@ -10,7 +10,7 @@
     "move_cost_mod": -1,
     "required_str": -1,
     "flags": [ "SEALED", "CONTAINER", "NOITEM", "EASY_DECONSTRUCT" ],
-    "crafting_pseudo_item": "char_purifier",
+    "crafting_pseudo_item": "char_purifier_fake",
     "examine_action": "reload_furniture",
     "deconstruct": { "items": [ { "item": "withered", "count": 24 }, { "item": "stick", "count": 6 } ] },
     "bash": {

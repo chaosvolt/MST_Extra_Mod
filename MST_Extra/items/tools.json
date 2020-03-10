@@ -330,5 +330,18 @@
     "charges_per_use": 1,
     "use_action": { "type": "firestarter", "moves": 1000, "moves_slow": 50000 },
     "flags": [ "FIRESTARTER" ]
+  },
+  {
+    "id": "char_purifier_fake",
+    "type": "TOOL",
+    "name": "makeshift water purifier",
+    "description": "This is a pseudo item.",
+    "material": [ "wood", "cotton" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "sub": "water_purifier",
+    "ammo": "charcoal",
+    "max_charges": 500,
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]
