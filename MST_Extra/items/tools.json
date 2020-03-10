@@ -343,5 +343,24 @@
     "ammo": "charcoal",
     "max_charges": 500,
     "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "id": "pot_canning_clay",
+    "type": "TOOL",
+    "name": "clay canning pot",
+    "sub": "pot_canning",
+    "looks_like": "pot_canning",
+    "description": "A very large 25 liter earthenware pot, primarily meant for canning food via the water bath method, though it can cook normal foods just as well.  Canning foods with it will require a lot of water.  If you're only canning a couple of jars at a time, you'd fill it up with rocks or something to displace the water above the lids.",
+    "weight": "3250 g",
+    "volume": "25 L",
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": "clay",
+    "symbol": ")",
+    "color": "brown",
+    "container_data": { "contains": "25 L", "watertight": true },
+    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
+    "use_action": "HEAT_FOOD"
   }
 ]
