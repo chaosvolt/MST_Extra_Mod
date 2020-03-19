@@ -173,13 +173,6 @@
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
   },
   {
-    "id": "tinderbox",
-    "copy-from": "tinderbox",
-    "sub": "canister_empty",
-    "type": "TOOL",
-    "name": { "str": "ember carrier" }
-  },
-  {
     "id": "tinderbox_on",
     "copy-from": "tinderbox_on",
     "sub": "oil_lamp_on",
