@@ -1,15 +1,9 @@
 [
   {
     "type": "start_location",
-    "ident": "forest",
-    "copy-from": "forest",
-    "target": "forest_thick"
-  },
-  {
-    "type": "start_location",
-    "ident": "swamp",
+    "id": "swamp",
     "name": "Swamp",
-    "target": "forest_water",
+    "terrain": [ "forest_water" ],
     "flags": [ "ALLOW_OUTSIDE" ]
   }
 ]
