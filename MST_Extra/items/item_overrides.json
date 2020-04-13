@@ -10,7 +10,7 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 15,
-    "damage": 11,
+    "damage": { "damage_type": "stab", "amount": 11, "armor_penetration": 1 },
     "dispersion": 80,
     "loudness": 0,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 11 } ],
@@ -28,8 +28,7 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 10,
-    "damage": 17,
-    "pierce": 3,
+    "damage": { "damage_type": "stab", "amount": 17, "armor_penetration": 3 },
     "dispersion": 80,
     "loudness": 0,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 17 } ],
@@ -79,7 +78,8 @@
     "type": "AMMO",
     "name": "rubber slug",
     "ammo_type": "pebble",
-    "damage": 2,
+    "//": "Yes, I know that vanilla is weird and makes sling ammo use piercing-type damage, but I take exception here at bare minimum, even if it makes them inconsistent with other sling stones.",
+    "damage": { "damage_type": "bash", "amount": 2 },
     "range": 10,
     "dispersion": 7,
     "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
@@ -90,7 +90,7 @@
     "type": "AMMO",
     "name": "petrified eye",
     "ammo_type": "rock",
-    "damage": 7,
+    "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
@@ -101,7 +101,7 @@
     "type": "AMMO",
     "name": "spiral stone",
     "ammo_type": "rock",
-    "damage": 7,
+    "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
@@ -112,7 +112,7 @@
     "type": "AMMO",
     "name": "chunk of sulfur",
     "ammo_type": "rock",
-    "damage": 7,
+    "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON-FOULING" ] }
@@ -123,7 +123,7 @@
     "type": "AMMO",
     "name": "limestone",
     "ammo_type": "pebble",
-    "damage": 2,
+    "damage": { "damage_type": "stab", "amount": 2 },
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON-FOULING" ] }
@@ -134,10 +134,10 @@
     "type": "AMMO",
     "name": "golf ball",
     "ammo_type": "rock",
-    "damage": 3,
+    "damage": { "damage_type": "stab", "amount": 3 },
     "range": 12,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_10" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
   },
   {
     "id": "pool_ball",
@@ -145,10 +145,10 @@
     "type": "AMMO",
     "name": "pool ball",
     "ammo_type": "rock",
-    "damage": 6,
+    "damage": { "damage_type": "stab", "amount": 6 },
     "range": 12,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_10" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
   },
   {
     "id": "baseball",
@@ -156,10 +156,10 @@
     "type": "AMMO",
     "name": "baseball",
     "ammo_type": "rock",
-    "damage": 5,
+    "damage": { "damage_type": "stab", "amount": 5 },
     "range": 14,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_10" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
   },
   {
     "id": "magic_8_ball",
@@ -167,10 +167,10 @@
     "type": "AMMO",
     "name": "Magic 8-Ball",
     "ammo_type": "rock",
-    "damage": 4,
+    "damage": { "damage_type": "stab", "amount": 4 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
   },
   {
     "id": "tinderbox_on",
