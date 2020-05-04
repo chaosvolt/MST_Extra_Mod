@@ -33,7 +33,7 @@
     "covers": [ "TORSO" ],
     "coverage": 30,
     "encumbrance": 12,
-    "storage": "8 L",
+    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "8 L", "max_contains_weight": "16 kg", "moves": 300 } ],
     "material_thickness": 2,
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
   },
@@ -52,14 +52,16 @@
     "covers": [ "LEG_EITHER" ],
     "coverage": 7,
     "material_thickness": 1,
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Sheath knife",
-      "holster_msg": "You sheath your %s",
-      "max_volume": "750 ml",
-      "draw_cost": 3,
-      "flags": [ "SHEATH_KNIFE" ]
-    },
+    "pocket_data": [
+      {
+        "holster": true,
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "2 kg",
+        "moves": 3,
+        "flag_restriction": [ "SHEATH_KNIFE" ]
+      }
+    ],
+    "use_action": { "type": "holster", "holster_prompt": "Sheath knife", "holster_msg": "You sheath your %s" },
     "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
   },
   {
