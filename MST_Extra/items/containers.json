@@ -10,7 +10,6 @@
     "price": 2000,
     "to_hit": -1,
     "bashing": 1,
-    "rigid": true,
     "material": "wood",
     "symbol": ")",
     "color": "light_gray",

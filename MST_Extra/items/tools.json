@@ -194,6 +194,7 @@
     "price": 800,
     "material": [ "clay" ],
     "color": "brown",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "lamp_oil": 250 } } ],
     "initial_charges": 250,
     "max_charges": 250,
     "use_action": {
@@ -228,6 +229,7 @@
     "description": "This is a small ceramic fire pot, with a lid and small holes for controlled airflow.  It can nurture a smoldering ember for a long time, to start fires without modern tools.",
     "material": "clay",
     "color": "brown",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "tinder": 100 } } ],
     "use_action": {
       "target": "tinderbox_clay_on",
       "msg": "You light the tinder.",
@@ -292,6 +294,7 @@
     "symbol": ";",
     "color": "light_gray",
     "ammo": "pitch_wood",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pitch_wood": 100 } } ],
     "max_charges": 100,
     "charges_per_use": 1,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 11 ], [ "SAW_W", 1 ] ],

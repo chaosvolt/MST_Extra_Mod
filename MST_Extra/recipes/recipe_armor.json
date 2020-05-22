@@ -105,8 +105,7 @@
     "using": [ [ "sewing_standard", 60 ] ],
     "components": [
       [ [ "rag", 8 ] ],
-      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ],
-      [ [ "charcoal", 10, "NO_RECOVER" ] ]
+      [ [ "goggles_ski", 1 ], [ "goggles_swim", 1 ], [ "glasses_safety", 1 ] ]
     ]
   }
 ]
