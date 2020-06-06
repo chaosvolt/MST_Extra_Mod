@@ -2,12 +2,11 @@
   {
     "type": "TOOL_ARMOR",
     "id": "side_drum_makeshift",
-    "name": "side drum",
+    "name": { "str": "side drum" },
     "category": "tools",
     "weight": "1800 g",
     "color": "brown",
     "covers": [ "TORSO" ],
-    "max_charges": 1,
     "initial_charges": 1,
     "use_action": {
       "type": "musical_instrument",
@@ -41,7 +40,7 @@
   {
     "id": "mask_gas_makeshift",
     "type": "TOOL_ARMOR",
-    "name": "makeshift gas hood",
+    "name": { "str": "makeshift gas hood" },
     "looks_like": "balclava",
     "category": "clothing",
     "//": "Realistically it would be always on, but there's no way to make it only deplete charges in gas without the use action.",
