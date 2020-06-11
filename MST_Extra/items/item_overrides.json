@@ -40,14 +40,15 @@
     "type": "ARMOR",
     "copy-from": "javelin_bag",
     "name": "javelin bag",
-    "pocket_data": [
-      {
-        "ammo_restriction": {
-          "javelin": 4
-        },
-        "moves": 25
-      }
-    ]
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stash javelins",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "max_volume": "500 ml",
+      "draw_cost": 30,
+      "flags": [ "JAVELIN" ]
+    }
   },
   {
     "id": "char_purifier",
@@ -77,7 +78,7 @@
     "type": "AMMO",
     "name": "rubber slug",
     "ammo_type": "pebble",
-    "damage": { "damage_type": "bullet", "amount": 2 },
+    "damage": { "damage_type": "stab", "amount": 2 },
     "range": 10,
     "dispersion": 7,
     "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
@@ -121,7 +122,7 @@
     "type": "AMMO",
     "name": "limestone",
     "ammo_type": "pebble",
-    "damage": { "damage_type": "bullet", "amount": 2 },
+    "damage": { "damage_type": "stab", "amount": 2 },
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
