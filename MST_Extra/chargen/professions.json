@@ -1,5 +1,17 @@
 [
   {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "quiver_crossbow_wanderer",
+    "entries": [ { "item": "bolt_wood", "charges": 20 } ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "quiver_javelin_prehistoric",
+    "entries": [ { "item": "javelin_stone", "charges": 4 } ]
+  },
+  {
     "type": "profession",
     "ident": "wanderer",
     "name": "Wanderer",
@@ -11,6 +23,7 @@
       { "level": 1, "name": "tailor" },
       { "level": 3, "name": "gun" },
       { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "chemistry" },
       { "level": 2, "name": "cooking" }
     ],
     "items": {
@@ -23,14 +36,14 @@
           "boots_fur",
           "gloves_fur",
           "scarf_fur",
-          "copper_knife",
-          "pot_makeshift",
           "waterskin",
+          "pot_makeshift",
           "flint_steel"
         ],
         "entries": [
-          { "item": "crossbow_makeshift", "ammo-item": "bolt_wood" },
-          { "item": "bolt_wood", "charges": 14, "container-item": "quiver" },
+          { "item": "crossbow_makeshift", "ammo-item": "bolt_wood", "custom-flags": [ "auto_wield" ] },
+          { "item": "copper_knife", "container-item": "sheath" },
+          { "item": "quiver", "contents-group": "quiver_crossbow_wanderer" },
           { "item": "tinderbox", "charges": [ 10, 20 ] }
         ]
       }
@@ -54,21 +67,25 @@
     ],
     "traits": [ "ILLITERATE" ],
     "items": {
-      "both": [
-        "loincloth_fur",
-        "cloak_fur",
-        "backpack_leather",
-        "boots_fur",
-        "spear_stone",
-        "atlatl",
-        "javelin_stone",
-        "javelin_stone",
-        "primitive_knife",
-        "hand_axe",
-        "rock_pot",
-        "waterskin",
-        "fire_drill"
-      ]
+      "both": {
+        "ammo": 100,
+        "items": [
+          "loincloth_fur",
+          "cloak_fur",
+          "backpack_leather",
+          "boots_fur",
+          "waterskin",
+          "atlatl",
+          "hand_axe",
+          "clay_pot",
+          "fire_drill"
+        ],
+        "entries": [
+          { "item": "spear_stone", "custom-flags": [ "auto_wield" ] },
+          { "item": "primitive_knife", "container-item": "sheath" },
+          { "item": "javelin_bag", "contents-group": "quiver_javelin_prehistoric" }
+        ]
+      }
     }
   }
 ]

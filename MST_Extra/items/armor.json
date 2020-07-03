@@ -24,7 +24,7 @@
     "name": "pack basket",
     "description": "A large hand made straw basket, with shoulder straps to wear like a backpack.",
     "weight": "300 g",
-    "volume": "8 L",
+    "volume": "8004 ml",
     "price": 1000,
     "to_hit": -1,
     "material": "paper",
@@ -33,7 +33,7 @@
     "covers": [ "TORSO" ],
     "coverage": 30,
     "encumbrance": 12,
-    "pocket_data": [ { "pocket_type": "CONTAINER", "max_contains_volume": "8 L", "max_contains_weight": "16 kg", "moves": 300 } ],
+    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "8 L", "max_contains_weight": "16 kg", "moves": 300 } ],
     "material_thickness": 2,
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
   },
@@ -57,6 +57,7 @@
         "holster": true,
         "max_contains_volume": "750 ml",
         "max_contains_weight": "2 kg",
+        "max_item_length": "70 cm",
         "moves": 3,
         "flag_restriction": [ "SHEATH_KNIFE" ]
       }

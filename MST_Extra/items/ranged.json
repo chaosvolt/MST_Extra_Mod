@@ -42,6 +42,7 @@
     "dispersion": 500,
     "durability": 5,
     "clip_size": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "bolt": 1 } } ],
     "reload": 300,
     "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ] ],
     "flags": [ "PRIMITIVE_RANGED_WEAPON" ]
