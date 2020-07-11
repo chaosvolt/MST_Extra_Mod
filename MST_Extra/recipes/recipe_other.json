@@ -651,7 +651,7 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
-    "difficulty": 2,
+    "difficulty": 1,
     "time": "50 m",
     "autolearn": true,
     "flags": [ "BLIND_EASY" ],
