@@ -125,7 +125,7 @@
     "difficulty": 2,
     "time": "10 m",
     "autolearn": true,
-    "components": [ [ [ "stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ] ]
+    "components": [ [ [ "stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -138,7 +138,7 @@
     "difficulty": 2,
     "time": "10 m",
     "autolearn": true,
-    "components": [ [ [ "large_stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 90, "LIST" ] ] ]
+    "components": [ [ [ "large_stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -165,7 +165,7 @@
     "time": "1 m",
     "autolearn": true,
     "qualities": [ { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "2x4", 2 ], [ "stick", 2 ] ], [ [ "cordage_short", 2, "LIST" ], [ "filament", 40, "LIST" ] ] ]
+    "components": [ [ [ "2x4", 2 ], [ "stick", 2 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
   },
   {
     "result": "tar_oil",
@@ -196,7 +196,7 @@
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
       [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
-      [ [ "cordage_short", 2, "LIST" ], [ "filament", 40, "LIST" ] ]
+      [ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
   {
@@ -210,7 +210,7 @@
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "stick", 3 ], [ "2x4", 3 ] ], [ [ "cordage_short", 4, "LIST" ], [ "filament", 80, "LIST" ] ] ]
+    "components": [ [ [ "stick", 3 ], [ "2x4", 3 ] ], [ [ "cordage_short", 4, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -252,8 +252,8 @@
     "components": [
       [ [ "stick", 7 ], [ "2x4", 7 ] ],
       [ [ "straw_pile", 20 ], [ "birchbark", 24 ] ],
-      [ [ "cordage_short", 4, "LIST" ], [ "filament", 80, "LIST" ] ],
-      [ [ "adhesive", 2, "LIST" ] ]
+      [ [ "cordage", 1, "LIST" ] ],
+      [ [ "vehicle_sled", 2, "LIST" ] ]
     ]
   },
   {
@@ -271,7 +271,7 @@
       [ [ "makeshift_sled_frame_item", 1 ] ],
       [ [ "makeshift_sled_runners_item", 1 ] ],
       [ [ "makeshift_sled_basket_item", 1 ] ],
-      [ [ "adhesive", 2, "LIST" ] ]
+      [ [ "vehicle_sled", 2, "LIST" ] ]
     ]
   },
   {
@@ -330,7 +330,7 @@
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [
       [ [ "birchbark", 7 ] ],
-      [ [ "cordage_short", 4, "LIST" ], [ "filament", 80, "LIST" ] ],
+      [ [ "cordage_short", 4, "LIST" ] ],
       [ [ "pine_bough", 10 ], [ "pitch_wood", 100 ] ]
     ]
   },
@@ -537,7 +537,7 @@
     "components": [
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
       [ [ "cured_hide", 1 ], [ "tanned_hide", 6 ] ],
-      [ [ "cordage_short", 6, "LIST" ], [ "filament", 120, "LIST" ] ],
+      [ [ "cordage_short", 6, "LIST" ] ],
       [ [ "log", 1 ] ]
     ]
   },

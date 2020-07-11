@@ -74,6 +74,12 @@
     ]
   },
   {
+    "id": "vehicle_sled",
+    "type": "requirement",
+    "//": "For repairing makeshift sleds.",
+    "components": [ [ [ "adhesive", 1, "LIST" ], [ "cordage_short", 1, "LIST" ] ] ]
+  },
+  {
     "id": "cordage",
     "type": "requirement",
     "//": "Materials used for tying items, primitive bowstrings, and other uses involving string or makeshift cordage, 36 g/90 cm of cordage per unit.",

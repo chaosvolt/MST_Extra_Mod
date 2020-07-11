@@ -14,9 +14,9 @@
     "breaks_into": [ { "item": "splinter", "count": [ 0, 6 ] } ],
     "flags": [ "MOUNTABLE", "FOLDABLE" ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "adhesive", 1 ] ] },
+      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "vehicle_sled", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": 20000 },
-      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "adhesive", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 12 }
   },
@@ -36,9 +36,9 @@
     "flags": [ "WHEEL", "STABLE", "FOLDABLE" ],
     "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "adhesive", 1 ] ] },
+      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "vehicle_sled", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": 20000 },
-      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "adhesive", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 8 }
   },
@@ -60,9 +60,9 @@
     "flags": [ "CARGO", "BOARDABLE", "COVERED", "FOLDABLE", "LOCKABLE_CARGO" ],
     "breaks_into": [ { "item": "splinter", "count": [ 4, 9 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "adhesive", 1 ] ] },
+      "install": { "skills": [ [ "survival", 0 ] ], "time": 60000, "using": [ [ "vehicle_sled", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": 20000 },
-      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "adhesive", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 1 ] ], "time": 30000, "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 6 }
   },
