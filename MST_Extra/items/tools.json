@@ -115,6 +115,8 @@
     "type": "TOOL",
     "copy-from": "fake_item",
     "name": { "str_sp": "makeshift distillation" },
+    "weight": "1 g",
+    "volume": "1 ml",
     "description": "This exists only to allow makeshift stills to provide distilling quality.",
     "qualities": [ [ "DISTILL", 1 ] ]
   },
@@ -123,6 +125,8 @@
     "type": "TOOL",
     "copy-from": "fake_item",
     "name": { "str_sp": "pulley lifting" },
+    "weight": "1 g",
+    "volume": "1 ml",
     "description": "This exists only to allow rope and pulley lifters to provide some engineering qualities.",
     "qualities": [ [ "LIFT", 1 ], [ "JACK", 1 ] ]
   },
@@ -340,6 +344,8 @@
     "name": { "str": "makeshift water purifier" },
     "description": "This is a pseudo item.",
     "material": [ "wood", "cotton" ],
+    "weight": "1 g",
+    "volume": "1 ml",
     "symbol": ";",
     "color": "light_gray",
     "sub": "water_purifier",

@@ -90,5 +90,29 @@
     "type": "requirement",
     "//": "Materials used for tying smaller items requiring less string, 6 g/15 cm of cordage per unit.",
     "components": [ [ [ "string_6", 1 ], [ "cordage_6", 1 ], [ "cordage_6_leather", 1 ], [ "filament", 50, "LIST" ] ] ]
+  },
+  {
+    "id": "butchery_large",
+    "type": "requirement",
+    "//": "Overrides quick butchery of large creatures to not need a fancy surface.",
+    "qualities": [ { "id": "CUT", "level": 1 } ]
+  },
+  {
+    "id": "dissect_large",
+    "type": "requirement",
+    "//": "Overrides dissection of large creatures to only need a basic surface.",
+    "qualities": [ { "id": "SURFACE", "level": 2 } ]
+  },
+  {
+    "id": "butchery_small",
+    "type": "requirement",
+    "//": "Overrides quick butchery of small creatures to not need a fancy surface.",
+    "qualities": [ { "id": "CUT", "level": 1 } ]
+  },
+  {
+    "id": "dissect_small",
+    "type": "requirement",
+    "//": "Overrides dissection of small creatures to not need a fancy surface.",
+    "qualities": [  ]
   }
 ]
