@@ -251,5 +251,26 @@
         "sealed_data": { "spoil_multiplier": 0.0 }
       }
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "spear_stone",
+    "id_suffix": "realism",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_PIERCING",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ "survival", 2 ],
+    "time": "30 m",
+    "obsolete": true,
+    "book_learn": [ [ "manual_survival", 2 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
+    "autolearn": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
+      [ [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
+      [ [ "adhesive", 1, "LIST" ] ],
+      [ [ "cordage_short", 2, "LIST" ] ]
+    ]
   }
 ]

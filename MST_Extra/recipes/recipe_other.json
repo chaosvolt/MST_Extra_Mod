@@ -11,8 +11,14 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_survival", 2 ], [ "mag_survival", 3 ] ],
     "using": [ [ "forging_standard", 1 ], [ "steel_tiny", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "components": [ [ [ "sharp_rock", 1 ] ] ]
+    "//": "The knapping would only require a hammering quality of 1, but forging the firesteel requires a hammering quality of 3.",
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "HAMMER_SOFT", "level": 1 },
+      { "id": "PUNCH", "level": 1 },
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [ [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -54,8 +60,9 @@
     "difficulty": 0,
     "time": 1000,
     "autolearn": true,
+    "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "rock", 1 ] ] ]
+    "components": [ [ [ "rock_flaking", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -195,7 +202,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
-      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
+      [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ],
       [ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
@@ -448,7 +455,7 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "pine_bough", 1 ] ],
+      [ [ "pine_bough", 1 ], [ "brain", 1 ] ],
       [ [ "saline", 2 ], [ "salt", 2 ] ],
       [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
       [ [ "cured_hide", 1 ] ]
@@ -474,7 +481,7 @@
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "pine_bough", 1 ] ],
+      [ [ "pine_bough", 1 ], [ "brain", 1 ] ],
       [ [ "saline", 2 ], [ "salt", 2 ] ],
       [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
       [ [ "cured_pelt", 1 ] ]
@@ -638,11 +645,17 @@
     "time": "25 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 1 ], [ "adhesive", 1 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "HAMMER_SOFT", "level": 1 },
+      { "id": "PUNCH", "level": 1 },
+      { "id": "CUT", "level": 1 }
+    ],
+    "proficiencies": [ { "proficiency": "prof_knapping", "required": true } ],
     "components": [
       [ [ "stick", 2 ], [ "2x4", 1 ] ],
       [ [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ],
-      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
+      [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ]
     ]
   },
   {

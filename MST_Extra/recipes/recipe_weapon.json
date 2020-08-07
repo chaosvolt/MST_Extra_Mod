@@ -22,12 +22,18 @@
     "difficulty": 2,
     "time": 10000,
     "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "HAMMER_SOFT", "level": 1 },
+      { "id": "PUNCH", "level": 1 },
+      { "id": "CUT", "level": 1 }
+    ],
+    "proficiencies": [ { "proficiency": "prof_knapping", "required": true } ],
     "components": [
       [ [ "spear_wood", 1 ], [ "pointy_stick", 1 ] ],
       [ [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
       [ [ "plant_fibre", 20 ], [ "sinew", 20 ], [ "thread", 20 ], [ "yarn", 20 ], [ "duct_tape", 20 ] ],
-      [ [ "rock", 1 ], [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ]
+      [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ]
     ]
   },
   {
@@ -64,25 +70,5 @@
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "using": [ [ "cordage", 3 ] ],
     "components": [ [ [ "2x4", 2 ], [ "stick", 4 ] ], [ [ "splinter", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "spear_stone",
-    "id_suffix": "realism",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_PIERCING",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "survival", 2 ],
-    "time": "30 m",
-    "book_learn": [ [ "manual_survival", 2 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
-    "autolearn": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [
-      [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
-      [ [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
-      [ [ "adhesive", 1, "LIST" ] ],
-      [ [ "cordage_short", 2, "LIST" ] ]
-    ]
   }
 ]
