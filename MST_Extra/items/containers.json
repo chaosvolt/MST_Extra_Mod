@@ -10,7 +10,7 @@
     "price": 2000,
     "to_hit": -1,
     "bashing": 1,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ")",
     "color": "light_gray",
 	"pocket_data": [
@@ -22,7 +22,7 @@
         "max_contains_weight": "3 kg"
       }
     ],
-    "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
+    "armor_data": { "covers": [ "leg_l", "leg_r" ], "sided": true, "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
     "flags": [ "WAIST" ]
   },
   {
@@ -34,7 +34,7 @@
     "weight": "150 g",
     "volume": "502 ml",
     "bashing": 4,
-    "material": "clay",
+    "material": [ "clay" ],
     "symbol": ")",
     "color": "brown",
 	"pocket_data": [
@@ -58,7 +58,7 @@
     "weight": "2725 g",
     "volume": "10 L",
     "price": 100,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ")",
     "color": "brown",
 	"pocket_data": [

@@ -8,7 +8,7 @@
     "volume": "250 ml",
     "price": 250,
     "cutting": 10,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ";",
     "color": "brown",
     "use_action": {
@@ -29,7 +29,7 @@
     "volume": "250 ml",
     "price": 100,
     "cutting": 6,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ";",
     "color": "brown",
     "use_action": {
@@ -50,7 +50,7 @@
     "volume": "250 ml",
     "price": 0,
     "to_hit": -1,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ";",
     "color": "brown"
   },
@@ -68,6 +68,7 @@
     "material": [ "stone", "wood" ],
     "symbol": ";",
     "color": "brown",
+    "qualities": [ [ "DIG", 1 ] ],
     "use_action": "MAKEMOUND"
   },
   {
@@ -78,7 +79,7 @@
     "name": { "str": "makeshift sled" },
     "description": "A simple pulk sled and folded framework that can hold a modest amount of gear, traditionally used to drag equipment across snowy terrain.",
     "price": 2000,
-    "material": "wood",
+    "material": [ "wood" ],
     "weight": "9500 g",
     "volume": "11250 ml",
     "bashing": 10,
@@ -98,7 +99,7 @@
     "name": { "str": "log canoe" },
     "description": "A traditional dugout boat made from logs burned and carved to shape, along with handmade oars.  Bulky as it is, it can still be picked up and carried by a reasonably fit person.  Use it to deploy and make ready.",
     "price": 20000,
-    "material": "wood",
+    "material": [ "wood" ],
     "weight": "26316 g",
     "volume": "26750 ml",
     "bashing": 20,
@@ -196,7 +197,6 @@
     "material": [ "clay" ],
     "color": "brown",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "lamp_oil": 250 } } ],
-    "initial_charges": 250,
     "max_charges": 250,
     "use_action": {
       "target": "oil_lamp_clay_on",
@@ -293,7 +293,7 @@
     "material": [ "stone", "wood" ],
     "symbol": ";",
     "color": "light_gray",
-    "ammo": "pitch_wood",
+    "ammo": [ "pitch_wood" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pitch_wood": 100 } } ],
     "max_charges": 100,
     "charges_per_use": 1,
@@ -329,7 +329,7 @@
     "weight": "1040 g",
     "volume": "2500 ml",
     "price": 0,
-    "material": "wood",
+    "material": [ "wood" ],
     "symbol": ",",
     "color": "brown",
     "initial_charges": 25,
