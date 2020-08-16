@@ -10,7 +10,8 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 15,
-    "damage": { "damage_type": "stab", "amount": 11, "armor_penetration": 1 },
+    "damage": 11,
+    "pierce": 1,
     "dispersion": 80,
     "loudness": 0,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 11 } ],
@@ -28,7 +29,8 @@
     "stack_size": 4,
     "ammo_type": "javelin",
     "range": 10,
-    "damage": { "damage_type": "stab", "amount": 17, "armor_penetration": 3 },
+    "damage": 17,
+    "pierce": 3,
     "dispersion": 80,
     "loudness": 0,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 17 } ],
@@ -40,14 +42,7 @@
     "type": "ARMOR",
     "copy-from": "javelin_bag",
     "name": "javelin bag",
-    "pocket_data": [
-      {
-        "ammo_restriction": {
-          "javelin": 4
-        },
-        "moves": 25
-      }
-    ]
+    "use_action": { "type": "bandolier", "capacity": 4, "ammo": [ "javelin" ], "draw_cost": 20 }
   },
   {
     "id": "char_purifier",
@@ -77,7 +72,7 @@
     "type": "AMMO",
     "name": "rubber slug",
     "ammo_type": "pebble",
-    "damage": { "damage_type": "bullet", "amount": 2 },
+    "damage": 1,
     "range": 10,
     "dispersion": 7,
     "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
@@ -88,7 +83,7 @@
     "type": "AMMO",
     "name": "petrified eye",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 7 },
+    "damage": 7,
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
@@ -99,7 +94,7 @@
     "type": "AMMO",
     "name": "spiral stone",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 7 },
+    "damage": 7,
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
@@ -110,7 +105,7 @@
     "type": "AMMO",
     "name": "chunk of sulfur",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 7 },
+    "damage": 7,
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON-FOULING" ] }
@@ -121,7 +116,7 @@
     "type": "AMMO",
     "name": "limestone",
     "ammo_type": "pebble",
-    "damage": { "damage_type": "bullet", "amount": 2 },
+    "damage": 2,
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
@@ -132,7 +127,7 @@
     "type": "AMMO",
     "name": "golf ball",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 3 },
+    "damage": 3,
     "range": 12,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
@@ -143,7 +138,7 @@
     "type": "AMMO",
     "name": "pool ball",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 6 },
+    "damage": 6,
     "range": 12,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
@@ -154,7 +149,7 @@
     "type": "AMMO",
     "name": "baseball",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 5 },
+    "damage": 5,
     "range": 14,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
@@ -165,7 +160,7 @@
     "type": "AMMO",
     "name": "Magic 8-Ball",
     "ammo_type": "rock",
-    "damage": { "damage_type": "stab", "amount": 4 },
+    "damage": 4,
     "range": 10,
     "dispersion": 14,
     "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
@@ -176,12 +171,5 @@
     "sub": "oil_lamp_on",
     "type": "TOOL",
     "name": { "str": "ember carrier (lit)", "str_pl": "ember carriers (lit)" }
-  },
-  {
-    "id": "tarp",
-    "copy-from": "tarp",
-    "type": "ARMOR",
-    "name": { "str": "tarpaulin" },
-    "qualities": [ [ "SURFACE", 3 ] ]
   }
 ]

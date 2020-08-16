@@ -11,14 +11,8 @@
     "autolearn": true,
     "book_learn": [ [ "textbook_survival", 2 ], [ "mag_survival", 3 ] ],
     "using": [ [ "forging_standard", 1 ], [ "steel_tiny", 1 ] ],
-    "//": "The knapping would only require a hammering quality of 1, but forging the firesteel requires a hammering quality of 3.",
-    "qualities": [
-      { "id": "HAMMER", "level": 3 },
-      { "id": "HAMMER_SOFT", "level": 1 },
-      { "id": "PUNCH", "level": 1 },
-      { "id": "CUT", "level": 1 }
-    ],
-    "components": [ [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ] ] ]
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "components": [ [ [ "sharp_rock", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -56,13 +50,12 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
-    "skills_required": [ "survival", 1 ],
-    "difficulty": 0,
+    "skills_required": [ "survival", 2 ],
+    "difficulty": 4,
     "time": 1000,
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "rock_flaking", 1 ] ] ]
+    "components": [ [ [ "rock", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -179,7 +172,7 @@
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "difficulty": 1,
     "skills_required": [ "survival", 1 ],
     "time": "60 m",
@@ -202,7 +195,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "CUT", "level": 1 } ],
     "components": [
       [ [ "stick", 1 ], [ "2x4", 1 ] ],
-      [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ],
+      [ [ "rock", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ],
       [ [ "cordage_short", 2, "LIST" ] ]
     ]
   },
@@ -441,7 +434,7 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
-    "skills_required": [ "chemistry", 1 ],
+    "skills_required": [ "cooking", 1 ],
     "difficulty": 2,
     "time": "10 m",
     "batch_time_factors": [ 20, 10 ],
@@ -467,7 +460,7 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
-    "skills_required": [ "chemistry", 1 ],
+    "skills_required": [ "cooking", 1 ],
     "difficulty": 2,
     "time": "10 m",
     "batch_time_factors": [ 20, 10 ],
@@ -493,7 +486,7 @@
     "id_suffix": "modern",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "survival", 2 ],
     "difficulty": 3,
     "time": "5 m",
@@ -514,7 +507,7 @@
     "id_suffix": "modern",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "chemistry",
+    "skill_used": "cooking",
     "skills_required": [ "survival", 2 ],
     "difficulty": 3,
     "time": "5 m",
@@ -647,15 +640,12 @@
     "using": [ [ "cordage_short", 1 ], [ "adhesive", 1 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 1 },
-      { "id": "HAMMER_SOFT", "level": 1 },
-      { "id": "PUNCH", "level": 1 },
       { "id": "CUT", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": true } ],
     "components": [
       [ [ "stick", 2 ], [ "2x4", 1 ] ],
       [ [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ],
-      [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ]
+      [ [ "rock", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ]
     ]
   },
   {

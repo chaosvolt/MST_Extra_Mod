@@ -114,7 +114,7 @@
     "id": "mound_distillation",
     "type": "TOOL",
     "copy-from": "fake_item",
-    "name": { "str_sp": "makeshift distillation" },
+    "name": { "str": "makeshift distillation", "str_pl": "makeshift distillation" },
     "weight": "1 g",
     "volume": "1 ml",
     "description": "This exists only to allow makeshift stills to provide distilling quality.",
@@ -124,7 +124,7 @@
     "id": "pulley lifting",
     "type": "TOOL",
     "copy-from": "fake_item",
-    "name": { "str_sp": "pulley lifting" },
+    "name": { "str": "pulley lifting", "str_pl": "pulley lifting" },
     "weight": "1 g",
     "volume": "1 ml",
     "description": "This exists only to allow rope and pulley lifters to provide some engineering qualities.",
@@ -195,8 +195,6 @@
     "price": 800,
     "material": [ "clay" ],
     "color": "brown",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "lamp_oil": 250 } } ],
-    "initial_charges": 250,
     "max_charges": 250,
     "use_action": {
       "target": "oil_lamp_clay_on",
@@ -230,7 +228,6 @@
     "description": "This is a small ceramic fire pot, with a lid and small holes for controlled airflow.  It can nurture a smoldering ember for a long time, to start fires without modern tools.",
     "material": "clay",
     "color": "brown",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "tinder": 100 } } ],
     "use_action": {
       "target": "tinderbox_clay_on",
       "msg": "You light the tinder.",
@@ -294,7 +291,6 @@
     "symbol": ";",
     "color": "light_gray",
     "ammo": "pitch_wood",
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pitch_wood": 100 } } ],
     "max_charges": 100,
     "charges_per_use": 1,
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 11 ], [ "SAW_W", 1 ] ],
@@ -368,7 +364,7 @@
     "material": "clay",
     "symbol": ")",
     "color": "brown",
-    "container_data": { "contains": "25 L", "watertight": true },
+    "contains": "25 L",
     "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
     "use_action": "HEAT_FOOD"
   }

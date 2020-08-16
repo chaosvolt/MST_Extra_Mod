@@ -98,7 +98,7 @@
     "color": "light_gray",
     "charges": 3,
     "stack_size": 9,
-    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 8, "bite": 0.75, "move_cost": 300 }
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.5, "bite": 0.75, "move_cost": 300 }
   },
   {
     "id": "posca",
@@ -159,7 +159,7 @@
     "type": "COMESTIBLE",
     "id": "tree_bacon",
     "looks_like": "bacon",
-    "name": { "str_sp": "roasted bark" },
+    "name": { "str": "roasted bark", "str_pl": "roasted bark" },
     "weight": "300 g",
     "color": "brown",
     "comestible_type": "FOOD",

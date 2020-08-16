@@ -387,18 +387,5 @@
       ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
-  },
-  {
-    "type": "recipe",
-    "result": "stone_chopper",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 1,
-    "time": "20 m",
-    "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ] ] ]
   }
 ]

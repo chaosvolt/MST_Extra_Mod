@@ -65,7 +65,7 @@
     "looks_like": "tanbark",
     "symbol": ",",
     "color": "brown",
-    "name": { "str_sp": "pinebark" },
+    "name": { "str": "pinebark", "str_pl": "pinebark" },
     "description": "A sheet of faintly resinous inner bark, stripped from a pine tree.",
     "price": 0,
     "price_postapoc": 0,
