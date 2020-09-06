@@ -2,6 +2,7 @@
   {
     "type": "recipe",
     "result": "atlatl",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "survival",
@@ -15,6 +16,7 @@
   {
     "type": "recipe",
     "result": "javelin_stone",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
@@ -39,6 +41,7 @@
   {
     "type": "recipe",
     "result": "javelin_copper",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
@@ -59,6 +62,7 @@
   {
     "type": "recipe",
     "result": "crossbow_makeshift",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",

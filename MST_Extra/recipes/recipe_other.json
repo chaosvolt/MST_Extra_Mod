@@ -2,12 +2,13 @@
   {
     "type": "recipe",
     "result": "flint_steel",
+    "activity_level": "BRISK_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
     "skills_required": [ "fabrication", 3 ],
     "difficulty": 4,
-    "time": 10000,
+    "time": "30 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_survival", 2 ], [ "mag_survival", 3 ] ],
     "using": [ [ "forging_standard", 1 ], [ "steel_tiny", 1 ] ],
@@ -23,12 +24,13 @@
   {
     "type": "recipe",
     "result": "cured_hide",
+    "activity_level": "NO_EXERCISE",
     "id_suffix": "drying",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
     "difficulty": 3,
-    "time": 56000,
+    "time": "10 m",
     "autolearn": true,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -38,12 +40,13 @@
   {
     "type": "recipe",
     "result": "cured_pelt",
+    "activity_level": "NO_EXERCISE",
     "id_suffix": "drying",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
     "difficulty": 3,
-    "time": 56000,
+    "time": "10 m",
     "autolearn": true,
     "batch_time_factors": [ 83, 5 ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -53,12 +56,13 @@
   {
     "type": "recipe",
     "result": "sharp_rock",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
     "skills_required": [ "survival", 1 ],
     "difficulty": 0,
-    "time": 1000,
+    "time": "1 m",
     "autolearn": true,
     "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
@@ -67,12 +71,13 @@
   {
     "type": "recipe",
     "result": "tarp",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
     "skills_required": [ "survival", 1 ],
     "difficulty": 1,
-    "time": 10000,
+    "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
@@ -83,12 +88,13 @@
   {
     "type": "recipe",
     "result": "snare_trigger",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
     "skill_used": "traps",
     "skills_required": [ "survival", 1 ],
     "difficulty": 0,
-    "time": 2000,
+    "time": "2 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
@@ -96,12 +102,13 @@
   {
     "type": "recipe",
     "result": "light_snare_kit",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
     "skill_used": "traps",
     "skills_required": [ "survival", 1 ],
     "difficulty": 1,
-    "time": 5000,
+    "time": "5 m",
     "reversible": true,
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
@@ -110,12 +117,13 @@
   {
     "type": "recipe",
     "result": "heavy_snare_kit",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
     "skill_used": "traps",
     "skills_required": [ "survival", 1 ],
     "difficulty": 3,
-    "time": 8000,
+    "time": "8 m",
     "reversible": true,
     "autolearn": true,
     "using": [ [ "rope_natural_short", 1 ] ],
@@ -124,6 +132,7 @@
   {
     "type": "recipe",
     "result": "waterskin",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "sealed_stomach",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -137,6 +146,7 @@
   {
     "type": "recipe",
     "result": "waterskin2",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "sealed_stomach",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
@@ -150,6 +160,7 @@
   {
     "type": "recipe",
     "result": "tree_spile",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "bone",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -164,6 +175,7 @@
   {
     "type": "recipe",
     "result": "hand_paddles",
+    "activity_level": "MODERATE_EXERCISE",
     "id_suffix": "cordage",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -177,6 +189,7 @@
   {
     "result": "tar_oil",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "chemistry",
@@ -192,6 +205,7 @@
   {
     "type": "recipe",
     "result": "primitive_hoe",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -209,6 +223,7 @@
   {
     "type": "recipe",
     "result": "makeshift_sled_frame_item",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -222,6 +237,7 @@
   {
     "type": "recipe",
     "result": "makeshift_sled_runners_item",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -235,6 +251,7 @@
   {
     "type": "recipe",
     "result": "makeshift_sled_basket_item",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -248,6 +265,7 @@
   {
     "type": "recipe",
     "result": "makeshift_sled_item",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -266,6 +284,7 @@
   {
     "type": "recipe",
     "result": "makeshift_sled_item",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "assembly",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
@@ -284,6 +303,7 @@
   {
     "type": "recipe",
     "result": "beehive_empty",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -298,6 +318,7 @@
   {
     "type": "recipe",
     "result": "log_frame_item",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -312,6 +333,7 @@
   {
     "type": "recipe",
     "result": "log_canoe_item",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -326,6 +348,7 @@
   {
     "result": "canteen_birchbark",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
     "skill_used": "tailor",
@@ -344,6 +367,7 @@
   {
     "type": "recipe",
     "result": "jar_clay",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
     "skill_used": "fabrication",
@@ -358,6 +382,7 @@
   {
     "result": "makeshift_poultice",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
     "skill_used": "firstaid",
@@ -385,6 +410,7 @@
   {
     "result": "makeshift_poultice",
     "suffix": "wet",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MEDICAL",
@@ -425,6 +451,7 @@
   {
     "type": "recipe",
     "result": "tarp_raincatcher_leather",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -438,6 +465,7 @@
   {
     "type": "recipe",
     "result": "tanning_hide_small",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
@@ -464,6 +492,7 @@
   {
     "type": "recipe",
     "result": "tanning_pelt_small",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
@@ -490,6 +519,7 @@
   {
     "type": "recipe",
     "result": "tanning_hide_small",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "modern",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -511,6 +541,7 @@
   {
     "type": "recipe",
     "result": "tanning_pelt_small",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "modern",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -532,6 +563,7 @@
   {
     "result": "side_drum_makeshift",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -551,6 +583,7 @@
   {
     "type": "recipe",
     "result": "pot_canning_clay",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
     "skill_used": "fabrication",
@@ -564,6 +597,7 @@
   {
     "type": "recipe",
     "result": "bucket_log",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",
     "skill_used": "fabrication",
@@ -577,6 +611,7 @@
   {
     "type": "recipe",
     "result": "oil_lamp_clay",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -590,6 +625,7 @@
   {
     "type": "recipe",
     "result": "tinderbox_clay",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -604,6 +640,7 @@
   {
     "type": "recipe",
     "result": "hobo_stove_clay",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -618,6 +655,7 @@
   {
     "type": "recipe",
     "result": "misc_repairkit_makeshift",
+    "activity_level": "NO_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -637,6 +675,7 @@
   {
     "type": "recipe",
     "result": "hand_drill_makeshift",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -661,6 +700,7 @@
   {
     "type": "recipe",
     "result": "fire_plough",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -676,6 +716,7 @@
   {
     "type": "recipe",
     "result": "cordage_6_leather",
+    "activity_level": "LIGHT_EXERCISE",
     "result_mult": 3,
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -688,6 +729,7 @@
   {
     "type": "recipe",
     "result": "cordage_36_leather",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
@@ -699,6 +741,7 @@
   {
     "type": "recipe",
     "result": "cordage_36_leather",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "weaving",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",

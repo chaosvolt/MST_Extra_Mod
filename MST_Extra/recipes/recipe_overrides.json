@@ -2,12 +2,13 @@
   {
     "type": "recipe",
     "result": "bearing",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
     "skills_required": [ "gun", 2 ],
     "difficulty": 2,
-    "time": 45000,
+    "time": "45 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_fabrication", 1 ] ],
     "using": [ [ "forging_standard", 5 ] ],
@@ -19,17 +20,19 @@
   {
     "type": "recipe",
     "result": "plant_fibre",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "survival",
     "difficulty": 1,
-    "time": 6000,
+    "time": "6 m",
     "autolearn": true,
     "components": [ [ [ "dogbane", 1 ], [ "cattail_stalk", 1 ], [ "weed", 1 ] ] ]
   },
   {
     "result": "chestwrap_fur",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
@@ -42,6 +45,7 @@
   {
     "result": "chestwrap_leather",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
@@ -54,6 +58,7 @@
   {
     "result": "gloves_wraps_fur",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -66,6 +71,7 @@
   {
     "result": "gloves_wraps_leather",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -78,6 +84,7 @@
   {
     "result": "loincloth_fur",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
     "skill_used": "tailor",
@@ -89,6 +96,7 @@
   {
     "result": "loincloth_leather",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_LEGS",
     "skill_used": "tailor",
@@ -100,6 +108,7 @@
   {
     "result": "footrags_fur",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
@@ -112,6 +121,7 @@
   {
     "result": "footrags_leather",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
@@ -124,6 +134,7 @@
   {
     "type": "recipe",
     "result": "hand_paddles",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -136,6 +147,7 @@
   {
     "result": "footrags",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
@@ -148,6 +160,7 @@
   {
     "result": "footrags_wool",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "tailor",
@@ -160,6 +173,7 @@
   {
     "result": "gloves_wraps",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -172,6 +186,7 @@
   {
     "result": "gloves_wraps_wool",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "tailor",
@@ -184,6 +199,7 @@
   {
     "result": "chestwrap",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
@@ -196,6 +212,7 @@
   {
     "result": "chestwrap_wool",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_TORSO",
     "skill_used": "tailor",
@@ -208,6 +225,7 @@
   {
     "type": "recipe",
     "result": "water_clean",
+    "activity_level": "NO_EXERCISE",
     "category": "CC_FOOD",
     "id_suffix": "using_water_purifier",
     "subcategory": "CSC_FOOD_DRINKS",
@@ -221,6 +239,7 @@
   {
     "type": "recipe",
     "result": "screwdriver",
+    "activity_level": "BRISK_EXERCISE",
     "id_suffix": "forged",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -236,6 +255,7 @@
   {
     "type": "recipe",
     "result": "pliers",
+    "activity_level": "BRISK_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
@@ -249,6 +269,7 @@
   {
     "type": "recipe",
     "result": "pot_makeshift",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "survival",
@@ -262,6 +283,7 @@
   {
     "type": "recipe",
     "result": "pemmican",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",
@@ -305,6 +327,7 @@
   {
     "type": "recipe",
     "result": "deluxe_eggs",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
     "skill_used": "cooking",
@@ -347,6 +370,7 @@
   {
     "type": "recipe",
     "result": "deluxe_eggs",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "from_powder",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
@@ -391,6 +415,7 @@
   {
     "type": "recipe",
     "result": "stone_chopper",
+    "activity_level": "MODERATE_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",

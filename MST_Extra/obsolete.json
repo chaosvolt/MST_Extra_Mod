@@ -104,113 +104,35 @@
   {
     "type": "recipe",
     "result": "tanning_hide_small",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "10 m",
-    "batch_time_factors": [ 20, 10 ],
-    "obsolete": true,
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "COOK", "level": 2 },
-      { "id": "BOIL", "level": 1 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "pine_bough", 1 ] ],
-      [ [ "saline", 2 ], [ "salt", 2 ] ],
-      [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
-      [ [ "cured_hide_small", 1 ] ]
-    ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "cured_hide_small",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "6 m",
-    "obsolete": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "cured_hide_small",
     "id_suffix": "scraped",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "difficulty": 1,
-    "time": "4 m",
-    "obsolete": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "cured_pelt_small", 1 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "cured_pelt_small",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "6 m",
-    "obsolete": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "saline", 2 ], [ "salt", 2 ] ], [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "cured_hide_small",
     "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "18 m",
-    "obsolete": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "raw_leather", 10 ], [ "raw_tainted_leather", 10 ], [ "raw_hleather", 10 ] ] ]
+    "obsolete": true
   },
   {
     "type": "recipe",
     "result": "cured_pelt_small",
     "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 2 ],
-    "difficulty": 3,
-    "time": "18 m",
-    "obsolete": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 3, "LIST" ] ] ],
-    "components": [ [ [ "raw_fur", 10 ], [ "raw_tainted_fur", 10 ] ] ]
-  },
-  {
-    "result": "cured_hide",
-    "type": "uncraft",
-    "time": "1 m",
-    "components": [ [ [ "cured_hide_small", 5 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "cured_pelt",
-    "type": "uncraft",
-    "time": "1 m",
-    "components": [ [ [ "cured_pelt_small", 5 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "obsolete": true
   },
   {
     "type": "recipe",
@@ -256,21 +178,12 @@
     "type": "recipe",
     "result": "spear_stone",
     "id_suffix": "realism",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_PIERCING",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "skills_required": [ "survival", 2 ],
-    "time": "30 m",
-    "obsolete": true,
-    "book_learn": [ [ "manual_survival", 2 ], [ "textbook_survival", 2 ], [ "survival_book", 2 ] ],
-    "autolearn": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [
-      [ [ "stick_long", 1 ], [ "long_pole", 1 ], [ "pool_cue", 1 ] ],
-      [ [ "ceramic_shard", 1 ], [ "sharp_rock", 1 ] ],
-      [ [ "adhesive", 1, "LIST" ] ],
-      [ [ "cordage_short", 2, "LIST" ] ]
-    ]
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "id_suffix": "distillation",
+    "obsolete": true
   }
 ]
