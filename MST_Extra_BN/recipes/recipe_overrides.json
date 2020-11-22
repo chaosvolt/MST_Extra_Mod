@@ -26,7 +26,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur", 12 ], [ "cured_pelt", 12 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "chestwrap_leather",
@@ -38,7 +38,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "leather", 12 ], [ "cured_hide", 12 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "gloves_wraps_fur",
@@ -50,7 +50,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur", 6 ], [ "cured_pelt", 6 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "gloves_wraps_leather",
@@ -62,7 +62,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "leather", 6 ], [ "cured_hide", 6 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "loincloth_fur",
@@ -73,7 +73,8 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "fur", 2 ], [ "cured_pelt", 2 ] ] ]
+    "components": [ [ [ "fur", 2 ], [ "cured_pelt", 2 ] ] ],
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "loincloth_leather",
@@ -84,7 +85,8 @@
     "time": "1 m",
     "reversible": true,
     "autolearn": true,
-    "components": [ [ [ "leather", 2 ], [ "cured_hide", 2 ] ] ]
+    "components": [ [ [ "leather", 2 ], [ "cured_hide", 2 ] ] ],
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "footrags_fur",
@@ -96,7 +98,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "fur", 9 ], [ "cured_pelt", 9 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "result": "footrags_leather",
@@ -108,79 +110,7 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "leather", 9 ], [ "cured_hide", 9 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "footrags",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "rag", 6 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "footrags_wool",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "felt_patch", 6 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "gloves_wraps",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HANDS",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "rag", 4 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "gloves_wraps_wool",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HANDS",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "felt_patch", 4 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "chestwrap",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "rag", 9 ] ] ],
-    "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "result": "chestwrap_wool",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "felt_patch", 9 ] ] ],
-    "flags": [ "BLIND_EASY" ]
+    "flags": [ "BLIND_HARD" ]
   },
   {
     "type": "recipe",
@@ -194,21 +124,6 @@
     "tools": [ [ [ "water_purifier", 1 ], [ "pur_tablets", 1 ], [ "char_purifier", 1 ] ] ],
     "components": [ [ [ "water", 1 ] ] ],
     "flags": [ "BLIND_EASY" ]
-  },
-  {
-    "type": "recipe",
-    "result": "screwdriver",
-    "id_suffix": "forged",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 6,
-    "time": "180 m",
-    "autolearn": true,
-    "using": [ [ "forging_standard", 10 ], [ "steel_tiny", 1 ] ],
-    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
-    "components": [ [ [ "plastic_chunk", 1 ], [ "stick", 1 ], [ "2x4", 1 ] ] ]
   },
   {
     "type": "recipe",
