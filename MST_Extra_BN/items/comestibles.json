@@ -17,14 +17,14 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str_sp": "tar oil" },
-    "description": "A thick, runny tar typically made from birch bark or pine.  Among various historical uses, it is also used as an antiseptic and astringent.",
+    "description": "A thick, runny tar typically made from birch bark or pine.  Among various historical uses, it is also used as an antiseptic.",
     "weight": "40 g",
     "volume": "250 ml",
     "material": [ "oil" ],
     "symbol": "~",
     "color": "yellow",
     "phase": "liquid",
-    "use_action": { "type": "heal", "disinfectant_power": 2, "bleed": 2, "bite": 0.8, "move_cost": 100 }
+    "use_action": { "type": "heal", "disinfectant_power": 2, "bite": 0.8, "move_cost": 100 }
   },
   {
     "type": "COMESTIBLE",
@@ -96,7 +96,7 @@
     "color": "light_gray",
     "charges": 3,
     "stack_size": 9,
-    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 8, "bite": 0.75, "move_cost": 300 }
+    "use_action": { "type": "heal", "bandages_power": 3, "bleed": 0.75, "bite": 0.75, "move_cost": 300 }
   },
   {
     "id": "posca",
