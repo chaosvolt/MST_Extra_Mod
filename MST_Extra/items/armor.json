@@ -19,54 +19,6 @@
     "flags": [ "VARSIZE", "SUN_GLASSES", "WATERPROOF" ]
   },
   {
-    "id": "pack_basket",
-    "type": "ARMOR",
-    "name": "pack basket",
-    "description": "A large hand made straw basket, with shoulder straps to wear like a backpack.",
-    "weight": "300 g",
-    "volume": "8004 ml",
-    "price": 1000,
-    "to_hit": -1,
-    "material": [ "paper" ],
-    "symbol": "[",
-    "color": "light_gray",
-    "covers": [ "torso" ],
-    "coverage": 30,
-    "encumbrance": 12,
-    "pocket_data": [ { "pocket_type": "CONTAINER", "rigid": true, "max_contains_volume": "8 L", "max_contains_weight": "16 kg", "moves": 300 } ],
-    "material_thickness": 2,
-    "flags": [ "BELTED", "WATER_FRIENDLY" ]
-  },
-  {
-    "id": "sheath_birchbark",
-    "type": "ARMOR",
-    "name": "birchbark sheath",
-    "name_plural": "birchbark sheathes",
-    "description": "A hand made sheath made from birch bark, for holding knives and other small blades.  Activate to sheathe/draw a weapon.",
-    "weight": "200 g",
-    "volume": "500 ml",
-    "price": 1500,
-    "material": [ "paper" ],
-    "symbol": "|",
-    "color": "light_gray",
-    "covers": [ "leg_l", "leg_r" ],
-    "sided": true,
-    "coverage": 7,
-    "material_thickness": 1,
-    "pocket_data": [
-      {
-        "holster": true,
-        "max_contains_volume": "750 ml",
-        "max_contains_weight": "2 kg",
-        "max_item_length": "70 cm",
-        "moves": 3,
-        "flag_restriction": [ "SHEATH_KNIFE" ]
-      }
-    ],
-    "use_action": { "type": "holster", "holster_prompt": "Sheath knife", "holster_msg": "You sheath your %s" },
-    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
-  },
-  {
     "id": "armwrap_leather",
     "type": "ARMOR",
     "name": "leather armwraps",
