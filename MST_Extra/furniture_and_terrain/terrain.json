@@ -58,9 +58,7 @@
     "move_cost": 0,
     "transforms_into": "t_hive_recovering",
     "examine_action": "harvest_ter",
-    "harvest_by_season": [
-      { "seasons": [ "spring", "summer", "autumn", "winter" ], "entries": [ { "drop": "honeycomb", "base_num": [ 1, 8 ] } ] }
-    ],
+    "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "hive_ready_harv" } ],
     "deconstruct": {
       "ter_set": "t_dirt",
       "items": [ { "item": "beehive_empty", "count": 1 }, { "item": "honeycomb", "count": [ 1, 6 ] } ]
