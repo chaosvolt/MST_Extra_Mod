@@ -220,5 +220,15 @@
     "type": "recipe",
     "result": "hat_hooded",
     "obsolete": true
+  },
+  {
+    "id": "cattail_rhizome_cooked",
+    "type": "MIGRATION",
+    "replace": "roasted_cattail_rhizome"
+  },
+  {
+    "type": "recipe",
+    "result": "cattail_rhizome_cooked",
+    "obsolete": true
   }
 ]
