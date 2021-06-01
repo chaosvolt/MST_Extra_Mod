@@ -162,7 +162,6 @@
   {
     "type": "construction",
     "id": "constr_mst_well_bucket",
-    "group": "build_water_well",
     "description": "Add Bucket And Pulley To Covered Well",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 4 ], [ "survival", 4 ] ],
