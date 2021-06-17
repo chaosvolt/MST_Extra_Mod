@@ -147,7 +147,7 @@
     "move_cost": 0,
     "roof": "t_flat_roof",
     "flags": [ "FLAMMABLE_HARD", "DOOR", "NOITEM", "CONNECT_TO_WALL", "EASY_DECONSTRUCT" ],
-    "open": "t_door_curtain_o",
+    "open": "t_door_curtain_leather_o",
     "deconstruct": {
       "ter_set": "t_dirt",
       "items": [ { "item": "stick", "count": 1 }, { "item": "leather_tarp", "count": 1 }, { "item": "withered", "count": 12 } ]
@@ -174,7 +174,7 @@
     "name": "open leather door curtain",
     "description": "Hides from an animal hung up as a door.  Could be easily taken down for supplies or placed somewhere else.  These curtains are open, bundled and tied next to the doorway.",
     "symbol": "'",
-    "looks_like": "t_door_curtain_o",
+    "looks_like": "t_door_curtain_leather_c",
     "color": "dark_gray",
     "move_cost": 2,
     "roof": "t_flat_roof",
