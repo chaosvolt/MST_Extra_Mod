@@ -12,6 +12,24 @@
     "components": [ [ [ "wax", 1 ], [ "pine_bough", 5 ], [ "pitch_wood", 50 ] ] ]
   },
   {
+    "id": "fletching",
+    "type": "requirement",
+    "//": "Materials for fletching arrows.",
+    "components": [
+      [
+        [ "feather", 10 ],
+        [ "duct_tape", 40 ],
+        [ "cardboard", 10 ],
+        [ "bag_plastic", 1 ],
+        [ "bottle_plastic_small", 1 ],
+        [ "plastic_chunk", 1 ],
+        [ "aluminum_foil", 40 ],
+        [ "cash_card", 2 ],
+        [ "birchbark", 1 ]
+      ]
+    ]
+  },
+  {
     "id": "meat_nofish",
     "type": "requirement",
     "//": "Any type of raw meat except for fish.  About 300-400kcal of meat.",
