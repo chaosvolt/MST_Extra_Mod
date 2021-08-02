@@ -6,7 +6,6 @@
     "category": "tools",
     "weight": "1800 g",
     "color": "brown",
-    "initial_charges": 1,
     "use_action": {
       "type": "musical_instrument",
       "speed_penalty": 15,
