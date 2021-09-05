@@ -54,7 +54,6 @@
     "environmental_protection": 1,
     "environmental_protection_with_filter": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gasfilter_m": 100 } } ],
-    "max_charges": 100,
     "ammo": [ "gasfilter_m" ],
     "use_action": "GASMASK",
     "flags": [ "OUTER", "HELMET_COMPAT" ],
