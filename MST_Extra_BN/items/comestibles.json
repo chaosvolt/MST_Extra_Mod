@@ -181,9 +181,10 @@
       { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str_sp": "potted person" } },
       { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str_sp": "potted freak" } }
     ],
-    "weight": "310 g",
+    "weight": "155 g",
     "container": "can_medium",
-    "calories": 503,
+    "calories": 452,
+    "charges": 2,
     "description": "Meat cooked and preserved in butter or melted fat, a form of food preservation from the days before canning.  Also known as confit.  Rich and fattening, it will last for a long time.",
     "price": "12 USD",
     "price_postapoc": "4 USD",
