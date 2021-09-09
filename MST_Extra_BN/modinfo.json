@@ -5,7 +5,7 @@
     "name": "MST Extra",
     "authors": [ "Chaosvolt" ],
     "description": "The sequeal to CDDA's old More Survival Tools mod, adding additional useful innawoods content.",
-    "version": "BN version, update 9/6/2021",
+    "version": "BN version, update 9/9/2021",
     "category": "items",
     "dependencies": [ "dda" ]
   }
