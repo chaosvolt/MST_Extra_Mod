@@ -348,7 +348,8 @@
     "color": "light_gray",
     "sub": "water_purifier",
     "ammo": "charcoal",
-    "max_charges": 500,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "charcoal": 500 } } ],
+    "charges_per_use": 1,
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
