@@ -94,6 +94,7 @@
     "price": 5500,
     "looks_like": "blanket",
     "repairs_like": "blanket",
+    "material": [ "cotton" ],
     "color": "blue",
     "warmth": 50,
     "material_thickness": 3,
@@ -110,6 +111,7 @@
     "volume": "31 L",
     "price": 5500,
     "price_postapoc": 150,
+    "material": [ "cotton" ],
     "looks_like": "down_blanket",
     "repairs_like": "down_blanket",
     "color": "blue",
@@ -145,6 +147,7 @@
     "description": "A leather quiver worn at the waist, lengthened to hold atlatl darts.  Activate to store up to 10 darts.",
     "weight": "400 g",
     "volume": "1 L",
+    "material": [ "leather" ],
     "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ],
     "armor": [ { "encumbrance": 5, "coverage": 15, "covers": [ "leg_l", "leg_r" ] } ]
   },
@@ -156,6 +159,7 @@
     "description": "A quiver woven from strips of birch bark, worn at the waist, lengthened to hold atlatl darts.  Activate to store up to 10 darts.",
     "weight": "800 g",
     "volume": "1 L",
+    "material": [ "wood" ],
     "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ],
     "armor": [ { "encumbrance": 15, "coverage": 15, "covers": [ "leg_l", "leg_r" ] } ]
   }

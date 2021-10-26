@@ -10,7 +10,6 @@
     "price": 2000,
     "to_hit": -1,
     "bashing": 1,
-    "material": [ "wood" ],
     "symbol": ")",
     "color": "light_gray",
 	"pocket_data": [
@@ -23,6 +22,7 @@
       }
     ],
     "armor_data": {
+      "material": [ "wood" ],
       "sided": true,
       "material_thickness": 1,
       "armor": [ { "encumbrance": 4, "coverage": 10, "covers": [ "leg_l", "leg_r" ] } ]
