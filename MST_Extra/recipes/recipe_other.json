@@ -358,11 +358,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [
-      [ [ "birchbark", 7 ] ],
-      [ [ "cordage_short", 4, "LIST" ] ],
-      [ [ "pine_bough", 10 ], [ "pitch_wood", 100 ] ]
-    ]
+    "components": [ [ [ "birchbark", 7 ] ], [ [ "cordage_short", 4, "LIST" ] ], [ [ "pine_bough", 10 ], [ "pitch_wood", 100 ] ] ]
   },
   {
     "type": "recipe",
@@ -398,57 +394,24 @@
     "tools": [ [ [ "mortar_pestle", -1 ], [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "food_processor", 20 ] ] ],
     "components": [
       [
-        [ "rag", 5 ],
-        [ "felt_patch", 5 ],
-        [ "leather", 5 ],
-        [ "tanned_hide", 1 ],
-        [ "fur", 5 ],
-        [ "tanned_pelt", 1 ],
-        [ "cured_hide", 5 ],
-        [ "cured_pelt", 5 ],
-        [ "birchbark", 5 ]
+        [ "rag", 3 ],
+        [ "felt_patch", 3 ],
+        [ "leather", 3 ],
+        [ "fur", 3 ],
+        [ "cured_hide", 3 ],
+        [ "cured_pelt", 3 ],
+        [ "birchbark", 3 ]
       ],
-      [ [ "thyme", 2 ], [ "garlic", 1 ], [ "garlic_clove", 6 ], [ "raw_dandelion", 8 ] ]
-    ]
-  },
-  {
-    "result": "makeshift_poultice",
-    "id_suffix": "wet",
-    "activity_level": "LIGHT_EXERCISE",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MEDICAL",
-    "skill_used": "firstaid",
-    "difficulty": 0,
-    "skills_required": [ "survival", 2 ],
-    "time": "2 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [
       [
-        [ "rag", 5 ],
-        [ "felt_patch", 5 ],
-        [ "leather", 5 ],
-        [ "tanned_hide", 1 ],
-        [ "fur", 5 ],
-        [ "tanned_pelt", 1 ],
-        [ "cured_hide", 5 ],
-        [ "cured_pelt", 5 ],
-        [ "birchbark", 5 ]
-      ],
-      [ [ "thyme_oil", 1 ], [ "tar_oil", 1 ], [ "honey_glassed", 5 ], [ "honey_bottled", 5 ], [ "oil_garlic", 6 ] ],
-      [
-        [ "rag", 2 ],
-        [ "felt_patch", 2 ],
-        [ "withered", 2 ],
-        [ "straw_pile", 2 ],
-        [ "clay_lump", 2 ],
-        [ "charcoal", 2 ],
-        [ "cattail_stalk", 2 ],
-        [ "flour", 2 ],
-        [ "cornmeal", 2 ],
-        [ "oatmeal", 2 ],
-        [ "tinder", 25 ]
+        [ "thyme", 2 ],
+        [ "thyme_oil", 1 ],
+        [ "garlic", 1 ],
+        [ "garlic_clove", 6 ],
+        [ "oil_garlic", 6 ],
+        [ "raw_dandelion", 8 ],
+        [ "tar_oil", 1 ],
+        [ "honey_glassed", 5 ],
+        [ "honey_bottled", 5 ]
       ]
     ]
   },
@@ -579,7 +542,7 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "SEW", "level": 1 } ],
     "components": [
       [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "cured_hide", 1 ], [ "tanned_hide", 6 ] ],
+      [ [ "tanned_hide", 1 ], [ "cured_hide", 6 ], [ "leather", 6 ] ],
       [ [ "cordage_short", 6, "LIST" ] ],
       [ [ "log", 1 ] ]
     ]
@@ -646,7 +609,7 @@
     "autolearn": true,
     "using": [ [ "earthenware_firing", 90 ] ],
     "proficiencies": [ { "proficiency": "prof_pottery", "required": false, "time_multiplier": 2 } ],
-    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ] ] 
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -720,10 +683,7 @@
     "time": "50 m",
     "autolearn": true,
     "flags": [ "BLIND_EASY" ],
-    "components": [
-      [ [ "stick", 1 ], [ "2x4", 1 ], [ "pointy_stick", 1 ] ],
-      [ [ "stick", 1 ], [ "2x4", 1 ] ]
-    ]
+    "components": [ [ [ "stick", 1 ], [ "2x4", 1 ], [ "pointy_stick", 1 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
   },
   {
     "type": "recipe",

@@ -252,5 +252,11 @@
       "sound_fail": "clang!",
       "items": [ { "item": "hobo_stove", "count": 1 } ]
     }
+  },
+  {
+    "type": "recipe",
+    "result": "makeshift_poultice",
+    "id_suffix": "wet",
+    "obsolete": true
   }
 ]
