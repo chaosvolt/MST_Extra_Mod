@@ -10,10 +10,12 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "brown",
+    "covers": [ "arm_l", "arm_r" ],
+    "coverage": 50,
+    "encumbrance": 5,
     "warmth": 15,
     "material_thickness": 1,
-    "flags": [ "OVERSIZE" ],
-    "armor": [ { "encumbrance": 5, "coverage": 50, "covers": [ "arm_l", "arm_r" ] } ]
+    "flags": [ "OVERSIZE" ]
   },
   {
     "id": "armwrap_fur",
@@ -26,10 +28,12 @@
     "material": [ "fur" ],
     "symbol": "[",
     "color": "brown",
+    "covers": [ "arm_l", "arm_r" ],
+    "coverage": 50,
+    "encumbrance": 5,
     "warmth": 20,
     "material_thickness": 1,
-    "flags": [ "OVERSIZE" ],
-    "armor": [ { "encumbrance": 5, "coverage": 50, "covers": [ "arm_l", "arm_r" ] } ]
+    "flags": [ "OVERSIZE" ]
   },
   {
     "id": "legwrap_leather",
@@ -42,10 +46,12 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "brown",
+    "covers": [ "leg_l", "leg_r" ],
+    "coverage": 50,
+    "encumbrance": 5,
     "warmth": 15,
     "material_thickness": 1,
-    "flags": [ "OVERSIZE" ],
-    "armor": [ { "encumbrance": 5, "coverage": 50, "covers": [ "leg_l", "leg_r" ] } ]
+    "flags": [ "OVERSIZE" ]
   },
   {
     "id": "legwrap_fur",
@@ -58,10 +64,12 @@
     "material": [ "fur" ],
     "symbol": "[",
     "color": "brown",
+    "covers": [ "leg_l", "leg_r" ],
+    "coverage": 50,
+    "encumbrance": 5,
     "warmth": 20,
     "material_thickness": 1,
-    "flags": [ "OVERSIZE" ],
-    "armor": [ { "encumbrance": 5, "coverage": 50, "covers": [ "leg_l", "leg_r" ] } ]
+    "flags": [ "OVERSIZE" ]
   },
   {
     "id": "cloak_makeshift_sheet",
@@ -78,10 +86,12 @@
     "looks_like": "sheet",
     "repairs_like": "sheet",
     "color": "white",
+    "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ],
+    "coverage": 85,
+    "encumbrance": 10,
     "warmth": 10,
     "material_thickness": 1,
-    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
-    "armor": [ { "encumbrance": 10, "coverage": 85, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
   },
   {
     "id": "cloak_makeshift_blanket",
@@ -94,12 +104,11 @@
     "price": 5500,
     "looks_like": "blanket",
     "repairs_like": "blanket",
-    "material": [ "cotton" ],
     "color": "blue",
+    "encumbrance": 30,
     "warmth": 50,
     "material_thickness": 3,
-    "environmental_protection": 1,
-    "armor": [ { "encumbrance": 30, "coverage": 85, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "environmental_protection": 1
   },
   {
     "id": "cloak_makeshift_down_blanket",
@@ -111,14 +120,13 @@
     "volume": "31 L",
     "price": 5500,
     "price_postapoc": 150,
-    "material": [ "cotton" ],
     "looks_like": "down_blanket",
     "repairs_like": "down_blanket",
     "color": "blue",
+    "encumbrance": 40,
     "warmth": 70,
     "material_thickness": 3,
-    "environmental_protection": 1,
-    "armor": [ { "encumbrance": 40, "coverage": 85, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "environmental_protection": 1
   },
   {
     "id": "cloak_makeshift_fur_blanket",
@@ -134,10 +142,10 @@
     "looks_like": "fur_blanket",
     "repairs_like": "fur_blanket",
     "color": "brown",
+    "encumbrance": 50,
     "warmth": 80,
     "material_thickness": 4,
-    "environmental_protection": 1,
-    "armor": [ { "encumbrance": 50, "coverage": 85, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "environmental_protection": 1
   },
   {
     "id": "quiver_atlatl",
@@ -147,16 +155,9 @@
     "description": "A leather quiver worn at the waist, lengthened to hold atlatl darts.  Activate to store up to 10 darts.",
     "weight": "400 g",
     "volume": "1 L",
-    "material": [ "leather" ],
-    "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ],
-    "armor": [
-      {
-        "encumbrance": 5,
-        "coverage": 15,
-        "covers": [ "leg_l", "leg_r" ],
-        "specifically_covers": [ "leg_upper_l", "leg_upper_r" ]
-      }
-    ]
+    "coverage": 15,
+    "encumbrance": 5,
+    "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ]
   },
   {
     "id": "quiver_birchbark_atlatl",
@@ -166,15 +167,8 @@
     "description": "A quiver woven from strips of birch bark, worn at the waist, lengthened to hold atlatl darts.  Activate to store up to 10 darts.",
     "weight": "800 g",
     "volume": "1 L",
-    "material": [ "wood" ],
-    "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ],
-    "armor": [
-      {
-        "encumbrance": 15,
-        "coverage": 15,
-        "covers": [ "leg_l", "leg_r" ],
-        "specifically_covers": [ "leg_upper_l", "leg_upper_r" ]
-      }
-    ]
+    "coverage": 15,
+    "encumbrance": 15,
+    "pocket_data": [ { "ammo_restriction": { "atlatl": 10 }, "moves": 30 } ]
   }
 ]
