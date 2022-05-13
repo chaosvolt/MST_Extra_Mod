@@ -298,9 +298,8 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "skills_required": [ "survival", 2 ],
-    "time": "20 m",
+    "time": "12 m",
     "autolearn": true,
-    "tools": [ [ [ "fire", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
     "components": [ [ [ "log", 1 ] ] ]
   },
@@ -316,7 +315,7 @@
     "autolearn": true,
     "tools": [ [ [ "fire", -1 ] ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "log", 3 ] ], [ [ "hand_paddles", 1 ] ] ]
+    "components": [ [ [ "log", 3 ], [ "log_frame_item", 3 ] ], [ [ "hand_paddles", 1 ] ] ]
   },
   {
     "result": "canteen_birchbark",
