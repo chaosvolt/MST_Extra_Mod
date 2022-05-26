@@ -1,0 +1,1614 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MST_Extra\n"
+"POT-Creation-Date: 2022-05-26 16:36+0600\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\effects.json
+msgid "Stuck in a light snare"
+msgstr ""
+
+#. ~ Description of effect 'Stuck in a light snare'.
+#. ~ Description of effect 'Stuck in a heavy snare'.
+#: .\effects.json
+msgid "You can't move until you get free!"
+msgstr ""
+
+#. ~ Apply message for effect(s) 'Stuck in a light snare'.
+#. ~ Apply message for effect(s) 'Stuck in a heavy snare'.
+#: .\effects.json
+msgid "You are snared!"
+msgstr ""
+
+#: .\effects.json
+msgid "Stuck in a heavy snare"
+msgstr ""
+
+#: .\modinfo.json
+msgid "MST Extra"
+msgstr ""
+
+#. ~ Description for MST Extra
+#: .\modinfo.json
+msgid ""
+"The sequeal to CDDA's old More Survival Tools mod, adding additional useful "
+"innawoods content."
+msgstr ""
+
+#: .\obsolete.json
+msgid "scrap of tanning leather"
+msgid_plural "scraps of tanning leather"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'scrap of tanning leather', 'str_pl': 'scraps
+#. of tanning leather'}.
+#: .\obsolete.json
+msgid "You carefully unfold the tanning leather scrap and shake it clean."
+msgstr ""
+
+#. ~ Use action not_ready_msg for {'str': 'scrap of tanning leather',
+#. 'str_pl': 'scraps of tanning leather'}.
+#: .\obsolete.json
+msgid "The scrap of tanning leather isn't done yet."
+msgstr ""
+
+#. ~ Description for {'str': 'scrap of tanning leather', 'str_pl': 'scraps of
+#. tanning leather'}
+#: .\obsolete.json
+msgid ""
+"A small piece of treated animal hide, undergoing the chemical processes "
+"required to become leather.  You will be able to activate it to unroll and "
+"make use of it when it is done."
+msgstr ""
+
+#: .\obsolete.json
+msgid "scrap of tanning fur"
+msgid_plural "scraps of tanning fur"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
+#. tanning fur'}.
+#: .\obsolete.json
+msgid "You carefully unfold the tanning fur scrap and shake it clean."
+msgstr ""
+
+#. ~ Use action not_ready_msg for {'str': 'scrap of tanning fur', 'str_pl':
+#. 'scraps of tanning fur'}.
+#: .\obsolete.json
+msgid "The scrap of tanning fur isn't done yet."
+msgstr ""
+
+#. ~ Description for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
+#. tanning fur'}
+#: .\obsolete.json
+msgid ""
+"A small piece of treated animal pelt, undergoing the chemical processes "
+"required to become fur.  You will be able to activate it to unroll and make "
+"use of it when it is done."
+msgstr ""
+
+#: .\obsolete.json
+msgid "placed hobo stove"
+msgstr ""
+
+#. ~ Description for placed hobo stove
+#: .\obsolete.json
+msgid ""
+"A small improvised wood stove, placed on the ground.  It can only burn small"
+" amounts of wood at a time, but it will keep a fire safe from wind and rain."
+msgstr ""
+
+#: .\obsolete.json
+msgid "clatter!"
+msgstr ""
+
+#: .\obsolete.json
+msgid "clang!"
+msgstr ""
+
+#: .\chargen\professions.json
+msgctxt "profession_male"
+msgid "Wanderer"
+msgstr ""
+
+#. ~ Profession (male Wanderer) description
+#: .\chargen\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+
+#: .\chargen\professions.json
+msgctxt "profession_female"
+msgid "Wanderer"
+msgstr ""
+
+#. ~ Profession (female Wanderer) description
+#: .\chargen\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+
+#: .\chargen\professions.json
+msgctxt "profession_male"
+msgid "Prehistoric Hunter"
+msgstr ""
+
+#. ~ Profession (male Prehistoric Hunter) description
+#: .\chargen\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+
+#: .\chargen\professions.json
+msgctxt "profession_female"
+msgid "Prehistoric Hunter"
+msgstr ""
+
+#. ~ Profession (female Prehistoric Hunter) description
+#: .\chargen\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+
+#: .\chargen\start_locations.json
+msgid "Swamp"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Door"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Window"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Beehive"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Charcoal Purifier"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Can be deconstructed without tools."
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Leather Door Curtain"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Still"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Pulley Lifter"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Add Bucket And Pulley To Covered Well"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wooden Windbreak"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Leather Tarp Lean-To"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Wooden Rack"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Counter"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Table"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Chair"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Makeshift Bench"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wooden Staircase"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wooden Platform"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid ""
+"Must be built over ledges or other open space.  Limited constructions can be"
+" built on top of it."
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wattle-and-Daub Wall"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wood Wall"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Log Wall"
+msgstr ""
+
+#: .\furniture_and_terrain\construction.json
+msgid "Build Wooden Floor"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "charcoal purifier"
+msgstr ""
+
+#. ~ Description for charcoal purifier
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A makeshift filter constructed to hold a supply of charcoal, for purifying "
+"water."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+#: .\furniture_and_terrain\overrides.json
+msgid "crunch!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
+msgid "whump!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift still"
+msgstr ""
+
+#. ~ Description for makeshift still
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A pair of glass bottles insulated with dirt or sand.  With careful "
+"alignment, it serves as a crude alembic by boiling away liquid in the first "
+"container, condensing into the second."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
+msgid "whump."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "rope and pulley lifter"
+msgstr ""
+
+#. ~ Description for rope and pulley lifter
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A system of ropes and pulleys hanging from the ceiling, rigged up to serve "
+"as a block and tackle for lifting vehicle components, or even light enough "
+"vehicles.  It isn't very powerful, but it'll do in a pinch."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "wooden windbreak"
+msgstr ""
+
+#. ~ Description for wooden windbreak
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A waist-high barricade made of stout saplings, held in place by poles "
+"hammered into the ground.  Primarily used to keep the wind out, but also "
+"works to fence in  a campsite."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
+msgid "smash!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "leather tarp lean-to"
+msgstr ""
+
+#. ~ Description for leather tarp lean-to
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
+msgid "crash!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+#: .\furniture_and_terrain\overrides.json
+msgid "whack!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift wooden rack"
+msgstr ""
+
+#. ~ Description for makeshift wooden rack
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A simple wooden rack, made using rudimentary joinery and adhesive.  Display "
+"your items on it."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift counter"
+msgstr ""
+
+#. ~ Description for makeshift counter
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A bit rustic for most kitchens, made from simple joinery and wood glue."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift table"
+msgstr ""
+
+#. ~ Description for makeshift table
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"Sit down when you eat!  At least the legs seem to be joined up properly, so "
+"it probably won't fall apart if you eat off it."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift chair"
+msgstr ""
+
+#. ~ Description for makeshift chair
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"Sit down, have a drink.  It probably won't fall apart if you do, the joinery"
+" looks sturdy enough."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "makeshift bench"
+msgstr ""
+
+#. ~ Description for makeshift bench
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"More a bed for woodsmen than hobos, or maybe guests at a feast hall.  Put "
+"together with nothing but wood joints and some glue."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "placed clay oven"
+msgstr ""
+
+#. ~ Description for placed clay oven
+#: .\furniture_and_terrain\furniture.json
+msgid ""
+"A portable clay oven, placed on the ground.  It can't hold much wood at "
+"once, but it will keep a fire safe from wind and rain."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "crack!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture.json
+msgid "whunk!"
+msgstr ""
+
+#: .\furniture_and_terrain\overrides.json
+msgid "pine tree"
+msgstr ""
+
+#. ~ Description for pine tree
+#: .\furniture_and_terrain\overrides.json
+msgid ""
+"A towering coniferous tree that belongs to the 'Pinus' genus, with the New "
+"England species varying from 'P. strobus', 'P. resinosa' and 'P. rigida'.  "
+"If you examined the tree more closely, you might find usable sticky whorls "
+"and unharvested pinecones.  Also, you could cut it down with the right "
+"tools."
+msgstr ""
+
+#: .\furniture_and_terrain\overrides.json
+msgid "birch tree"
+msgstr ""
+
+#. ~ Description for birch tree
+#: .\furniture_and_terrain\overrides.json
+msgid ""
+"A tall deciduous tree of the 'Betula' genus, with the characteristic peeling"
+" bark.  Species like 'B. alleghaniensis', 'B. papyrifera', and 'B. "
+"populifolia' are the most common in the New England region.  Looks like "
+"there isn't enough rhytidome to peel off yet.  You could cut it down with "
+"the right tools."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json .\items\generic.json
+msgid "empty beehive"
+msgid_plural "empty beehives"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for empty beehive
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A traditional beehive, dug in slightly and baited to attract bees.  It will "
+"take a while before any bees decide to make use of it."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "growing beehive"
+msgstr ""
+
+#. ~ Description for growing beehive
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with slight activity.  "
+"Some bees have started work on this hive, but it won't be ready just yet."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "mature beehive"
+msgstr ""
+
+#. ~ Description for mature beehive
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is doing well enough that you could harvest a good amount without the"
+" hive dying off."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "recovering beehive"
+msgstr ""
+
+#. ~ Description for recovering beehive
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is still recovering from last harvest."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "regrowing beehive"
+msgstr ""
+
+#. ~ Description for regrowing beehive
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is rebuilding honeycombs and producing more honey, but it still isn't"
+" ready."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "closed leather door curtain"
+msgstr ""
+
+#. ~ Description for closed leather door curtain
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"Hides from an animal hung up as a door.  Could be easily taken down for "
+"supplies or placed somewhere else."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "rrrrip!"
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "slap!"
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "open leather door curtain"
+msgstr ""
+
+#. ~ Description for open leather door curtain
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"Hides from an animal hung up as a door.  Could be easily taken down for "
+"supplies or placed somewhere else.  These curtains are open, bundled and "
+"tied next to the doorway."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "wooden platform"
+msgstr ""
+
+#. ~ Description for wooden platform
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"A surface of wooden scaffolding extending out, supported by solid wooden "
+"joists and brackets to transfer the weight onto other supporting structure."
+"  Solid enough to build further wood or similar constructions onto it."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain.json
+msgid "well with bucket and pulley"
+msgstr ""
+
+#. ~ Description for well with bucket and pulley
+#: .\furniture_and_terrain\terrain.json
+msgid ""
+"Deep well collecting ground water.  A simple bucket and pulley allows "
+"drawing water from it."
+msgstr ""
+
+#: .\furniture_and_terrain\traps.json
+msgid "light snare trap"
+msgstr ""
+
+#: .\furniture_and_terrain\traps.json
+msgid "heavy snare trap"
+msgstr ""
+
+#: .\furniture_and_terrain\traps.json
+msgid "leather raincatcher"
+msgstr ""
+
+#: .\items\ammo.json
+msgid "lead pellet"
+msgid_plural "lead pellets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'lead pellet'}
+#: .\items\ammo.json
+msgid ""
+"Hefty round projectiles cast from lead, useful as ammunition for slings."
+msgstr ""
+
+#: .\items\ammo.json
+msgid "wooden atlatl dart"
+msgid_plural "wooden atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'wooden atlatl dart'}
+#: .\items\ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
+"point."
+msgstr ""
+
+#: .\items\ammo.json
+msgid "iron atlatl dart"
+msgid_plural "iron atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'iron atlatl dart'}
+#: .\items\ammo.json
+msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
+msgstr ""
+
+#: .\items\ammo.json
+msgid "stone atlatl dart"
+msgid_plural "stone atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'stone atlatl dart'}
+#: .\items\ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a small stone spearhead."
+msgstr ""
+
+#: .\items\ammo.json
+msgid "copper atlatl dart"
+msgid_plural "copper atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'copper atlatl dart'}
+#: .\items\ammo.json
+msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
+msgstr ""
+
+#: .\items\ammo.json .\items\ammo_types.json
+msgid "pitch"
+msgid_plural "pitch"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'pitch'}
+#: .\items\ammo.json
+msgid ""
+"Sticky resin made from pine or birch tar.  The adhesive isn't strong enough "
+"for heavy duty usages, but it can be used as a varnish or holding together "
+"small items, or for improvised repairs with the right tools."
+msgstr ""
+
+#: .\items\ammo_types.json
+msgid "atlatl dart"
+msgstr ""
+
+#: .\items\armor.json
+msgid "pack basket"
+msgid_plural "pack baskets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pack basket'}
+#: .\items\armor.json
+msgid ""
+"A large hand made straw basket, with shoulder straps to wear like a "
+"backpack."
+msgstr ""
+
+#: .\items\armor.json
+msgid "birchbark sheath"
+msgid_plural "birchbark sheathes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_msg for {'str': 'birchbark sheath', 'str_pl':
+#. 'birchbark sheathes'}.
+#: .\items\armor.json
+msgid "You sheath your %s"
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': 'birchbark sheath', 'str_pl':
+#. 'birchbark sheathes'}.
+#: .\items\armor.json
+msgid "Sheath knife"
+msgstr ""
+
+#. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
+#. sheathes'}
+#: .\items\armor.json
+msgid ""
+"A hand made sheath made from birch bark, for holding knives and other small "
+"blades.  Activate to sheathe/draw a weapon."
+msgstr ""
+
+#: .\items\armor.json
+msgid "pair of leather armwraps"
+msgid_plural "pairs of leather armwraps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of leather armwraps', 'str_pl': 'pairs of
+#. leather armwraps'}
+#: .\items\armor.json
+msgid ""
+"Leather patches wrapped around the arms, better than nothing in a pinch."
+msgstr ""
+
+#: .\items\armor.json
+msgid "pair of fur armwraps"
+msgid_plural "pairs of fur armwraps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of fur armwraps', 'str_pl': 'pairs of fur
+#. armwraps'}
+#: .\items\armor.json
+msgid "Fur pelts wrapped around the arms, better than nothing in a pinch."
+msgstr ""
+
+#: .\items\armor.json
+msgid "pair of leather legwraps"
+msgid_plural "pairs of leather legwraps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of leather legwraps', 'str_pl': 'pairs of
+#. leather legwraps'}
+#: .\items\armor.json
+msgid "Leather patches wrapped around the legs, as improvised leggings."
+msgstr ""
+
+#: .\items\armor.json
+msgid "pair of fur legwraps"
+msgid_plural "pairs of fur legwraps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of fur legwraps', 'str_pl': 'pairs of fur
+#. legwraps'}
+#: .\items\armor.json
+msgid "Fur pelts wrapped around the legs, as improvised leggings."
+msgstr ""
+
+#: .\items\armor.json
+msgid "makeshift sheet cloak"
+msgid_plural "makeshift sheet cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift sheet cloak'}
+#: .\items\armor.json
+msgid ""
+"A bedsheet draped around the shoulders and pinned in place to wear like a "
+"cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+" up."
+msgstr ""
+
+#: .\items\armor.json
+msgid "makeshift blanket cloak"
+msgid_plural "makeshift blanket cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift blanket cloak'}
+#: .\items\armor.json
+msgid ""
+"A blanket draped around the shoulders and pinned in place to wear like a "
+"cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+" up."
+msgstr ""
+
+#: .\items\armor.json
+msgid "makeshift down-filled blanket cloak"
+msgid_plural "makeshift down-filled blanket cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift down-filled blanket cloak'}
+#: .\items\armor.json
+msgid ""
+"A warm blanket draped around the shoulders and pinned in place to wear like "
+"a cloak.  Less encumbering since it leaves your hands free, and won't trip "
+"you up."
+msgstr ""
+
+#: .\items\armor.json
+msgid "makeshift fur blanket cloak"
+msgid_plural "makeshift fur blanket cloaks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift fur blanket cloak'}
+#: .\items\armor.json
+msgid ""
+"A heavy fur blanket draped around the shoulders and pinned in place to wear "
+"like a cloak.  Less encumbering since it leaves your hands free, and won't "
+"trip you up."
+msgstr ""
+
+#: .\items\armor.json
+msgid "atlatl dart quiver"
+msgid_plural "atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'atlatl dart quiver'}
+#: .\items\armor.json
+msgid ""
+"A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
+"Activate to store up to 10 darts."
+msgstr ""
+
+#: .\items\armor.json
+msgid "birchbark atlatl dart quiver"
+msgid_plural "birchbark atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'birchbark atlatl dart quiver'}
+#: .\items\armor.json
+msgid ""
+"A quiver woven from strips of birch bark, worn at the waist, lengthened to "
+"hold atlatl darts.  Activate to store up to 10 darts."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "willow tea"
+msgid_plural "willow tea"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'willow tea'}
+#: .\items\comestibles.json
+msgid ""
+"A bitter herbal tea made from willow bark, used since ancient times as a "
+"mild painkiller."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "tar oil"
+msgid_plural "tar oil"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'tar oil'}
+#: .\items\comestibles.json
+msgid ""
+"A thick, runny tar typically made from birch bark or pine.  Among various "
+"historical uses, it is also used as an antiseptic."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "garlic oil"
+msgid_plural "garlic oil"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'garlic oil'}
+#: .\items\comestibles.json
+msgid ""
+"A strong-tasting extract made from garlic, traditionally used to help resist"
+" infection, especially in Eastern Europe.  Not as powerful as modern full-"
+"strength antibiotics, but better than nothing.  Use once every 12 hours."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "roasted garlic"
+msgid_plural "roasted garlic"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'roasted garlic'}
+#: .\items\comestibles.json
+msgid "Cloves of garlic, lightly seasoned and roasted."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "garlic bread"
+msgid_plural "garlic bread"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'garlic bread'}
+#: .\items\comestibles.json
+msgid "Bread cooked with garlic and seasonings."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "roasted chili pepper"
+msgid_plural "roasted chili peppers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'roasted chili pepper'}
+#: .\items\comestibles.json
+msgid "Spicy chili pepper, lightly seasoned and roasted."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "makeshift poultice"
+msgid_plural "makeshift poultices"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift poultice'}
+#: .\items\comestibles.json
+msgid ""
+"A primitive poultice using improvised antiseptic, held in place by a cloth "
+"or leather wrap.  Applied loosely, it is designed to stave off infection but"
+" can still help staunch bleeding."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "posca"
+msgid_plural "posca"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'posca'}
+#: .\items\comestibles.json
+msgid ""
+"A traditional Roman drink made of cheap, often sour wine watered down, and "
+"usually made more palatable with herbs and honey."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "cooked cattail rhizome"
+msgid_plural "cooked cattail rhizomes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'cooked cattail rhizome'}
+#: .\items\comestibles.json
+msgid ""
+"A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit "
+"less stringy and more palatable after being cooked."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "porridge"
+msgid_plural "porridge"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'porridge'}
+#: .\items\comestibles.json
+msgid "Simple fare made from cooking wheat or barley, bland but filling."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "jerked offal"
+msgid_plural "jerked offal"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'jerked offal'}
+#: .\items\comestibles.json
+msgid ""
+"Salty dried organ meat.  Smells a bit like dog food, but will last a long "
+"time."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "roasted bark"
+msgid_plural "roasted bark"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'roasted bark'}
+#: .\items\comestibles.json
+msgid ""
+"Tree bacon, slices of inner bark from birch or pine that have been roasted, "
+"to render them less stringy and more edible.  Can be eaten as-is, or dried "
+"and milled into flour.  While commonly considered a survival food, it is "
+"relatively palatable."
+msgstr ""
+
+#: .\items\comestibles.json
+msgid "potted meat"
+msgid_plural "potted meat"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Conditional name for {'str_sp': 'potted meat'} when FLAG matches
+#. CANNIBALISM
+#: .\items\comestibles.json
+msgid "potted person"
+msgid_plural "potted person"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Conditional name for {'str_sp': 'potted meat'} when COMPONENT_ID matches
+#. mutant
+#: .\items\comestibles.json
+msgid "potted freak"
+msgid_plural "potted freak"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'potted meat'}
+#: .\items\comestibles.json
+msgid ""
+"Meat cooked and preserved in butter or melted fat, a form of food "
+"preservation from the days before canning.  Also known as confit.  Rich and "
+"fattening, it will last for a long time."
+msgstr ""
+
+#: .\items\containers.json
+msgid "birchbark canteen"
+msgid_plural "birchbark canteens"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'birchbark canteen'}
+#: .\items\containers.json
+msgid ""
+"A small container make from pieces of birchbark stitched together, sealed "
+"with pitch or similar material.  Holds 1.5 liters and has a simple carry "
+"strap."
+msgstr ""
+
+#: .\items\containers.json
+msgid "clay jar"
+msgid_plural "clay jars"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'clay jar'}
+#: .\items\containers.json
+msgid ""
+"A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+"stopper."
+msgstr ""
+
+#: .\items\containers.json
+msgid "sealed clay jar"
+msgid_plural "sealed clay jars"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'sealed clay jar'}
+#: .\items\containers.json
+msgid ""
+"A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+"stopper.  Sealed tightly with wax, to preserve contents from rot."
+msgstr ""
+
+#: .\items\containers.json
+msgid "makeshift wooden bucket"
+msgid_plural "makeshift wooden buckets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift wooden bucket'}
+#: .\items\containers.json
+msgid ""
+"A large bucket for holding water, made from hollowing out a log and adding "
+"handles made of natural cordage.  Can hold 7 liters."
+msgstr ""
+
+#: .\items\generic.json
+msgid "stone javelin"
+msgid_plural "stone javelins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'stone javelin'}
+#: .\items\generic.json
+msgid "A throwing spear with a stone spearhead."
+msgstr ""
+
+#: .\items\generic.json
+msgid "copper javelin"
+msgid_plural "copper javelins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'copper javelin'}
+#: .\items\generic.json
+msgid "A copper-tipped throwing spear."
+msgstr ""
+
+#: .\items\generic.json .\vehicles\vehicleparts.json
+msgid "sled frame"
+msgid_plural "sled frames"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'sled frame'}
+#: .\items\generic.json
+msgid "A flexible frame made from wooden crosspieces lashed together."
+msgstr ""
+
+#: .\items\generic.json .\vehicles\vehicleparts.json
+msgid "woven storage basket"
+msgid_plural "woven storage baskets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'woven storage basket'}
+#: .\items\generic.json
+msgid ""
+"A folding basket made from woven straw or birchbark, supported by a wooden "
+"framework."
+msgstr ""
+
+#. ~ Description for {'str': 'empty beehive'}
+#: .\items\generic.json
+msgid ""
+"A large, enclosed wooden box with multiple sliding frames in it.  With "
+"something to attract bees, it can be used to grow a hive."
+msgstr ""
+
+#: .\items\generic.json
+msgid "short leather cord"
+msgid_plural "short leather cords"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'short leather cord'}
+#: .\items\generic.json
+msgid ""
+"A 6-inch (or about 15 cm) long piece of rawhide or leather cord.  Useful for"
+" some purposes, but not as strong or flexible as proper string."
+msgstr ""
+
+#: .\items\generic.json
+msgid "long leather cord"
+msgid_plural "long leather cords"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'long leather cord'}
+#: .\items\generic.json
+msgid ""
+"A 3-foot (or about 90 cm) long piece of rawhide or leather cord.  Useful for"
+" some purposes, but not as strong or flexible as proper string."
+msgstr ""
+
+#: .\items\generic.json
+msgid "pinebark"
+msgid_plural "pinebark"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'pinebark'}
+#: .\items\generic.json
+msgid "A sheet of faintly resinous inner bark, stripped from a pine tree."
+msgstr ""
+
+#: .\items\item_overrides.json
+msgid "rubber slug"
+msgid_plural "rubber slugs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_overrides.json
+msgid "petrified eye"
+msgid_plural "petrified eyes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_overrides.json
+msgid "spiral stone"
+msgid_plural "spiral stones"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_overrides.json
+msgid "chunk of sulfur"
+msgid_plural "chunk of sulfurs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_overrides.json
+msgid "limestone"
+msgid_plural "limestones"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\item_overrides.json
+msgid "baseball"
+msgid_plural "baseballs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\ranged.json
+msgid "atlatl"
+msgid_plural "atlatls"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\ranged.json
+msgid ""
+"A wooden tool for supporting a javelin, to throw it more effectively than by"
+" hand."
+msgstr ""
+
+#: .\items\ranged.json
+msgctxt "gun_type_type"
+msgid "throw"
+msgstr ""
+
+#: .\items\ranged.json
+msgid "makeshift crossbow"
+msgid_plural "makeshift crossbows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\ranged.json
+msgid ""
+"A simple, handmade crossbow of the Skane style, with a wooden peg that is "
+"pushed up from underneath to loose the bowstring.  Not as powerful as other "
+"crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
+"this weapon have a good chance of remaining intact for re-use."
+msgstr ""
+
+#: .\items\ranged.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#: .\items\tool_armor.json
+msgid "side drum"
+msgid_plural "side drums"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'side drum'}
+#: .\items\tool_armor.json
+msgid ""
+"A handmade side drum with a shoulder strap, allowing you to wear it while "
+"playing."
+msgstr ""
+
+#: .\items\tool_armor.json
+msgid "makeshift gas hood"
+msgid_plural "makeshift gas hoods"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift gas hood'}
+#: .\items\tool_armor.json
+msgid ""
+"A hood with added lenses and pockets for filter material sewn between layers"
+" of fabric, similar to designs common in WWI.  It is designed to be worn "
+"over a helmet.  It must be prepared before use."
+msgstr ""
+
+#: .\items\tools.json
+msgid "heavy snare kit"
+msgid_plural "heavy snare kits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action done_message for {'str': 'heavy snare kit'}.
+#. ~ Use action done_message for {'str': 'light snare kit'}.
+#: .\items\tools.json
+msgid "You set the snare trap."
+msgstr ""
+
+#. ~ Description for {'str': 'heavy snare kit'}
+#: .\items\tools.json
+msgid ""
+"This is a kit for a simple trap consisting of a rope noose and a snare "
+"trigger.  It requires a tree nearby.  It is effective at trapping monsters."
+msgstr ""
+
+#: .\items\tools.json
+msgid "light snare kit"
+msgid_plural "light snare kits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light snare kit'}
+#: .\items\tools.json
+msgid ""
+"This is a kit for a simple trap consisting of a string noose and a snare "
+"trigger.  It requires a young tree nearby.  It is effective at trapping and "
+"killing some small animals."
+msgstr ""
+
+#: .\items\tools.json
+msgid "snare trigger"
+msgid_plural "snare triggers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'snare trigger'}
+#: .\items\tools.json
+msgid ""
+"This is a stick that has been cut into a trigger mechanism for a snare trap."
+msgstr ""
+
+#: .\items\tools.json
+msgid "stone hoe"
+msgid_plural "stone hoes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'stone hoe'}
+#: .\items\tools.json
+msgid ""
+"This is a farming implement made with a broad stone blade, that can be used "
+"to till earth."
+msgstr ""
+
+#: .\items\tools.json .\vehicles\vehicles.json
+msgid "makeshift sled"
+msgid_plural "makeshift sleds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action unfold_msg for {'str': 'makeshift sled'}.
+#: .\items\tools.json
+msgid "You unfold and deploy the makeshift sled."
+msgstr ""
+
+#. ~ Description for {'str': 'makeshift sled'}
+#: .\items\tools.json
+msgid ""
+"A simple pulk sled and folded framework that can hold a modest amount of "
+"gear, traditionally used to drag equipment across snowy terrain."
+msgstr ""
+
+#: .\items\tools.json .\vehicles\vehicles.json
+msgid "log canoe"
+msgid_plural "log canoes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action unfold_msg for {'str': 'log canoe'}.
+#: .\items\tools.json
+msgid "You deploy the log canoe."
+msgstr ""
+
+#. ~ Description for {'str': 'log canoe'}
+#: .\items\tools.json
+msgid ""
+"A traditional dugout boat made from logs burned and carved to shape, along "
+"with handmade oars.  Heavy and bulky as it is, it can still be picked up and"
+" carried by a reasonably fit person.  Use it to deploy and make ready."
+msgstr ""
+
+#: .\items\tools.json
+msgid "makeshift distillation"
+msgid_plural "makeshift distillation"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'makeshift distillation'}
+#: .\items\tools.json
+msgid ""
+"This exists only to allow makeshift stills to provide distilling quality."
+msgstr ""
+
+#: .\items\tools.json
+msgid "pulley lifting"
+msgid_plural "pulley lifting"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'pulley lifting'}
+#: .\items\tools.json
+msgid ""
+"This exists only to allow rope and pulley lifters to provide some "
+"engineering qualities."
+msgstr ""
+
+#: .\items\tools.json
+msgid "leather tarp raincatcher"
+msgid_plural "leather tarp raincatchers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action done_message for {'str': 'leather tarp raincatcher'}.
+#: .\items\tools.json
+msgid "You set up the raincatcher, waiting to collect water."
+msgstr ""
+
+#. ~ Description for {'str': 'leather tarp raincatcher'}
+#: .\items\tools.json
+msgid ""
+"Some sticks and string with a leather tarp, to set up an improvised "
+"raincatcher."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay oil lamp (off)"
+msgid_plural "clay oil lamps (off)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'clay oil lamp (off)', 'str_pl': 'clay oil
+#. lamps (off)'}.
+#: .\items\tools.json
+msgid "You light the lamp."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'clay oil lamp (off)', 'str_pl':
+#. 'clay oil lamps (off)'}.
+#: .\items\tools.json
+msgid "The lamp is empty."
+msgstr ""
+
+#. ~ Description for {'str': 'clay oil lamp (off)', 'str_pl': 'clay oil lamps
+#. (off)'}
+#: .\items\tools.json
+msgid ""
+"This is a small clay container with a wick, an ancient form of oil lamp.  It"
+" does not provide much light, but it lasts a long time.  Use it to turn it "
+"on."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay oil lamp"
+msgid_plural "clay oil lamps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'clay oil lamp'}.
+#: .\items\tools.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'clay oil lamp'}.
+#: .\items\tools.json
+msgid "The lamp is extinguished."
+msgstr ""
+
+#. ~ Description for {'str': 'clay oil lamp'}
+#: .\items\tools.json
+msgid ""
+"This is a small clay container with a wick, an ancient form of oil lamp.  It"
+" does not provide much light, but it lasts a long time.  It does not provide"
+" much light, but it lasts a long time.  It is turned on.  Use it to turn it "
+"off."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay ember carrier"
+msgid_plural "clay ember carriers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'clay ember carrier'}.
+#: .\items\tools.json
+msgid "You light the tinder."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'clay ember carrier'}.
+#: .\items\tools.json
+msgid "The ember carrier is out of tinder."
+msgstr ""
+
+#. ~ Use action need_fire_msg for {'str': 'clay ember carrier'}.
+#: .\items\tools.json
+msgid "You need a lighter or fire to light this."
+msgstr ""
+
+#. ~ Description for {'str': 'clay ember carrier'}
+#: .\items\tools.json
+msgid ""
+"This is a small ceramic fire pot, with a lid and small holes for controlled "
+"airflow.  It can nurture a smoldering ember for a long time, to start fires "
+"without modern tools."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay ember carrier (lit)"
+msgid_plural "clay ember carriers (lit)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'clay ember carrier (lit)', 'str_pl':
+#. 'clay ember carriers (lit)'}.
+#: .\items\tools.json
+msgid "Extinguish"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay
+#. ember carriers (lit)'}.
+#: .\items\tools.json
+msgid "The ember is extinguished."
+msgstr ""
+
+#. ~ Description for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay ember
+#. carriers (lit)'}
+#: .\items\tools.json
+msgid ""
+"This is a small ceramic fire pot, with a lid and small holes for controlled "
+"airflow.  An ember is smoldering inside it, and can be used to start a "
+"campfire."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay oven"
+msgid_plural "clay ovens"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'clay oven'}
+#: .\items\tools.json
+msgid ""
+"This is a ancient style of portable ceramic oven.  Use it to place on the "
+"ground, allowing you to keep a small fire safe from wind and rain."
+msgstr ""
+
+#: .\items\tools.json
+msgid "makeshift repair kit"
+msgid_plural "makeshift repair kits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift repair kit'}
+#: .\items\tools.json
+msgid ""
+"This is a portable toolkit, consisting of a primitive knife for carving "
+"replacement parts, an adze for more heavy-duty wood cutting, and a patch of "
+"soft material for cleaning surfaces.  It can be used to repair certain items"
+" if supplied with pitch, though it isn't ideal for complex work."
+msgstr ""
+
+#: .\items\tools.json
+msgid "flint drill"
+msgid_plural "flint drills"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'flint drill'}
+#: .\items\tools.json
+msgid ""
+"A prehistoric woodworking tool, little more than a fine sharp blade tipping "
+"a makeshift bow drill.  It's rather limited in usage, primarily meant to be "
+"used on wood."
+msgstr ""
+
+#: .\items\tools.json
+msgid "fire plough"
+msgid_plural "fire ploughs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fire plough'}
+#: .\items\tools.json
+msgid ""
+"A simple form of primitive firemaking, little more than two pieces of wood "
+"with a groove worn into one of them, to light an ember through friction.  "
+"Starting a fire with this will be laborious and slow, but it's better than "
+"nothing."
+msgstr ""
+
+#: .\items\tools.json
+msgid "makeshift water purifier"
+msgid_plural "makeshift water purifiers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'makeshift water purifier'}
+#: .\items\tools.json
+msgid "This is a pseudo item."
+msgstr ""
+
+#: .\items\tools.json
+msgid "clay canning pot"
+msgid_plural "clay canning pots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'clay canning pot'}
+#: .\items\tools.json
+msgid ""
+"A very large 25 liter earthenware pot, primarily meant for canning food via "
+"the water bath method, though it can cook normal foods just as well.  "
+"Canning foods with it will require a lot of water.  If you're only canning a"
+" couple of jars at a time, you'd fill it up with rocks or something to "
+"displace the water above the lids."
+msgstr ""
+
+#: .\items\wheels.json .\vehicles\vehicleparts.json
+msgid "sled runners"
+msgid_plural "sled runners"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'sled runners'}
+#: .\items\wheels.json
+msgid "Simple wooden runners for a hand-pulled sled."
+msgstr ""
+
+#: .\items\wheels.json .\vehicles\vehicleparts.json
+msgid "log frame"
+msgid_plural "log frames"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'log frame'}
+#: .\items\wheels.json
+msgid ""
+"A heavy section of frame carved from a log, can be used for making sturdy "
+"wooden vehicle structures.  Also usable for a raft, log canoe, outriggers "
+"for a boat, etc due to its buoyancy."
+msgstr ""
+
+#. ~ Description for log frame
+#: .\vehicles\vehicleparts.json
+msgid ""
+"A heavy section of frame carved from a log, serving as a foundation or to "
+"keep a raft afloat.  Other vehicle components can be mounted on it.  If all "
+"the frames and components of a vehicle are foldable, the vehicle can be "
+"folded into a small package and picked up as a normal item."
+msgstr ""
