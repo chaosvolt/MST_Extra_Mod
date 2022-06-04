@@ -36,5 +36,20 @@
     "drops": [ "tarp_raincatcher_leather" ],
     "benign": true,
     "funnel_radius": 342
+  },
+  {
+    "type": "trap",
+    "id": "tr_rollmat_straw",
+    "name": "woven straw bedding",
+    "color": "white",
+    "symbol": "#",
+    "visibility": -1,
+    "avoidance": 0,
+    "difficulty": 0,
+    "comfort": 2,
+    "floor_bedding_warmth": 200,
+    "action": "none",
+    "drops": [ "straw_bed_rollmat" ],
+    "benign": true
   }
 ]

@@ -30,7 +30,7 @@
   {
     "type": "GENERIC",
     "id": "makeshift_sled_frame_item",
-    "name": { "str": "sled frame" },
+    "name": { "str": "light woven frame" },
     "description": "A flexible frame made from wooden crosspieces lashed together.",
     "weight": "4000 g",
     "to_hit": -2,

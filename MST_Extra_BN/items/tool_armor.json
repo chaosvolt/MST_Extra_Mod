@@ -63,5 +63,35 @@
     "ammo": [ "gasfilter_m" ],
     "use_action": "GASMASK",
     "flags": [ "OUTER", "HELMET_COMPAT" ]
+  },
+  {
+    "id": "straw_bed_rollmat",
+    "type": "TOOL_ARMOR",
+    "name": { "str_sp": "woven straw bedding" },
+    "description": "A thick mat of tightly-woven straw or pine boughs.  It could be worn as a thick blanket, or used to deploy it as a mat to sleep on.",
+    "weight": "1500 g",
+    "volume": "3750 ml",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -1,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "looks_like": "fiber_mat",
+    "color": "white",
+    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
+    "coverage": 100,
+    "encumbrance": 45,
+    "warmth": 30,
+    "material_thickness": 1,
+    "environmental_protection": 1,
+    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
+    "use_action": {
+      "type": "place_trap",
+      "allow_under_player": true,
+      "trap": "tr_rollmat_straw",
+      "moves": 100,
+      "practice": 0,
+      "done_message": "You unroll the woven straw bedding and lay it on the ground."
+    }
   }
 ]
