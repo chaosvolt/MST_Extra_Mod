@@ -28,6 +28,21 @@
     "price_postapoc": 500
   },
   {
+    "id": "log_frame_item",
+    "category": "veh_parts",
+    "type": "GENERIC",
+    "name": { "str": "log frame" },
+    "description": "A heavy section of frame carved from a log, can be used for making sturdy wooden vehicle structures.  Also usable for a raft, log canoe, outriggers for a boat, etc due to its buoyancy.",
+    "weight": "12 kg",
+    "volume": "22500 ml",
+    "price": 100,
+    "bashing": 8,
+    "to_hit": -8,
+    "material": [ "wood" ],
+    "symbol": "]",
+    "color": "brown"
+  },
+  {
     "type": "GENERIC",
     "id": "makeshift_sled_frame_item",
     "name": { "str": "light woven frame" },
@@ -56,6 +71,21 @@
     "bashing": 3,
     "category": "veh_parts",
     "price": 1000
+  },
+  {
+    "type": "GENERIC",
+    "id": "birchbark_panel",
+    "symbol": "o",
+    "color": "brown",
+    "looks_like": "boat_board",
+    "name": { "str": "birchbark panel" },
+    "description": "A tightly-woven panel made of birch bark, for vehicle use.  It could be used for makeshift aisles and roofing, or with some waterproofing it could help keep a canoe afloat.",
+    "price": "40 USD",
+    "price_postapoc": "50 cent",
+    "material": [ "wood" ],
+    "weight": "1500 g",
+    "volume": "4 L",
+    "category": "veh_parts"
   },
   {
     "id": "beehive_empty",
