@@ -256,9 +256,9 @@
     "floor_bedding_warmth": 200,
     "location": "center",
     "requirements": {
-      "install": { "skills": [ [ "survival", 1 ] ], "time": "40 m", "using": [ [ "vehicle_sled", 1 ] ] },
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "40 m", "using": [ [ "cordage_short", 4 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "20 m" },
-      "repair": { "skills": [ [ "survival", 2 ] ], "time": "40 m", "using": [ [ "vehicle_sled", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "40 m", "using": [ [ "cordage_short", 1 ] ] }
     },
     "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE" ],
     "breaks_into": [ { "item": "straw_pile", "count": [ 7, 8 ] } ],
