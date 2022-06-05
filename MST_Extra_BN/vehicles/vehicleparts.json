@@ -15,7 +15,7 @@
     "flags": [ "INITIAL_PART", "MOUNTABLE", "FOLDABLE" ],
     "requirements": {
       "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "removal": { "skills": [ [ "survival", 0 ] ], "time": "10 m" },
       "repair": { "skills": [ [ "survival", 1 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 6 }
@@ -37,7 +37,7 @@
     "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
     "requirements": {
       "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "removal": { "skills": [ [ "survival", 0 ] ], "time": "10 m" },
       "repair": { "skills": [ [ "survival", 1 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 8 }
@@ -61,7 +61,7 @@
     "breaks_into": [ { "item": "splinter", "count": [ 4, 9 ] } ],
     "requirements": {
       "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "removal": { "skills": [ [ "survival", 0 ] ], "time": "10 m" },
       "repair": { "skills": [ [ "survival", 1 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 6 }
@@ -83,7 +83,7 @@
     "flags": [ "INITIAL_PART", "FLOATS", "STABLE", "MOUNTABLE", "BOARDABLE", "FOLDABLE" ],
     "requirements": {
       "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 2 ] ], "time": "15 m" },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
       "repair": { "skills": [ [ "survival", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
     },
     "damage_reduction": { "all": 52 }
