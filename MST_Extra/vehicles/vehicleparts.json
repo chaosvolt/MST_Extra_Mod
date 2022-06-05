@@ -178,65 +178,28 @@
     "damage_reduction": { "all": 24 }
   },
   {
-    "abstract": "log_frame_board",
+    "abstract": "log_frame_board_abstract",
     "type": "vehicle_part",
-    "name": { "str": "log frame board" },
+    "copy-from": "base_board_abstract",
     "item": "log_frame_item",
-    "location": "center",
     "color": "brown",
     "broken_color": "brown",
     "durability": 200,
-    "description": "A wall made from a log frame.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
     "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
     "requirements": {
       "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
       "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
     },
-    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
-    "damage_reduction": { "all": 32, "cut": 16, "stab": 16 }
+    "damage_reduction": { "all": 10 }
   },
   {
-    "id": "log_frame_board_horizontal",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_horizontal",
+    "id": "log_frame_board",
     "type": "vehicle_part",
-    "symbol": "h"
-  },
-  {
-    "id": "log_frame_board_ne",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_ne",
-    "type": "vehicle_part",
-    "symbol": "u"
-  },
-  {
-    "id": "log_frame_board_nw",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_nw",
-    "type": "vehicle_part",
-    "symbol": "y"
-  },
-  {
-    "id": "log_frame_board_se",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_se",
-    "type": "vehicle_part",
-    "symbol": "n"
-  },
-  {
-    "id": "log_frame_board_sw",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_sw",
-    "type": "vehicle_part",
-    "symbol": "b"
-  },
-  {
-    "id": "log_frame_board_vertical",
-    "copy-from": "log_frame_board",
-    "looks_like": "woodboard_vertical",
-    "type": "vehicle_part",
-    "symbol": "j"
+    "copy-from": "log_frame_board_abstract",
+    "name": { "str": "log frame board" },
+    "description": "A wall made from a log frame.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
+    "extend": { "flags": [ "OPAQUE", "FULL_BOARD" ] }
   },
   {
     "type": "vehicle_part",
