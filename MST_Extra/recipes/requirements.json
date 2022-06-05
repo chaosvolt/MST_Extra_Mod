@@ -105,6 +105,12 @@
     "components": [ [ [ "nail", 10 ], [ "adhesive", 2, "LIST" ], [ "cordage", 2, "LIST" ] ] ]
   },
   {
+    "id": "vehicle_birchbark_boat",
+    "type": "requirement",
+    "//": "For installing birchbark boat boards.",
+    "components": [ [ [ "waterproofing", 1, "LIST" ] ], [ [ "vehicle_sled", 1, "LIST" ] ] ]
+  },
+  {
     "id": "cordage",
     "type": "requirement",
     "//": "Materials used for tying items, primitive bowstrings, and other uses involving string or makeshift cordage, 36 g/90 cm of cordage per unit.",
