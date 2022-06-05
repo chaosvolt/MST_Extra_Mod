@@ -345,6 +345,20 @@
     "components": [ [ [ "log", 3 ] ], [ [ "hand_paddles", 1 ] ] ]
   },
   {
+    "type": "recipe",
+    "result": "birchbark_panel",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "survival", 3 ],
+    "difficulty": 3,
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "birchbark", 16 ] ] ]
+  },
+  {
     "result": "canteen_birchbark",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",

@@ -54,17 +54,83 @@
     "damage_modifier": 60,
     "durability": 40,
     "folded_volume": 20,
-    "size": 100,
+    "size": 150,
     "item": "makeshift_sled_basket_item",
     "location": "center",
     "flags": [ "CARGO", "BOARDABLE", "COVERED", "FOLDABLE", "LOCKABLE_CARGO" ],
     "breaks_into": [ { "item": "splinter", "count": [ 4, 9 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 0 ] ], "time": "10 m" },
-      "repair": { "skills": [ [ "survival", 1 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] }
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] }
     },
     "damage_reduction": { "all": 6 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "boat_board_birchbark",
+    "name": { "str": "wbirchbark boat hull" },
+    "description": "A waterproofed board that keeps the water out of your boat.",
+    "symbol": "o",
+    "looks_like": "f_fiber_mat",
+    "color": "brown",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 20,
+    "item": "birchbark_panel",
+    "location": "under",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "vehicle_birchbark_boat", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 2 ] ], "time": "10 m" },
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "FLOATS" ],
+    "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
+    "damage_reduction": { "all": 5 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "birchbark_aisle",
+    "name": { "str": "birchbark aisle" },
+    "symbol": "=",
+    "looks_like": "f_fiber_mat",
+    "color": "brown",
+    "broken_symbol": "#",
+    "broken_color": "brown",
+    "durability": 100,
+    "description": "An aisle made from a mat of tightly-woven birchbark.",
+    "item": "birchbark_panel",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "20 m", "using": [ [ "vehicle_sled", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
+    "damage_reduction": { "all": 8 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "roof_birchbark",
+    "name": { "str": "birchbark roof" },
+    "symbol": "#",
+    "color": "light_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "durability": 65,
+    "description": "A roof made from a mat of tightly-woven birchbark.  Good enough to keep the rain out at least.",
+    "item": "birchbark_panel",
+    "location": "roof",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "20 m", "using": [ [ "vehicle_sled", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "ROOF" ],
+    "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
+    "damage_reduction": { "all": 8 }
   },
   {
     "id": "log_frame_part",
@@ -87,5 +153,115 @@
       "repair": { "skills": [ [ "survival", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
     },
     "damage_reduction": { "all": 52 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "door_log_frame",
+    "name": { "str": "log frame door" },
+    "symbol": "+",
+    "looks_like": "door_wood",
+    "color": "brown",
+    "broken_symbol": "&",
+    "broken_color": "brown",
+    "damage_modifier": 75,
+    "durability": 340,
+    "description": "A heavy door made from a log frame.  Solid construction means you can't see through it when closed.",
+    "item": "log_frame_item",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "OPAQUE", "AISLE" ],
+    "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
+    "damage_reduction": { "all": 24 }
+  },
+  {
+    "abstract": "log_frame_board",
+    "type": "vehicle_part",
+    "name": { "str": "log frame board" },
+    "item": "log_frame_item",
+    "location": "center",
+    "color": "brown",
+    "broken_color": "brown",
+    "durability": 200,
+    "description": "A wall made from a log frame.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
+    "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
+    "requirements": {
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
+    },
+    "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
+    "damage_reduction": { "all": 32, "cut": 16, "stab": 16 }
+  },
+  {
+    "id": "log_frame_board_horizontal",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_horizontal",
+    "type": "vehicle_part",
+    "symbol": "h"
+  },
+  {
+    "id": "log_frame_board_ne",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_ne",
+    "type": "vehicle_part",
+    "symbol": "u"
+  },
+  {
+    "id": "log_frame_board_nw",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_nw",
+    "type": "vehicle_part",
+    "symbol": "y"
+  },
+  {
+    "id": "log_frame_board_se",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_se",
+    "type": "vehicle_part",
+    "symbol": "n"
+  },
+  {
+    "id": "log_frame_board_sw",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_sw",
+    "type": "vehicle_part",
+    "symbol": "b"
+  },
+  {
+    "id": "log_frame_board_vertical",
+    "copy-from": "log_frame_board",
+    "looks_like": "woodboard_vertical",
+    "type": "vehicle_part",
+    "symbol": "j"
+  },
+  {
+    "type": "vehicle_part",
+    "id": "bed_straw_rollmat",
+    "name": { "str": "straw bedding" },
+    "symbol": "#",
+    "looks_like": "f_straw_bed",
+    "color": "magenta",
+    "broken_symbol": "*",
+    "broken_color": "magenta",
+    "damage_modifier": 60,
+    "durability": 60,
+    "description": "A small but comfortable bed made from a mat of tightly-woven straw.",
+    "size": 100,
+    "item": "straw_bed_rollmat",
+    "comfort": 3,
+    "floor_bedding_warmth": 200,
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "40 m", "using": [ [ "cordage_short", 4 ] ] },
+      "removal": { "skills": [ [ "survival", 1 ] ], "time": "20 m" },
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "40 m", "using": [ [ "cordage_short", 1 ] ] }
+    },
+    "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE" ],
+    "breaks_into": [ { "item": "straw_pile", "count": [ 7, 8 ] } ],
+    "damage_reduction": { "all": 2 }
   }
 ]
