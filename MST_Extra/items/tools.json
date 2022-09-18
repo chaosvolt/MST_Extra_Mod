@@ -84,11 +84,10 @@
     "volume": "11250 ml",
     "bashing": 10,
     "to_hit": -5,
-    "use_action": {
-      "type": "unfold_vehicle",
-      "vehicle_name": "makeshift_sled_vehicle",
-      "unfold_msg": "You unfold and deploy the makeshift sled.",
-      "moves": 200
+    "use_action": [ "UNFOLD_GENERIC" ],
+    "variables": {
+      "vehicle_name": "Makeshift Sled",
+      "folded_parts": "[{\"id\":\"makeshift_sled_frame_part\",\"base\":{\"typeid\":\"makeshift_sled_frame_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":0},{\"id\":\"makeshift_sled_runner_part\",\"base\":{\"typeid\":\"makeshift_sled_runners_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":0},{\"id\":\"makeshift_sled_basket_part\",\"base\":{\"typeid\":\"makeshift_sled_basket_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":0}]"
     }
   },
   {
@@ -104,11 +103,10 @@
     "volume": "68 L",
     "bashing": 20,
     "to_hit": -10,
-    "use_action": {
-      "type": "unfold_vehicle",
-      "vehicle_name": "log_canoe_vehicle",
-      "unfold_msg": "You deploy the log canoe.",
-      "moves": 100
+    "use_action": [ "UNFOLD_GENERIC" ],
+    "variables": {
+      "vehicle_name": "Log Canoe",
+      "folded_parts": "[{\"id\":\"log_frame_part\",\"base\":{\"typeid\":\"log_frame_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":0},{\"id\":\"hand_paddles\",\"base\":{\"typeid\":\"hand_paddles\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":0},{\"id\":\"log_frame_part\",\"base\":{\"typeid\":\"log_frame_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":1},{\"id\":\"log_frame_part\",\"base\":{\"typeid\":\"log_frame_item\",\"item_tags\":[\"VEHICLE\"]},\"mount_dx\":0,\"mount_dy\":-1}]"
     }
   },
   {
