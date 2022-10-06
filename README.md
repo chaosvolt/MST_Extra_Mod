@@ -2,9 +2,13 @@
 
 A mod for Cataclysm: Dark Days Ahead and Cataclysm: Bright Nights, the official followup to the now-obsolete More Survival Tools mod formerly present in the repo. Adds assorted additional content and changes that improve quality of life when playing innawoods, adding various interesting ideas variously thought up or suggested to me.
 
-If you are using Dark Days Ahead, place the included MST_Extra folder in your data/mods folder. If you are using the Bright Nights fork, use the MST_Extra_BN folder instead. In either case it is recommended that, if updating the mod, to delete the older version of the folder rather than just dumping the new one onto the old one.
+This version is for the 0.1 Stable release of Cataclysm: Bright Nights. To use this, copy over the MST_Extra_BN folder into data/mods.
 
-The following list of content is not only incomplete and unlikely to be out of date, it's also specifically only what MST Extra adds that was not originally present in More Survival Tools. All content that was part of the original MST at the time of its obsolescence is also now a part of this mod.
+If you are using experimental Bright Nights, it is recommended you update from the main page using the "download zip" option within the green "code" button, and copy the MST_Extra_BN folder into data/mods folder.
+
+Likewise, if you are using experimental DDA, use the MST_Extra folder from the master branch.
+
+The following list of content is not only incomplete and likely to be out of date, it's also specifically only what MST Extra adds that was not originally present in More Survival Tools. All content that was part of the original MST at the time of its obsolescence is also now a part of this mod.
 
 In addition, there may be differences in content between the DDA version and the BN version due to various QoL and performance tweaks made to BN, some of which negates the need for some changes that may be present in the DDA version.
 
