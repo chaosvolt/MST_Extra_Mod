@@ -51,7 +51,7 @@
     "id": "constr_mst_window_empty",
     "group": "build_window",
     "//": "Step 1: window frame",
-    "category": "CONSTRUCT",
+    "category": "WINDOWS",
     "required_skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
     "time": "90 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
