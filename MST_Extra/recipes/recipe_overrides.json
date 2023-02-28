@@ -1,23 +1,5 @@
 [
   {
-    "type": "recipe",
-    "result": "bearing",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_OTHER",
-    "skill_used": "fabrication",
-    "skills_required": [ "gun", 2 ],
-    "difficulty": 2,
-    "time": "45 m",
-    "autolearn": true,
-    "book_learn": [ [ "textbook_fabrication", 1 ] ],
-    "using": [ [ "forging_standard", 5 ] ],
-    "tools": [ [ [ "press", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
-    "components": [
-      [ [ "copper", 50 ], [ "tin", 50 ], [ "bismuth", 50 ], [ "solder_wire", 50 ], [ "silver_small", 50 ], [ "scrap", 1 ] ]
-    ]
-  },
-  {
     "result": "chestwrap_fur",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",

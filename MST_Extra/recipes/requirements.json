@@ -12,56 +12,20 @@
     "components": [ [ [ "wax", 1 ], [ "pine_bough", 5 ], [ "pitch_wood", 25 ] ] ]
   },
   {
-    "id": "fletching",
-    "type": "requirement",
-    "//": "Materials for fletching arrows.",
-    "components": [
-      [
-        [ "feather", 10 ],
-        [ "duct_tape", 40 ],
-        [ "cardboard", 10 ],
-        [ "bag_plastic", 1 ],
-        [ "bottle_plastic_small", 1 ],
-        [ "plastic_chunk", 1 ],
-        [ "aluminum_foil", 40 ],
-        [ "cash_card", 2 ],
-        [ "birchbark", 1 ]
-      ]
-    ]
-  },
-  {
-    "id": "meat_nofish",
-    "type": "requirement",
-    "//": "Any type of raw meat except for fish.  About 300-400kcal of meat.",
-    "components": [
-      [
-        [ "meat_red", 1, "LIST" ],
-        [ "liver", 5 ],
-        [ "kidney", 5 ],
-        [ "lung", 5 ],
-        [ "sweetbread", 5 ],
-        [ "bacon", 4 ],
-        [ "lunchmeat", 5 ],
-        [ "bologna", 5 ],
-        [ "can_spam", 4 ],
-        [ "can_chicken", 1 ],
-        [ "meat_pickled", 1 ],
-        [ "dry_meat", 1 ],
-        [ "jerky", 1 ],
-        [ "jerky_offal", 1 ],
-        [ "meat_smoked", 1 ],
-        [ "meat_salted", 1 ]
-      ]
-    ]
-  },
-  {
     "id": "meat_cooked",
     "type": "requirement",
-    "//": "meat you'd put on a sandwich, edit adds jerked offal to the list.",
+    "//": "meat you'd put on a sandwich, edit adds jerked offal to the list",
     "components": [
       [
+        [ "any_cracklins", 2, "LIST" ],
         [ "meat_cooked", 1 ],
+        [ "meat_fatty_cooked", 1 ],
+        [ "meat_scrap_cooked", 10 ],
         [ "mutant_meat_cooked", 1 ],
+        [ "mutant_meat_scrap_cooked", 10 ],
+        [ "human_cooked", 1 ],
+        [ "mutant_human_cooked", 1 ],
+        [ "demihuman_cooked", 1 ],
         [ "meat_pickled", 1 ],
         [ "meat_smoked", 1 ],
         [ "meat_salted", 1 ],
@@ -69,25 +33,33 @@
         [ "rehydrated_meat", 1 ],
         [ "jerky", 1 ],
         [ "jerky_offal", 1 ],
-        [ "bacon", 1 ],
+        [ "bacon", 2 ],
         [ "lunchmeat", 2 ],
-        [ "bologna", 5 ],
-        [ "can_spam", 4 ],
-        [ "fried_spam", 4 ],
+        [ "bologna", 2 ],
+        [ "can_spam", 2 ],
+        [ "fried_spam", 2 ],
         [ "can_chicken", 1 ],
         [ "fish_cooked", 1 ],
+        [ "fish_scrap_cooked", 10 ],
         [ "fish_smoked", 1 ],
+        [ "lobster_cooked", 1 ],
+        [ "lobster_smoked", 1 ],
         [ "can_herring", 1 ],
         [ "can_salmon", 1 ],
         [ "can_tuna", 1 ],
         [ "can_sardine", 1 ],
         [ "can_clams", 1 ],
+        [ "salted_fish", 1 ],
+        [ "meat_canned", 1 ],
+        [ "fish_canned", 1 ],
         [ "fish_pickled", 1 ],
-        [ "cracklins", 1 ],
+        [ "lobster_canned", 1 ],
         [ "meat_aspic", 1 ],
         [ "sausage", 1 ],
         [ "sausage_cooked", 1 ],
-        [ "bratwurst_sausage", 1 ]
+        [ "sausage_wasteland", 1 ],
+        [ "bratwurst_sausage", 1 ],
+        [ "meat_fried", 1 ]
       ]
     ]
   },

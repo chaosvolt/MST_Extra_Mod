@@ -32,7 +32,7 @@
   {
     "id": "meat_nofish",
     "type": "requirement",
-    "//": "Any type of raw meat except for fish.  About 300-400kcal of meat.",
+    "//": "Any type of raw meat except for fish, edit adds jerked offal to the list.  About 300-400kcal of meat.",
     "components": [
       [
         [ "meat_red", 1, "LIST" ],
@@ -43,7 +43,7 @@
         [ "bacon", 4 ],
         [ "lunchmeat", 5 ],
         [ "bologna", 5 ],
-        [ "can_spam", 4 ],
+        [ "can_spam", 2 ],
         [ "can_chicken", 1 ],
         [ "meat_pickled", 1 ],
         [ "dry_meat", 1 ],
@@ -61,7 +61,11 @@
     "components": [
       [
         [ "meat_cooked", 1 ],
+        [ "meat_scrap_cooked", 10 ],
         [ "mutant_meat_cooked", 1 ],
+        [ "mutant_meat_scrap_cooked", 10 ],
+        [ "human_cooked", 1 ],
+        [ "mutant_human_cooked", 1 ],
         [ "meat_pickled", 1 ],
         [ "meat_smoked", 1 ],
         [ "meat_salted", 1 ],
@@ -72,8 +76,8 @@
         [ "bacon", 1 ],
         [ "lunchmeat", 2 ],
         [ "bologna", 5 ],
-        [ "can_spam", 4 ],
-        [ "fried_spam", 4 ],
+        [ "can_spam", 2 ],
+        [ "fried_spam", 2 ],
         [ "can_chicken", 1 ],
         [ "fish_cooked", 1 ],
         [ "fish_smoked", 1 ],
