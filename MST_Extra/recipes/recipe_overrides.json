@@ -274,7 +274,7 @@
     "difficulty": 1,
     "time": "20 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
+    "proficiencies": [ { "proficiency": "prof_knapping" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ] ] ]
   },

@@ -64,7 +64,7 @@
     "difficulty": 0,
     "time": "1 m",
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": false, "time_multiplier": 2.0 } ],
+    "proficiencies": [ { "proficiency": "prof_knapping" } ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "rock_flaking", 1 ] ] ]
   },
@@ -387,8 +387,8 @@
     "using": [ [ "cordage_short", 2 ], [ "glazing", 1 ], [ "earthenware_firing", 50 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "proficiencies": [
-      { "proficiency": "prof_pottery", "required": false, "time_multiplier": 2 },
-      { "proficiency": "prof_pottery_glazing", "required": false, "time_multiplier": 2 }
+      { "proficiency": "prof_pottery" },
+      { "proficiency": "prof_pottery_glazing" }
     ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ], [ [ "2x4", 1 ], [ "stick", 1 ] ] ]
   },
@@ -573,8 +573,8 @@
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 2 ], [ "earthenware_firing", 140 ] ],
     "proficiencies": [
-      { "proficiency": "prof_pottery", "required": false, "time_multiplier": 2 },
-      { "proficiency": "prof_pottery_glazing", "required": false, "time_multiplier": 2 }
+      { "proficiency": "prof_pottery" },
+      { "proficiency": "prof_pottery_glazing" }
     ],
     "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "clay_lump", 15 ] ] ]
   },
@@ -590,7 +590,7 @@
     "time": "30 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_carving", "required": false, "time_multiplier": 3 } ],
+    "proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "log", 1 ] ], [ [ "cordage", 3, "LIST" ] ] ]
   },
   {
@@ -606,7 +606,7 @@
     "book_learn": [ [ "mag_survival", 1 ], [ "textbook_survival", 1 ] ],
     "autolearn": true,
     "using": [ [ "earthenware_firing", 90 ] ],
-    "proficiencies": [ { "proficiency": "prof_pottery", "required": false, "time_multiplier": 2 } ],
+    "proficiencies": [ { "proficiency": "prof_pottery" } ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ] ]
   },
   {
@@ -622,7 +622,7 @@
     "book_learn": [ [ "mag_survival", 2 ], [ "textbook_survival", 1 ], [ "cookbook", 2 ] ],
     "autolearn": true,
     "using": [ [ "earthenware_firing", 100 ] ],
-    "proficiencies": [ { "proficiency": "prof_pottery", "required": false, "time_multiplier": 2 } ],
+    "proficiencies": [ { "proficiency": "prof_pottery" } ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 8 ] ] ]
   },
   {
@@ -663,7 +663,7 @@
       { "id": "PUNCH", "level": 1 },
       { "id": "CUT", "level": 1 }
     ],
-    "proficiencies": [ { "proficiency": "prof_knapping", "required": true } ],
+    "proficiencies": [ { "proficiency": "prof_knapping" } ],
     "components": [
       [ [ "stick", 2 ], [ "2x4", 1 ] ],
       [ [ "stick", 1 ], [ "2x4", 1 ], [ "bone", 1 ], [ "bone_human", 1 ] ],
@@ -694,7 +694,7 @@
     "time": "20 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_fibers", "required": false, "time_multiplier": 4 } ],
+    "proficiencies": [ { "proficiency": "prof_fibers" } ],
     "components": [ [ [ "leather", 1 ], [ "fur", 1 ], [ "cured_hide", 1 ], [ "cured_pelt", 1 ] ] ]
   },
   {
@@ -707,7 +707,7 @@
     "time": "40 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "proficiencies": [ { "proficiency": "prof_fibers", "required": false, "time_multiplier": 4 } ],
+    "proficiencies": [ { "proficiency": "prof_fibers" } ],
     "components": [ [ [ "leather", 2 ], [ "fur", 2 ], [ "cured_hide", 2 ], [ "cured_pelt", 2 ] ] ]
   },
   {
@@ -721,7 +721,7 @@
     "time": "5 m",
     "reversible": true,
     "autolearn": true,
-    "proficiencies": [ { "proficiency": "prof_fibers", "required": false, "time_multiplier": 4 } ],
+    "proficiencies": [ { "proficiency": "prof_fibers" } ],
     "components": [ [ [ "cordage_6_leather", 6 ] ] ]
   }
 ]
