@@ -80,10 +80,7 @@
     "time": "10 m",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [ [ "folding_poncho", 1 ], [ "folding_poncho_on", 1 ], [ "emer_blanket", 1 ], [ "emer_blanket_on", 1 ] ],
-      [ [ "duct_tape", 20 ] ]
-    ]
+    "components": [ [ [ "folding_poncho", 1 ], [ "emer_blanket", 1 ], [ "plastic_sheet", 1 ] ], [ [ "duct_tape", 20 ] ] ]
   },
   {
     "type": "recipe",
@@ -386,10 +383,7 @@
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 1 ], [ "earthenware_firing", 50 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "proficiencies": [
-      { "proficiency": "prof_pottery" },
-      { "proficiency": "prof_pottery_glazing" }
-    ],
+    "proficiencies": [ { "proficiency": "prof_pottery" }, { "proficiency": "prof_pottery_glazing" } ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "clay_lump", 5 ] ], [ [ "2x4", 1 ], [ "stick", 1 ] ] ]
   },
   {
@@ -572,10 +566,7 @@
     "time": "60 m",
     "autolearn": true,
     "using": [ [ "cordage_short", 2 ], [ "glazing", 2 ], [ "earthenware_firing", 140 ] ],
-    "proficiencies": [
-      { "proficiency": "prof_pottery" },
-      { "proficiency": "prof_pottery_glazing" }
-    ],
+    "proficiencies": [ { "proficiency": "prof_pottery" }, { "proficiency": "prof_pottery_glazing" } ],
     "components": [ [ [ "water", 2 ], [ "water_clean", 2 ] ], [ [ "clay_lump", 15 ] ] ]
   },
   {
