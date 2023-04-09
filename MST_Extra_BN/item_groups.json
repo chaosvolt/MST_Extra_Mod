@@ -45,53 +45,8 @@
     "items": [ [ "oil_lamp_clay", 20 ] ]
   },
   {
-    "id": "kitchen",
-    "type": "item_group",
-    "ammo": 75,
-    "magazine": 100,
-    "subtype": "distribution",
-    "entries": [
-      { "item": "bread_garlic", "prob": 7 },
-      { "item": "potted_meat", "prob": 2, "charges": 12, "container-item": "jar_3l_glass_sealed" }
-    ]
-  },
-  {
-    "id": "groce_bread",
-    "type": "item_group",
-    "items": [ [ "bread_garlic", 20 ] ]
-  },
-  {
-    "id": "restaur_kitchen",
-    "type": "item_group",
-    "items": [ [ "bread_garlic", 14 ] ]
-  },
-  {
     "id": "vet_utility",
     "type": "item_group",
     "items": [ [ "jerky_offal", 20 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "butcher_meat",
-    "subtype": "distribution",
-    "entries": [ { "item": "potted_meat", "prob": 1 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "preserved_food",
-    "subtype": "distribution",
-    "entries": [ { "item": "potted_meat", "prob": 20, "charges": 12, "container-item": "jar_3l_glass_sealed" } ]
-  },
-  {
-    "type": "item_group",
-    "id": "foodintincan",
-    "subtype": "distribution",
-    "entries": [ { "item": "potted_meat", "prob": 1 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "cannedfood",
-    "subtype": "distribution",
-    "entries": [ { "item": "potted_meat", "prob": 4, "charges": 12, "container-item": "jar_3l_glass_sealed" } ]
   }
 ]
