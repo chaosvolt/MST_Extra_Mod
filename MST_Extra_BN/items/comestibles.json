@@ -48,41 +48,6 @@
     "flags": [ "NPC_SAFE", "NUTRIENT_OVERRIDE" ]
   },
   {
-    "type": "COMESTIBLE",
-    "id": "garlic_roasted",
-    "copy-from": "garlic",
-    "name": { "str_sp": "roasted garlic" },
-    "spoils_in": "180 days",
-    "quench": -1,
-    "description": "Cloves of garlic, lightly seasoned and roasted.",
-    "price": 800,
-    "material": [ "garlic" ],
-    "fun": 1
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "bread_garlic",
-    "copy-from": "bread",
-    "name": { "str_sp": "garlic bread" },
-    "calories": 105,
-    "quench": -2,
-    "description": "Bread cooked with garlic and seasonings.",
-    "price": 100,
-    "material": [ "wheat", "garlic" ],
-    "vitamins": [ [ "vitC", 6 ], [ "calcium", 12 ], [ "iron", 5 ] ],
-    "charges": 3,
-    "fun": 3
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "chili_pepper_roasted",
-    "copy-from": "chili_pepper",
-    "name": { "str": "roasted chili pepper" },
-    "description": "Spicy chili pepper, lightly seasoned and roasted.",
-    "charges": 1,
-    "fun": 1
-  },
-  {
     "id": "makeshift_poultice",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
@@ -127,19 +92,6 @@
     "fun": 0
   },
   {
-    "type": "COMESTIBLE",
-    "id": "porridge_cooked",
-    "copy-from": "wheat",
-    "name": { "str_sp": "porridge" },
-    "weight": "247 g",
-    "spoils_in": "10 days",
-    "comestible_type": "FOOD",
-    "symbol": "%",
-    "description": "Simple fare made from cooking wheat or barley, bland but filling.",
-    "flags": [ "EATEN_HOT" ],
-    "fun": -1
-  },
-  {
     "id": "jerky_offal",
     "copy-from": "jerky",
     "type": "COMESTIBLE",
@@ -171,26 +123,5 @@
     "//": "Not millable as it requires a bit more drying to make into flour, and there may be technical issues if allowed to process less calorie-dense material into flour.",
     "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
     "vitamins": [ [ "vitC", 1 ], [ "vitA", 3 ] ]
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "potted_meat",
-    "copy-from": "pemmican",
-    "name": { "str_sp": "potted meat" },
-    "conditional_names": [
-      { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str_sp": "potted person" } },
-      { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str_sp": "potted freak" } }
-    ],
-    "weight": "155 g",
-    "container": "can_medium",
-    "calories": 452,
-    "charges": 2,
-    "description": "Meat cooked and preserved in butter or melted fat, a form of food preservation from the days before canning.  Also known as confit.  Rich and fattening, it will last for a long time.",
-    "price": "12 USD",
-    "price_postapoc": "4 USD",
-    "material": [ "flesh" ],
-    "vitamins": [ [ "vitA", 7 ], [ "vitC", 16 ], [ "calcium", 2 ], [ "iron", 69 ], [ "vitB", 781 ] ],
-    "fun": 1,
-    "extend": { "flags": [ "EATEN_HOT" ] }
   }
 ]
