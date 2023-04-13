@@ -121,7 +121,7 @@
     "material": [ "dried_vegetable" ],
     "volume": "250 ml",
     "//": "Not millable as it requires a bit more drying to make into flour, and there may be technical issues if allowed to process less calorie-dense material into flour.",
-    "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
+    "flags": [ "NUTRIENT_OVERRIDE" ],
     "vitamins": [ [ "vitC", 1 ], [ "vitA", 3 ] ]
   }
 ]
