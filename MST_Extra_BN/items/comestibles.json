@@ -24,7 +24,8 @@
     "symbol": "~",
     "color": "yellow",
     "phase": "liquid",
-    "use_action": { "type": "heal", "disinfectant_power": 2, "bite": 0.8, "move_cost": 100 }
+    "charges": 5,
+    "use_action": { "type": "heal", "disinfectant_power": 2, "bite": 0.75, "move_cost": 100 }
   },
   {
     "type": "COMESTIBLE",

@@ -102,13 +102,13 @@
     "symbol": ",",
     "color": "brown",
     "name": { "str_sp": "pitch" },
-    "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty usages, but it can be used as a varnish or holding together small items, or for improvised repairs with the right tools.",
+    "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty uses, but it can be used as a varnish or holding together small items, or for improvised repairs with the right tools.",
     "price": 900,
     "material": [ "oil" ],
     "weight": "1 g",
-    "volume": "250 ml",
+    "volume": "50 ml",
     "ammo_type": "pitch_wood",
-    "count": 50,
+    "count": 10,
     "flags": [ "UNRECOVERABLE" ]
   }
 ]
