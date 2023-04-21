@@ -187,7 +187,7 @@
     "sub": "hotplate",
     "type": "TOOL",
     "name": { "str": "clay lamp oil cooker", "str_pl": "clay lamp oil cookers" },
-    "description": "This is a small clay container with a wick, an ancient form of oil lamp.  It does not provide much light, but it lasts a long time.  Use it to turn it on.",
+    "description": "This is a small clay container for holding lamp oil, designed to set a pot over it.  It could be used for heating food.",
     "weight": "620 g",
     "volume": "250 ml",
     "price": 800,
