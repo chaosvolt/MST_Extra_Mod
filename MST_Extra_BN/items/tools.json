@@ -182,6 +182,24 @@
     "flags": [ "LIGHT_9", "TRADER_AVOID", "FIRE", "ALLOWS_REMOTE_USE", "WATER_EXTINGUISH" ]
   },
   {
+    "id": "oil_cooker_clay",
+    "copy-from": "oil_cooker",
+    "sub": "hotplate",
+    "type": "TOOL",
+    "name": { "str": "clay lamp oil cooker", "str_pl": "clay lamp oil cookers" },
+    "description": "This is a small clay container for holding lamp oil, designed to set a pot over it.  It could be used for heating food.",
+    "weight": "620 g",
+    "volume": "250 ml",
+    "price": 800,
+    "material": [ "clay" ],
+    "color": "brown",
+    "ammo": "lamp_oil",
+    "initial_charges": 250,
+    "max_charges": 250,
+    "charges_per_use": 1,
+    "use_action": "HOTPLATE"
+  },
+  {
     "id": "tinderbox_clay",
     "copy-from": "tinderbox",
     "sub": "tinderbox",
