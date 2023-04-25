@@ -8,9 +8,9 @@
     "material": [ "wood", "stone" ],
     "weight": "700 g",
     "color": "light_gray",
-    "cutting": 13,
+    "melee_damage": { "stab": 13 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
-    "price": 2000,
+    "price": "20 USD",
     "price_postapoc": 275
   },
   {
@@ -22,9 +22,9 @@
     "material": [ "wood", "copper" ],
     "weight": "1100 g",
     "color": "light_red",
-    "cutting": 16,
+    "melee_damage": { "stab": 16 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 16 } ],
-    "price": 9000,
+    "price": "90 USD",
     "price_postapoc": 500
   },
   {
@@ -35,8 +35,8 @@
     "description": "A heavy section of frame carved from a log, can be used for making sturdy wooden vehicle structures.  Also usable for a raft, log canoe, outriggers for a boat, etc due to its buoyancy.",
     "weight": "12 kg",
     "volume": "22500 ml",
-    "price": 100,
-    "bashing": 8,
+    "price": "1 USD",
+    "melee_damage": { "bash": 8 },
     "to_hit": -8,
     "material": [ "wood" ],
     "symbol": "]",
@@ -53,7 +53,7 @@
     "symbol": "]",
     "material": [ "wood" ],
     "volume": "3750 ml",
-    "bashing": 5,
+    "melee_damage": { "bash": 5 },
     "category": "veh_parts",
     "price": 500
   },
@@ -68,7 +68,7 @@
     "symbol": "]",
     "material": [ "wood" ],
     "volume": "5 L",
-    "bashing": 3,
+    "melee_damage": { "bash": 3 },
     "category": "veh_parts",
     "price": 1000
   },
@@ -94,7 +94,7 @@
     "description": "A large, enclosed wooden box with multiple sliding frames in it.  With something to attract bees, it can be used to grow a hive.",
     "weight": "10000 g",
     "volume": "20 L",
-    "price": 9200,
+    "price": "92 USD",
     "material": [ "wood" ],
     "symbol": "-",
     "color": "brown"
@@ -128,7 +128,7 @@
     "material": [ "wood" ],
     "weight": "323 g",
     "volume": "250 ml",
-    "bashing": 4,
+    "melee_damage": { "bash": 4 },
     "to_hit": 1
   }
 ]

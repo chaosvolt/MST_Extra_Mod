@@ -10,8 +10,8 @@
     "color": "light_gray",
     "cutting": 13,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
-    "price": 2000,
-    "price_postapoc": 275
+    "price": "20 USD",
+    "price_postapoc": "275 cent"
   },
   {
     "id": "javelin_copper",
@@ -24,8 +24,8 @@
     "color": "light_red",
     "cutting": 16,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 16 } ],
-    "price": 9000,
-    "price_postapoc": 500
+    "price": "90 USD",
+    "price_postapoc": "5 USD"
   },
   {
     "id": "log_frame_item",
@@ -35,7 +35,7 @@
     "description": "A heavy section of frame carved from a log, can be used for making sturdy wooden vehicle structures.  Also usable for a raft, log canoe, outriggers for a boat, etc due to its buoyancy.",
     "weight": "12 kg",
     "volume": "22500 ml",
-    "price": 100,
+    "price": "1 USD",
     "bashing": 8,
     "to_hit": -8,
     "material": [ "wood" ],
@@ -94,7 +94,7 @@
     "description": "A large, enclosed wooden box with multiple sliding frames in it.  With something to attract bees, it can be used to grow a hive.",
     "weight": "10000 g",
     "volume": "20 L",
-    "price": 9200,
+    "price": "92 USD",
     "material": [ "wood" ],
     "symbol": "-",
     "color": "brown"

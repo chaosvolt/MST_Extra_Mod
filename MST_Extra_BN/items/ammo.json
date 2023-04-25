@@ -6,7 +6,7 @@
     "description": "Hefty round projectiles cast from lead, useful as ammunition for slings.",
     "weight": "12 g",
     "volume": "250 ml",
-    "price": 100,
+    "price": "1 USD",
     "bashing": 1,
     "material": [ "lead" ],
     "symbol": "=",
@@ -40,8 +40,8 @@
     "thrown_damage": [ { "damage_type": "bash", "amount": 2 }, { "damage_type": "stab", "amount": 6 } ],
     "effects": [ "RECOVER_25" ],
     "flags": [ "SPEAR" ],
-    "price": 1000,
-    "price_postapoc": 75,
+    "price": "10 USD",
+    "price_postapoc": "75 cent",
     "qualities": [ [ "COOK", 1 ] ]
   },
   {
@@ -57,8 +57,8 @@
     "cutting": 9,
     "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 5 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 3 }, { "damage_type": "stab", "amount": 9 } ],
-    "price": 2500,
-    "price_postapoc": 100,
+    "price": "25 USD",
+    "price_postapoc": "1 USD",
     "effects": [ "RECOVER_40" ]
   },
   {
@@ -74,8 +74,8 @@
     "cutting": 7,
     "damage": { "damage_type": "stab", "amount": 13, "armor_penetration": 3 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 1 }, { "damage_type": "stab", "amount": 7 } ],
-    "price": 1500,
-    "price_postapoc": 80,
+    "price": "15 USD",
+    "price_postapoc": "80 cent",
     "effects": [ "RECOVER_30" ]
   },
   {
@@ -91,8 +91,8 @@
     "cutting": 8,
     "damage": { "damage_type": "stab", "amount": 16, "armor_penetration": 3 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 3 }, { "damage_type": "stab", "amount": 8 } ],
-    "price": 2000,
-    "price_postapoc": 90,
+    "price": "20 USD",
+    "price_postapoc": "90 cent",
     "effects": [ "RECOVER_35" ]
   },
   {
@@ -103,7 +103,7 @@
     "color": "brown",
     "name": { "str_sp": "pitch" },
     "description": "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough for heavy duty uses, but it can be used as a varnish or holding together small items, or for improvised repairs with the right tools.",
-    "price": 900,
+    "price": "9 USD",
     "material": [ "oil" ],
     "weight": "1 g",
     "volume": "50 ml",

@@ -7,7 +7,7 @@
     "description": "Simple wooden runners for a hand-pulled sled.",
     "weight": "2500 g",
     "volume": "2500 ml",
-    "price": 500,
+    "price": "5 USD",
     "bashing": 6,
     "to_hit": -1,
     "material": [ "wood" ],
