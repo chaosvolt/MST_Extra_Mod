@@ -84,5 +84,15 @@
       "sound_fail": "clang!",
       "items": [ { "item": "hobo_stove", "count": 1 } ]
     }
+  },
+  {
+    "id": "bearing_lead",
+    "type": "MIGRATION",
+    "replace": "sling_bullet_small"
+  },
+  {
+    "type": "recipe",
+    "result": "bearing_lead",
+    "obsolete": true
   }
 ]
