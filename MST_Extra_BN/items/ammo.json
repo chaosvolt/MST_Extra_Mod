@@ -1,26 +1,5 @@
 [
   {
-    "id": "bearing_lead",
-    "type": "AMMO",
-    "name": { "str": "lead pellet" },
-    "description": "Hefty round projectiles cast from lead, useful as ammunition for slings.",
-    "weight": "12 g",
-    "volume": "250 ml",
-    "price": "1 USD",
-    "bashing": 1,
-    "material": [ "lead" ],
-    "symbol": "=",
-    "color": "dark_gray",
-    "count": 30,
-    "ammo_type": "pebble",
-    "range": 13,
-    "//": "I don't get why sling ammo is all stab damagetype, but this means can't use bash if I want to be consistent with vanilla.",
-    "damage": { "damage_type": "stab", "amount": 7, "armor_penetration": 1 },
-    "dispersion": 12,
-    "loudness": 0,
-    "effects": [ "NEVER_MISFIRES" ]
-  },
-  {
     "id": "atlatl_dart_wood",
     "looks_like": "javelin",
     "type": "AMMO",
