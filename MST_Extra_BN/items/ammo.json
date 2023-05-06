@@ -17,7 +17,7 @@
     "dispersion": 80,
     "loudness": 0,
     "thrown_damage": [ { "damage_type": "bash", "amount": 2 }, { "damage_type": "stab", "amount": 6 } ],
-    "effects": [ "RECOVER_25" ],
+    "dont_recover_one_in": 25,
     "flags": [ "SPEAR" ],
     "price": "10 USD",
     "price_postapoc": "75 cent",
@@ -38,7 +38,7 @@
     "thrown_damage": [ { "damage_type": "bash", "amount": 3 }, { "damage_type": "stab", "amount": 9 } ],
     "price": "25 USD",
     "price_postapoc": "1 USD",
-    "effects": [ "RECOVER_40" ]
+    "dont_recover_one_in": 40
   },
   {
     "id": "atlatl_dart_stone",
@@ -55,7 +55,7 @@
     "thrown_damage": [ { "damage_type": "bash", "amount": 1 }, { "damage_type": "stab", "amount": 7 } ],
     "price": "15 USD",
     "price_postapoc": "80 cent",
-    "effects": [ "RECOVER_30" ]
+    "dont_recover_one_in": 30
   },
   {
     "id": "atlatl_dart_copper",
@@ -72,7 +72,7 @@
     "thrown_damage": [ { "damage_type": "bash", "amount": 3 }, { "damage_type": "stab", "amount": 8 } ],
     "price": "20 USD",
     "price_postapoc": "90 cent",
-    "effects": [ "RECOVER_35" ]
+    "dont_recover_one_in": 35
   },
   {
     "type": "AMMO",

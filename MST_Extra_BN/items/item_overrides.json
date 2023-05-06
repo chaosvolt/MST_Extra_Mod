@@ -8,7 +8,8 @@
     "damage": { "damage_type": "stab", "amount": 2 },
     "range": 10,
     "dispersion": 7,
-    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
+    "dont_recover_one_in": 2,
+    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING" ] }
   },
   {
     "id": "petrified_eye",
@@ -19,7 +20,8 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
+    "dont_recover_one_in": 80,
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
   },
   {
     "id": "spiral_stone",
@@ -30,7 +32,8 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
+    "dont_recover_one_in": 80,
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
   },
   {
     "id": "chunk_sulfur",
@@ -63,6 +66,7 @@
     "damage": { "damage_type": "stab", "amount": 5 },
     "range": 14,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
+    "dont_recover_one_in": 60,
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
   }
 ]
