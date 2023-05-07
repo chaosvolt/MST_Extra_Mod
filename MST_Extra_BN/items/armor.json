@@ -14,7 +14,7 @@
     "covers": [ "torso" ],
     "coverage": 30,
     "encumbrance": 12,
-    "storage": "8 L",
+    "storage": "15 L",
     "material_thickness": 2,
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
   },
