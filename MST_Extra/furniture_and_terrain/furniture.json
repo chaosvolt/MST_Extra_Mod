@@ -255,7 +255,7 @@
     "description": "A portable clay oven, placed on the ground.  It can't hold much wood at once, but it will keep a fire safe from wind and rain.",
     "symbol": "#",
     "color": "brown",
-    "move_cost_mod": -1,
+    "move_cost_mod": 1,
     "coverage": 15,
     "required_str": 1,
     "//": "INDOORS and BLOCK_WIND are used to ensure it doesn't go out.  Doesn't let you move onto it to prevent exploiting that.",
