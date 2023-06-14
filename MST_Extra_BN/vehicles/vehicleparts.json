@@ -69,7 +69,7 @@
   {
     "type": "vehicle_part",
     "id": "boat_board_birchbark",
-    "name": { "str": "wbirchbark boat hull" },
+    "name": { "str": "birchbark boat hull" },
     "description": "A waterproofed board that keeps the water out of your boat.",
     "symbol": "o",
     "looks_like": "f_fiber_mat",
