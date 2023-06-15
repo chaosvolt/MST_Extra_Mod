@@ -43,14 +43,16 @@
     "color": "brown"
   },
   {
-    "type": "GENERIC",
+    "type": "TOOL",
     "id": "makeshift_sled_frame_item",
+    "sub": "frame_wood_light",
     "name": { "str": "light woven frame" },
     "description": "A flexible frame made from wooden crosspieces lashed together.",
     "weight": "4000 g",
     "to_hit": -2,
     "color": "brown",
     "symbol": "]",
+    "looks_like": "frame_wood_light",
     "material": [ "wood" ],
     "volume": "3750 ml",
     "melee_damage": { "bash": 5 },

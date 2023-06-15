@@ -228,6 +228,7 @@
     "difficulty": 3,
     "time": "10 m",
     "autolearn": true,
+    "reversible": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "stick", 3 ], [ "2x4", 3 ] ], [ [ "cordage_short", 4, "LIST" ] ] ]
   },
