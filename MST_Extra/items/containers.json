@@ -9,7 +9,7 @@
     "volume": "1503 ml",
     "price": "20 USD",
     "to_hit": -1,
-    "melee_damage": { "bash": 1 },
+    "bashing": 1,
     "symbol": ")",
     "color": "light_gray",
     "pocket_data": [
@@ -43,7 +43,7 @@
     "description": "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.",
     "weight": "150 g",
     "volume": "502 ml",
-    "melee_damage": { "bash": 4 },
+    "bashing": 4,
     "material": [ "clay" ],
     "symbol": ")",
     "color": "brown",

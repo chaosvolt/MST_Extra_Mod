@@ -8,7 +8,7 @@
     "material": [ "wood", "stone" ],
     "weight": "700 g",
     "color": "light_gray",
-    "melee_damage": { "stab": 13 },
+    "cutting": 13,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
     "price": "20 USD",
     "price_postapoc": 275
@@ -22,7 +22,7 @@
     "material": [ "wood", "copper" ],
     "weight": "1100 g",
     "color": "light_red",
-    "melee_damage": { "stab": 16 },
+    "cutting": 16,
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 16 } ],
     "price": "90 USD",
     "price_postapoc": 500
@@ -36,7 +36,7 @@
     "weight": "12 kg",
     "volume": "22500 ml",
     "price": "1 USD",
-    "melee_damage": { "bash": 8 },
+    "bashing": 8,
     "to_hit": -8,
     "material": [ "wood" ],
     "symbol": "]",
@@ -55,7 +55,7 @@
     "looks_like": "frame_wood_light",
     "material": [ "wood" ],
     "volume": "3750 ml",
-    "melee_damage": { "bash": 5 },
+    "bashing": 5,
     "category": "veh_parts",
     "price": 500
   },
@@ -70,7 +70,7 @@
     "symbol": "]",
     "material": [ "wood" ],
     "volume": "5 L",
-    "melee_damage": { "bash": 3 },
+    "bashing": 3,
     "category": "veh_parts",
     "price": 1000
   },
@@ -130,7 +130,7 @@
     "material": [ "wood" ],
     "weight": "323 g",
     "volume": "250 ml",
-    "melee_damage": { "bash": 4 },
+    "bashing": 4,
     "to_hit": 1
   }
 ]
