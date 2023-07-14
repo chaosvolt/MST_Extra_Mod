@@ -17,7 +17,8 @@
       "moves": 200,
       "practice": 4,
       "done_message": "You set the snare trap."
-    }
+    },
+    "flags": [ "SINGLE_USE" ]
   },
   {
     "id": "light_snare_kit",
@@ -37,7 +38,8 @@
       "moves": 150,
       "practice": 2,
       "done_message": "You set the snare trap."
-    }
+    },
+    "flags": [ "SINGLE_USE" ]
   },
   {
     "id": "snare_trigger",
@@ -140,7 +142,8 @@
       "moves": 100,
       "practice": 0,
       "done_message": "You set up the raincatcher, waiting to collect water."
-    }
+    },
+    "flags": [ "SINGLE_USE" ]
   },
   {
     "id": "tanning_hide_small",
