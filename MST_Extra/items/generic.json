@@ -118,19 +118,5 @@
     "description": "A 3-foot (or about 90 cm) long piece of rawhide or leather cord.  Useful for some purposes, but not as strong or flexible as proper string.",
     "proportional": { "price": 0.5 },
     "material": [ "leather" ]
-  },
-  {
-    "type": "GENERIC",
-    "id": "pinebark",
-    "looks_like": "tanbark",
-    "symbol": ",",
-    "color": "brown",
-    "name": { "str_sp": "pinebark" },
-    "description": "A sheet of faintly resinous inner bark, stripped from a pine tree.",
-    "material": [ "wood" ],
-    "weight": "323 g",
-    "volume": "250 ml",
-    "melee_damage": { "bash": 4 },
-    "to_hit": 1
   }
 ]

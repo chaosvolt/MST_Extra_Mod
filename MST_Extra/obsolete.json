@@ -286,5 +286,38 @@
     "type": "recipe",
     "result": "porridge_cooked",
     "obsolete": true
+  },
+  {
+    "id": "pinebark",
+    "type": "MIGRATION",
+    "replace": "pinecone"
+  },
+  {
+    "id": "tree_bacon",
+    "type": "MIGRATION",
+    "replace": "pine_nuts"
+  },
+  {
+    "type": "recipe",
+    "result": "tree_bacon",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "flour",
+    "id_suffix": "bark",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "flour",
+    "id_suffix": "bark_food_processor",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "flour",
+    "id_suffix": "bark_mortar",
+    "obsolete": true
   }
 ]

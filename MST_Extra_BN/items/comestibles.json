@@ -102,27 +102,5 @@
     "healthy": -1,
     "calories": 92,
     "proportional": { "price": 0.8 }
-  },
-  {
-    "type": "COMESTIBLE",
-    "id": "tree_bacon",
-    "looks_like": "bacon",
-    "name": { "str_sp": "roasted bark" },
-    "weight": "300 g",
-    "color": "brown",
-    "comestible_type": "FOOD",
-    "spoils_in": "360 days",
-    "symbol": ",",
-    "quench": -3,
-    "healthy": 1,
-    "calories": 240,
-    "description": "Tree bacon, slices of inner bark from birch or pine that have been roasted, to render them less stringy and more edible.  Can be eaten as-is, or dried and milled into flour.  While commonly considered a survival food, it is relatively palatable.",
-    "price": "120 cent",
-    "price_postapoc": "40 cent",
-    "material": [ "dried_vegetable" ],
-    "volume": "250 ml",
-    "//": "Not millable as it requires a bit more drying to make into flour, and there may be technical issues if allowed to process less calorie-dense material into flour.",
-    "flags": [ "NUTRIENT_OVERRIDE" ],
-    "vitamins": [ [ "vitC", 1 ], [ "vitA", 3 ] ]
   }
 ]
