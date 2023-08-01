@@ -397,6 +397,7 @@
     "difficulty": 0,
     "skills_required": [ "survival", 2 ],
     "time": "2 m",
+    "charges": 3,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "mortar_pestle", -1 ], [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "food_processor", 20 ] ] ],

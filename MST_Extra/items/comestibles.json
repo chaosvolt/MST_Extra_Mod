@@ -55,13 +55,11 @@
     "name": { "str": "makeshift poultice" },
     "description": "A primitive poultice using improvised antiseptic, held in place by a cloth or leather wrap.  Applied loosely, it is designed to stave off infection but can still help staunch bleeding.",
     "weight": "70 g",
-    "volume": "250 ml",
+    "volume": "25 ml",
     "price": "3 USD",
     "material": [ "veggy" ],
     "symbol": "!",
     "color": "light_gray",
-    "charges": 3,
-    "stack_size": 9,
     "use_action": { "type": "heal", "bandages_power": 3, "bleed": 8, "bite": 0.75, "move_cost": 300 }
   },
   {
