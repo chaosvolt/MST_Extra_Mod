@@ -55,7 +55,7 @@
     "environmental_protection_with_filter": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "gasfilter_m": 100 } } ],
     "ammo": [ "gasfilter_m" ],
-    "use_action": "GASMASK",
+    "use_action": "GASMASK_ACTIVATE",
     "flags": [ "OUTER" ],
     "armor": [ { "encumbrance": 20, "coverage": 100, "covers": [ "head", "mouth", "eyes" ] } ]
   },
