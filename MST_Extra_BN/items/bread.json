@@ -15,7 +15,7 @@
     "symbol": "%",
     "color": "white",
     "use_action": {
-      "target": "sourdough_starter",
+      "target": "jar_clay_sourdough_starter",
       "msg": "After feeding it and caring for it for weeks, your sourdough starter is finally ready for the big leagues.",
       "moves": 50,
       "type": "delayed_transform",
@@ -39,7 +39,7 @@
     "symbol": "%",
     "color": "white",
     "use_action": {
-      "target": "sourdough_starter",
+      "target": "jar_clay_sourdough_starter",
       "msg": "The starter is now stinky and bubbly, and looks ready for cooking.",
       "moves": 50,
       "type": "delayed_transform",
