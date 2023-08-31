@@ -1,0 +1,14 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "jar_clay_veggy_pickled",
+    "name": { "str": "clay jar of pickled veggy", "str_pl": "clay jar of pickled veggies" },
+    "copy-from": "veggy",
+    "color": "light_green",
+    "spoils_in": "30 days",
+    "container": "jar_clay_sealed",
+    "description": "This is a serving of crisply brined and canned vegetable matter.  Tasty and nutritious.",
+    "price": 250,
+    "fun": 7
+  }
+]

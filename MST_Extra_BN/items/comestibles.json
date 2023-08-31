@@ -102,5 +102,29 @@
     "healthy": -1,
     "calories": 92,
     "proportional": { "price": 0.8 }
+  },
+  {
+    "id": "jar_clay_sourdough_young",
+    "type": "GENERIC",
+    "category": "food",
+    "name": { "str": "juvenile sourdough starter in a clay jar" },
+    "description": "This clay jar contains a floury paste that is slowly going bad.  Someday it will be sourdough.",
+    "weight": "52 g",
+    "volume": "250 ml",
+    "price": 10,
+    "price_postapoc": 10,
+    "bashing": 8,
+    "material": [ "clay", "wheat" ],
+    "looks_like": "jar_clay",
+    "symbol": "%",
+    "color": "white",
+    "use_action": {
+      "target": "sourdough_starter",
+      "msg": "After feeding it and caring for it for weeks, your sourdough starter is finally ready for the big leagues.",
+      "moves": 50,
+      "type": "delayed_transform",
+      "transform_age": 200000,
+      "not_ready_msg": "You've been caring for your starter for a while, but it's going to need longer before you can do anything tasty with it."
+    }
   }
 ]
