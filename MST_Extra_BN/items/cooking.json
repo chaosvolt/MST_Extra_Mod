@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "jar_clay_yeast",
     "type": "GENERIC",
     "name": { "str_sp": "sealed yeast culture" },
@@ -56,7 +56,7 @@
       "not_ready_msg": "The eggs are not done yet."
     }
   },
-    {
+  {
     "id": "jar_clay_eggs_pickled",
     "type": "GENERIC",
     "category": "food",

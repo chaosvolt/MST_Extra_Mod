@@ -10,9 +10,14 @@
     "result_mult": 2,
     "autolearn": true,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
-    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "jar_clay", 1 ] ], [ [ "flour", 4 ] ], [ [ "jar_clay_sourdough_starter", 1 ] ] ]
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ] ],
+      [ [ "jar_clay", 1 ] ],
+      [ [ "flour", 4 ] ],
+      [ [ "jar_clay_sourdough_starter", 1 ] ]
+    ]
   },
-    {
+  {
     "type": "recipe",
     "result": "jar_clay_sourdough_young",
     "category": "CC_FOOD",
@@ -20,7 +25,7 @@
     "skill_used": "cooking",
     "difficulty": 5,
     "time": "10 m",
-    "//": "Making the very first starter is a lot more finnicky than splitting it once it's mature.",
+    "//": "Making the very first starter is a lot more finicky than splitting it once it's mature.",
     "autolearn": true,
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "jar_clay", 1 ] ], [ [ "flour", 4 ] ] ]
