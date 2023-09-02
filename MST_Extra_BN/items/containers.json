@@ -77,7 +77,7 @@
     "material": [ "clay" ],
     "symbol": ")",
     "color": "brown",
-    "contains": "500 ml",
+    "contains": "3 L",
     "seals": true,
     "watertight": true,
     "unseals_into": "null",
