@@ -64,5 +64,35 @@
     "contains": "7 L",
     "watertight": true,
     "qualities": [ [ "CONTAIN", 1 ] ]
+  },
+  {
+    "id": "jar_3l_clay",
+    "type": "CONTAINER",
+    "category": "other",
+    "name": { "str": "3L clay jar" },
+    "description": "A three-liter clay, glazed for waterproofing with a tight-fitting wooden stopper.",
+    "weight": "900 g",
+    "volume": "3 L",
+    "bashing": 4,
+    "material": [ "clay" ],
+    "symbol": ")",
+    "color": "brown",
+    "contains": "3 L",
+    "seals": true,
+    "watertight": true,
+    "unseals_into": "null",
+    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ]
+  },
+  {
+    "id": "jar_3l_clay_sealed",
+    "copy-from": "jar_3l_clay",
+    "type": "CONTAINER",
+    "name": { "str": "sealed 3L clay jar" },
+    "description": "A three-liter clay, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly to preserve contents from rot.",
+    "symbol": ")",
+    "color": "brown",
+    "seals": false,
+    "preserves": true,
+    "unseals_into": "jar_3l_clay"
   }
 ]
