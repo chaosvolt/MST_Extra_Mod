@@ -8,7 +8,7 @@
     "damage": { "damage_type": "bullet", "amount": 2 },
     "range": 10,
     "dispersion": 7,
-    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING", "RECOVER_2" ] }
+    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON_FOULING", "RECOVER_2" ] }
   },
   {
     "id": "petrified_eye",
@@ -19,7 +19,7 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_80" ] }
   },
   {
     "id": "spiral_stone",
@@ -30,7 +30,7 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_80" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_80" ] }
   },
   {
     "id": "chunk_sulfur",
@@ -41,7 +41,7 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "material_limestone",
@@ -52,7 +52,7 @@
     "damage": { "damage_type": "bullet", "amount": 2 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "golf_ball",
@@ -63,7 +63,7 @@
     "damage": { "damage_type": "stab", "amount": 3 },
     "range": 12,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_60" ] }
   },
   {
     "id": "pool_ball",
@@ -74,7 +74,7 @@
     "damage": { "damage_type": "stab", "amount": 6 },
     "range": 12,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_60" ] }
   },
   {
     "id": "baseball",
@@ -85,7 +85,7 @@
     "damage": { "damage_type": "stab", "amount": 5 },
     "range": 14,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING", "RECOVER_60" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING", "RECOVER_60" ] }
   },
   {
     "id": "tarp",
