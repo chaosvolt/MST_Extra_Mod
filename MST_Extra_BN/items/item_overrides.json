@@ -9,7 +9,7 @@
     "range": 10,
     "dispersion": 7,
     "dont_recover_one_in": 2,
-    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "BEANBAG", "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "petrified_eye",
@@ -21,7 +21,7 @@
     "range": 10,
     "dispersion": 14,
     "dont_recover_one_in": 80,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "spiral_stone",
@@ -33,7 +33,7 @@
     "range": 10,
     "dispersion": 14,
     "dont_recover_one_in": 80,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "chunk_sulfur",
@@ -44,7 +44,7 @@
     "damage": { "damage_type": "stab", "amount": 7 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "BLINDS_EYES", "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "material_limestone",
@@ -55,7 +55,7 @@
     "damage": { "damage_type": "stab", "amount": 2 },
     "range": 10,
     "dispersion": 14,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING" ] }
   },
   {
     "id": "baseball",
@@ -67,6 +67,6 @@
     "range": 14,
     "dispersion": 14,
     "dont_recover_one_in": 60,
-    "extend": { "effects": [ "NEVER_MISFIRES", "NON-FOULING" ] }
+    "extend": { "effects": [ "NEVER_MISFIRES", "NON_FOULING" ] }
   }
 ]
