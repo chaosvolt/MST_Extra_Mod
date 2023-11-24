@@ -17,6 +17,7 @@
   {
     "type": "recipe",
     "result": "javelin_stone",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
@@ -46,6 +47,7 @@
   {
     "type": "recipe",
     "result": "javelin_copper",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
