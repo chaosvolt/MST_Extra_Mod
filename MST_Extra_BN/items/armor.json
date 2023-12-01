@@ -40,7 +40,7 @@
       "draw_cost": 3,
       "flags": [ "SHEATH_KNIFE" ]
     },
-    "flags": [ "WAIST", "OVERSIZE", "WATER_FRIENDLY" ]
+    "flags": [ "WAIST", "COMPACT", "OVERSIZE", "WATER_FRIENDLY" ]
   },
   {
     "id": "armwrap_leather",
