@@ -34,6 +34,8 @@
     "damage_modifier": 50,
     "folded_volume": 10,
     "flags": [ "WHEEL", "STABLE", "FOLDABLE" ],
+    "wheel_type": "rigid",
+    "contact_area": 50,
     "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
     "requirements": {
       "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },

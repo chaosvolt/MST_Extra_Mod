@@ -33,6 +33,9 @@
     "damage_modifier": 50,
     "folded_volume": "2500 ml",
     "flags": [ "WHEEL", "STABLE" ],
+    "wheel_offroad_rating": 0.1,
+    "wheel_terrain_modifiers": { "FLAT": [ 0, 6 ], "ROAD": [ 0, 3 ] },
+    "contact_area": 50,
     "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
     "requirements": {
       "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
