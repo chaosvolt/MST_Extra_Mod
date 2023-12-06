@@ -33,7 +33,7 @@
     "volume": "2500 ml",
     "encumbrance": 10,
     "bashing": 4,
-    "flags": [ "WAIST" ],
+    "flags": [ "WAIST", "COMPACT" ],
     "coverage": 10,
     "material_thickness": 2
   },
