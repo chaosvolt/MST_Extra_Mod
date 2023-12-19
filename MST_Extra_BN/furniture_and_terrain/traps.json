@@ -9,6 +9,7 @@
     "avoidance": 10,
     "difficulty": 2,
     "action": "snare_light",
+    "remove_on_trigger": true,
     "drops": [ "light_snare_kit" ]
   },
   {
@@ -21,6 +22,7 @@
     "avoidance": 10,
     "difficulty": 4,
     "action": "snare_heavy",
+    "remove_on_trigger": true,
     "drops": [ "heavy_snare_kit" ]
   },
   {
