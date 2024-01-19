@@ -7,6 +7,7 @@
     "symbol": "^",
     "color": "light_gray",
     "move_cost": 0,
+    "coverage": 60,
     "transforms_into": "t_hive_growing",
     "deconstruct": { "ter_set": "t_dirt", "items": [ { "item": "beehive_empty", "count": 1 } ] },
     "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
@@ -20,7 +21,8 @@
         { "item": "2x4", "count": [ 1, 4 ] },
         { "item": "nail", "charges": [ 4, 8 ] },
         { "item": "splinter", "count": [ 2, 6 ] }
-      ]
+      ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 38, "block_unaimed_chance": "50%" }
     }
   },
   {
@@ -31,6 +33,7 @@
     "symbol": "^",
     "color": "brown",
     "move_cost": 0,
+    "coverage": 60,
     "transforms_into": "t_hive_ready",
     "deconstruct": { "ter_set": "t_dirt", "items": [ { "item": "beehive_empty", "count": 1 }, { "item": "wax", "count": [ 1, 6 ] } ] },
     "flags": [ "FLAMMABLE_ASH", "TRANSPARENT", "PERMEABLE", "NOITEM", "EASY_DECONSTRUCT", "HARVESTED" ],
@@ -56,6 +59,7 @@
     "symbol": "^",
     "color": "yellow",
     "move_cost": 0,
+    "coverage": 60,
     "transforms_into": "t_hive_recovering",
     "examine_action": "harvest_ter",
     "harvest_by_season": [ { "seasons": [ "spring", "summer", "autumn", "winter" ], "id": "hive_ready_harv" } ],
@@ -87,6 +91,7 @@
     "symbol": "^",
     "color": "brown",
     "move_cost": 0,
+    "coverage": 60,
     "transforms_into": "t_hive_regrowing",
     "deconstruct": {
       "ter_set": "t_dirt",
@@ -115,6 +120,7 @@
     "symbol": "^",
     "color": "brown",
     "move_cost": 0,
+    "coverage": 60,
     "transforms_into": "t_hive_ready",
     "deconstruct": {
       "ter_set": "t_dirt",
