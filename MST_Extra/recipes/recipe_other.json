@@ -403,7 +403,7 @@
     "tools": [ [ [ "mortar_pestle", -1 ], [ "rock_quern", -1 ], [ "clay_quern", -1 ], [ "food_processor", 20 ] ] ],
     "components": [
       [
-        [ "rag", 3 ],
+        [ "cotton_patchwork", 3 ],
         [ "felt_patch", 3 ],
         [ "leather", 3 ],
         [ "fur", 3 ],
@@ -635,7 +635,7 @@
     "components": [
       [ [ "primitive_knife", 1 ], [ "copper_knife", 1 ], [ "makeshift_knife", 1 ] ],
       [ [ "primitive_adze", 1 ] ],
-      [ [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
+      [ [ "cotton_patchwork", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
     ]
   },
   {

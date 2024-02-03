@@ -30,7 +30,7 @@
     "batch_time_factors": [ 80, 4 ],
     "autolearn": true,
     "qualities": [ { "id": "BOIL", "level": 1 } ],
-    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ], [ [ "rag", -1 ], [ "felt_patch", -1 ] ] ],
+    "tools": [ [ [ "water_boiling_heat", 3, "LIST" ] ], [ [ "cotton_patchwork", -1 ], [ "felt_patch", -1 ] ] ],
     "components": [ [ [ "feces_bird", 10 ] ], [ [ "water", 5 ], [ "water_clean", 5 ] ] ]
   },
   {

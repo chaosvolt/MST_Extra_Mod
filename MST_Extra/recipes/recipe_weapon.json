@@ -39,7 +39,7 @@
     ],
     "components": [
       [ [ "spear_wood", 1 ], [ "pointy_stick", 1 ] ],
-      [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+      [ [ "cotton_patchwork", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
       [ [ "duct_tape", 20 ], [ "filament", 20, "LIST" ] ],
       [ [ "rock_flaking", 1 ], [ "sharp_rock", 1 ], [ "ceramic_shard", 1 ] ]
     ]
