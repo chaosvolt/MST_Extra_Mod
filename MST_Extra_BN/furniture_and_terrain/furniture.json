@@ -77,6 +77,7 @@
     "looks_like": "t_wall_log_half",
     "description": "A waist-high barricade made of stout saplings, held in place by poles hammered into the ground.  Primarily used to keep the wind out, but also works to fence in  a campsite.",
     "move_cost_mod": -1,
+    "coverage": 60,
     "required_str": -1,
     "flags": [
       "CLIMB_SIMPLE",
@@ -97,7 +98,8 @@
       "str_max": 40,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "stick", "count": [ 2, 6 ] }, { "item": "splinter", "count": [ 2, 6 ] } ]
+      "items": [ { "item": "stick", "count": [ 2, 6 ] }, { "item": "splinter", "count": [ 2, 6 ] } ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 40, "block_unaimed_chance": "50%" }
     }
   },
   {
@@ -146,7 +148,8 @@
       "str_max": 38,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "2x4", "count": [ 2, 6 ] }, { "item": "splinter", "count": 12 } ]
+      "items": [ { "item": "2x4", "count": [ 2, 6 ] }, { "item": "splinter", "count": 12 } ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 38, "block_unaimed_chance": "50%" }
     }
   },
   {
@@ -169,6 +172,7 @@
       "sound": "smash!",
       "sound_fail": "whump.",
       "items": [ { "item": "2x4", "count": [ 2, 5 ] }, { "item": "splinter", "count": 3 } ]
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 38, "block_unaimed_chance": "50%" }
     },
     "examine_action": "workbench",
     "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
@@ -192,7 +196,8 @@
       "str_max": 50,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "2x4", "count": [ 2, 4 ] }, { "item": "splinter", "count": 3 } ]
+      "items": [ { "item": "2x4", "count": [ 2, 4 ] }, { "item": "splinter", "count": 3 } ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 50, "block_unaimed_chance": "50%" }
     },
     "examine_action": "workbench",
     "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
@@ -219,7 +224,8 @@
       "str_max": 18,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "2x4", "count": [ 0, 2 ] }, { "item": "splinter", "count": 1 } ]
+      "items": [ { "item": "2x4", "count": [ 0, 2 ] }, { "item": "splinter", "count": 1 } ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 18, "block_unaimed_chance": "25%" }
     }
   },
   {
@@ -244,7 +250,8 @@
       "str_max": 38,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "2x4", "count": [ 0, 2 ] }, { "item": "splinter", "count": 1 } ]
+      "items": [ { "item": "2x4", "count": [ 0, 2 ] }, { "item": "splinter", "count": 1 } ],
+      "ranged": { "reduction": [ 5, 10 ], "destroy_threshold": 38, "block_unaimed_chance": "25%" }
     }
   },
   {
