@@ -94,8 +94,8 @@
     "examine_action": "chainfence",
     "deconstruct": { "items": [ { "item": "stick", "count": 8 }, { "item": "pointy_stick", "count": 4 } ] },
     "bash": {
-      "str_min": 3,
-      "str_max": 40,
+      "str_min": 6,
+      "str_max": 36,
       "sound": "smash!",
       "sound_fail": "whump.",
       "items": [ { "item": "stick", "count": [ 2, 6 ] }, { "item": "splinter", "count": [ 2, 6 ] } ]
@@ -189,8 +189,8 @@
     "flags": [ "TRANSPARENT", "FLAMMABLE", "ORGANIC", "MOUNTABLE", "SHORT", "FLAT_SURF", "EASY_DECONSTRUCT" ],
     "deconstruct": { "items": [ { "item": "2x4", "count": 6 } ] },
     "bash": {
-      "str_min": 12,
-      "str_max": 50,
+      "str_min": 10,
+      "str_max": 45,
       "sound": "smash!",
       "sound_fail": "whump.",
       "items": [ { "item": "2x4", "count": [ 2, 4 ] }, { "item": "splinter", "count": 3 } ]
