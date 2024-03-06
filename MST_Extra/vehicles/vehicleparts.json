@@ -217,7 +217,7 @@
     "requirements": {
       "install": { "skills": [ [ "survival", 1 ] ], "time": "40 m", "using": [ [ "cordage_short", 4 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "20 m" },
-      "repair": { "skills": [ [ "survival", 2 ] ], "time": "40 m", "using": [ [ "cordage_short", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "40 m", "using": [ [ "cordage_short", 2 ] ] }
     },
     "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE" ],
     "breaks_into": [ { "item": "straw_pile", "count": [ 7, 8 ] } ],
