@@ -196,7 +196,7 @@
     "color": "brown",
     "use_action": {
       "target": "yeast",
-      "msg": "You open the flask and harvest the culture.",
+      "msg": "You open the jar and harvest the culture.",
       "container": "jar_3l_clay",
       "target_charges": 60,
       "moves": 50,
