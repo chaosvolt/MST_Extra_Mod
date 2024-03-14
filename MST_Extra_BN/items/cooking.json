@@ -177,9 +177,7 @@
     "id": "jar_3l_clay_yeast",
     "type": "GENERIC",
     "category": "food",
-    "name": {
-      "str_sp": "sealed yeast culture"
-    },
+    "name": { "str_sp": "sealed yeast culture" },
     "description": "A sealed 3L clay jar holding sanitized yeast wort.  You may harvest the yeast inside when it's done culturing.",
     "weight": "900 g",
     "volume": "3 L",
@@ -187,10 +185,7 @@
     "price_postapoc": "10 cent",
     "to_hit": -1,
     "bashing": 5,
-    "material": [
-      "glass",
-      "powder"
-    ],
+    "material": [ "glass", "powder" ],
     "symbol": ")",
     "looks_like": "jar_3l_clay_sealed",
     "color": "brown",
@@ -205,8 +200,6 @@
       "not_ready_msg": "The yeast isn't done culturing yet.",
       "//": "12 hours"
     },
-    "flags": [
-      "TRADER_AVOID"
-    ]
-   }
+    "flags": [ "TRADER_AVOID" ]
+  }
 ]
