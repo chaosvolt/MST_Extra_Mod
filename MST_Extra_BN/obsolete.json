@@ -127,5 +127,15 @@
     "result": "flour",
     "id_suffix": "bark_mortar",
     "obsolete": true
+  },
+  {
+    "id": "jerky_offal",
+    "type": "MIGRATION",
+    "replace": "jerky"
+  },
+  {
+    "type": "recipe",
+    "result": "jerky_offal",
+    "obsolete": true
   }
 ]
