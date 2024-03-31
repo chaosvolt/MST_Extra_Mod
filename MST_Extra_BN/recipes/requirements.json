@@ -12,31 +12,6 @@
     "components": [ [ [ "wax", 1 ], [ "pine_bough", 5 ], [ "pitch_wood", 25 ] ] ]
   },
   {
-    "id": "meat_nofish",
-    "type": "requirement",
-    "//": "Any type of raw meat except for fish, edit adds jerked offal to the list.  About 300-400kcal of meat.",
-    "components": [
-      [
-        [ "meat_red", 1, "LIST" ],
-        [ "liver", 5 ],
-        [ "kidney", 5 ],
-        [ "lung", 5 ],
-        [ "sweetbread", 5 ],
-        [ "bacon", 4 ],
-        [ "lunchmeat", 5 ],
-        [ "bologna", 5 ],
-        [ "can_spam", 2 ],
-        [ "can_chicken", 1 ],
-        [ "meat_pickled", 1 ],
-        [ "dry_meat", 1 ],
-        [ "jerky", 1 ],
-        [ "jerky_offal", 1 ],
-        [ "meat_smoked", 1 ],
-        [ "meat_salted", 1 ]
-      ]
-    ]
-  },
-  {
     "id": "vehicle_sled",
     "type": "requirement",
     "//": "For repairing makeshift sleds.",

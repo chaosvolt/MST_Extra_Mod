@@ -43,10 +43,5 @@
     "id": "reading_lights",
     "type": "item_group",
     "items": [ [ "oil_lamp_clay", 20 ] ]
-  },
-  {
-    "id": "vet_utility",
-    "type": "item_group",
-    "items": [ [ "jerky_offal", 20 ] ]
   }
 ]

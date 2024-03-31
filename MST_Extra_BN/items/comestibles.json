@@ -93,17 +93,6 @@
     "fun": 0
   },
   {
-    "id": "jerky_offal",
-    "copy-from": "jerky",
-    "type": "COMESTIBLE",
-    "name": { "str_sp": "jerked offal" },
-    "description": "Salty dried organ meat.  Smells a bit like dog food, but will last a long time.",
-    "fun": -2,
-    "healthy": -1,
-    "calories": 92,
-    "proportional": { "price": 0.8 }
-  },
-  {
     "id": "jar_clay_sourdough_young",
     "type": "GENERIC",
     "category": "food",
