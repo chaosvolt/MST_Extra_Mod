@@ -440,33 +440,6 @@
   },
   {
     "type": "recipe",
-    "result": "tanning_hide_small",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "chemistry", 1 ],
-    "difficulty": 2,
-    "time": "10 m",
-    "batch_time_factors": [ 20, 10 ],
-    "autolearn": true,
-    "qualities": [
-      { "id": "CUT", "level": 1 },
-      { "id": "COOK", "level": 2 },
-      { "id": "BOIL", "level": 1 },
-      { "id": "CONTAIN", "level": 1 }
-    ],
-    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
-    "components": [
-      [ [ "water_clean", 1 ], [ "water", 1 ] ],
-      [ [ "pine_bough", 1 ], [ "brain", 1 ] ],
-      [ [ "saline", 2 ], [ "salt", 2 ] ],
-      [ [ "cooking_oil2", 2 ], [ "lamp_oil", 25 ] ],
-      [ [ "cured_hide", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "tanning_pelt_small",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
