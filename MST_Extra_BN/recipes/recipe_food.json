@@ -56,7 +56,7 @@
     "using": [ [ "waterproofing", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
-    "components": [ [ [ "water", 11 ], [ "water_clean", 11 ] ], [ [ "jar_clay", 1 ] ], [ [ "meat_red_raw", 2, "LIST" ] ] ]
+    "components": [ [ [ "water", 11 ], [ "water_clean", 11 ] ], [ [ "jar_clay", 1 ] ], [ [ "meat_red", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -529,7 +529,7 @@
     "components": [
       [ [ "water", 6 ], [ "water_clean", 6 ], [ "salt_water", 6 ], [ "saline", 30 ] ],
       [ [ "jar_3l_clay", 1 ] ],
-      [ [ "meat_red_raw", 12, "LIST" ] ],
+      [ [ "meat_red", 12, "LIST" ] ],
       [ [ "vinegar", 6 ] ]
     ]
   },
@@ -549,7 +549,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
-    "components": [ [ [ "water", 16 ], [ "water_clean", 16 ] ], [ [ "jar_3l_clay", 1 ] ], [ [ "meat_red_raw", 12, "LIST" ] ] ]
+    "components": [ [ [ "water", 16 ], [ "water_clean", 16 ] ], [ [ "jar_3l_clay", 1 ] ], [ [ "meat_red", 12, "LIST" ] ] ]
   },
   {
     "type": "recipe",
@@ -585,7 +585,7 @@
     "container": "jar_3l_clay_sealed",
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 200, "LIST" ] ], [ [ "pot_canning", -1 ] ] ],
-    "components": [ [ [ "water", 16 ], [ "water_clean", 16 ] ], [ [ "jar_3l_clay", 1 ] ], [ [ "offal_raw", 12, "LIST" ] ] ]
+    "components": [ [ [ "water", 16 ], [ "water_clean", 16 ] ], [ [ "jar_3l_clay", 1 ] ], [ [ "offals_raw", 12, "LIST" ] ] ]
   },
   {
     "type": "recipe",
