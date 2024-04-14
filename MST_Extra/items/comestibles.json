@@ -1,18 +1,5 @@
 [
   {
-    "type": "COMESTIBLE",
-    "id": "tea_willow",
-    "copy-from": "tea",
-    "name": { "str_sp": "willow tea" },
-    "container": "bottle_glass",
-    "healthy": -1,
-    "stim": 0,
-    "description": "A bitter herbal tea made from willow bark, used since ancient times as a mild painkiller.",
-    "price": "1250 cent",
-    "fun": -3,
-    "use_action": { "type": "consume_drug", "effects": [ { "id": "pkill1", "duration": 90 } ] }
-  },
-  {
     "id": "tar_oil",
     "type": "COMESTIBLE",
     "comestible_type": "MED",

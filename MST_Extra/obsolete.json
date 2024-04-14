@@ -319,5 +319,15 @@
     "result": "flour",
     "id_suffix": "bark_mortar",
     "obsolete": true
+  },
+  {
+    "id": "tea_willow",
+    "type": "MIGRATION",
+    "replace": "tea_willowbark"
+  },
+  {
+    "type": "recipe",
+    "result": "tea_willow",
+    "obsolete": true
   }
 ]
