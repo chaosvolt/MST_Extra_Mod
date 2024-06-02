@@ -137,5 +137,33 @@
     "type": "recipe",
     "result": "jerky_offal",
     "obsolete": true
+  },
+  {
+    "id": "jar_clay_sourdough_young",
+    "type": "MIGRATION",
+    "replace": "jar_clay",
+    "contents": [ "sourdough_starter_uncovered" ]
+  },
+  {
+    "id": "jar_clay_sourdough_split",
+    "type": "MIGRATION",
+    "replace": "jar_clay",
+    "contents": [ "sourdough_starter_uncovered" ]
+  },
+  {
+    "id": "jar_clay_sourdough_starter",
+    "type": "MIGRATION",
+    "replace": "jar_clay",
+    "contents": [ "sourdough_starter_uncovered" ]
+  },
+  {
+    "type": "recipe",
+    "result": "jar_clay_sourdough_split",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "jar_clay_sourdough_young",
+    "obsolete": true
   }
 ]
