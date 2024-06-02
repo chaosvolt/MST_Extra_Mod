@@ -162,7 +162,8 @@
       "need_charges": 1,
       "need_charges_msg": "The lamp is empty.",
       "type": "transform"
-    }
+    },
+    "extend": { "effects": [ "SHATTERS" ] }
   },
   {
     "id": "oil_lamp_clay_on",
@@ -193,7 +194,8 @@
     "initial_charges": 250,
     "max_charges": 250,
     "charges_per_use": 1,
-    "use_action": "HOTPLATE"
+    "use_action": "HOTPLATE",
+    "flags": [ "SHATTERS" ]
   },
   {
     "id": "tinderbox_clay",
@@ -213,7 +215,8 @@
       "need_charges": 1,
       "need_charges_msg": "The ember carrier is out of tinder.",
       "type": "transform"
-    }
+    },
+    "flags": [ "SHATTERS" ]
   },
   {
     "id": "tinderbox_clay_on",
@@ -250,7 +253,8 @@
     "material": "clay",
     "symbol": ",",
     "color": "brown",
-    "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ]
+    "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ],
+    "flags": [ "SHATTERS" ]
   },
   {
     "id": "misc_repairkit_makeshift",
@@ -339,6 +343,7 @@
     "symbol": ")",
     "color": "brown",
     "container_data": { "contains": "25 L", "watertight": true },
-    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ]
+    "qualities": [ [ "COOK", 3 ], [ "BOIL", 2 ], [ "CONTAIN", 1 ], [ "CHEM", 1 ] ],
+    "flags": [ "SHATTERS" ]
   }
 ]

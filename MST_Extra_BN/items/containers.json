@@ -35,7 +35,8 @@
     "seals": true,
     "watertight": true,
     "unseals_into": "null",
-    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ]
+    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ],
+    "flags": [ "SHATTERS" ]
   },
   {
     "id": "jar_clay_sealed",
@@ -81,7 +82,8 @@
     "seals": true,
     "watertight": true,
     "unseals_into": "null",
-    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ]
+    "qualities": [ [ "CONTAIN", 1 ], [ "BOIL", 1 ] ],
+    "flags": [ "SHATTERS" ]
   },
   {
     "id": "jar_3l_clay_sealed",
