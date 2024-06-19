@@ -60,7 +60,7 @@
     "healthy": 0,
     "price": "250 cent",
     "container": "waterskin",
-    "vitamins": [ [ "vitA", 10 ], [ "vitC", 6 ], [ "calcium", 2 ], [ "iron", 1 ] ],
+    "vitamins": [ [ "vitC", 6 ], [ "calcium", 2 ], [ "iron", 1 ] ],
     "calories": 60,
     "quench": 40,
     "stim": -1,
