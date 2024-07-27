@@ -16,11 +16,6 @@
   },
   {
     "type": "construction_group",
-    "id": "build_still_dirt",
-    "name": "Build Makeshift Still"
-  },
-  {
-    "type": "construction_group",
     "id": "build_pulley_lifter",
     "name": "Build Pulley Lifter"
   },

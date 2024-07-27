@@ -106,31 +106,6 @@
   },
   {
     "type": "construction",
-    "id": "constr_mst_makeshift_sill_dirt",
-    "group": "build_still_dirt",
-    "category": "CONSTRUCT",
-    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
-    "time": "30 m",
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "components": [ [ [ "bottle_glass", 2 ] ] ],
-    "pre_note": "Can be deconstructed without tools.",
-    "pre_terrain": "t_dirtmound",
-    "post_furniture": "f_still_mounds"
-  },
-  {
-    "type": "construction",
-    "id": "constr_mst_makeshift_sill_sand",
-    "group": "build_still_dirt",
-    "category": "CONSTRUCT",
-    "required_skills": [ [ "fabrication", 2 ], [ "survival", 2 ] ],
-    "time": "30 m",
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "components": [ [ [ "bottle_glass", 2 ] ] ],
-    "pre_terrain": "t_sandmound",
-    "post_furniture": "f_still_mounds"
-  },
-  {
-    "type": "construction",
     "id": "constr_mst_pulley_lifter",
     "group": "build_pulley_lifter",
     "category": "CONSTRUCT",

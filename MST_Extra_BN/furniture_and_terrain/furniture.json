@@ -23,28 +23,6 @@
   },
   {
     "type": "furniture",
-    "id": "f_still_mounds",
-    "name": "makeshift still",
-    "symbol": "#",
-    "looks_like": "bottle_glass",
-    "description": "A pair of glass bottles insulated with dirt or sand.  With careful alignment, it serves as a crude alembic by boiling away liquid in the first container, condensing into the second.",
-    "color": "brown",
-    "move_cost_mod": -1,
-    "required_str": -1,
-    "crafting_pseudo_item": "mound_distillation",
-    "flags": [ "PLACE_ITEM", "TRANSPARENT", "EASY_DECONSTRUCT" ],
-    "deconstruct": { "items": [ { "item": "bottle_glass", "count": 2 } ] },
-    "max_volume": "3000 L",
-    "bash": {
-      "str_min": 12,
-      "str_max": 40,
-      "sound": "crunch!",
-      "sound_fail": "whump.",
-      "items": [ { "item": "glass_shard", "count": [ 1, 2 ] } ]
-    }
-  },
-  {
-    "type": "furniture",
     "id": "f_pulley_lifter",
     "name": "rope and pulley lifter",
     "symbol": "|",
@@ -75,7 +53,7 @@
     "symbol": "#",
     "bgcolor": "brown",
     "looks_like": "t_wall_log_half",
-    "description": "A waist-high barricade made of stout saplings, held in place by poles hammered into the ground.  Primarily used to keep the wind out, but also works to fence in  a campsite.",
+    "description": "A waist-high barricade made of stout saplings, held in place by poles hammered into the ground.  Primarily used to keep the wind out, but also works to fence in a campsite.",
     "move_cost_mod": -1,
     "coverage": 60,
     "required_str": -1,

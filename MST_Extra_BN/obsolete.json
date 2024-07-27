@@ -165,5 +165,27 @@
     "type": "recipe",
     "result": "jar_clay_sourdough_young",
     "obsolete": true
+  },
+  {
+    "type": "furniture",
+    "id": "f_still_mounds",
+    "name": "makeshift still",
+    "symbol": "#",
+    "looks_like": "bottle_glass",
+    "description": "A pair of glass bottles insulated with dirt or sand.  With careful alignment, it serves as a crude alembic by boiling away liquid in the first container, condensing into the second.",
+    "color": "brown",
+    "move_cost_mod": -1,
+    "required_str": -1,
+    "crafting_pseudo_item": "mound_distillation",
+    "flags": [ "PLACE_ITEM", "TRANSPARENT", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "bottle_glass", "count": 2 } ] },
+    "max_volume": "3000 L",
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "crunch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "glass_shard", "count": [ 1, 2 ] } ]
+    }
   }
 ]

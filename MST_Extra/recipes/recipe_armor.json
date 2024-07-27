@@ -117,6 +117,30 @@
     "components": [ [ [ "fur_blanket", 1 ] ], [ [ "nail", 1 ], [ "splinter", 1 ], [ "skewer_bone", 1 ] ] ]
   },
   {
+    "result": "cloak_makeshift_quilt",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "time": "1 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "quilt", 1 ] ], [ [ "nail", 1 ], [ "splinter", 1 ], [ "skewer_bone", 1 ] ] ]
+  },
+  {
+    "result": "cloak_makeshift_quilt_patchwork",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "time": "1 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "quilt_patchwork", 1 ] ], [ [ "nail", 1 ], [ "splinter", 1 ], [ "skewer_bone", 1 ] ] ]
+  },
+  {
     "result": "quiver_atlatl",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
