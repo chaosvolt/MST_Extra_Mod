@@ -85,7 +85,8 @@
       "vehicle_name": "makeshift_sled_vehicle",
       "unfold_msg": "You unfold and deploy the makeshift sled.",
       "moves": 200
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "log_canoe_item",
@@ -105,7 +106,8 @@
       "vehicle_name": "log_canoe_vehicle",
       "unfold_msg": "You deploy the log canoe.",
       "moves": 100
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "mound_distillation",
@@ -131,7 +133,6 @@
     "description": "Some sticks and string with a leather tarp, to set up an improvised raincatcher.",
     "weight": "4736 g",
     "material": [ "wood", "leather" ],
-    "extend": { "flags": [ "ALLOWS_REMOTE_USE" ] },
     "use_action": {
       "type": "place_trap",
       "allow_under_player": true,
