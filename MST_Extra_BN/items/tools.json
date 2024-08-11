@@ -131,6 +131,7 @@
     "description": "Some sticks and string with a leather tarp, to set up an improvised raincatcher.",
     "weight": "4736 g",
     "material": [ "wood", "leather" ],
+    "extend": { "flags": [ "ALLOWS_REMOTE_USE" ] },
     "use_action": {
       "type": "place_trap",
       "allow_under_player": true,
@@ -254,7 +255,7 @@
     "symbol": ",",
     "color": "brown",
     "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ],
-    "flags": [ "SHATTERS" ]
+    "flags": [ "SHATTERS", "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "misc_repairkit_makeshift",
