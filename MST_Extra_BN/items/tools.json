@@ -85,7 +85,8 @@
       "vehicle_name": "makeshift_sled_vehicle",
       "unfold_msg": "You unfold and deploy the makeshift sled.",
       "moves": 200
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "log_canoe_item",
@@ -105,7 +106,8 @@
       "vehicle_name": "log_canoe_vehicle",
       "unfold_msg": "You deploy the log canoe.",
       "moves": 100
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "mound_distillation",
@@ -254,7 +256,7 @@
     "symbol": ",",
     "color": "brown",
     "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ],
-    "flags": [ "SHATTERS" ]
+    "flags": [ "SHATTERS", "ALLOWS_REMOTE_USE" ]
   },
   {
     "id": "misc_repairkit_makeshift",
