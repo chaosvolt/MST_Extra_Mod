@@ -1,6 +1,7 @@
 [
   {
     "id": "atlatl",
+    "weapon_category": [ "ELASTIC" ],
     "type": "GUN",
     "name": { "str": "atlatl" },
     "description": "A wooden tool for supporting a javelin, to throw it more effectively than by hand.",
@@ -14,6 +15,7 @@
     "color": "brown",
     "ammo": "atlatl",
     "skill": "throw",
+    "gun_sound_type": "ARCHERY",
     "ranged_damage": { "damage_type": "stab", "amount": 20 },
     "range": 15,
     "dispersion": 1000,
@@ -24,6 +26,7 @@
   },
   {
     "id": "crossbow_makeshift",
+    "weapon_category": [ "M_XBOWS" ],
     "type": "GUN",
     "name": { "str": "makeshift crossbow" },
     "description": "A simple, handmade crossbow of the Skane style, with a wooden peg that is pushed up from underneath to loose the bowstring.  Not as powerful as other crossbow designs, but it is easier to draw the bow back.  Bolts fired from this weapon have a good chance of remaining intact for re-use.",
@@ -40,6 +43,7 @@
     "skill": "rifle",
     "range": 6,
     "loudness": 8,
+    "gun_sound_type": "CROSSBOW",
     "ranged_damage": { "damage_type": "stab", "amount": 30 },
     "dispersion": 500,
     "durability": 5,
