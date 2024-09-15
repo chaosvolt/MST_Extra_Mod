@@ -112,6 +112,7 @@
     "spoils_in": "2 days 12 hours",
     "comestible_type": "FOOD",
     "description": "A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit less stringy and more palatable after being cooked.",
-    "fun": 0
+    "fun": 0,
+    "delete": { "flags": [ "RAW" ] }
   }
 ]
