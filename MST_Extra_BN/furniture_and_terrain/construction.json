@@ -51,10 +51,9 @@
     "id": "constr_mst_beehive",
     "group": "build_beehive",
     "//": "Hive lure includes classic of sweet water, or a few other substitutes.  Bee balm tea however is because we don't have lemongrass.",
-    "category": "CONSTRUCT",
+    "category": "FURN",
     "required_skills": [ [ "survival", 2 ] ],
-    "time": "30 m",
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "time": "5 m",
     "components": [
       [ [ "beehive_empty", 1 ] ],
       [
@@ -66,8 +65,8 @@
         [ "beet_syrup", 5 ]
       ]
     ],
-    "pre_flags": "DIGGABLE",
-    "post_terrain": "t_hive_young"
+    "pre_special": "check_empty",
+    "post_furniture": "f_hive_young"
   },
   {
     "type": "construction",
