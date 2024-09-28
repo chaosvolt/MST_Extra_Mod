@@ -143,9 +143,9 @@
     "group": "build_wood_windbreak",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
-    "time": "50 m",
+    "time": "10 m",
     "qualities": [ [ { "id": "HAMMER", "level": 1 } ] ],
-    "components": [ [ [ "wood_structural", 4, "LIST" ], [ "log", 2 ] ], [ [ "pointy_stick", 4 ] ] ],
+    "components": [ [ [ "wood_structural", 4, "LIST" ] ], [ [ "pointy_stick", 2 ] ] ],
     "pre_note": "Can be deconstructed without tools.",
     "pre_special": "check_empty",
     "post_furniture": "f_barricade_windbreak"
@@ -160,8 +160,8 @@
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "components": [ [ [ "pointy_stick", 4 ] ], [ [ "cordage_short", 4, "LIST" ] ], [ [ "leather_tarp", 1 ] ] ],
     "pre_note": "Can be deconstructed without tools.",
-    "pre_flags": [ "DIGGABLE", "FLAT" ],
-    "post_terrain": "t_tarptent_leather"
+    "pre_special": "check_empty",
+    "post_furniture": "f_tarptent_leather"
   },
   {
     "type": "construction",
