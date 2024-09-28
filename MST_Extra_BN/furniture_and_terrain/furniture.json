@@ -261,7 +261,7 @@
     "name": "empty beehive",
     "description": "A traditional beehive, baited to attract bees.  It will take a while before any bees decide to make use of it.",
     "symbol": "^",
-    "color": "light_gray",
+    "color": "brown",
     "looks_like": "f_rack_wood",
     "move_cost_mod": -1,
     "coverage": 60,
