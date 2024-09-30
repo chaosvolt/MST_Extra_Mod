@@ -1,17 +1,5 @@
 [
   {
-    "id": "adhesive_proper",
-    "type": "requirement",
-    "//": "Materials used for joining (typically non-metallic) parts, excluding tape",
-    "components": [ [ [ "superglue", 1 ], [ "bone_glue", 2 ], [ "pitch_wood", 5 ] ] ]
-  },
-  {
-    "id": "waterproofing",
-    "type": "requirement",
-    "//": "Materials for waterproofing leather and wooden items.",
-    "components": [ [ [ "wax", 1 ], [ "pine_bough", 5 ], [ "pitch_wood", 25 ] ] ]
-  },
-  {
     "id": "vehicle_sled",
     "type": "requirement",
     "//": "For repairing makeshift sleds.",
@@ -29,17 +17,5 @@
     "type": "requirement",
     "//": "For installing birchbark boat boards.",
     "components": [ [ [ "waterproofing", 1, "LIST" ] ], [ [ "vehicle_sled", 1, "LIST" ] ] ]
-  },
-  {
-    "id": "cordage",
-    "type": "requirement",
-    "//": "Materials used for tying items, primitive bowstrings, and other uses involving string or makeshift cordage, 36 g/90 cm of cordage per unit.",
-    "components": [ [ [ "string_36", 1 ], [ "cordage_36", 1 ], [ "cordage_36_leather", 1 ], [ "cordage_short", 6, "LIST" ] ] ]
-  },
-  {
-    "id": "cordage_short",
-    "type": "requirement",
-    "//": "Materials used for tying smaller items requiring less string, 6 g/15 cm of cordage per unit.",
-    "components": [ [ [ "string_6", 1 ], [ "cordage_6", 1 ], [ "cordage_6_leather", 1 ], [ "filament", 50, "LIST" ] ] ]
   }
 ]

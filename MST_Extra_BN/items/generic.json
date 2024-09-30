@@ -88,35 +88,5 @@
     "bashing": 3,
     "category": "veh_parts",
     "price": 1000
-  },
-  {
-    "id": "beehive_empty",
-    "type": "GENERIC",
-    "name": { "str": "empty beehive" },
-    "description": "A large, enclosed wooden box with multiple sliding frames in it.  With something to attract bees, it can be used to grow a hive.",
-    "weight": "10000 g",
-    "volume": "20 L",
-    "price": "92 USD",
-    "material": [ "wood" ],
-    "symbol": "-",
-    "color": "brown"
-  },
-  {
-    "id": "cordage_6_leather",
-    "copy-from": "string_6",
-    "type": "GENERIC",
-    "name": { "str": "short leather cord" },
-    "description": "A 6-inch (or about 15 cm) long piece of rawhide or leather cord.  Useful for some purposes, but not as strong or flexible as proper string.",
-    "proportional": { "price": 0.5 },
-    "material": [ "leather" ]
-  },
-  {
-    "id": "cordage_36_leather",
-    "copy-from": "string_36",
-    "type": "GENERIC",
-    "name": { "str": "long leather cord" },
-    "description": "A 3-foot (or about 90 cm) long piece of rawhide or leather cord.  Useful for some purposes, but not as strong or flexible as proper string.",
-    "proportional": { "price": 0.5 },
-    "material": [ "leather" ]
   }
 ]
