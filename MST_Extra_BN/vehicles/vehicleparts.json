@@ -25,34 +25,6 @@
     "damage_reduction": { "all": 6 }
   },
   {
-    "id": "makeshift_sled_runner_part",
-    "looks_like": "wheel_wood",
-    "type": "vehicle_part",
-    "name": "sled runners",
-    "item": "makeshift_sled_runners_item",
-    "location": "under",
-    "symbol": "o",
-    "broken_symbol": "x",
-    "color": "brown",
-    "durability": 25,
-    "damage_modifier": 50,
-    "folded_volume": "2500 ml",
-    "flags": [ "WHEEL", "STABLE", "FOLDABLE" ],
-    "wheel_type": "rigid",
-    "contact_area": 50,
-    "breaks_into": [ { "item": "splinter", "count": [ 3, 6 ] } ],
-    "requirements": {
-      "install": { "skills": [ [ "survival", 0 ] ], "time": "15 m", "using": [ [ "vehicle_sled", 1 ] ] },
-      "removal": { "skills": [ [ "survival", 0 ] ], "time": "10 m" },
-      "repair": {
-        "skills": [ [ "survival", 1 ] ],
-        "time": "15 m",
-        "using": [ [ "vehicle_sled", 1 ], [ "vehicle_repair_small_wood", 2 ] ]
-      }
-    },
-    "damage_reduction": { "all": 8 }
-  },
-  {
     "type": "vehicle_part",
     "id": "makeshift_sled_basket_part",
     "looks_like": "wood box",

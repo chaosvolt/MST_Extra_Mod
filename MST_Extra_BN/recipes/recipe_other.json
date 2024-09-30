@@ -1,88 +1,6 @@
 [
   {
     "type": "recipe",
-    "result": "flint_steel",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "survival",
-    "skills_required": [ "fabrication", 3 ],
-    "difficulty": 4,
-    "time": 10000,
-    "autolearn": true,
-    "book_learn": [ [ "textbook_survival", 2 ], [ "mag_survival", 3 ] ],
-    "using": [ [ "forging_standard", 1 ], [ "steel_tiny", 1 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "components": [ [ [ "sharp_rock", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_hide",
-    "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "10 m",
-    "autolearn": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "raw_leather", 1 ], [ "raw_tainted_leather", 1 ], [ "raw_hleather", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cured_pelt",
-    "id_suffix": "drying",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "skills_required": [ "cooking", 1 ],
-    "difficulty": 1,
-    "time": "10 m",
-    "autolearn": true,
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "raw_fur", 1 ], [ "raw_tainted_fur", 1 ], [ "raw_hfur", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "sharp_rock",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "skills_required": [ "survival", 1 ],
-    "difficulty": 0,
-    "time": "1 m",
-    "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "rock", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "tarp",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "skills_required": [ "survival", 1 ],
-    "difficulty": 1,
-    "time": "10 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [
-      [
-        [ "folding_poncho", 1 ],
-        [ "folding_poncho_on", 1 ],
-        [ "emer_blanket", 1 ],
-        [ "emer_blanket_on", 1 ],
-        [ "plastic_sheet", 1 ]
-      ],
-      [ [ "duct_tape", 20 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "snare_trigger",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
@@ -124,32 +42,6 @@
   },
   {
     "type": "recipe",
-    "result": "waterskin",
-    "id_suffix": "sealed_stomach",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "tailor",
-    "skills_required": [ "survival", 1 ],
-    "difficulty": 2,
-    "time": "10 m",
-    "autolearn": true,
-    "components": [ [ [ "stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "waterskin2",
-    "id_suffix": "sealed_stomach",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_CONTAINERS",
-    "skill_used": "tailor",
-    "skills_required": [ "survival", 2 ],
-    "difficulty": 2,
-    "time": "10 m",
-    "autolearn": true,
-    "components": [ [ [ "large_stomach_sealed", 1 ] ], [ [ "cordage", 1, "LIST" ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "tree_spile",
     "id_suffix": "bone",
     "category": "CC_OTHER",
@@ -161,34 +53,6 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "bone", 1 ], [ "bone_human", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "hand_paddles",
-    "id_suffix": "cordage",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
-    "skill_used": "fabrication",
-    "difficulty": 1,
-    "time": "60 m",
-    "autolearn": true,
-    "qualities": [ { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "2x4", 2 ], [ "stick", 2 ] ], [ [ "cordage_short", 2, "LIST" ] ] ]
-  },
-  {
-    "result": "tar_oil",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MEDICAL",
-    "skill_used": "cooking",
-    "difficulty": 1,
-    "skills_required": [ "survival", 1 ],
-    "time": "60 m",
-    "batch_time_factors": [ 80, 4 ],
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CONTAIN", "level": 1 } ],
-    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
-    "components": [ [ [ "pine_bough", 5 ], [ "birchbark", 5 ] ] ]
   },
   {
     "type": "recipe",
@@ -394,7 +258,6 @@
         [ "garlic_clove", 6 ],
         [ "oil_garlic", 6 ],
         [ "raw_dandelion", 8 ],
-        [ "tar_oil", 1 ],
         [ "honey_glassed", 5 ],
         [ "honey_bottled", 5 ]
       ]
@@ -514,25 +377,6 @@
   },
   {
     "type": "recipe",
-    "result": "misc_repairkit_makeshift",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_TOOLS",
-    "skill_used": "fabrication",
-    "difficulty": 1,
-    "skills_required": [ "survival", 1 ],
-    "time": "1 m",
-    "reversible": true,
-    "autolearn": true,
-    "decomp_learn": 1,
-    "flags": [ "BLIND_EASY" ],
-    "components": [
-      [ [ "primitive_knife", 1 ], [ "copper_knife", 1 ], [ "makeshift_knife", 1 ] ],
-      [ [ "primitive_adze", 1 ] ],
-      [ [ "rag", 1 ], [ "leather", 1 ], [ "fur", 1 ], [ "faux_fur", 1 ], [ "felt_patch", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "hand_drill_makeshift",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TOOLS",
@@ -560,41 +404,6 @@
     "autolearn": true,
     "flags": [ "BLIND_EASY" ],
     "components": [ [ [ "stick", 1 ], [ "2x4", 1 ], [ "pointy_stick", 1 ] ], [ [ "stick", 1 ], [ "2x4", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cordage_6_leather",
-    "result_mult": 3,
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "time": "20 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "leather", 1 ], [ "fur", 1 ], [ "cured_hide", 1 ], [ "cured_pelt", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cordage_36_leather",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "time": "40 m",
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "leather", 2 ], [ "fur", 2 ], [ "cured_hide", 2 ], [ "cured_pelt", 2 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "cordage_36_leather",
-    "id_suffix": "weaving",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "survival",
-    "time": "5 m",
-    "reversible": true,
-    "autolearn": true,
-    "components": [ [ [ "cordage_6_leather", 6 ] ] ]
   },
   {
     "type": "recipe",
