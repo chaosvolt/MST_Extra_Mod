@@ -28,7 +28,9 @@
         { "item": "leather", "count": [ 4, 10 ] },
         { "item": "stick", "count": 1 },
         { "item": "withered", "count": [ 2, 12 ] }
-      ]
+      ],
+      "//": "Go straight through without taking any damage.",
+      "ranged": { "block_unaimed_chance": "0%" }
     }
   },
   {
@@ -89,22 +91,24 @@
     "looks_like": "t_covered_well",
     "description": "Deep well collecting ground water.  A simple bucket and pulley allows drawing water from it.",
     "symbol": "&",
-    "color": "light_gray",
-    "move_cost": 2,
-    "coverage": 40,
-    "flags": [ "TRANSPARENT", "THIN_OBSTACLE", "MINEABLE" ],
+    "color": "light_gray"
+    "move_cost": 4,
+    "coverage": 60,
+    "flags": [ "TRANSPARENT", "MOUNTABLE", "MINEABLE" ],
     "bash": {
       "str_min": 80,
       "str_max": 300,
       "sound": "crash!",
       "sound_fail": "whump!",
-      "ter_set": "t_pit",
+      "ter_set": "t_covered_well",
       "items": [
         { "item": "rock", "count": [ 8, 18 ] },
         { "item": "2x4", "count": [ 0, 2 ] },
         { "item": "nail", "charges": [ 1, 4 ] },
         { "item": "splinter", "count": [ 1, 2 ] }
-      ]
+      ],
+      "//": "Stone obstacles have double the expected reduction but lower destroy_threshold in return",
+      "ranged": { "reduction": [ 160, 160 ], "destroy_threshold": 160, "block_unaimed_chance": "50%" }
     },
     "examine_action": "water_source"
   }
