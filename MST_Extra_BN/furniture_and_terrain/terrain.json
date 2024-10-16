@@ -91,7 +91,7 @@
     "looks_like": "t_covered_well",
     "description": "Deep well collecting ground water.  A simple bucket and pulley allows drawing water from it.",
     "symbol": "&",
-    "color": "light_gray"
+    "color": "light_gray",
     "move_cost": 4,
     "coverage": 60,
     "flags": [ "TRANSPARENT", "MOUNTABLE", "MINEABLE" ],
