@@ -205,7 +205,7 @@
   {
     "type": "recipe",
     "result": "veggy_canned",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -227,7 +227,7 @@
   {
     "type": "recipe",
     "result": "soup_mushroom",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -247,7 +247,7 @@
   {
     "type": "recipe",
     "result": "apple_canned",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -271,7 +271,7 @@
   {
     "type": "recipe",
     "result": "can_tomato",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -293,7 +293,7 @@
   {
     "type": "recipe",
     "result": "can_beans",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -315,7 +315,7 @@
   {
     "type": "recipe",
     "result": "soup_veggy",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -335,7 +335,7 @@
   {
     "type": "recipe",
     "result": "broth",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -355,7 +355,7 @@
   {
     "type": "recipe",
     "result": "sauce_red",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -377,7 +377,7 @@
   {
     "type": "recipe",
     "result": "apple_cider",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ], [ "juice_pulp", 24 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -400,7 +400,7 @@
   {
     "type": "recipe",
     "result": "oj",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ], [ "juice_pulp", 24 ] ],
     "container": "jar_3l_glass_sealed",
     "category": "CC_FOOD",
@@ -423,7 +423,7 @@
   {
     "type": "recipe",
     "result": "oj",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ], [ "juice_pulp", 24 ] ],
     "container": "jar_3l_glass_sealed",
     "category": "CC_FOOD",
@@ -446,7 +446,7 @@
   {
     "type": "recipe",
     "result": "cranberry_juice",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ], [ "juice_pulp", 24 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -469,7 +469,7 @@
   {
     "type": "recipe",
     "result": "juice",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ], [ "juice_pulp", 12 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -488,7 +488,7 @@
   {
     "type": "recipe",
     "result": "kompot",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -512,7 +512,7 @@
   {
     "type": "recipe",
     "result": "fish_pickled",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -534,7 +534,7 @@
   {
     "type": "recipe",
     "result": "meat_pickled",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -556,7 +556,7 @@
   {
     "type": "recipe",
     "result": "meat_canned",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -574,7 +574,7 @@
   {
     "type": "recipe",
     "result": "fish_canned",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -592,7 +592,7 @@
   {
     "result": "offal_canned",
     "type": "recipe",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
@@ -610,7 +610,7 @@
   {
     "type": "recipe",
     "result": "soup_woods",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -630,7 +630,7 @@
   {
     "type": "recipe",
     "result": "soup_meat",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -650,7 +650,7 @@
   {
     "type": "recipe",
     "result": "soup_fish",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -670,7 +670,7 @@
   {
     "type": "recipe",
     "result": "dogfood",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -693,7 +693,7 @@
   {
     "type": "recipe",
     "result": "catfood",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -711,7 +711,7 @@
   {
     "type": "recipe",
     "result": "broth_bone",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "byproducts": [ [ "water", 10 ] ],
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
@@ -730,7 +730,7 @@
   {
     "type": "recipe",
     "result": "veggy_pickled",
-    "id_suffix": "jarred_3l",
+    "id_suffix": "jarred_3l_clay",
     "container": "jar_3l_clay_sealed",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
