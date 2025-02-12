@@ -1,6 +1,6 @@
 [
   {
-    "name": "GROUP_FOREST",
+    "id": "GROUP_FOREST",
     "type": "monstergroup",
     "override": false,
     "auto_total": true,

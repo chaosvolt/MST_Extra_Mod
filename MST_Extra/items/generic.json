@@ -11,7 +11,7 @@
     "melee_damage": { "stab": 13 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 14 } ],
     "price": "20 USD",
-    "price_postapoc": 275
+    "price_postapoc": "275 cent"
   },
   {
     "id": "javelin_copper",
@@ -25,7 +25,7 @@
     "melee_damage": { "stab": 16 },
     "thrown_damage": [ { "damage_type": "bash", "amount": 5 }, { "damage_type": "stab", "amount": 16 } ],
     "price": "90 USD",
-    "price_postapoc": 500
+    "price_postapoc": "5 USD"
   },
   {
     "id": "log_frame_item",
@@ -57,7 +57,7 @@
     "volume": "3750 ml",
     "melee_damage": { "bash": 5 },
     "category": "veh_parts",
-    "price": 500
+    "price": "5 USD"
   },
   {
     "type": "GENERIC",
@@ -72,7 +72,7 @@
     "volume": "5 L",
     "melee_damage": { "bash": 3 },
     "category": "veh_parts",
-    "price": 1000
+    "price": "10 USD"
   },
   {
     "type": "GENERIC",
