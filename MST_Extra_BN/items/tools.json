@@ -17,7 +17,8 @@
       "moves": 200,
       "practice": 4,
       "done_message": "You set the snare trap."
-    }
+    },
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "light_snare_kit",
@@ -37,7 +38,8 @@
       "moves": 150,
       "practice": 2,
       "done_message": "You set the snare trap."
-    }
+    },
+    "flags": [ "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "snare_trigger",
@@ -86,7 +88,7 @@
       "unfold_msg": "You unfold and deploy the makeshift sled.",
       "moves": 200
     },
-    "flags": [ "ALLOWS_REMOTE_USE" ]
+    "flags": [ "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "log_canoe_item",
@@ -107,7 +109,7 @@
       "unfold_msg": "You deploy the log canoe.",
       "moves": 100
     },
-    "flags": [ "ALLOWS_REMOTE_USE" ]
+    "flags": [ "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "mound_distillation",
@@ -256,7 +258,7 @@
     "symbol": ",",
     "color": "brown",
     "use_action": [ { "type": "deploy_furn", "furn_type": "f_hobo_stove_clay_placed" } ],
-    "flags": [ "SHATTERS", "ALLOWS_REMOTE_USE" ]
+    "flags": [ "SHATTERS", "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
   },
   {
     "id": "hand_drill_makeshift",
