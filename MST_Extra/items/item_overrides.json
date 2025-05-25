@@ -98,7 +98,8 @@
   {
     "id": "tarp",
     "copy-from": "tarp",
-    "type": "ARMOR",
+    "type": "ITEM",
+	  "subtype": ["armor"],
     "name": { "str": "tarpaulin" },
     "qualities": [ [ "SURFACE", 3 ] ]
   }
