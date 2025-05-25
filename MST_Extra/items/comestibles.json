@@ -1,6 +1,7 @@
 [
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtype": ["COMESTIBLE"],
     "id": "oil_garlic",
     "name": { "str_sp": "garlic oil" },
     "weight": "25 g",
@@ -22,7 +23,8 @@
   },
   {
     "id": "makeshift_poultice",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtype": ["COMESTIBLE"],
     "comestible_type": "MED",
     "name": { "str": "makeshift poultice" },
     "description": "A primitive poultice using improvised antiseptic, held in place by a cloth or leather wrap.  Applied loosely, it is designed to stave off infection but can still help staunch bleeding.",
@@ -35,7 +37,8 @@
     "use_action": { "type": "heal", "bandages_power": 3, "bleed": 8, "bite": 0.75, "move_cost": 300 }
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtype": ["COMESTIBLE"],
     "id": "posca",
     "comestible_type": "DRINK",
     "name": { "str_sp": "posca" },
@@ -58,7 +61,8 @@
     "flags": [ "EATEN_COLD" ]
   },
   {
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtype": ["COMESTIBLE"],
     "id": "posca_hard",
     "copy-from": "posca",
     "name": { "str_sp": "hard posca" },
@@ -78,7 +82,8 @@
   {
     "id": "jerky_offal",
     "copy-from": "jerky",
-    "type": "COMESTIBLE",
+    "type": "ITEM",
+	"subtype": ["COMESTIBLE"],
     "name": { "str_sp": "jerked offal" },
     "description": "Salty dried organ meat.  Smells a bit like dog food, but will last a long time.",
     "fun": -2,
