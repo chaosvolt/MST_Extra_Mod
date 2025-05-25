@@ -47,7 +47,7 @@
   },
   {
     "type": "ITEM",
-	"subtype": ["TOOL"]
+	"subtype": ["TOOL"],
     "id": "makeshift_sled_frame_item",
     "sub": "frame_wood_light",
     "name": { "str": "light woven frame" },
