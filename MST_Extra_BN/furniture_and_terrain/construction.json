@@ -43,7 +43,7 @@
     "time": "60 m",
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
     "components": [
-      [ [ "rope_makeshift_30", 1 ], [ "rope_30", 1 ], [ "vine_30", 1 ] ],
+      [ [ "rope_makeshift_30", 1 ], [ "rope_30", 1 ], [ "vine_30", 1 ], [ "rope_30_plastic", 1 ] ],
       [ [ "wood_structural", 4, "LIST" ] ],
       [ [ "nail", 10 ] ]
     ],
@@ -61,7 +61,7 @@
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "DIG", "level": 2 } ], [ { "id": "SAW_W", "level": 1 } ] ],
     "components": [
       [ [ "bucket", 1 ], [ "bucket_log", 1 ] ],
-      [ [ "rope_makeshift_30", 1 ], [ "rope_30", 1 ], [ "vine_30", 1 ] ],
+      [ [ "rope_makeshift_30", 1 ], [ "rope_30", 1 ], [ "vine_30", 1 ], [ "rope_30_plastic", 1 ] ],
       [ [ "wood_structural", 4, "LIST" ] ],
       [ [ "nail", 10 ] ]
     ],
