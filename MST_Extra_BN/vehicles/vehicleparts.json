@@ -69,7 +69,7 @@
     "requirements": {
       "install": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "vehicle_birchbark_boat", 1 ] ] },
       "removal": { "skills": [ [ "survival", 2 ] ], "time": "10 m" },
-      "repair": { "skills": [ [ "survival", 3 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "20 m", "using": [ [ "nail_any_adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
     },
     "flags": [ "FLOATS" ],
     "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
@@ -91,7 +91,7 @@
     "requirements": {
       "install": { "skills": [ [ "survival", 1 ] ], "time": "20 m", "using": [ [ "vehicle_sled", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
-      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "nail_any_adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
     },
     "flags": [ "AISLE", "BOARDABLE" ],
     "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
@@ -112,7 +112,7 @@
     "requirements": {
       "install": { "skills": [ [ "survival", 1 ] ], "time": "20 m", "using": [ [ "vehicle_sled", 1 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "10 m" },
-      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "20 m", "using": [ [ "nail_any_adhesive", 1 ], [ "vehicle_repair_small_wood", 4 ] ] }
     },
     "flags": [ "ROOF" ],
     "breaks_into": [ { "item": "birchbark", "count": [ 0, 6 ] } ],
@@ -134,9 +134,9 @@
     "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
     "flags": [ "INITIAL_PART", "FLOATS", "STABLE", "MOUNTABLE", "BOARDABLE", "FOLDABLE" ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_nail_install", 10 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
-      "repair": { "skills": [ [ "survival", 2 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 2 ] ], "time": "30 m", "using": [ [ "nail_any_adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
     },
     "damage_reduction": { "all": 52 }
   },
@@ -155,9 +155,9 @@
     "item": "log_frame_item",
     "location": "center",
     "requirements": {
-      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_nail_install", 10 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
-      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "nail_any_adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
     },
     "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "OPAQUE", "AISLE" ],
     "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
@@ -175,9 +175,9 @@
     "description": "A wall made from a log frame.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
     "breaks_into": [ { "item": "splinter", "count": [ 20, 30 ] } ],
     "requirements": {
-      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_log_frame", 1 ] ] },
+      "install": { "skills": [ [ "survival", 1 ] ], "time": "30 m", "using": [ [ "vehicle_nail_install", 10 ] ] },
       "removal": { "skills": [ [ "survival", 1 ] ], "time": "15 m" },
-      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "nail_any_adhesive", 1 ], [ "wood_structural_small", 1 ] ] }
     },
     "flags": [ "OPAQUE", "OBSTACLE", "FULL_BOARD", "NO_ROOF_NEEDED" ],
     "damage_reduction": { "all": 32, "cut": 16, "stab": 16 }
