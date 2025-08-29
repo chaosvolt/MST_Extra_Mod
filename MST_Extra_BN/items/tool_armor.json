@@ -84,7 +84,7 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 1,
-    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ],
+    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE", "ALLOWS_TAIL_SNAKE" ],
     "use_action": {
       "type": "place_trap",
       "allow_under_player": true,
