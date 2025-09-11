@@ -16,7 +16,7 @@
     "encumbrance": 12,
     "storage": "15 L",
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATER_FRIENDLY" ]
+    "flags": [ "BELTED", "WATER_FRIENDLY", "ALLOWS_WINGS" ]
   },
   {
     "id": "sheath_birchbark",
@@ -243,4 +243,3 @@
     "use_action": { "type": "bandolier", "capacity": 10, "ammo": [ "atlatl" ], "draw_cost": 30 }
   }
 ]
-

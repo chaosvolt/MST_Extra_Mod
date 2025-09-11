@@ -33,7 +33,7 @@
     "volume": "2500 ml",
     "encumbrance": 10,
     "bashing": 4,
-    "flags": [ "WAIST", "COMPACT" ],
+    "flags": [ "WAIST", "COMPACT", "ALLOWS_WINGS" ],
     "coverage": 10,
     "material_thickness": 2
   },
@@ -62,7 +62,7 @@
     "max_charges": 100,
     "ammo": [ "gasfilter_m" ],
     "use_action": "GASMASK",
-    "flags": [ "OUTER", "HELMET_COMPAT" ]
+    "flags": [ "OUTER", "HELMET_COMPAT", "ALLOWS_MUZZLE" ]
   },
   {
     "id": "straw_bed_rollmat",
@@ -84,7 +84,15 @@
     "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 1,
-    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE", "ALLOWS_TAIL_SNAKE" ],
+    "flags": [
+      "OVERSIZE",
+      "OUTER",
+      "ALLOWS_NATURAL_ATTACKS",
+      "ALLOWS_REMOTE_USE",
+      "DESTROY_ON_DECHARGE",
+      "ALLOWS_TAIL_SNAKE",
+      "ALLOWS_HOOVES"
+    ],
     "use_action": {
       "type": "place_trap",
       "allow_under_player": true,
