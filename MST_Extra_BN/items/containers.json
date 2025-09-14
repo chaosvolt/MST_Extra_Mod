@@ -17,7 +17,7 @@
     "seals": true,
     "watertight": true,
     "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 5, "material_thickness": 1 },
-    "flags": [ "WAIST", "COMPACT", "OVERSIZE", "WATER_FRIENDLY", "ALLOWS_TAIL_SNAKE" ]
+    "flags": [ "WAIST", "COMPACT", "OVERSIZE", "WATER_FRIENDLY", "ALLOWS_TAIL_SNAKE", "ALLOWS_TAIL" ]
   },
   {
     "id": "jar_clay",
