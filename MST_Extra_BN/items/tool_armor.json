@@ -33,6 +33,7 @@
     "volume": "2500 ml",
     "encumbrance": 10,
     "bashing": 4,
+    "valid_mods": [ "resized_large", "resized_small" ],
     "flags": [ "WAIST", "COMPACT", "ALLOWS_WINGS" ],
     "coverage": 10,
     "material_thickness": 2
@@ -62,6 +63,7 @@
     "max_charges": 100,
     "ammo": [ "gasfilter_m" ],
     "use_action": "GASMASK",
+    "valid_mods": [ "resized_large", "resized_small" ],
     "flags": [ "OUTER", "HELMET_COMPAT", "ALLOWS_MUZZLE" ]
   },
   {
