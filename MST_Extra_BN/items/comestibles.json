@@ -69,7 +69,7 @@
     "healthy": 2,
     "fun": 3,
     "container": "waterskin",
-    "flags": [ "EATEN_COLD" ]
+    "flags": [ "EATEN_COLD", "NO_COOKING_BUFF" ]
   },
   {
     "type": "COMESTIBLE",
@@ -98,6 +98,7 @@
     "comestible_type": "FOOD",
     "description": "A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit less stringy and more palatable after being cooked.",
     "fun": 0,
+    "extend": { "flags": [ "NO_COOKING_BUFF" ] },
     "delete": { "flags": [ "RAW" ] }
   }
 ]
