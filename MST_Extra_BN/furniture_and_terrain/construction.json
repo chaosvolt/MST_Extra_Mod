@@ -1,22 +1,6 @@
 [
   {
     "type": "construction",
-    "id": "constr_mst_cpurifier",
-    "group": "build_cpurifier",
-    "category": "FURN",
-    "required_skills": [ [ "survival", 2 ] ],
-    "time": "25 m",
-    "qualities": [ [ { "id": "HAMMER", "level": 1 } ], [ { "id": "CUT", "level": 1 } ] ],
-    "components": [
-      [ [ "wood_structural", 3, "LIST" ] ],
-      [ [ "birchbark", 12 ], [ "withered", 24 ], [ "straw_pile", 24 ], [ "string_36", 2 ] ]
-    ],
-    "pre_note": "Can be deconstructed without tools.",
-    "pre_special": "check_empty",
-    "post_furniture": "f_char_purifier"
-  },
-  {
-    "type": "construction",
     "id": "constr_mst_leather_curtain",
     "group": "build_door_curtain_leather",
     "//": "Door frame not required",
@@ -50,32 +34,6 @@
     ],
     "pre_terrain": "t_covered_well",
     "post_terrain": "t_covered_well_bucket"
-  },
-  {
-    "type": "construction",
-    "id": "constr_mst_wood_windbreak",
-    "group": "build_wood_windbreak",
-    "category": "FURN",
-    "required_skills": [ [ "fabrication", 0 ] ],
-    "time": "10 m",
-    "qualities": [ [ { "id": "HAMMER", "level": 1 } ] ],
-    "components": [ [ [ "wood_structural", 4, "LIST" ] ], [ [ "pointy_stick", 2 ] ] ],
-    "pre_note": "Can be deconstructed without tools.",
-    "pre_special": "check_empty",
-    "post_furniture": "f_barricade_windbreak"
-  },
-  {
-    "type": "construction",
-    "id": "constr_mst_tarp_leanto",
-    "group": "build_tarp_leanto",
-    "category": "CONSTRUCT",
-    "required_skills": [ [ "survival", 1 ] ],
-    "time": "50 m",
-    "qualities": [ { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "pointy_stick", 4 ] ], [ [ "cordage_short", 4, "LIST" ] ], [ [ "leather_tarp", 1 ] ] ],
-    "pre_note": "Can be deconstructed without tools.",
-    "pre_special": "check_empty",
-    "post_furniture": "f_tarptent_leather"
   },
   {
     "type": "construction",
