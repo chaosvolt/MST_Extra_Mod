@@ -1,32 +1,5 @@
 [
   {
-    "result": "pack_basket",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "skills_required": [ "survival", 1 ],
-    "time": "24 m",
-    "autolearn": true,
-    "components": [ [ [ "straw_pile", 10 ], [ "birchbark", 12 ] ], [ [ "cordage", 2, "LIST" ], [ "filament", 90, "LIST" ] ] ]
-  },
-  {
-    "result": "sheath_birchbark",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "skills_required": [ "survival", 1 ],
-    "time": "20 m",
-    "reversible": true,
-    "decomp_learn": 3,
-    "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "birchbark", 3 ] ] ]
-  },
-  {
     "result": "armwrap_leather",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -155,38 +128,6 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "afs_quilt_patchwork", 1 ] ], [ [ "nail", 1 ], [ "splinter", 1 ], [ "skewer_bone", 1 ] ] ]
-  },
-  {
-    "result": "quiver_atlatl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "skills_required": [ "gun", 1 ],
-    "time": "15 m",
-    "reversible": true,
-    "decomp_learn": 3,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_arrows", 1 ] ],
-    "using": [ [ "sewing_standard", 3 ] ],
-    "components": [ [ [ "leather", 3 ] ] ]
-  },
-  {
-    "result": "quiver_birchbark_atlatl",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "skills_required": [ [ "survival", 1 ], [ "gun", 1 ] ],
-    "time": "30 m",
-    "reversible": true,
-    "decomp_learn": 3,
-    "autolearn": true,
-    "book_learn": [ [ "recipe_arrows", 2 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "birchbark", 5 ] ] ]
   },
   {
     "type": "recipe",

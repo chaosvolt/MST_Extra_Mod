@@ -397,5 +397,30 @@
     "type": "recipe",
     "result": "tar_oil",
     "obsolete": true
+  },
+  {
+    "type": "furniture",
+    "id": "f_pulley_lifter",
+    "name": "rope and pulley lifter",
+    "symbol": "|",
+    "looks_like": "t_barndoor",
+    "description": "A system of ropes and pulleys hanging from the ceiling, rigged up to serve as a block and tackle for lifting vehicle components, or even light enough vehicles.  It isn't very powerful, but it'll do in a pinch.",
+    "color": "brown",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "crafting_pseudo_item": "pulley_lifting",
+    "flags": [ "PLACE_ITEM", "TRANSPARENT", "EASY_DECONSTRUCT", "FLAMMABLE_ASH", "NOCOLLIDE" ],
+    "deconstruct": { "items": [ { "item": "rope_makeshift_30", "count": 1 }, { "item": "2x4", "count": 8 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 40,
+      "sound": "crunch!",
+      "sound_fail": "whump.",
+      "items": [
+        { "item": "rope_makeshift_6", "count": [ 3, 4 ] },
+        { "item": "2x4", "count": [ 1, 4 ] },
+        { "item": "splinter", "count": [ 2, 4 ] }
+      ]
+    }
   }
 ]
