@@ -11,7 +11,7 @@
     "time": "30 m",
     "autolearn": true,
     "book_learn": [ [ "textbook_survival", 2 ], [ "mag_survival", 3 ] ],
-    "using": [ [ "forging_standard", 1 ], [ "steel_tiny", 1 ] ],
+    "using": [ [ "forging_standard", 1 ], [ "steel_chunk_any", 1 ] ],
     "//": "The knapping would only require a hammering quality of 1, but forging the firesteel requires a hammering quality of 3.",
     "qualities": [
       { "id": "HAMMER", "level": 3 },
