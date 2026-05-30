@@ -45,7 +45,7 @@
       "ranged": { "reduction": [ 11, 11 ], "destroy_threshold": 38, "block_unaimed_chance": "50%" }
     },
     "examine_action": "workbench",
-    "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
+    "workbench": { "multiplier": 1.1, "mass": "200 kg", "volume": "75L" }
   },
   {
     "type": "furniture",
@@ -70,7 +70,7 @@
       "ranged": { "reduction": [ 10, 10 ], "destroy_threshold": 50, "block_unaimed_chance": "50%" }
     },
     "examine_action": "workbench",
-    "workbench": { "multiplier": 1.1, "mass": 200000, "volume": "75L" }
+    "workbench": { "multiplier": 1.1, "mass": "200 kg", "volume": "75L" }
   },
   {
     "type": "furniture",

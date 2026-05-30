@@ -8,7 +8,7 @@
     "spoils_in": "30 days",
     "container": "jar_clay_sealed",
     "description": "This is a serving of crisply brined and canned vegetable matter.  Tasty and nutritious.",
-    "price": 250,
+    "price": "250 cent",
     "fun": 7
   }
 ]
