@@ -20,8 +20,8 @@
       "str_max": 8,
       "sound": "rrrrip!",
       "sound_fail": "slap!",
-      "sound_vol": 8,
-      "sound_fail_vol": 2,
+      "sound_vol": "60 dB",
+      "sound_fail_vol": "32 dB",
       "ter_set": "t_dirt",
       "items": [
         { "item": "sheet", "count": [ 0, 1 ] },
@@ -54,8 +54,8 @@
       "str_max": 8,
       "sound": "rrrrip!",
       "sound_fail": "slap!",
-      "sound_vol": 8,
-      "sound_fail_vol": 2,
+      "sound_vol": "60 dB",
+      "sound_fail_vol": "32 dB",
       "ter_set": "t_dirt",
       "items": [
         { "item": "sheet", "count": [ 0, 1 ] },
