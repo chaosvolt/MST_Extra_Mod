@@ -22,7 +22,7 @@ msgstr "Попадание в лёгкий силок"
 #. ~ Description of effect 'Stuck in a heavy snare'.
 #: .\effects.json
 msgid "You can't move until you get free!"
-msgstr "Вы не можете двигаться, пока не освободитесь!"
+msgstr "Вы не сможете двигаться, пока не освободитесь!"
 
 #. ~ Apply message for effect(s) 'Stuck in a light snare'.
 #. ~ Apply message for effect(s) 'Stuck in a heavy snare'.
@@ -43,29 +43,26 @@ msgstr "MST Extra"
 msgid ""
 "The sequeal to CDDA's old More Survival Tools mod, adding additional useful "
 "innawoods content."
-msgstr ""
-"Сиквел к старому моду для CDDA \"More Survival Tools\", добавляет "
-"дополнительный полезный контент для жизни в дикой местности."
+msgstr "Продолжение старого мода для CDDA «More Survival Tools», добавляющее новые полезные предметы и возможности для выживания в дикой местности."
 
 #: .\obsolete.json
 msgid "scrap of tanning leather"
 msgid_plural "scraps of tanning leather"
-msgstr[0] "обрезок выделываемой кожи"
-msgstr[1] "обрезка выделываемой кожи"
-msgstr[2] "обрезков выделываемой кожи"
+msgstr[0] "обрезок кожи для дубления"
+msgstr[1] "обрезка кожи для дубления"
+msgstr[2] "обрезков кожи для дубления"
 
 #. ~ Use action msg for {'str': 'scrap of tanning leather', 'str_pl': 'scraps
 #. of tanning leather'}.
 #: .\obsolete.json
 msgid "You carefully unfold the tanning leather scrap and shake it clean."
-msgstr ""
-"Вы аккуратно разворачиваете отрезок выделываемой кожи и встряхиваете его."
+msgstr "Вы аккуратно разворачиваете обрезок кожи для дубления и отряхиваете её."
 
 #. ~ Use action not_ready_msg for {'str': 'scrap of tanning leather',
 #. 'str_pl': 'scraps of tanning leather'}.
 #: .\obsolete.json
 msgid "The scrap of tanning leather isn't done yet."
-msgstr "Отрезок выделываемой кожи ещё не готов."
+msgstr "Обрезок кожи ещё не продубился."
 
 #. ~ Description for {'str': 'scrap of tanning leather', 'str_pl': 'scraps of
 #. tanning leather'}
@@ -74,30 +71,26 @@ msgid ""
 "A small piece of treated animal hide, undergoing the chemical processes "
 "required to become leather.  You will be able to activate it to unroll and "
 "make use of it when it is done."
-msgstr ""
-"Небольшой кусок обработанной шкуры животного, проходящий химические "
-"процессы, необходимые для превращения в кожу. Вы сможете активировать его, "
-"чтобы развернуть и использовать, когда он будет готов."
+msgstr "Небольшой кусок обработанной шкуры животного, проходящий процесс дубления, необходимый для превращения её в кожу. Когда дубление завершится, его можно будет активировать, развернуть и использовать."
 
 #: .\obsolete.json
 msgid "scrap of tanning fur"
 msgid_plural "scraps of tanning fur"
-msgstr[0] "отрезок выделываемого меха"
-msgstr[1] "отрезка выделываемого меха"
-msgstr[2] "отрезков выделываемого меха"
+msgstr[0] "обрезок меховой шкуры для дубления"
+msgstr[1] "обрезка меховой шкуры для дубления"
+msgstr[2] "обрезков меховой шкуры для дубления"
 
 #. ~ Use action msg for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
 #. tanning fur'}.
 #: .\obsolete.json
 msgid "You carefully unfold the tanning fur scrap and shake it clean."
-msgstr ""
-"Вы аккуратно разворачиваете отрезок выделываемого меха и встряхиваете его."
+msgstr "Вы аккуратно разворачиваете дублёную меховую шкуру и отряхиваете её."
 
 #. ~ Use action not_ready_msg for {'str': 'scrap of tanning fur', 'str_pl':
 #. 'scraps of tanning fur'}.
 #: .\obsolete.json
 msgid "The scrap of tanning fur isn't done yet."
-msgstr "Отрезок выделываемого меха ещё не готов."
+msgstr "Обрезок меховой шкуры ещё не продубился."
 
 #. ~ Description for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
 #. tanning fur'}
@@ -106,10 +99,7 @@ msgid ""
 "A small piece of treated animal pelt, undergoing the chemical processes "
 "required to become fur.  You will be able to activate it to unroll and make "
 "use of it when it is done."
-msgstr ""
-"Небольшой кусок обработанной шкуры животного, проходящий химические "
-"процессы, необходимые для превращения в мех. Вы сможете активировать его, "
-"чтобы развернуть и использовать, когда он будет готов."
+msgstr "Небольшой кусок обработанной меховой шкуры, проходящий процесс дубления. Когда дубление завершится, его можно будет активировать, развернуть и использовать."
 
 #: .\obsolete.json
 msgid "placed hobo stove"
@@ -120,10 +110,7 @@ msgstr "размещённая печь бродяги"
 msgid ""
 "A small improvised wood stove, placed on the ground.  It can only burn small "
 "amounts of wood at a time, but it will keep a fire safe from wind and rain."
-msgstr ""
-"Небольшая импровизированная дровяная печь, установленная на земле. В ней "
-"можно одновременно сжечь лишь небольшое количество дров, но она защитит "
-"огонь от ветра и дождя."
+msgstr "Небольшая самодельная дровяная печка, установленная на земле. За раз в ней можно сжечь лишь немного дров, зато она защищает огонь от ветра и дождя."
 
 #: .\obsolete.json
 msgid "clatter!"
@@ -145,10 +132,7 @@ msgid ""
 "You always preferred the comfort of the open sky, far from the complexities "
 "of modern life.  Though from the looks of it, things have changed since last "
 "time you've been anywhere near civilization."
-msgstr ""
-"Ты всегда предпочитал комфорт открытого неба, вдали от сложностей "
-"современной жизни. Хотя, судя по всему, все изменилось с тех пор, как ты в "
-"последний раз был вблизи цивилизации."
+msgstr "Ты всегда предпочитал покой открытого неба, подальше от сложностей современной жизни. Хотя, судя по всему, многое изменилось с тех пор, как ты в последний раз бывал поблизости от цивилизации."
 
 #: .\chargen\professions.json
 msgctxt "profession_female"
@@ -162,10 +146,7 @@ msgid ""
 "You always preferred the comfort of the open sky, far from the complexities "
 "of modern life.  Though from the looks of it, things have changed since last "
 "time you've been anywhere near civilization."
-msgstr ""
-"Ты всегда предпочитала комфорт открытого неба, вдали от сложностей "
-"современной жизни. Хотя, судя по всему, все изменилось с тех пор, как ты в "
-"последний раз была вблизи цивилизации."
+msgstr "Ты всегда предпочитала покой открытого неба, подальше от сложностей современной жизни. Хотя, судя по всему, многое изменилось с тех пор, как ты в последний раз бывала поблизости от цивилизации."
 
 #: .\chargen\professions.json
 msgctxt "profession_male"
@@ -180,11 +161,7 @@ msgid ""
 "terrifying world.  Life as a hunter-gatherer was hard, but at least you "
 "didn't have to fight the living dead, and you had your kin to stand beside "
 "you.  Here, you're on your own."
-msgstr ""
-"Живой реликт доисторической эпохи, оказавшийся в незнакомом и страшном мире. "
-"Жизнь охотника-собирателя была тяжёлой, но, по крайней мере, тебе не "
-"приходилось сражаться с живыми мертвецами, и рядом с тобой были твои "
-"сородичи. Здесь же ты предоставлен сам себе."
+msgstr "Ты живая реликвия доисторических времён, заброшенная в незнакомый и пугающий мир. Жизнь охотника-собирателя была тяжёлой, но по крайней мере не приходилось сражаться с живыми мертвецами, и рядом были сородичи. Здесь же ты совсем один."
 
 #: .\chargen\professions.json
 msgctxt "profession_female"
@@ -199,11 +176,7 @@ msgid ""
 "terrifying world.  Life as a hunter-gatherer was hard, but at least you "
 "didn't have to fight the living dead, and you had your kin to stand beside "
 "you.  Here, you're on your own."
-msgstr ""
-"Живой реликт доисторической эпохи, оказавшийся в незнакомом и страшном мире. "
-"Жизнь охотницы-собирателя была тяжёлой, но, по крайней мере, тебе не "
-"приходилось сражаться с живыми мертвецами, и рядом с тобой были твои "
-"сородичи. Здесь же ты предоставлена сама себе."
+msgstr "Ты живая реликвия доисторических времён, заброшенная в незнакомый и пугающий мир. Жизнь охотника-собирателя была тяжёлой, но по крайней мере не приходилось сражаться с живыми мертвецами, и рядом были сородичи. Здесь же ты совсем одна."
 
 #: .\chargen\start_locations.json
 msgid "Swamp"
@@ -211,125 +184,121 @@ msgstr "Болото"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Door"
-msgstr "Построить дверь"
+msgstr "Установить дверь"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Window"
-msgstr "Построить окно"
+msgstr "Установить окно"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Beehive"
-msgstr "Построить улей"
+msgstr "Соорудить улей"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Charcoal Purifier"
-msgstr "Построить угольный фильтр"
+msgstr "Собрать угольный водоочиститель"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Can be deconstructed without tools."
-msgstr "Нельзя разобрать без инструментов."
+msgstr "Можно разобрать без инструментов."
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Leather Door Curtain"
-msgstr "Построить кожаную дверную занавеску"
+msgstr "Установить кожаную дверную занавеску"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Still"
-msgstr "Построить самодельный дистиллятор"
+msgstr "Собрать самодельный дистиллятор"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Pulley Lifter"
-msgstr "Построить шкивный подъёмник"
+msgstr "Собрать блочный подъёмник"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Add Bucket And Pulley To Covered Well"
-msgstr "Добавить ведро и шкив к крытому колодцу"
+msgstr "Оснастить крытый колодец ведром и блоком"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wooden Windbreak"
-msgstr "Построить деревянную ветрозащиту"
+msgstr "Соорудить деревянную ветрозащиту"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Leather Tarp Lean-To"
-msgstr "Построить навесь из кожаного брезента"
+msgstr "Соорудить кожаный навес"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Wooden Rack"
-msgstr "Построить самодельный деревянный стеллаж"
+msgstr "Собрать самодельный деревянный стеллаж"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Counter"
-msgstr "Построить самодельный прилавок"
+msgstr "Собрать самодельный прилавок"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Table"
-msgstr "Построить самодельный стол"
+msgstr "Собрать самодельный стол"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Chair"
-msgstr "Построить самодельный стул"
+msgstr "Собрать самодельный стул"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Bench"
-msgstr "Построить самодельную лавку"
+msgstr "Собрать самодельную лавку"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wooden Staircase"
-msgstr "Построить деревянную лестницу"
+msgstr "Соорудить деревянную лестницу"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wooden Platform"
-msgstr "Построить деревянную платформу"
+msgstr "Соорудить деревянную платформу"
 
 #: .\furniture_and_terrain\construction.json
 msgid ""
 "Must be built over ledges or other open space.  Limited constructions can be "
 "built on top of it."
-msgstr ""
-"Должно быть построено над уступами или другим открытым пространством. Поверх "
-"можно возводить ограниченное количество сооружений."
+msgstr "Должно быть построено над обрывом или другим открытым пространством. Сверху можно возводить лишь некоторые виды конструкций."
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wattle-and-Daub Wall"
-msgstr "Построить стену из мазка и глины"
+msgstr "Соорудить стенку из мазанки"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wood Wall"
-msgstr "Построить деревянную стену"
+msgstr "Соорудить деревянную стену"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Log Wall"
-msgstr "Построить стену из брёвен"
+msgstr "Соорудить бревенчатую стену"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wooden Floor"
-msgstr "Построить деревянный пол"
+msgstr "Соорудить деревянный пол"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "charcoal purifier"
-msgstr "угольный фильтр"
+msgstr "угольный водоочиститель"
 
 #. ~ Description for charcoal purifier
 #: .\furniture_and_terrain\furniture.json
 msgid ""
 "A makeshift filter constructed to hold a supply of charcoal, for purifying "
 "water."
-msgstr ""
-"Импровизированный фильтр, предназначенный для хранения запаса древесного "
-"угля для очистки воды."
+msgstr "Самодельный фильтр очистки воды с применением древесного угля."
 
 #: .\furniture_and_terrain\furniture.json
 #: .\furniture_and_terrain\overrides.json
 msgid "crunch!"
-msgstr "хруст!"
+msgstr "треск!"
 
 #: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
 msgid "whump!"
-msgstr "хрясь!"
+msgstr "«бум!»"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift still"
-msgstr "самодельный дистиллятор"
+msgstr "самодельный перегонный аппарат"
 
 #. ~ Description for makeshift still
 #: .\furniture_and_terrain\furniture.json
@@ -337,18 +306,15 @@ msgid ""
 "A pair of glass bottles insulated with dirt or sand.  With careful "
 "alignment, it serves as a crude alembic by boiling away liquid in the first "
 "container, condensing into the second."
-msgstr ""
-"Пара стеклянных бутылок, изолированных грязью или песком. При тщательном "
-"выравнивании она служит в качестве грубого алембика: жидкость в первой "
-"емкости выкипает, конденсируясь во второй."
+msgstr "Пара стеклянных бутылок, теплоизолированных землёй или песком. Если правильно расположить их относительно друг друга, получится примитивный перегонный аппарат: жидкость кипит в первой бутылке, а её пары конденсируются во второй."
 
 #: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
 msgid "whump."
-msgstr "хрясь."
+msgstr "«бум»."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "rope and pulley lifter"
-msgstr "подъёмник из верёвки со шкивом"
+msgstr "веревочный блочный подъёмник"
 
 #. ~ Description for rope and pulley lifter
 #: .\furniture_and_terrain\furniture.json
@@ -356,11 +322,7 @@ msgid ""
 "A system of ropes and pulleys hanging from the ceiling, rigged up to serve "
 "as a block and tackle for lifting vehicle components, or even light enough "
 "vehicles.  It isn't very powerful, but it'll do in a pinch."
-msgstr ""
-"Система веревок и шкивов, свисающих с потолка, предназначенных для "
-"использования в качестве блока и приспособления для подъёма компонентов "
-"транспортных средств или даже достаточно легких транспортных средств "
-"целиком. Он не очень мощный, но в крайнем случае сойдет."
+msgstr "Система верёвок и блоков, подвешенная к потолку и приспособленная для подъёма деталей транспорта и даже достаточно лёгких машин. Большой грузоподъёмностью не отличается, но в крайнем случае сгодится."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "wooden windbreak"
@@ -372,10 +334,7 @@ msgid ""
 "A waist-high barricade made of stout saplings, held in place by poles "
 "hammered into the ground.  Primarily used to keep the wind out, but also "
 "works to fence in  a campsite."
-msgstr ""
-"Баррикада высотой по пояс из крепких саженцев, поддерживаемая вбитыми в "
-"землю шестами. В основном используется для защиты от ветра, но также "
-"подходит для ограждения кемпинга."
+msgstr "Заграждение высотой примерно по пояс, сделанное из крепких молодых деревьев и закреплённое вбитыми в землю кольями. В основном защищает от ветра, но также может служить оградой для лагеря."
 
 #: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
 msgid "smash!"
@@ -383,24 +342,23 @@ msgstr "грохот!"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "leather tarp lean-to"
-msgstr "навесь из кожаного брезента"
+msgstr "кожаный навес"
 
 #. ~ Description for leather tarp lean-to
 #: .\furniture_and_terrain\furniture.json
 msgid ""
 "A makeshift shelter made from a lather tarp and stakes driven into the "
 "ground."
-msgstr ""
-"Импровизированное укрытие, сделанное из брезента и кольев, вбитых в землю."
+msgstr "Самодельное укрытие из кожаного листа и колышков, вбитых в землю."
 
 #: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
 msgid "crash!"
-msgstr "крахж!"
+msgstr "«хрясь!»"
 
 #: .\furniture_and_terrain\furniture.json
 #: .\furniture_and_terrain\overrides.json
 msgid "whack!"
-msgstr "бам!"
+msgstr "«хрясь!»"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift wooden rack"
@@ -411,9 +369,7 @@ msgstr "самодельный деревянный стеллаж"
 msgid ""
 "A simple wooden rack, made using rudimentary joinery and adhesive.  Display "
 "your items on it."
-msgstr ""
-"Простой деревянный стеллаж, изготовленный с помощью элементарных столярных "
-"инструментов и клея. Разместите на нём свои вещи."
+msgstr "Простой деревянный стеллаж, собранный с помощью простейших столярных соединений и клея. На нём можно разместить свои вещи."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift counter"
@@ -422,9 +378,7 @@ msgstr "самодельный прилавок"
 #. ~ Description for makeshift counter
 #: .\furniture_and_terrain\furniture.json
 msgid "A bit rustic for most kitchens, made from simple joinery and wood glue."
-msgstr ""
-"Немного деревенский для большинства кухонь, изготовлен из простой столярки и "
-"клея для дерева."
+msgstr "Для большинства кухонь выглядит несколько простовато: сделано из дерева с использованием простейших столярных соединений и столярного клея."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift table"
@@ -435,9 +389,7 @@ msgstr "самодельный стол"
 msgid ""
 "Sit down when you eat!  At least the legs seem to be joined up properly, so "
 "it probably won't fall apart if you eat off it."
-msgstr ""
-"Садитесь, когда едите! Ножки, похоже, соединены правильно, так что, "
-"возможно, он не развалится, если вы будете с него есть."
+msgstr "Ешьте сидя! По крайней мере, ножки вроде бы соединены как следует, так что стол, скорее всего, не развалится прямо во время еды."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift chair"
@@ -448,9 +400,7 @@ msgstr "самодельный стул"
 msgid ""
 "Sit down, have a drink.  It probably won't fall apart if you do, the joinery "
 "looks sturdy enough."
-msgstr ""
-"Присядьте, выпейте. Возможно, он не развалится, если вы это сделаете, "
-"столярные соединения выглядят достаточно прочными."
+msgstr "Присядьте, выпейте чего-нибудь. Вряд ли он от этого развалится — соединения выглядят достаточно прочными."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift bench"
@@ -461,9 +411,7 @@ msgstr "самодельная скамья"
 msgid ""
 "More a bed for woodsmen than hobos, or maybe guests at a feast hall.  Put "
 "together with nothing but wood joints and some glue."
-msgstr ""
-"Скорее кровать для дровосеков, чем для бродяг, или, может быть, для гостей "
-"на пиршественном столе. Собранная из одних только деревянных деталей и клея."
+msgstr "Скорее кровать для лесоруба, чем для бродяги — хотя сгодилась бы и для гостей в пиршественном зале. Собрана без единого гвоздя — только деревянные соединения и немного клея."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "placed clay oven"
@@ -474,9 +422,7 @@ msgstr "размещённая глиняная печь"
 msgid ""
 "A portable clay oven, placed on the ground.  It can't hold much wood at "
 "once, but it will keep a fire safe from wind and rain."
-msgstr ""
-"Переносная глиняная печь, установленная на земле. Она не может вместить "
-"сразу много дров, но надёжно защитит огонь от ветра и дождя."
+msgstr "Переносная глиняная печь, установленная на земле. За раз в неё помещается совсем немного дров, зато она надёжно защищает огонь от ветра и дождя."
 
 #: .\furniture_and_terrain\furniture.json
 msgid "crack!"
@@ -484,7 +430,7 @@ msgstr "треск!"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "whunk!"
-msgstr "вхэмк!"
+msgstr "«врум!»"
 
 #: .\furniture_and_terrain\overrides.json
 msgid "pine tree"
@@ -497,16 +443,11 @@ msgid ""
 "England species varying from 'P. strobus', 'P. resinosa' and 'P. rigida'.  "
 "If you examined the tree more closely, you might find usable sticky whorls "
 "and unharvested pinecones.  Also, you could cut it down with the right tools."
-msgstr ""
-"Высокое хвойное дерево, принадлежащее к роду Pinus, в Новой Англии "
-"встречаются виды \"P. strobus\", \"P. resinosa\" и \"P. rigida\". Если бы вы "
-"рассмотрели дерево более внимательно, вы могли бы найти пригодные для "
-"использования клейкие прожилки и несобранные сосновые шишки. Кроме того, при "
-"наличии соответствующих инструментов его можно срубить."
+msgstr "Высокое хвойное дерево рода Pinus. В Новой Англии встречаются такие виды, как сосна Веймутова (P. strobus), сосна смолистая (P. resinosa) и сосна жёсткая (P. rigida). Если осмотреть дерево внимательнее, можно найти пригодные для использования хвойные ветки и несобранные сосновые шишки. А при наличии подходящих инструментов дерево можно срубить."
 
 #: .\furniture_and_terrain\overrides.json
 msgid "birch tree"
-msgstr "берёзза"
+msgstr "берёза"
 
 #. ~ Description for birch tree
 #: .\furniture_and_terrain\overrides.json
@@ -516,12 +457,7 @@ msgid ""
 "populifolia' are the most common in the New England region.  Looks like "
 "there isn't enough rhytidome to peel off yet.  You could cut it down with "
 "the right tools."
-msgstr ""
-"Высокое листопадное дерево рода \"Betula\" с характерной шелушащейся корой. "
-"Такие виды, как \"B. alleghaniensis\", \"B. papyrifera\" и \"B. populifolia"
-"\", наиболее распространены в регионе Новой Англии. Похоже, что ритидома еще "
-"недостаточно для отслаивания.  Вы можете срубить его с помощью подходящих "
-"инструментов."
+msgstr "Высокое лиственное дерево рода Betula с характерной отслаивающейся корой. В Новой Англии чаще всего встречаются такие виды, как берёза аллеганская (B. alleghaniensis), берёза бумажная (B. papyrifera) и берёза тополелистная (B. populifolia). Похоже, наружного слоя коры пока недостаточно, чтобы его снять. При наличии подходящих инструментов дерево можно срубить."
 
 #: .\furniture_and_terrain\terrain.json .\items\generic.json
 msgid "empty beehive"
@@ -535,26 +471,22 @@ msgstr[2] "пустых ульев"
 msgid ""
 "A traditional beehive, dug in slightly and baited to attract bees.  It will "
 "take a while before any bees decide to make use of it."
-msgstr ""
-"Обычный улей, слегка вкопанный и с приманкой для привлечения пчёл. Пройдет "
-"некоторое время, прежде чем пчёлы решат им воспользоваться."
+msgstr "Традиционный улей, привлекающий пчёл. Придётся подождать некоторое время, прежде чем пчёлы решат им воспользоваться."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "growing beehive"
-msgstr "развивающийся улей"
+msgstr "растущий улей"
 
 #. ~ Description for growing beehive
 #: .\furniture_and_terrain\terrain.json
 msgid ""
 "A traditional beehive, dug in slightly and buzzing with slight activity.  "
 "Some bees have started work on this hive, but it won't be ready just yet."
-msgstr ""
-"Обычный улей, слегка вкопанный и тихо гудящий от небольшой активности. Пчёлы "
-"уже начали над ним работать, но пока что он не готов."
+msgstr "Традиционный улей, слегка вкопанный в землю и оживленно жужжащий. Некоторые пчелы уже приступили к работе над этим ульем, но он еще не готов."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "mature beehive"
-msgstr "здоровый улей"
+msgstr "зрелый улей"
 
 #. ~ Description for mature beehive
 #: .\furniture_and_terrain\terrain.json
@@ -562,9 +494,7 @@ msgid ""
 "A traditional beehive, dug in slightly and buzzing with activity.  The "
 "colony is doing well enough that you could harvest a good amount without the "
 "hive dying off."
-msgstr ""
-"Обычный улей, слегка вкопанный и гудящий от активности. Колония работает "
-"достаточно хорошо, чтобы вы могли собрать хороший урожай без гибели улья."
+msgstr "Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. Семья достаточно окрепла, так что можно собрать немало мёда, не навредив улью."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "recovering beehive"
@@ -575,9 +505,7 @@ msgstr "восстанавливающийся улей"
 msgid ""
 "A traditional beehive, dug in slightly and buzzing with activity.  The "
 "colony is still recovering from last harvest."
-msgstr ""
-"Обычный улей, слегка вкопанный и гудящий от активности. Колония всё ещё "
-"восстанавливается с последнего сбора урожая."
+msgstr "Традиционный улей, в котором царит оживление. Колония все еще восстанавливается после сбора последнего урожая."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "regrowing beehive"
@@ -589,9 +517,7 @@ msgid ""
 "A traditional beehive, dug in slightly and buzzing with activity.  The "
 "colony is rebuilding honeycombs and producing more honey, but it still isn't "
 "ready."
-msgstr ""
-"Обычный улей, слегка вкопанный и гудящий от активности. Колония "
-"восстанавливает соты и производит больше мёда, но она всё ещё не готова."
+msgstr "Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. Пчелиная семья восстанавливает соты и запасает новый мёд, но собирать его пока рано."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "closed leather door curtain"
@@ -602,17 +528,15 @@ msgstr "закрытая кожаная дверная занавеска"
 msgid ""
 "Hides from an animal hung up as a door.  Could be easily taken down for "
 "supplies or placed somewhere else."
-msgstr ""
-"Шкура животного, подвешенная в качестве двери. Может быть легко снята для "
-"пополнения запасов или помещена в другое место."
+msgstr "Шкура животного, подвешенная в дверном проёме вместо двери. Её легко снять, чтобы использовать как материал или повесить в другом месте."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "rrrrip!"
-msgstr "трррк!"
+msgstr "«хррррр!»"
 
 #: .\furniture_and_terrain\terrain.json
 msgid "slap!"
-msgstr "шлёп!"
+msgstr "хлопок!"
 
 #: .\furniture_and_terrain\terrain.json
 msgid "open leather door curtain"
@@ -624,10 +548,7 @@ msgid ""
 "Hides from an animal hung up as a door.  Could be easily taken down for "
 "supplies or placed somewhere else.  These curtains are open, bundled and "
 "tied next to the doorway."
-msgstr ""
-"Шкура животного, подвешенная в качестве двери. Может быть легко снята для "
-"пополнения запасов или помещена в другое место. Эта занавеска открыта и "
-"подвязана рядом с дверным проёмом."
+msgstr "Шкура животного, подвешенная в дверном проёме вместо двери. Её легко снять, чтобы использовать как материал или повесить в другом месте. Сейчас полог открыт, свёрнут и подвязан сбоку от дверного проёма."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "wooden platform"
@@ -639,24 +560,18 @@ msgid ""
 "A surface of wooden scaffolding extending out, supported by solid wooden "
 "joists and brackets to transfer the weight onto other supporting structure.  "
 "Solid enough to build further wood or similar constructions onto it."
-msgstr ""
-"Выступающая наружу поверхность деревянных лесов, поддерживаемая прочными "
-"деревянными балками и кронштейнами для переноса веса на другую опорную "
-"конструкцию. Достаточно прочная, чтобы на ней можно было возводить "
-"дальнейшие деревянные или подобные конструкции."
+msgstr "Деревянный настил, выступающий за пределы основной конструкции и поддерживаемый прочными балками и подкосами, которые передают нагрузку на несущие элементы. Достаточно прочен, чтобы возводить на нём другие деревянные и подобные конструкции."
 
 #: .\furniture_and_terrain\terrain.json
 msgid "well with bucket and pulley"
-msgstr "колодец с ковшом и шкивом"
+msgstr "колодец с ведром и воротом"
 
 #. ~ Description for well with bucket and pulley
 #: .\furniture_and_terrain\terrain.json
 msgid ""
 "Deep well collecting ground water.  A simple bucket and pulley allows "
 "drawing water from it."
-msgstr ""
-"Глубокий колодец для сбора грунтовых вод. Простое ведро и шкив позволяют "
-"черпать из него воду."
+msgstr "Глубокий колодец, в котором скапливаются грунтовые воды. Простая система из ведра и ворота позволяет набирать из него воду."
 
 #: .\furniture_and_terrain\traps.json
 msgid "light snare trap"
@@ -668,22 +583,20 @@ msgstr "тяжёлый силок"
 
 #: .\furniture_and_terrain\traps.json
 msgid "leather raincatcher"
-msgstr "кожаный дождесборник"
+msgstr "кожаная дожделовка"
 
 #: .\items\ammo.json
 msgid "lead pellet"
 msgid_plural "lead pellets"
 msgstr[0] "свинцовая дробинка"
-msgstr[1] "свинцовых дробинки"
+msgstr[1] "свинцовые дробинки"
 msgstr[2] "свинцовых дробинок"
 
 #. ~ Description for {'str': 'lead pellet'}
 #: .\items\ammo.json
 msgid ""
 "Hefty round projectiles cast from lead, useful as ammunition for slings."
-msgstr ""
-"Увесистые круглые снаряды, отлитые из свинца, полезные в качестве "
-"боеприпасов для рогаток."
+msgstr "Тяжёлые круглые снаряды, отлитые из свинца и пригодные для стрельбы из пращи."
 
 #: .\items\ammo.json
 msgid "wooden atlatl dart"
@@ -697,8 +610,7 @@ msgstr[2] "деревянных дротиков для атлатля"
 msgid ""
 "A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
 "point."
-msgstr ""
-"Длинный, гибкий дротик для копьеметателя, с огнеупорным заострённым острием."
+msgstr "Длинный гибкий дротик для копьеметалки с заострённым наконечником, закалённым в огне."
 
 #: .\items\ammo.json
 msgid "iron atlatl dart"
@@ -710,7 +622,7 @@ msgstr[2] "железных дротиков для атлатля"
 #. ~ Description for {'str': 'iron atlatl dart'}
 #: .\items\ammo.json
 msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
-msgstr "Длинный, гибкий дротик для копьеметателя, с железным острием."
+msgstr "Длинный гибкий дротик для копьеметалки с железным наконечником."
 
 #: .\items\ammo.json
 msgid "stone atlatl dart"
@@ -723,8 +635,7 @@ msgstr[2] "каменных дротиков для атлатля"
 #: .\items\ammo.json
 msgid ""
 "A long, flexible dart for a spear-thrower, with a small stone spearhead."
-msgstr ""
-"Длинный, гибкий дротик для копьеметателя, с острием из маленького камня."
+msgstr "Длинный гибкий дротик для копьеметалки с небольшим каменным наконечником."
 
 #: .\items\ammo.json
 msgid "copper atlatl dart"
@@ -736,14 +647,14 @@ msgstr[2] "медных дротиков для атлатля"
 #. ~ Description for {'str': 'copper atlatl dart'}
 #: .\items\ammo.json
 msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
-msgstr "Длинный, гибкий дротик для копьеметателя, с медным острием."
+msgstr "Длинный гибкий дротик для копьеметалки с небольшим медным наконечником."
 
 #: .\items\ammo.json .\items\ammo_types.json
 msgid "pitch"
 msgid_plural "pitch"
-msgstr[0] "дёготь"
-msgstr[1] "дёгтя"
-msgstr[2] "дёгтя"
+msgstr[0] "смола"
+msgstr[1] "смола"
+msgstr[2] "смола"
 
 #. ~ Description for {'str_sp': 'pitch'}
 #: .\items\ammo.json
@@ -751,11 +662,7 @@ msgid ""
 "Sticky resin made from pine or birch tar.  The adhesive isn't strong enough "
 "for heavy duty usages, but it can be used as a varnish or holding together "
 "small items, or for improvised repairs with the right tools."
-msgstr ""
-"Липкая резина, изготовленная из сосновой или берёзовой смолы. Клей "
-"недостаточно силён для использования в тяжёлых условиях, но его можно "
-"использовать в качестве лака или для скрепления небольших предметов, а также "
-"для импровизированного ремонта при наличии соответствующих инструментов."
+msgstr "Липкая смола, полученная из соснового или берёзового дёгтя. Она недостаточно прочна для серьёзных нагрузок, но её можно использовать как лак, для склеивания небольших предметов или для кустарного ремонта при наличии подходящих инструментов."
 
 #: .\items\ammo_types.json
 msgid "atlatl dart"
@@ -764,36 +671,34 @@ msgstr "дротик для атлатля"
 #: .\items\armor.json
 msgid "pack basket"
 msgid_plural "pack baskets"
-msgstr[0] "набивная корзина"
-msgstr[1] "набивных корзины"
-msgstr[2] "набивных корзин"
+msgstr[0] "заплечный плетёный короб"
+msgstr[1] "заплечных плетёных короба"
+msgstr[2] "заплечных плетёных коробов"
 
 #. ~ Description for {'str': 'pack basket'}
 #: .\items\armor.json
 msgid ""
 "A large hand made straw basket, with shoulder straps to wear like a backpack."
-msgstr ""
-"Большая соломенная корзина ручной работы с плечевыми ремнями для ношения в "
-"качестве рюкзака."
+msgstr "Большая плетёная корзина из соломы, с лямками для ношения на спине в качестве рюкзака."
 
 #: .\items\armor.json
 msgid "birchbark sheath"
 msgid_plural "birchbark sheathes"
-msgstr[0] "ножны из бересты"
-msgstr[1] "ножен из бересты"
-msgstr[2] "ножен из бересты"
+msgstr[0] "берестяные ножны"
+msgstr[1] "берестяных ножен"
+msgstr[2] "берестяных ножен"
 
 #. ~ Use action holster_msg for {'str': 'birchbark sheath', 'str_pl':
 #. 'birchbark sheathes'}.
 #: .\items\armor.json
 msgid "You sheath your %s"
-msgstr "Вы убираете в ножны %s"
+msgstr "Вы убираете %s."
 
 #. ~ Use action holster_prompt for {'str': 'birchbark sheath', 'str_pl':
 #. 'birchbark sheathes'}.
 #: .\items\armor.json
 msgid "Sheath knife"
-msgstr "Убрать нож в ножны"
+msgstr "Вложить нож в ножны"
 
 #. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
 #. sheathes'}
@@ -801,66 +706,60 @@ msgstr "Убрать нож в ножны"
 msgid ""
 "A hand made sheath made from birch bark, for holding knives and other small "
 "blades.  Activate to sheathe/draw a weapon."
-msgstr ""
-"Самодельные ножны из бересты для хранения ножей и других небольших лезвий. "
-"Активируйте, чтобы спрятать/вытащить оружие."
+msgstr "Изготовленные вручную ножны из берёзовой коры для хранения ножей и других небольших клинков. Активируйте, чтобы вложить/достать оружие."
 
 #: .\items\armor.json
 msgid "pair of leather armwraps"
 msgid_plural "pairs of leather armwraps"
-msgstr[0] "пара кожаных нарукавников"
-msgstr[1] "пары кожаных нарукавников"
-msgstr[2] "пар кожаных нарукавников"
+msgstr[0] "кожаные обмотки для рук"
+msgstr[1] "пары кожаных обмоток для рук"
+msgstr[2] "пар кожаных обмоток для рук"
 
 #. ~ Description for {'str': 'pair of leather armwraps', 'str_pl': 'pairs of
 #. leather armwraps'}
 #: .\items\armor.json
 msgid ""
 "Leather patches wrapped around the arms, better than nothing in a pinch."
-msgstr ""
-"Кожаные заплатки, обмотанные вокруг рук. Во всяком случае, это лучше, чем "
-"ничего."
+msgstr "Куски кожи, обмотанные вокруг рук. В крайнем случае лучше, чем ничего."
 
 #: .\items\armor.json
 msgid "pair of fur armwraps"
 msgid_plural "pairs of fur armwraps"
-msgstr[0] "пара меховых нарукавников"
-msgstr[1] "пары меховых нарукавников"
-msgstr[2] "пар меховых нарукавников"
+msgstr[0] "меховые обмотки для рук"
+msgstr[1] "пары меховых обмоток для рук"
+msgstr[2] "пар меховых обмоток для рук"
 
 #. ~ Description for {'str': 'pair of fur armwraps', 'str_pl': 'pairs of fur
 #. armwraps'}
 #: .\items\armor.json
 msgid "Fur pelts wrapped around the arms, better than nothing in a pinch."
-msgstr ""
-"Меховые шкурки, обмотанные вокруг рук. Во всяком случае, это лучше, чем "
-"ничего."
+msgstr "Меховые шкуры, обмотанные вокруг рук. В крайнем случае лучше, чем ничего."
 
 #: .\items\armor.json
 msgid "pair of leather legwraps"
 msgid_plural "pairs of leather legwraps"
-msgstr[0] "пара кожаных набедренников"
-msgstr[1] "пары кожаных набедренников"
-msgstr[2] "пар кожаных набедренников"
+msgstr[0] "кожаные обмотки для ног"
+msgstr[1] "пары кожаных обмоток для ног"
+msgstr[2] "пар кожаных обмоток для ног"
 
 #. ~ Description for {'str': 'pair of leather legwraps', 'str_pl': 'pairs of
 #. leather legwraps'}
 #: .\items\armor.json
 msgid "Leather patches wrapped around the legs, as improvised leggings."
-msgstr "Кожаные заплатки для обмотки вокруг ног, как импровизированные поножи."
+msgstr "Куски кожи, обмотанные вокруг ног наподобие импровизированных поножей."
 
 #: .\items\armor.json
 msgid "pair of fur legwraps"
 msgid_plural "pairs of fur legwraps"
-msgstr[0] "пара меховых набедренников"
-msgstr[1] "пары меховых набедренников"
-msgstr[2] "пар меховых набедренников"
+msgstr[0] "меховые обмотки для ног"
+msgstr[1] "пары меховых обмоток для ног"
+msgstr[2] "пар меховых обмоток для ног"
 
 #. ~ Description for {'str': 'pair of fur legwraps', 'str_pl': 'pairs of fur
 #. legwraps'}
 #: .\items\armor.json
 msgid "Fur pelts wrapped around the legs, as improvised leggings."
-msgstr "Меховые шкурки для обмотки вокруг ног, как импровизированные поножи."
+msgstr "Меховые шкуры, обмотанные вокруг ног наподобие импровизированных поножей."
 
 #: .\items\armor.json
 msgid "makeshift sheet cloak"
@@ -875,10 +774,7 @@ msgid ""
 "A bedsheet draped around the shoulders and pinned in place to wear like a "
 "cloak.  Less encumbering since it leaves your hands free, and won't trip you "
 "up."
-msgstr ""
-"Простыня, накинутая на плечи и приколотая булавками, чтобы носить её подобно "
-"плащу. Это менее обременительно, так как оставляет руки свободными и не "
-"создаёт помех в движении."
+msgstr "Простыня, накинутая на плечи и скреплённая так, чтобы носить её как плащ. Почти не стесняет движений, поскольку оставляет руки свободными, и не путается под ногами."
 
 #: .\items\armor.json
 msgid "makeshift blanket cloak"
@@ -893,10 +789,7 @@ msgid ""
 "A blanket draped around the shoulders and pinned in place to wear like a "
 "cloak.  Less encumbering since it leaves your hands free, and won't trip you "
 "up."
-msgstr ""
-"Одеяло, накинутое на плечи и приколотое булавками, чтобы носить его подобно "
-"плащу. Это менее обременительно, так как оставляет руки свободными и не "
-"создаёт помех в движении."
+msgstr "Одеяло, накинутое на плечи и скреплённое так, чтобы носить его как плащ. Почти не стесняет движений, поскольку оставляет руки свободными, и не путается под ногами."
 
 #: .\items\armor.json
 msgid "makeshift down-filled blanket cloak"
@@ -911,10 +804,7 @@ msgid ""
 "A warm blanket draped around the shoulders and pinned in place to wear like "
 "a cloak.  Less encumbering since it leaves your hands free, and won't trip "
 "you up."
-msgstr ""
-"Тёплое одеяло, накинутое на плечи и приколотое булавками, чтобы носить его "
-"подобно плащу. Это менее обременительно, так как оставляет руки свободными и "
-"не создаёт помех в движении."
+msgstr "Тёплое одеяло, накинутое на плечи и скреплённое так, чтобы носить его как плащ. Почти не стесняет движений, поскольку оставляет руки свободными, и не путается под ногами."
 
 #: .\items\armor.json
 msgid "makeshift fur blanket cloak"
@@ -929,10 +819,7 @@ msgid ""
 "A heavy fur blanket draped around the shoulders and pinned in place to wear "
 "like a cloak.  Less encumbering since it leaves your hands free, and won't "
 "trip you up."
-msgstr ""
-"Тяжёлое меховое одеяло, накинутое на плечи и приколотое булавками, чтобы "
-"носить его подобно плащу. Это менее обременительно, так как оставляет руки "
-"свободными и не создаёт помех в движении."
+msgstr "Тяжёлое меховое одеяло, накинутое на плечи и скреплённое так, чтобы носить его как плащ. Почти не стесняет движений, поскольку оставляет руки свободными, и не путается под ногами."
 
 #: .\items\armor.json
 msgid "atlatl dart quiver"
@@ -946,25 +833,21 @@ msgstr[2] "колчанов для дротиков"
 msgid ""
 "A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
 "Activate to store up to 10 darts."
-msgstr ""
-"Кожаный колчан, носимый на талии, удлинённый под хранение дротиков для "
-"атлатля.  Активируйте, чтобы поместить до 10 дротиков."
+msgstr "Удлиненный поясной кожаный колчан для хранения дротиков для атлатля. Активируйте, чтобы поместить до 10 дротиков."
 
 #: .\items\armor.json
 msgid "birchbark atlatl dart quiver"
 msgid_plural "birchbark atlatl dart quivers"
-msgstr[0] "берестовый колчан для дротиков"
-msgstr[1] "берестовых колчана для дротиков"
-msgstr[2] "берестовых колчанов для дротиков"
+msgstr[0] "берестяной колчан для дротиков"
+msgstr[1] "берестяных колчана для дротиков"
+msgstr[2] "берестяных колчанов для дротиков"
 
 #. ~ Description for {'str': 'birchbark atlatl dart quiver'}
 #: .\items\armor.json
 msgid ""
 "A quiver woven from strips of birch bark, worn at the waist, lengthened to "
 "hold atlatl darts.  Activate to store up to 10 darts."
-msgstr ""
-"Колчан, сплетённый из полос бересты, носится на поясе, удлиняется для "
-"хранения дротиков для атлатля.  Активируйте, чтобы поместить до 10 дротиков."
+msgstr "Удлиненный поясной колчан, сплетённый из полос берёзовой коры для хранения дротиков для атлатля. Используйте, чтобы поместить до 10 дротиков."
 
 #: .\items\comestibles.json
 msgid "willow tea"
@@ -978,32 +861,28 @@ msgstr[2] "чая из ивы"
 msgid ""
 "A bitter herbal tea made from willow bark, used since ancient times as a "
 "mild painkiller."
-msgstr ""
-"Горький травяной чай из коры ивы, используемый с древних времен как легкое "
-"болеутоляющее средство."
+msgstr "Горький травяной чай из ивовой коры, с древних времён используемый как лёгкое обезболивающее."
 
 #: .\items\comestibles.json
 msgid "tar oil"
 msgid_plural "tar oil"
 msgstr[0] "дегтярное масло"
-msgstr[1] "дегтярного масла"
-msgstr[2] "дегтярного масла"
+msgstr[1] "дегтярное масло"
+msgstr[2] "дегтярное масло"
 
 #. ~ Description for {'str_sp': 'tar oil'}
 #: .\items\comestibles.json
 msgid ""
 "A thick, runny tar typically made from birch bark or pine.  Among various "
 "historical uses, it is also used as an antiseptic."
-msgstr ""
-"Густой, текучий дёготь, обычно изготавливаемый из бересты или сосны. Среди "
-"различных исторических применений, он также используется как антисептик."
+msgstr "Густой текучий дёготь, обычно получаемый из берёзовой коры или сосны. Помимо множества других применений, исторически использовался как антисептик."
 
 #: .\items\comestibles.json
 msgid "garlic oil"
 msgid_plural "garlic oil"
 msgstr[0] "чесночное масло"
-msgstr[1] "чесночного масла"
-msgstr[2] "чесночного масла"
+msgstr[1] "чесночное масло"
+msgstr[2] "чесночное масло"
 
 #. ~ Description for {'str_sp': 'garlic oil'}
 #: .\items\comestibles.json
@@ -1011,18 +890,14 @@ msgid ""
 "A strong-tasting extract made from garlic, traditionally used to help resist "
 "infection, especially in Eastern Europe.  Not as powerful as modern full-"
 "strength antibiotics, but better than nothing.  Use once every 12 hours."
-msgstr ""
-"Сильный на вкус экстракт из чеснока, традиционно используемый для борьбы с "
-"инфекциями, особенно в Восточной Европе. Не такой мощный, как современные "
-"полноразмерные антибиотики, но лучше, чем ничего. Используйте один раз в 12 "
-"часов."
+msgstr "Экстракт чеснока с резким вкусом, традиционно применяемый для борьбы с инфекциями, особенно в Восточной Европе. Не так эффективен, как современные полноценные антибиотики, но всё же лучше, чем ничего. Принимать раз в 12 часов."
 
 #: .\items\comestibles.json
 msgid "roasted garlic"
 msgid_plural "roasted garlic"
 msgstr[0] "жареный чеснок"
 msgstr[1] "жареных чеснока"
-msgstr[2] "жареного чеснока"
+msgstr[2] "жареных чесноков"
 
 #. ~ Description for {'str_sp': 'roasted garlic'}
 #: .\items\comestibles.json
@@ -1032,9 +907,9 @@ msgstr "Зубчики чеснока, слегка приправленные �
 #: .\items\comestibles.json
 msgid "garlic bread"
 msgid_plural "garlic bread"
-msgstr[0] "хлеб с чесноком"
-msgstr[1] "хлеба с чесноком"
-msgstr[2] "хлеба с чесноком"
+msgstr[0] "чесночный хлеб"
+msgstr[1] "чесночный хлеб"
+msgstr[2] "чесночный хлеб"
 
 #. ~ Description for {'str_sp': 'garlic bread'}
 #: .\items\comestibles.json
@@ -1066,11 +941,7 @@ msgid ""
 "A primitive poultice using improvised antiseptic, held in place by a cloth "
 "or leather wrap.  Applied loosely, it is designed to stave off infection but "
 "can still help staunch bleeding."
-msgstr ""
-"Примитивная припарка с использованием импровизированного антисептика, "
-"удерживаемая на месте тканевой или кожаной обмоткой.  Наложенная свободно, "
-"она предназначена для защиты от инфекции, но может также помочь остановить "
-"кровотечение."
+msgstr "Примитивная припарка с самодельным антисептиком, закреплённая повязкой из ткани или кожи. Накладывается неплотно и предназначена прежде всего для защиты от инфекции, но также помогает остановить кровотечение."
 
 #: .\items\comestibles.json
 msgid "posca"
@@ -1084,9 +955,7 @@ msgstr[2] "посок"
 msgid ""
 "A traditional Roman drink made of cheap, often sour wine watered down, and "
 "usually made more palatable with herbs and honey."
-msgstr ""
-"Традиционный римский напиток, приготовленный из дешёвого, часто кислого "
-"вина, разбавленного травами и мёдом."
+msgstr "Традиционный римский напиток из дешёвого, часто кислого вина, разбавленного водой. Чтобы сделать вкус приятнее, в него обычно добавляли травы и мёд."
 
 #: .\items\comestibles.json
 msgid "cooked cattail rhizome"
@@ -1100,21 +969,19 @@ msgstr[2] "приготовленных корневищ рогоза"
 msgid ""
 "A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit "
 "less stringy and more palatable after being cooked."
-msgstr ""
-"Приготовленное корневище рогозового куста. Хрустящий и крахмалистый, после "
-"варки он становится менее жилистым и более вкусным."
+msgstr "Приготовленное корневище рогоза. Хрустящее и крахмалистое; после приготовления становится заметно менее волокнистым и гораздо приятнее на вкус."
 
 #: .\items\comestibles.json
 msgid "porridge"
 msgid_plural "porridge"
-msgstr[0] "порридж"
-msgstr[1] "порриджа"
-msgstr[2] "порриджей"
+msgstr[0] "каша"
+msgstr[1] "каши"
+msgstr[2] "каш"
 
 #. ~ Description for {'str_sp': 'porridge'}
 #: .\items\comestibles.json
 msgid "Simple fare made from cooking wheat or barley, bland but filling."
-msgstr "Простая еда из варёной пшеницы или ячменя, безвкусная, но сытная."
+msgstr "Простая каша из пшеницы или ячменя — пресная, но сытная."
 
 #: .\items\comestibles.json
 msgid "jerked offal"
@@ -1128,16 +995,14 @@ msgstr[2] "вяленых потрохов"
 msgid ""
 "Salty dried organ meat.  Smells a bit like dog food, but will last a long "
 "time."
-msgstr ""
-"Соленое сушеное мясо из органов. Немного пахнет собачьим кормом, но хватает "
-"надолго."
+msgstr "Солёные вяленые потроха. Пахнут немного как собачий корм, зато хранятся очень долго."
 
 #: .\items\comestibles.json
 msgid "roasted bark"
 msgid_plural "roasted bark"
 msgstr[0] "жареная кора"
-msgstr[1] "жареной коры"
-msgstr[2] "жареной коры"
+msgstr[1] "жареная кора"
+msgstr[2] "жареная кора"
 
 #. ~ Description for {'str_sp': 'roasted bark'}
 #: .\items\comestibles.json
@@ -1146,36 +1011,32 @@ msgid ""
 "to render them less stringy and more edible.  Can be eaten as-is, or dried "
 "and milled into flour.  While commonly considered a survival food, it is "
 "relatively palatable."
-msgstr ""
-"Деревянный бекон, ломтики внутренней коры берёзы или сосны, которые были "
-"обжарены, чтобы сделать их менее жилистыми и более съедобными. Их можно есть "
-"как в чистом виде, так и сушить и перемалывать в муку. Хотя обычно считается "
-"пищей для выживания, она относительно приятна на вкус."
+msgstr "«Древесный бекон» — ломтики внутренней коры берёзы или сосны, обжаренные, чтобы сделать их менее волокнистыми и более съедобными. Их можно есть как есть или высушить и перемолоть в муку. Хотя обычно это считается пищей для выживания, на вкус она вполне неплоха."
 
 #: .\items\comestibles.json
 msgid "potted meat"
 msgid_plural "potted meat"
-msgstr[0] "мясо в горшке"
-msgstr[1] "мяса в горшке"
-msgstr[2] "мяса в горшке"
+msgstr[0] "консервированное мясо"
+msgstr[1] "консервированное мясо"
+msgstr[2] "консервированное мясо"
 
 #. ~ Conditional name for {'str_sp': 'potted meat'} when FLAG matches
 #. CANNIBALISM
 #: .\items\comestibles.json
 msgid "potted person"
 msgid_plural "potted person"
-msgstr[0] "кто-то в горшке"
-msgstr[1] "кого-то в горшке"
-msgstr[2] "кого-то в горшке"
+msgstr[0] "консервированная человечина"
+msgstr[1] "консервированная человечина"
+msgstr[2] "консервированная человечина"
 
 #. ~ Conditional name for {'str_sp': 'potted meat'} when COMPONENT_ID matches
 #. mutant
 #: .\items\comestibles.json
 msgid "potted freak"
 msgid_plural "potted freak"
-msgstr[0] "урод в горшке"
-msgstr[1] "урода в горшке"
-msgstr[2] "уродов в горшке"
+msgstr[0] "консервированное мясо мутанта"
+msgstr[1] "консервированное мясо мутанта"
+msgstr[2] "консервированное мясо мутанта"
 
 #. ~ Description for {'str_sp': 'potted meat'}
 #: .\items\comestibles.json
@@ -1183,18 +1044,14 @@ msgid ""
 "Meat cooked and preserved in butter or melted fat, a form of food "
 "preservation from the days before canning.  Also known as confit.  Rich and "
 "fattening, it will last for a long time."
-msgstr ""
-"Мясо, приготовленное и законсервированное в сливочном масле или растопленном "
-"жире - способ консервирования продуктов, существовавший до появления "
-"консервов. Также известно как конфи. Богатое и жирное, оно будет храниться "
-"долгое время."
+msgstr "Мясо, приготовленное и законсервированное в сливочном масле или топлёном жире — старинный способ заготовки продуктов, существовавший ещё до появления консервов. Также известно как конфи. Жирное и очень сытное, такое мясо может храниться довольно долго."
 
 #: .\items\containers.json
 msgid "birchbark canteen"
 msgid_plural "birchbark canteens"
-msgstr[0] "банка из бересты"
-msgstr[1] "банки из бересты"
-msgstr[2] "банок из бересты"
+msgstr[0] "берестяная фляга"
+msgstr[1] "берестяные фляги"
+msgstr[2] "берестяных фляг"
 
 #. ~ Description for {'str': 'birchbark canteen'}
 #: .\items\containers.json
@@ -1202,10 +1059,7 @@ msgid ""
 "A small container make from pieces of birchbark stitched together, sealed "
 "with pitch or similar material.  Holds 1.5 liters and has a simple carry "
 "strap."
-msgstr ""
-"Небольшой контейнер из кусков бересты, сшитых вместе и запечатанных смолой "
-"или аналогичным материалом.  Вмещает 1,5 литра и имеет простой ремень для "
-"переноски."
+msgstr "Небольшая ёмкость из сшитых между собой кусков бересты, герметизированная смолой или похожим материалом. Вмещает 1,5 литра и снабжена простым ремнём для переноски."
 
 #: .\items\containers.json
 msgid "clay jar"
@@ -1219,9 +1073,7 @@ msgstr[2] "глиняных кувшинов"
 msgid ""
 "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
 "stopper."
-msgstr ""
-"Полулитровая глиняная банка, глазурованная для водонепроницаемости, с плотно "
-"прилегающей деревянной пробкой."
+msgstr "Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и снабжённый плотно подогнанной деревянной пробкой."
 
 #: .\items\containers.json
 msgid "sealed clay jar"
@@ -1235,10 +1087,7 @@ msgstr[2] "запечатанных глиняных кувшинов"
 msgid ""
 "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
 "stopper.  Sealed tightly with wax, to preserve contents from rot."
-msgstr ""
-"Полулитровая глиняная банка, глазурованная для водонепроницаемости, с плотно "
-"прилегающей деревянной пробкой. Плотно запечатана воском, чтобы сохранить "
-"содержимое от гниения."
+msgstr "Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и снабжённый плотно подогнанной деревянной пробкой. Герметично запечатан воском, чтобы содержимое дольше не портилось."
 
 #: .\items\containers.json
 msgid "makeshift wooden bucket"
@@ -1252,16 +1101,14 @@ msgstr[2] "самодельных деревянных вёдер"
 msgid ""
 "A large bucket for holding water, made from hollowing out a log and adding "
 "handles made of natural cordage.  Can hold 7 liters."
-msgstr ""
-"Большое ведро для хранения воды, сделанное из выдолбленного бревна и с "
-"ручками из натурального шнура. Вмещает 7 литров."
+msgstr "Большое ведро для воды, выдолбленное из бревна и снабжённое ручками из растительных волокон. Вмещает 7 литров."
 
 #: .\items\generic.json
 msgid "stone javelin"
 msgid_plural "stone javelins"
-msgstr[0] "каменное копьё"
-msgstr[1] "каменных копья"
-msgstr[2] "каменных копий"
+msgstr[0] "каменное дротик"
+msgstr[1] "каменных дротика"
+msgstr[2] "каменных дротиков"
 
 #. ~ Description for {'str': 'stone javelin'}
 #: .\items\generic.json
@@ -1271,9 +1118,9 @@ msgstr "Метательное копьё с каменным наконечни
 #: .\items\generic.json
 msgid "copper javelin"
 msgid_plural "copper javelins"
-msgstr[0] "медное копьё"
-msgstr[1] "медных копья"
-msgstr[2] "медных копий"
+msgstr[0] "медный дротик"
+msgstr[1] "медных дротика"
+msgstr[2] "медных дротиков"
 
 #. ~ Description for {'str': 'copper javelin'}
 #: .\items\generic.json
@@ -1283,40 +1130,35 @@ msgstr "Метательное копьё с медным наконечнико
 #: .\items\generic.json .\vehicles\vehicleparts.json
 msgid "sled frame"
 msgid_plural "sled frames"
-msgstr[0] "рама саней"
-msgstr[1] "рамы саней"
-msgstr[2] "рам саней"
+msgstr[0] "каркас саней"
+msgstr[1] "каркасы саней"
+msgstr[2] "каркасов саней"
 
 #. ~ Description for {'str': 'sled frame'}
 #: .\items\generic.json
 msgid "A flexible frame made from wooden crosspieces lashed together."
-msgstr "Гибкая рама из деревянных перемычек, скреплённых между собой."
+msgstr "Гибкий каркас из связанных между собой деревянных перекладин."
 
 #: .\items\generic.json .\vehicles\vehicleparts.json
 msgid "woven storage basket"
 msgid_plural "woven storage baskets"
-msgstr[0] "плетёная складная корзина"
-msgstr[1] "плетёных складных корзины"
-msgstr[2] "плетёных складных корзин"
+msgstr[0] "плетёная корзина для хранения"
+msgstr[1] "плетёных корзин для хранения"
+msgstr[2] "плетёные корзины для хранения"
 
 #. ~ Description for {'str': 'woven storage basket'}
 #: .\items\generic.json
 msgid ""
 "A folding basket made from woven straw or birchbark, supported by a wooden "
 "framework."
-msgstr ""
-"Складная корзина из плетёной соломы или бересты, поддерживаемая деревянным "
-"каркасом."
+msgstr "Складная корзина, сплетённая из соломы или бересты и укреплённая деревянным каркасом."
 
 #. ~ Description for {'str': 'empty beehive'}
 #: .\items\generic.json
 msgid ""
 "A large, enclosed wooden box with multiple sliding frames in it.  With "
 "something to attract bees, it can be used to grow a hive."
-msgstr ""
-"Большой, закрытый деревянный ящик с несколькими выдвижными рамками внутри.  "
-"С помощью чего-либо, привлекающего пчел, его можно использовать для "
-"выращивания улья."
+msgstr "Большой закрытый деревянный ящик с несколькими выдвижными рамками внутри. Если в нем есть что-то, привлекающее пчел, его можно использовать для создания улья."
 
 #: .\items\generic.json
 msgid "short leather cord"
@@ -1330,9 +1172,7 @@ msgstr[2] "коротких кожаных шнуров"
 msgid ""
 "A 6-inch (or about 15 cm) long piece of rawhide or leather cord.  Useful for "
 "some purposes, but not as strong or flexible as proper string."
-msgstr ""
-"Шнур из сыромятной или натуральной кожи длиной 6 дюймов (или около 15 см).  "
-"Полезен для некоторых целей, но не так прочен и гибок, как настоящая верёвка."
+msgstr "Кусок сыромятной кожи или шнура длиной 6 дюймов (или около 15 см). Полезен для некоторых целей, но не такой прочный и гибкий, как настоящая веревка."
 
 #: .\items\generic.json
 msgid "long leather cord"
@@ -1346,42 +1186,40 @@ msgstr[2] "длинных кожаных шнуров"
 msgid ""
 "A 3-foot (or about 90 cm) long piece of rawhide or leather cord.  Useful for "
 "some purposes, but not as strong or flexible as proper string."
-msgstr ""
-"Шнур из сыромятной или натуральной кожи длиной 3 фута (или около 90 см). "
-"Полезен для некоторых целей, но не так прочен и гибок, как настоящая верёвка."
+msgstr "Кусок сыромятной кожи или шнура длиной 3 фута (или около 90 см). Полезен для некоторых целей, но не такой прочный и гибкий, как настоящая веревка."
 
 #: .\items\generic.json
 msgid "pinebark"
 msgid_plural "pinebark"
 msgstr[0] "сосновая кора"
-msgstr[1] "сосновой коры"
-msgstr[2] "сосновой коры"
+msgstr[1] "сосновая кора"
+msgstr[2] "сосновая кора"
 
 #. ~ Description for {'str_sp': 'pinebark'}
 #: .\items\generic.json
 msgid "A sheet of faintly resinous inner bark, stripped from a pine tree."
-msgstr "Лист слегка смолистой внутренней коры, содранный с сосны."
+msgstr "Лист слегка смолистой внутренней коры, снятой с сосны."
 
 #: .\items\item_overrides.json
 msgid "rubber slug"
 msgid_plural "rubber slugs"
 msgstr[0] "резиновая пуля"
-msgstr[1] "резиновых пули"
+msgstr[1] "резиновые пули"
 msgstr[2] "резиновых пуль"
 
 #: .\items\item_overrides.json
 msgid "petrified eye"
 msgid_plural "petrified eyes"
-msgstr[0] "окаменевший глаз"
-msgstr[1] "окаменевших глаза"
-msgstr[2] "окаменевших глаз"
+msgstr[0] "окаменелый глаз"
+msgstr[1] "окаменелых глаза"
+msgstr[2] "окаменелых глаз"
 
 #: .\items\item_overrides.json
 msgid "spiral stone"
 msgid_plural "spiral stones"
-msgstr[0] "винтовой камень"
-msgstr[1] "винтовых камня"
-msgstr[2] "винтовых камней"
+msgstr[0] "спиральный камень"
+msgstr[1] "спиральных камня"
+msgstr[2] "спиральных камней"
 
 #: .\items\item_overrides.json
 msgid "chunk of sulfur"
@@ -1415,9 +1253,7 @@ msgstr[2] "атлатлей"
 msgid ""
 "A wooden tool for supporting a javelin, to throw it more effectively than by "
 "hand."
-msgstr ""
-"Деревянный инструмент для поддержания копья, чтобы более эффективно метать "
-"его."
+msgstr "Деревянное приспособление для метания дротиков с большей эффективностью, нежели руками."
 
 #: .\items\ranged.json
 msgctxt "gun_type_type"
@@ -1437,12 +1273,7 @@ msgid ""
 "pushed up from underneath to loose the bowstring.  Not as powerful as other "
 "crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
 "this weapon have a good chance of remaining intact for re-use."
-msgstr ""
-"Простой арбалет ручной работы в стиле Скейн, с деревянным штырём, который "
-"выталкивается снизу вверх, чтобы ослабить тетиву. Он не такой мощный, как "
-"другие арбалеты, но зато его тетиву легче натянуть. Болты, выпущенные из "
-"этого оружия, имеют хорошие шансы остаться целыми для повторного "
-"использования."
+msgstr "Простой самодельный арбалет скандинавского типа с деревянным штифтом, который нажимают снизу вверх, чтобы освободить тетиву. Он уступает другим арбалетам в мощности, зато его легче взводить. Выпущенные из него болты имеют хорошие шансы уцелеть и могут использоваться повторно."
 
 #: .\items\ranged.json
 msgctxt "gun_type_type"
@@ -1478,18 +1309,14 @@ msgid ""
 "A hood with added lenses and pockets for filter material sewn between layers "
 "of fabric, similar to designs common in WWI.  It is designed to be worn over "
 "a helmet.  It must be prepared before use."
-msgstr ""
-"Капюшон с дополнительными линзами и карманами для фильтрующего материала, "
-"вшитыми между слоями ткани, подобно конструкциям, распространенным в Первую "
-"мировую войну. Он предназначен для ношения поверх шлема.  Перед "
-"использованием его необходимо подготовить."
+msgstr "Капюшон со встроенными линзами и карманами для фильтрующего материала, вшитыми между слоями ткани, — по конструкции напоминает модели времён Первой мировой войны. Предназначен для ношения поверх шлема. Перед использованием его необходимо подготовить."
 
 #: .\items\tools.json
 msgid "heavy snare kit"
 msgid_plural "heavy snare kits"
-msgstr[0] "комплект тяжёлого силка"
-msgstr[1] "комплекта тяжёлого силка"
-msgstr[2] "комплектов тяжёлого силка"
+msgstr[0] "набор для тяжёлого силка"
+msgstr[1] "набора для тяжёлого силка"
+msgstr[2] "наборов для тяжёлого силка"
 
 #. ~ Use action done_message for {'str': 'heavy snare kit'}.
 #. ~ Use action done_message for {'str': 'light snare kit'}.
@@ -1502,17 +1329,14 @@ msgstr "Вы установили силок."
 msgid ""
 "This is a kit for a simple trap consisting of a rope noose and a snare "
 "trigger.  It requires a tree nearby.  It is effective at trapping monsters."
-msgstr ""
-"Это набор для простой ловушки, состоящей из веревочной петли и спускового "
-"крючка. Для её установки требуется дерево поблизости. Она эффективна для "
-"ловли монстров."
+msgstr "Набор для простой ловушки, состоящей из верёвочной петли и спускового механизма. Для установки требуется дерево поблизости. Эффективен для ловли монстров."
 
 #: .\items\tools.json
 msgid "light snare kit"
 msgid_plural "light snare kits"
-msgstr[0] "комплект лёгкого силка"
-msgstr[1] "комплекта лёгкого силка"
-msgstr[2] "комплектов лёгкого силка"
+msgstr[0] "набор для лёгкого силка"
+msgstr[1] "набора для лёгкого силка"
+msgstr[2] "наборов для лёгкого силка"
 
 #. ~ Description for {'str': 'light snare kit'}
 #: .\items\tools.json
@@ -1520,23 +1344,20 @@ msgid ""
 "This is a kit for a simple trap consisting of a string noose and a snare "
 "trigger.  It requires a young tree nearby.  It is effective at trapping and "
 "killing some small animals."
-msgstr ""
-"Это набор для простой ловушки, состоящей из верёвочной петли и спускового "
-"крючка.  Для ее изготовления требуется молодое дерево поблизости.  Она "
-"эффективна для отлова и умерщвления некоторых мелких животных."
+msgstr "Набор для простой ловушки, состоящей из петли из бечёвки и спускового механизма. Для установки требуется молодое дерево поблизости. Подходит для ловли и умерщвления некоторых мелких животных."
 
 #: .\items\tools.json
 msgid "snare trigger"
 msgid_plural "snare triggers"
-msgstr[0] "активатор силка"
-msgstr[1] "активатора силка"
-msgstr[2] "активаторов силка"
+msgstr[0] "спусковой механизм силка"
+msgstr[1] "спусковых механизма силка"
+msgstr[2] "спусковых механизмов силка"
 
 #. ~ Description for {'str': 'snare trigger'}
 #: .\items\tools.json
 msgid ""
 "This is a stick that has been cut into a trigger mechanism for a snare trap."
-msgstr "Это палка, вырезанная в виде спускового механизма для ловушки."
+msgstr "Это палочка, вырезанная таким образом, чтобы служить спусковым механизмом для силка."
 
 #: .\items\tools.json
 msgid "stone hoe"
@@ -1571,21 +1392,19 @@ msgstr "Вы разворачиваете и размещаете самодел
 msgid ""
 "A simple pulk sled and folded framework that can hold a modest amount of "
 "gear, traditionally used to drag equipment across snowy terrain."
-msgstr ""
-"Простые тягловые складные сани, вмещающие небольшое количество снаряжения, "
-"традиционно используются для перетаскивания вещей по заснеженной местности."
+msgstr "Простые волокуши с раскладным каркасом, способные вместить небольшое количество снаряжения. Традиционно используются для перевозки грузов по снегу."
 
 #: .\items\tools.json .\vehicles\vehicles.json
 msgid "log canoe"
 msgid_plural "log canoes"
-msgstr[0] "бревенчатое каноэ"
-msgstr[1] "бревенчатых каноэ"
-msgstr[2] "бревенчатых каноэ"
+msgstr[0] "лодка-долблёнка"
+msgstr[1] "лодки-долблёнки"
+msgstr[2] "лодок-долблёнок"
 
 #. ~ Use action unfold_msg for {'str': 'log canoe'}.
 #: .\items\tools.json
 msgid "You deploy the log canoe."
-msgstr "Вы размещаете бревенчатое каноэ."
+msgstr "Вы спускаете лодку-долблёнку на воду."
 
 #. ~ Description for {'str': 'log canoe'}
 #: .\items\tools.json
@@ -1593,11 +1412,7 @@ msgid ""
 "A traditional dugout boat made from logs burned and carved to shape, along "
 "with handmade oars.  Heavy and bulky as it is, it can still be picked up and "
 "carried by a reasonably fit person.  Use it to deploy and make ready."
-msgstr ""
-"Традиционная блиндажная лодка, сделанная из брёвен, обожжённых и вырезанных "
-"по форме, с вёслами ручной работы. Тяжёлая и громоздкая, она всё же может "
-"быть поднята и перенесена достаточно сильным человеком. Используйте её для "
-"развертывания и приведения в готовность."
+msgstr "Традиционная лодка-долблёнка, выжженная и выдолбленная из бревна, с самодельными вёслами. Несмотря на большой вес и громоздкость, человек в достаточно хорошей физической форме всё же может поднять и перенести её. Активируйте, чтобы спустить лодку на воду и подготовить к использованию."
 
 #: .\items\tools.json
 msgid "makeshift distillation"
@@ -1633,23 +1448,21 @@ msgstr ""
 #: .\items\tools.json
 msgid "leather tarp raincatcher"
 msgid_plural "leather tarp raincatchers"
-msgstr[0] "кожаный дождесборник"
-msgstr[1] "кожаных дождесборника"
-msgstr[2] "кожаных дождесборников"
+msgstr[0] "кожаная дожделовка"
+msgstr[1] "кожаные дожделовки"
+msgstr[2] "кожаных дожделовок"
 
 #. ~ Use action done_message for {'str': 'leather tarp raincatcher'}.
 #: .\items\tools.json
 msgid "You set up the raincatcher, waiting to collect water."
-msgstr "Вы устанавливаете дождесборник, остаётся дождаться сбора воды."
+msgstr "Вы установили дожделовку для сбора дождевой воды."
 
 #. ~ Description for {'str': 'leather tarp raincatcher'}
 #: .\items\tools.json
 msgid ""
 "Some sticks and string with a leather tarp, to set up an improvised "
 "raincatcher."
-msgstr ""
-"Несколько прутьев и шнурков с кожаным брезентов, формирующих "
-"импровизированный дождесборник."
+msgstr "Палки, брезент и верёвочка для установки самодельной дожделовки."
 
 #: .\items\tools.json
 msgid "clay oil lamp (off)"
@@ -1711,9 +1524,9 @@ msgstr ""
 #: .\items\tools.json
 msgid "clay ember carrier"
 msgid_plural "clay ember carriers"
-msgstr[0] "глиняная переноска для угля"
-msgstr[1] "глиняных переноски для угля"
-msgstr[2] "глиняных переносок для угля"
+msgstr[0] "контейнер для углей"
+msgstr[1] "контейнера для углей"
+msgstr[2] "контейнерв для углей"
 
 #. ~ Use action msg for {'str': 'clay ember carrier'}.
 #: .\items\tools.json
@@ -1723,12 +1536,12 @@ msgstr "Вы зажигаете трут."
 #. ~ Use action need_charges_msg for {'str': 'clay ember carrier'}.
 #: .\items\tools.json
 msgid "The ember carrier is out of tinder."
-msgstr "В переноски для угля не хватает трута."
+msgstr "В контейнере для углей закончился трут."
 
 #. ~ Use action need_fire_msg for {'str': 'clay ember carrier'}.
 #: .\items\tools.json
 msgid "You need a lighter or fire to light this."
-msgstr "Вам нужна зажигалка или открытый огонь чтобы зажечь это."
+msgstr "Вам нужен огонь или зажигалка, чтобы зажечь это."
 
 #. ~ Description for {'str': 'clay ember carrier'}
 #: .\items\tools.json
@@ -1736,30 +1549,26 @@ msgid ""
 "This is a small ceramic fire pot, with a lid and small holes for controlled "
 "airflow.  It can nurture a smoldering ember for a long time, to start fires "
 "without modern tools."
-msgstr ""
-"Это небольшой керамический горшок для костра, с крышкой и небольшими "
-"отверстиями для контролируемого потока воздуха. Он может долгое время "
-"поддерживать тлеющий уголёк, чтобы разжечь огонь без современных "
-"инструментов."
+msgstr "Небольшой керамический сосуд с крышкой и отверстиями для регулируемого притока воздуха. Позволяет долго сохранять тлеющие угли, чтобы разводить огонь без современных средств."
 
 #: .\items\tools.json
 msgid "clay ember carrier (lit)"
 msgid_plural "clay ember carriers (lit)"
-msgstr[0] "глиняная переноска для угля (горит)"
-msgstr[1] "глиняных переноски для угля (горят)"
-msgstr[2] "глиняных переносок для угля (горят)"
+msgstr[0] "контейнер для углей (горит)"
+msgstr[1] "контейнера для углей (горят)"
+msgstr[2] "контейнеров для углей (горят)"
 
 #. ~ Use action menu_text for {'str': 'clay ember carrier (lit)', 'str_pl':
 #. 'clay ember carriers (lit)'}.
 #: .\items\tools.json
 msgid "Extinguish"
-msgstr "Затушить"
+msgstr "Потушить"
 
 #. ~ Use action msg for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay
 #. ember carriers (lit)'}.
 #: .\items\tools.json
 msgid "The ember is extinguished."
-msgstr "Угли затухают."
+msgstr "Угольки потухли."
 
 #. ~ Description for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay ember
 #. carriers (lit)'}
@@ -1768,10 +1577,7 @@ msgid ""
 "This is a small ceramic fire pot, with a lid and small holes for controlled "
 "airflow.  An ember is smoldering inside it, and can be used to start a "
 "campfire."
-msgstr ""
-"Это небольшой керамический горшок для костра, с крышкой и небольшими "
-"отверстиями для контролируемого потока воздуха. Внутри него тлеет уголёк, "
-"который можно использовать для разведения костра."
+msgstr "Небольшой керамический сосуд с крышкой и отверстиями для регулируемого притока воздуха. Внутри тлеет уголёк, от которого можно разжечь костёр."
 
 #: .\items\tools.json
 msgid "clay oven"
@@ -1785,17 +1591,14 @@ msgstr[2] "глиняных печей"
 msgid ""
 "This is a ancient style of portable ceramic oven.  Use it to place on the "
 "ground, allowing you to keep a small fire safe from wind and rain."
-msgstr ""
-"Это древний вид портативной керамической печи.  Используйте её для "
-"размещения на земле, позволяя поддерживать небольшой огонь в безопасности от "
-"ветра и дождя."
+msgstr "Переносная керамическая печь старинного типа. Её можно установить на земле и развести внутри небольшой огонь, защищённый от ветра и дождя."
 
 #: .\items\tools.json
 msgid "makeshift repair kit"
 msgid_plural "makeshift repair kits"
-msgstr[0] "самодельный ремонтный набор"
-msgstr[1] "самодельных ремонтных набора"
-msgstr[2] "самодельных ремонтных наборов"
+msgstr[0] "самодельный ремонтный комплект"
+msgstr[1] "самодельных ремонтных комплекта"
+msgstr[2] "самодельных ремонтных комплектов"
 
 #. ~ Description for {'str': 'makeshift repair kit'}
 #: .\items\tools.json
@@ -1804,12 +1607,7 @@ msgid ""
 "replacement parts, an adze for more heavy-duty wood cutting, and a patch of "
 "soft material for cleaning surfaces.  It can be used to repair certain items "
 "if supplied with pitch, though it isn't ideal for complex work."
-msgstr ""
-"Это портативный набор инструментов, состоящий из примитивного ножа для "
-"вырезания запасных частей, клещей для более тяжёлой резки дерева и куска "
-"мягкого материала для очистки поверхностей.  Его можно использовать для "
-"ремонта некоторых предметов, если есть смола, хотя он не подходит для "
-"сложных работ."
+msgstr "Это портативный набор инструментов, состоящий из примитивного ножа для вырезания сменных деталей, тесло для более тяжелой резки дерева и куска мягкого материала для очистки поверхностей. Его можно использовать для ремонта определенных предметов, если он снабжен смолой, хотя он не идеален для сложных работ."
 
 #: .\items\tools.json
 msgid "flint drill"
@@ -1824,18 +1622,14 @@ msgid ""
 "A prehistoric woodworking tool, little more than a fine sharp blade tipping "
 "a makeshift bow drill.  It's rather limited in usage, primarily meant to be "
 "used on wood."
-msgstr ""
-"Доисторический инструмент для обработки дерева, представляющий собой не "
-"более чем тонкое острое лезвие для импровизированного лучкового сверла.  Его "
-"применение довольно ограничено, в основном он предназначен для работы по "
-"дереву."
+msgstr "Доисторический инструмент для обработки дерева — по сути, небольшой острый резец, закреплённый на самодельной лучковой дрели. Возможности у него довольно ограничены: предназначен главным образом для работы с деревом."
 
 #: .\items\tools.json
 msgid "fire plough"
 msgid_plural "fire ploughs"
-msgstr[0] "огненный плуг"
-msgstr[1] "огненных плуга"
-msgstr[2] "огненных плугов"
+msgstr[0] "огневой плуг"
+msgstr[1] "огневых плуга"
+msgstr[2] "огневых плугов"
 
 #. ~ Description for {'str': 'fire plough'}
 #: .\items\tools.json
@@ -1844,18 +1638,14 @@ msgid ""
 "with a groove worn into one of them, to light an ember through friction.  "
 "Starting a fire with this will be laborious and slow, but it's better than "
 "nothing."
-msgstr ""
-"Простой вариант примитивного разведения огня, не более чем два куска дерева "
-"с пазом, проделанным в одном из них, чтобы зажечь уголь за счёт трения. "
-"Добыча огня с помощью этого приспособления будет трудоёмкой и медленной, но "
-"это лучше, чем ничего."
+msgstr "Примитивное приспособление для разведения огня — всего лишь два куска дерева, в одном из которых проделана канавка. Трением можно получить тлеющий уголёк и разжечь огонь. Это долгий и трудоёмкий способ, но лучше, чем ничего."
 
 #: .\items\tools.json
 msgid "makeshift water purifier"
 msgid_plural "makeshift water purifiers"
-msgstr[0] "самодельный водяной фильтр"
-msgstr[1] "самодельных водяных фильтра"
-msgstr[2] "самодельных водяных фильтров"
+msgstr[0] "самодельный очиститель воды"
+msgstr[1] "самодельных очистителя воды"
+msgstr[2] "самодельных очистителей воды"
 
 #. ~ Description for {'str': 'makeshift water purifier'}
 #: .\items\tools.json
@@ -1877,12 +1667,7 @@ msgid ""
 "Canning foods with it will require a lot of water.  If you're only canning a "
 "couple of jars at a time, you'd fill it up with rocks or something to "
 "displace the water above the lids."
-msgstr ""
-"Очень большая 25-литровая глиняная посудина, предназначенная в основном для "
-"консервирования продуктов методом водяной бани, хотя в ней можно готовить и "
-"обычную пищу. Для консервации продуктов в ней потребуется много воды. Если "
-"вы собираетесь консервировать только пару банок за раз, наполните её камнями "
-"или чем-то ещё, чтобы вытеснить воду над крышками."
+msgstr "Очень большая 25-литровая кастрюля, предназначенная главным образом для консервирования стеклянных банок на водяной бане, хотя в ней можно готовить и обычную еду. Такое консервирование требует много воды. Если вы консервируете пару банок за раз, нужно наполнить кастрюлю камнями или чем-то подобным, чтобы вода накрыла крышки."
 
 #: .\items\wheels.json .\vehicles\vehicleparts.json
 msgid "sled runners"
@@ -1900,7 +1685,7 @@ msgstr "Простые деревянные детали для ручных с�
 msgid "log frame"
 msgid_plural "log frames"
 msgstr[0] "деревянная рама"
-msgstr[1] "деревянных рамы"
+msgstr[1] "деревянные рамы"
 msgstr[2] "деревянных рам"
 
 #. ~ Description for {'str': 'log frame'}
@@ -1909,11 +1694,7 @@ msgid ""
 "A heavy section of frame carved from a log, can be used for making sturdy "
 "wooden vehicle structures.  Also usable for a raft, log canoe, outriggers "
 "for a boat, etc due to its buoyancy."
-msgstr ""
-"Тяжёлая часть рамы, вырезанная из бревна, может использоваться для "
-"изготовления прочных деревянных конструкций транспортных средств.  Благодаря "
-"своей плавучести также может использоваться для плота, бревенчатого каноэ, "
-"выносных опор для лодки и т.д."
+msgstr "Тяжёлая деталь каркаса, вытесанная из бревна. Используется для изготовления прочных деревянных конструкций транспорта. Благодаря плавучести также подходит для постройки плотов, лодок-долблёнок, аутригеров для лодок и других подобных конструкций."
 
 #. ~ Description for log frame
 #: .\vehicles\vehicleparts.json
@@ -1922,8 +1703,4 @@ msgid ""
 "keep a raft afloat.  Other vehicle components can be mounted on it.  If all "
 "the frames and components of a vehicle are foldable, the vehicle can be "
 "folded into a small package and picked up as a normal item."
-msgstr ""
-"Тяжёлая часть рамы, вырезанная из бревна, служащая в качестве основы или для "
-"поддержания плота на плаву. На ней могут быть установлены другие компоненты "
-"транспортного средства. Если все рамы и компоненты транспортного средства "
-"складные, его можно сложить в небольшой комплект и взять как обычный предмет."
+msgstr "Тяжёлая деталь каркаса, вытесанная из бревна. Служит основанием конструкции или обеспечивает плавучесть плота. На неё можно устанавливать другие детали транспорта. Если весь каркас и остальные компоненты транспорта складные, его можно сложить в компактный свёрток и переносить как обычный предмет."
