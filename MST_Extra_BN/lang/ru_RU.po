@@ -110,7 +110,7 @@ msgstr "размещённая печь бродяги"
 msgid ""
 "A small improvised wood stove, placed on the ground.  It can only burn small "
 "amounts of wood at a time, but it will keep a fire safe from wind and rain."
-msgstr "Небольшая самодельная дровяная печка, установленная на земле. За раз в ней можно сжечь лишь немного дров, зато она защищает огонь от ветра и дождя."
+msgstr "Небольшая импровизированная дровяная печка, установленная на земле. За раз в ней можно сжечь лишь немного дров, зато она защищает огонь от ветра и дождя."
 
 #: .\obsolete.json
 msgid "clatter!"
@@ -208,7 +208,7 @@ msgstr "Установить кожаную дверную занавеску"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Still"
-msgstr "Собрать самодельный дистиллятор"
+msgstr "Собрать кустарный дистиллятор"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Pulley Lifter"
@@ -228,23 +228,23 @@ msgstr "Соорудить кожаный навес"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Wooden Rack"
-msgstr "Собрать самодельный деревянный стеллаж"
+msgstr "Собрать кустарный деревянный стеллаж"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Counter"
-msgstr "Собрать самодельный прилавок"
+msgstr "Собрать кустарный прилавок"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Table"
-msgstr "Собрать самодельный стол"
+msgstr "Собрать кустарный стол"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Chair"
-msgstr "Собрать самодельный стул"
+msgstr "Собрать кустарный стул"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Makeshift Bench"
-msgstr "Собрать самодельную лавку"
+msgstr "Собрать кустарный лавку"
 
 #: .\furniture_and_terrain\construction.json
 msgid "Build Wooden Staircase"
@@ -285,7 +285,7 @@ msgstr "угольный водоочиститель"
 msgid ""
 "A makeshift filter constructed to hold a supply of charcoal, for purifying "
 "water."
-msgstr "Самодельный фильтр очистки воды с применением древесного угля."
+msgstr "Кустарный фильтр очистки воды с применением древесного угля."
 
 #: .\furniture_and_terrain\furniture.json
 #: .\furniture_and_terrain\overrides.json
@@ -298,7 +298,7 @@ msgstr "«бум!»"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift still"
-msgstr "самодельный перегонный аппарат"
+msgstr "кустарный перегонный аппарат"
 
 #. ~ Description for makeshift still
 #: .\furniture_and_terrain\furniture.json
@@ -349,7 +349,7 @@ msgstr "кожаный навес"
 msgid ""
 "A makeshift shelter made from a lather tarp and stakes driven into the "
 "ground."
-msgstr "Самодельное укрытие из кожаного листа и колышков, вбитых в землю."
+msgstr "Кустарное укрытие из кожаного листа и колышков, вбитых в землю."
 
 #: .\furniture_and_terrain\furniture.json .\furniture_and_terrain\terrain.json
 msgid "crash!"
@@ -362,7 +362,7 @@ msgstr "«хрясь!»"
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift wooden rack"
-msgstr "самодельный деревянный стеллаж"
+msgstr "кустарный деревянный стеллаж"
 
 #. ~ Description for makeshift wooden rack
 #: .\furniture_and_terrain\furniture.json
@@ -373,7 +373,7 @@ msgstr "Простой деревянный стеллаж, собранный �
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift counter"
-msgstr "самодельный прилавок"
+msgstr "кустарный прилавок"
 
 #. ~ Description for makeshift counter
 #: .\furniture_and_terrain\furniture.json
@@ -382,7 +382,7 @@ msgstr "Для большинства кухонь выглядит нескол
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift table"
-msgstr "самодельный стол"
+msgstr "кустарный стол"
 
 #. ~ Description for makeshift table
 #: .\furniture_and_terrain\furniture.json
@@ -393,7 +393,7 @@ msgstr "Ешьте сидя! По крайней мере, ножки вроде
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift chair"
-msgstr "самодельный стул"
+msgstr "кустарный стул"
 
 #. ~ Description for makeshift chair
 #: .\furniture_and_terrain\furniture.json
@@ -404,7 +404,7 @@ msgstr "Присядьте, выпейте чего-нибудь. Вряд ли 
 
 #: .\furniture_and_terrain\furniture.json
 msgid "makeshift bench"
-msgstr "самодельная скамья"
+msgstr "кустарная скамья"
 
 #. ~ Description for makeshift bench
 #: .\furniture_and_terrain\furniture.json
@@ -764,9 +764,9 @@ msgstr "Меховые шкуры, обмотанные вокруг ног на
 #: .\items\armor.json
 msgid "makeshift sheet cloak"
 msgid_plural "makeshift sheet cloaks"
-msgstr[0] "самодельный плащ из простыни"
-msgstr[1] "самодельных плаща из простыни"
-msgstr[2] "самодельных плащей из простыни"
+msgstr[0] "импровизированный плащ из простыни"
+msgstr[1] "импровизированных плаща из простыни"
+msgstr[2] "импровизированных плащей из простыни"
 
 #. ~ Description for {'str': 'makeshift sheet cloak'}
 #: .\items\armor.json
@@ -779,9 +779,9 @@ msgstr "Простыня, накинутая на плечи и скреплён
 #: .\items\armor.json
 msgid "makeshift blanket cloak"
 msgid_plural "makeshift blanket cloaks"
-msgstr[0] "самодельный плащ из одеяла"
-msgstr[1] "самодельных плаща из одеяла"
-msgstr[2] "самодельных плащей из одеяла"
+msgstr[0] "импровизированный плащ из одеяла"
+msgstr[1] "импровизированных плаща из одеяла"
+msgstr[2] "импровизированных плащей из одеяла"
 
 #. ~ Description for {'str': 'makeshift blanket cloak'}
 #: .\items\armor.json
@@ -794,9 +794,9 @@ msgstr "Одеяло, накинутое на плечи и скреплённо
 #: .\items\armor.json
 msgid "makeshift down-filled blanket cloak"
 msgid_plural "makeshift down-filled blanket cloaks"
-msgstr[0] "самодельный плащ из пухового одеяла"
-msgstr[1] "самодельных плаща из пухового одеяла"
-msgstr[2] "самодельных плащей из пухового одеяла"
+msgstr[0] "импровизированный плащ из пухового одеяла"
+msgstr[1] "импровизированных плаща из пухового одеяла"
+msgstr[2] "импровизированных плащей из пухового одеяла"
 
 #. ~ Description for {'str': 'makeshift down-filled blanket cloak'}
 #: .\items\armor.json
@@ -809,9 +809,9 @@ msgstr "Тёплое одеяло, накинутое на плечи и скр�
 #: .\items\armor.json
 msgid "makeshift fur blanket cloak"
 msgid_plural "makeshift fur blanket cloaks"
-msgstr[0] "самодельный плащ из мехового одеяла"
-msgstr[1] "самодельных плаща из мехового одеяла"
-msgstr[2] "самодельных плащей из мехового одеяла"
+msgstr[0] "импровизированный плащ из мехового одеяла"
+msgstr[1] "импровизированных плаща из мехового одеяла"
+msgstr[2] "импровизированных плащей из мехового одеяла"
 
 #. ~ Description for {'str': 'makeshift fur blanket cloak'}
 #: .\items\armor.json
@@ -931,9 +931,9 @@ msgstr "Острый перец чили, слегка приправленны�
 #: .\items\comestibles.json
 msgid "makeshift poultice"
 msgid_plural "makeshift poultices"
-msgstr[0] "самодельная припарка"
-msgstr[1] "самодельных припарки"
-msgstr[2] "самодельных припарок"
+msgstr[0] "кустарная припарка"
+msgstr[1] "кустарных припарки"
+msgstr[2] "кустарных припарок"
 
 #. ~ Description for {'str': 'makeshift poultice'}
 #: .\items\comestibles.json
@@ -941,7 +941,7 @@ msgid ""
 "A primitive poultice using improvised antiseptic, held in place by a cloth "
 "or leather wrap.  Applied loosely, it is designed to stave off infection but "
 "can still help staunch bleeding."
-msgstr "Примитивная припарка с самодельным антисептиком, закреплённая повязкой из ткани или кожи. Накладывается неплотно и предназначена прежде всего для защиты от инфекции, но также помогает остановить кровотечение."
+msgstr "Примитивная припарка с импровизированным антисептиком, закреплённая повязкой из ткани или кожи. Накладывается неплотно и предназначена прежде всего для защиты от инфекции, но также помогает остановить кровотечение."
 
 #: .\items\comestibles.json
 msgid "posca"
@@ -1092,9 +1092,9 @@ msgstr "Полулитровый глиняный кувшин, покрытый
 #: .\items\containers.json
 msgid "makeshift wooden bucket"
 msgid_plural "makeshift wooden buckets"
-msgstr[0] "самодельное деревянное ведро"
-msgstr[1] "самодельных деревянных ведра"
-msgstr[2] "самодельных деревянных вёдер"
+msgstr[0] "кустарное деревянное ведро"
+msgstr[1] "кустарных деревянных ведра"
+msgstr[2] "кустарных деревянных вёдер"
 
 #. ~ Description for {'str': 'makeshift wooden bucket'}
 #: .\items\containers.json
@@ -1263,9 +1263,9 @@ msgstr "метательное"
 #: .\items\ranged.json
 msgid "makeshift crossbow"
 msgid_plural "makeshift crossbows"
-msgstr[0] "самодельный арбалет"
-msgstr[1] "самодельных арбалета"
-msgstr[2] "самодельных арбалетов"
+msgstr[0] "кустарный арбалет"
+msgstr[1] "кустарных арбалета"
+msgstr[2] "кустарных арбалетов"
 
 #: .\items\ranged.json
 msgid ""
@@ -1299,9 +1299,9 @@ msgstr ""
 #: .\items\tool_armor.json
 msgid "makeshift gas hood"
 msgid_plural "makeshift gas hoods"
-msgstr[0] "самодельный противогаз"
-msgstr[1] "самодельных противогаза"
-msgstr[2] "самодельных противогазов"
+msgstr[0] "кустарный противогаз"
+msgstr[1] "кустарных противогаза"
+msgstr[2] "кустарных противогазов"
 
 #. ~ Description for {'str': 'makeshift gas hood'}
 #: .\items\tool_armor.json
@@ -1378,14 +1378,14 @@ msgstr ""
 #: .\items\tools.json .\vehicles\vehicles.json
 msgid "makeshift sled"
 msgid_plural "makeshift sleds"
-msgstr[0] "самодельные сани"
-msgstr[1] "самодельных саней"
-msgstr[2] "самодельных саней"
+msgstr[0] "кустарные сани"
+msgstr[1] "кустарных саней"
+msgstr[2] "кустарных саней"
 
 #. ~ Use action unfold_msg for {'str': 'makeshift sled'}.
 #: .\items\tools.json
 msgid "You unfold and deploy the makeshift sled."
-msgstr "Вы разворачиваете и размещаете самодельные сани."
+msgstr "Вы разворачиваете и размещаете кустарные сани."
 
 #. ~ Description for {'str': 'makeshift sled'}
 #: .\items\tools.json
@@ -1425,9 +1425,7 @@ msgstr[2] "кустарных дистилляций"
 #: .\items\tools.json
 msgid ""
 "This exists only to allow makeshift stills to provide distilling quality."
-msgstr ""
-"Это существует только для того, чтобы самодельные дистиляторы могли "
-"обеспечить качество перегонки."
+msgstr "Это существует только для того, чтобы кустарные дистиляторы могли обеспечить качество перегонки."
 
 #: .\items\tools.json
 msgid "pulley lifting"
@@ -1462,7 +1460,7 @@ msgstr "Вы установили дожделовку для сбора дож�
 msgid ""
 "Some sticks and string with a leather tarp, to set up an improvised "
 "raincatcher."
-msgstr "Палки, брезент и верёвочка для установки самодельной дожделовки."
+msgstr "Палки, брезент и верёвочка для установки импровизированной дожделовки."
 
 #: .\items\tools.json
 msgid "clay oil lamp (off)"
@@ -1596,9 +1594,9 @@ msgstr "Переносная керамическая печь старинно�
 #: .\items\tools.json
 msgid "makeshift repair kit"
 msgid_plural "makeshift repair kits"
-msgstr[0] "самодельный ремонтный комплект"
-msgstr[1] "самодельных ремонтных комплекта"
-msgstr[2] "самодельных ремонтных комплектов"
+msgstr[0] "кустарный ремонтный комплект"
+msgstr[1] "кустарных ремонтных комплекта"
+msgstr[2] "кустарных ремонтных комплектов"
 
 #. ~ Description for {'str': 'makeshift repair kit'}
 #: .\items\tools.json
@@ -1622,7 +1620,7 @@ msgid ""
 "A prehistoric woodworking tool, little more than a fine sharp blade tipping "
 "a makeshift bow drill.  It's rather limited in usage, primarily meant to be "
 "used on wood."
-msgstr "Доисторический инструмент для обработки дерева — по сути, небольшой острый резец, закреплённый на самодельной лучковой дрели. Возможности у него довольно ограничены: предназначен главным образом для работы с деревом."
+msgstr "Доисторический инструмент для обработки дерева — по сути, небольшой острый резец, закреплённый на кустарной лучковой дрели. Возможности у него довольно ограничены: предназначен главным образом для работы с деревом."
 
 #: .\items\tools.json
 msgid "fire plough"
@@ -1643,9 +1641,9 @@ msgstr "Примитивное приспособление для развед�
 #: .\items\tools.json
 msgid "makeshift water purifier"
 msgid_plural "makeshift water purifiers"
-msgstr[0] "самодельный очиститель воды"
-msgstr[1] "самодельных очистителя воды"
-msgstr[2] "самодельных очистителей воды"
+msgstr[0] "кустарный очиститель воды"
+msgstr[1] "кустарных очистителя воды"
+msgstr[2] "кустарных очистителей воды"
 
 #. ~ Description for {'str': 'makeshift water purifier'}
 #: .\items\tools.json
