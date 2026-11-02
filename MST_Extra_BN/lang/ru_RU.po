@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MST_Extra\n"
 "POT-Creation-Date: 2026-10-04 18:56+0500\n"
 "PO-Revision-Date: \n"
-"Last-Translator: midgardormr <donjonn@yandex.ru>\n"
+"Last-Translator: midgardormr <midgardormr@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "В лёгком силке"
 #. ~ Description of effect 'Stuck in a heavy snare'.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\effects.json
 msgid "You can't move until you get free!"
-msgstr "Вы не можете двигаться, пока не освободитесь!"
+msgstr "Вы не сможете двигаться, пока не освободитесь!"
 
 #. ~ Apply message for effect(s) 'Stuck in a light snare'.
 #. ~ Apply message for effect(s) 'Stuck in a heavy snare'.
@@ -35,12 +35,16 @@ msgstr "В тяжёлом силке"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\modinfo.json
 msgid "MST Extra"
-msgstr "MST Extra"
+msgstr "MST Extra "
 
 #. ~ Description for MST Extra
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\modinfo.json
-msgid "The sequeal to CDDA's old More Survival Tools mod, adding additional useful innawoods content."
-msgstr "Продолжение старого мода для CDDA «More Survival Tools», добавляющее новые полезные предметы и возможности для выживания в дикой местности."
+msgid ""
+"The sequeal to CDDA's old More Survival Tools mod, adding additional useful "
+"innawoods content."
+msgstr ""
+"Продолжение старого мода для CDDA «More Survival Tools», добавляющее новые "
+"полезные предметы и возможности для выживания в дикой местности."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 #| msgid "empty beehive"
@@ -50,34 +54,51 @@ msgstr "пустой улей"
 
 #. ~ Description for empty beehive
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A traditional beehive, dug in slightly and baited to attract bees.  It will take a while before any bees decide to make use of it."
-msgstr "Традиционный улей, слегка вкопанный в землю и снабжённый приманкой для пчёл. Пройдёт некоторое время, прежде чем пчёлы решат в нём поселиться."
+msgid ""
+"A traditional beehive, dug in slightly and baited to attract bees.  It will "
+"take a while before any bees decide to make use of it."
+msgstr ""
+"Традиционный улей, слегка вкопанный в землю и снабжённый приманкой для пчёл."
+" Пройдёт некоторое время, прежде чем пчёлы решат в нём поселиться."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "smash!"
 msgstr "грохот!"
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "whump."
 msgstr "«бум»."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "growing beehive"
-msgstr "растущий улей"
+msgstr "улей с растущей семьёй пчёл"
 
 #. ~ Description for growing beehive
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A traditional beehive, dug in slightly and buzzing with slight activity.  Some bees have started work on this hive, but it won't be ready just yet."
-msgstr "Традиционный улей, слегка вкопанный в землю. В нём уже жужжат пчёлы, но семья пока не освоилась, и собирать мёд рано."
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with slight activity.  "
+"Some bees have started work on this hive, but it won't be ready just yet."
+msgstr ""
+"Традиционный улей, слегка вкопанный в землю. В нём уже жужжат пчёлы, но "
+"семья пока не освоилась, и собирать мёд рано."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "mature beehive"
-msgstr "зрелый улей"
+msgstr "улей с окрепшей семьёй пчёл"
 
 #. ~ Description for mature beehive
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A traditional beehive, dug in slightly and buzzing with activity.  The colony is doing well enough that you could harvest a good amount without the hive dying off."
-msgstr "Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. Семья достаточно окрепла, так что можно собрать немало мёда, не навредив улью."
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is doing well enough that you could harvest a good amount without the"
+" hive dying off."
+msgstr ""
+"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
+"Семья достаточно окрепла, так что можно собрать немало мёда, не навредив "
+"улью."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "recovering beehive"
@@ -85,8 +106,12 @@ msgstr "восстанавливающийся улей"
 
 #. ~ Description for recovering beehive
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A traditional beehive, dug in slightly and buzzing with activity.  The colony is still recovering from last harvest."
-msgstr "Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. Семья всё ещё восстанавливается после последнего сбора мёда."
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is still recovering from last harvest."
+msgstr ""
+"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
+"Семья всё ещё восстанавливается после последнего сбора мёда."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "regrowing beehive"
@@ -94,21 +119,28 @@ msgstr "улей с восстанавливающимися сотами"
 
 #. ~ Description for regrowing beehive
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A traditional beehive, dug in slightly and buzzing with activity.  The colony is rebuilding honeycombs and producing more honey, but it still isn't ready."
-msgstr "Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. Пчелиная семья восстанавливает соты и запасает новый мёд, но собирать его пока рано."
+msgid ""
+"A traditional beehive, dug in slightly and buzzing with activity.  The "
+"colony is rebuilding honeycombs and producing more honey, but it still isn't"
+" ready."
+msgstr ""
+"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
+"Пчелиная семья восстанавливает соты и запасает новый мёд, но собирать его "
+"пока рано."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "scrap of tanning leather"
 msgid_plural "scraps of tanning leather"
-msgstr[0] "обрезок дублёной кожи"
-msgstr[1] "обрезка дублёной кожи"
-msgstr[2] "обрезков дублёной кожи"
+msgstr[0] "обрезок кожи (в процессе дубления)"
+msgstr[1] "обрезка кожи (в процессе дубления)"
+msgstr[2] "обрезков кожи (в процессе дубления)"
 
 #. ~ Use action msg for {'str': 'scrap of tanning leather', 'str_pl': 'scraps
 #. of tanning leather'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "You carefully unfold the tanning leather scrap and shake it clean."
-msgstr "Вы осторожно разворачиваете продубившийся обрезок кожи и отряхиваете его."
+msgstr ""
+"Вы аккуратно разворачиваете обрезок кожи после дубления и отряхиваете его."
 
 #. ~ Use action not_ready_msg for {'str': 'scrap of tanning leather',
 #. 'str_pl': 'scraps of tanning leather'}.
@@ -119,21 +151,29 @@ msgstr "Обрезок кожи ещё не продубился."
 #. ~ Description for {'str': 'scrap of tanning leather', 'str_pl': 'scraps of
 #. tanning leather'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A small piece of treated animal hide, undergoing the chemical processes required to become leather.  You will be able to activate it to unroll and make use of it when it is done."
-msgstr "Небольшой кусок обработанной шкуры животного, проходящий дубление, необходимое для превращения в кожу. Когда процесс завершится, его можно будет активировать, развернуть и использовать."
+msgid ""
+"A small piece of treated animal hide, undergoing the chemical processes "
+"required to become leather.  You will be able to activate it to unroll and "
+"make use of it when it is done."
+msgstr ""
+"Небольшой кусок обработанной шкуры животного, проходящий дубление, "
+"претерпевающая химические процессы, необходимые для получения кожи. Когда "
+"дубление завершится, активируйте предмет, чтобы развернуть его и получить "
+"готовую кожу."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "scrap of tanning fur"
 msgid_plural "scraps of tanning fur"
-msgstr[0] "обрезок дублёного меха"
-msgstr[1] "обрезка дублёного меха"
-msgstr[2] "обрезков дублёного меха"
+msgstr[0] "обрезок меховой шкуры (в процессе дубления)"
+msgstr[1] "обрезка меховой шкуры (в процессе дубления)"
+msgstr[2] "обрезков меховой шкуры (в процессе дубления)"
 
 #. ~ Use action msg for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
 #. tanning fur'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "You carefully unfold the tanning fur scrap and shake it clean."
-msgstr "Вы осторожно разворачиваете продубившийся обрезок меховой шкуры и отряхиваете его."
+msgstr ""
+"Вы аккуратно разворачиваете обрезок меха после дубления и отряхиваете его."
 
 #. ~ Use action not_ready_msg for {'str': 'scrap of tanning fur', 'str_pl':
 #. 'scraps of tanning fur'}.
@@ -144,8 +184,15 @@ msgstr "Обрезок меховой шкуры ещё не продубилс�
 #. ~ Description for {'str': 'scrap of tanning fur', 'str_pl': 'scraps of
 #. tanning fur'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A small piece of treated animal pelt, undergoing the chemical processes required to become fur.  You will be able to activate it to unroll and make use of it when it is done."
-msgstr "Небольшой кусок обработанной шкуры животного с мехом, проходящий дубление. Когда процесс завершится, его можно будет активировать, развернуть и использовать."
+msgid ""
+"A small piece of treated animal pelt, undergoing the chemical processes "
+"required to become fur.  You will be able to activate it to unroll and make "
+"use of it when it is done."
+msgstr ""
+"Небольшой кусок обработанной шкуры животного с мехом, претерпевающая "
+"химические процессы, необходимые для получения меха. Когда дубление "
+"завершится, активируйте предмет, чтобы развернуть его и получить готовый "
+"мех."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "placed hobo stove"
@@ -153,8 +200,13 @@ msgstr "размещённая печь бродяги"
 
 #. ~ Description for placed hobo stove
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A small improvised wood stove, placed on the ground.  It can only burn small amounts of wood at a time, but it will keep a fire safe from wind and rain."
-msgstr "Небольшая импровизированная дровяная печка, установленная на земле. За раз в ней можно сжечь совсем немного дров, зато она защищает огонь от ветра и дождя."
+msgid ""
+"A small improvised wood stove, placed on the ground.  It can only burn small"
+" amounts of wood at a time, but it will keep a fire safe from wind and rain."
+msgstr ""
+"Небольшая импровизированная дровяная печка, установленная на земле. За раз в"
+" ней можно сжечь совсем немного дров, зато она защищает огонь от ветра и "
+"дождя."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "clatter!"
@@ -166,14 +218,19 @@ msgstr "лязг!"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "leather tarp lean-to"
-msgstr "навес"
+msgstr "навес из кожаного полотнища"
 
 #. ~ Description for leather tarp lean-to
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A makeshift shelter made from a lather tarp and stakes driven into the ground."
-msgstr "Импровизированный навес из кожаного полотнища, натянутого на вбитые в землю колья."
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr ""
+"Импровизированный навес из кожаного полотнища, натянутого на вбитые в землю "
+"колья."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "crash!"
 msgstr "«хрясь!»"
 
@@ -187,8 +244,15 @@ msgstr "кустарный перегонный аппарат"
 
 #. ~ Description for makeshift still
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A pair of glass bottles insulated with dirt or sand.  With careful alignment, it serves as a crude alembic by boiling away liquid in the first container, condensing into the second."
-msgstr "Пара стеклянных бутылок, теплоизолированных землёй или песком. Если правильно расположить их относительно друг друга, получится примитивный перегонный аппарат: жидкость кипит в первой бутылке, а её пары конденсируются во второй."
+msgid ""
+"A pair of glass bottles insulated with dirt or sand.  With careful "
+"alignment, it serves as a crude alembic by boiling away liquid in the first "
+"container, condensing into the second."
+msgstr ""
+"Пара стеклянных бутылок, теплоизолированных землёй или песком. Если "
+"правильно расположить их относительно друг друга, получится примитивный "
+"перегонный аппарат: жидкость кипит в первой бутылке, а её пары "
+"конденсируются во второй."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "crunch!"
@@ -200,16 +264,26 @@ msgstr "верёвочный блочный подъёмник"
 
 #. ~ Description for rope and pulley lifter
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
-msgid "A system of ropes and pulleys hanging from the ceiling, rigged up to serve as a block and tackle for lifting vehicle components, or even light enough vehicles.  It isn't very powerful, but it'll do in a pinch."
-msgstr "Система верёвок и блоков, подвешенная к потолку и приспособленная для подъёма деталей транспорта и даже достаточно лёгких машин. Большой грузоподъёмностью не отличается, но сойдёт на крайний случай."
+msgid ""
+"A system of ropes and pulleys hanging from the ceiling, rigged up to serve "
+"as a block and tackle for lifting vehicle components, or even light enough "
+"vehicles.  It isn't very powerful, but it'll do in a pinch."
+msgstr ""
+"Система верёвок и блоков, подвешенная к потолку и приспособленная для "
+"подъёма деталей транспорта и даже достаточно лёгких машин. Большой "
+"грузоподъёмностью не отличается, но сойдёт на крайний случай."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\construction.json
 msgid "Can be deconstructed without tools."
 msgstr "Можно разобрать без инструментов."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\construction.json
-msgid "Must be built over ledges or other open space.  Limited constructions can be built on top of it."
-msgstr "Можно построить только над обрывом или другим открытым пространством. Сверху можно возводить лишь некоторые конструкции."
+msgid ""
+"Must be built over ledges or other open space.  Limited constructions can be"
+" built on top of it."
+msgstr ""
+"Можно построить только над обрывом или другим открытым пространством. Сверху"
+" можно возводить лишь некоторые конструкции."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\construction_group.json
 msgid "Build Leather Door Curtain"
@@ -249,8 +323,12 @@ msgstr "кустарный деревянный стеллаж"
 
 #. ~ Description for makeshift wooden rack
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "A simple wooden rack, made using rudimentary joinery and adhesive.  Display your items on it."
-msgstr "Простой деревянный стеллаж, собранный с помощью простейших столярных соединений и клея. На нём можно разместить свои вещи."
+msgid ""
+"A simple wooden rack, made using rudimentary joinery and adhesive.  Display "
+"your items on it."
+msgstr ""
+"Простой деревянный стеллаж, собранный с помощью простейших столярных "
+"соединений и клея. На нём можно разместить свои вещи."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "makeshift counter"
@@ -258,8 +336,11 @@ msgstr "кустарный прилавок"
 
 #. ~ Description for makeshift counter
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "A bit rustic for most kitchens, made from simple joinery and wood glue."
-msgstr "Для обычной кухни такой прилавок выглядит грубовато: простые столярные соединения да столярный клей."
+msgid ""
+"A bit rustic for most kitchens, made from simple joinery and wood glue."
+msgstr ""
+"Для обычной кухни такой прилавок выглядит грубовато: простые столярные "
+"соединения да столярный клей."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "makeshift table"
@@ -267,8 +348,12 @@ msgstr "кустарный стол"
 
 #. ~ Description for makeshift table
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "Sit down when you eat!  At least the legs seem to be joined up properly, so it probably won't fall apart if you eat off it."
-msgstr "Ешьте сидя! По крайней мере, ножки вроде бы соединены как следует, так что стол, скорее всего, не развалится прямо во время еды."
+msgid ""
+"Sit down when you eat!  At least the legs seem to be joined up properly, so "
+"it probably won't fall apart if you eat off it."
+msgstr ""
+"Ешьте сидя! По крайней мере, ножки вроде бы соединены как следует, так что "
+"стол, скорее всего, не развалится прямо во время еды."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "makeshift chair"
@@ -276,8 +361,12 @@ msgstr "кустарный стул"
 
 #. ~ Description for makeshift chair
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "Sit down, have a drink.  It probably won't fall apart if you do, the joinery looks sturdy enough."
-msgstr "Присядьте, выпейте чего-нибудь. Вряд ли он от этого развалится — соединения выглядят достаточно прочными."
+msgid ""
+"Sit down, have a drink.  It probably won't fall apart if you do, the joinery"
+" looks sturdy enough."
+msgstr ""
+"Присядьте, выпейте чего-нибудь. Вряд ли он от этого развалится — соединения "
+"выглядят достаточно прочными."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "makeshift bench"
@@ -285,17 +374,26 @@ msgstr "кустарная скамья"
 
 #. ~ Description for makeshift bench
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "More a bed for woodsmen than hobos, or maybe guests at a feast hall.  Put together with nothing but wood joints and some glue."
-msgstr "Скорее кровать для лесорубов, чем для бродяг, хотя сгодится и гостям пиршественного зала. Собрана без единого гвоздя: только деревянные соединения и немного клея."
+msgid ""
+"More a bed for woodsmen than hobos, or maybe guests at a feast hall.  Put "
+"together with nothing but wood joints and some glue."
+msgstr ""
+"Скорее кровать для лесорубов, чем для бродяг, хотя сгодится и гостям "
+"пиршественного зала. Собрана без единого гвоздя: только деревянные "
+"соединения и немного клея."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "placed clay oven"
-msgstr "размещённая глиняная печь"
+msgstr "размещённая глиняная печка"
 
 #. ~ Description for placed clay oven
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
-msgid "A portable clay oven, placed on the ground.  It can't hold much wood at once, but it will keep a fire safe from wind and rain."
-msgstr "Переносная глиняная печь, установленная на земле. За раз в неё помещается совсем немного дров, зато она надёжно защищает огонь от ветра и дождя."
+msgid ""
+"A portable clay oven, placed on the ground.  It can't hold much wood at "
+"once, but it will keep a fire safe from wind and rain."
+msgstr ""
+"Переносная глиняная печь, установленная на земле. За раз в неё помещается "
+"совсем немного дров, зато она надёжно защищает огонь от ветра и дождя."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\furniture.json
 msgid "crack!"
@@ -311,8 +409,12 @@ msgstr "закрытая кожаная дверная занавесь"
 
 #. ~ Description for closed leather door curtain
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
-msgid "Hides from an animal hung up as a door.  Could be easily taken down for supplies or placed somewhere else."
-msgstr "Шкура животного, подвешенная в дверном проёме вместо двери. Её легко снять, чтобы использовать как материал или повесить в другом месте."
+msgid ""
+"Hides from an animal hung up as a door.  Could be easily taken down for "
+"supplies or placed somewhere else."
+msgstr ""
+"Шкура животного, подвешенная в дверном проёме вместо двери. Легко снять, "
+"чтобы использовать как материал или повесить в другом месте."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "rrrrip!"
@@ -328,8 +430,14 @@ msgstr "открытая кожаная дверная занавесь"
 
 #. ~ Description for open leather door curtain
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
-msgid "Hides from an animal hung up as a door.  Could be easily taken down for supplies or placed somewhere else.  These curtains are open, bundled and tied next to the doorway."
-msgstr "Шкура животного, подвешенная в дверном проёме вместо двери. Её легко снять, чтобы использовать как материал или повесить в другом месте. Сейчас полог открыт, свёрнут и подвязан сбоку от дверного проёма."
+msgid ""
+"Hides from an animal hung up as a door.  Could be easily taken down for "
+"supplies or placed somewhere else.  These curtains are open, bundled and "
+"tied next to the doorway."
+msgstr ""
+"Шкура животного, подвешенная в дверном проёме вместо двери. Легко снять, "
+"чтобы использовать как материал или повесить в другом месте. Этот полог "
+"открыт, собран и привязан к проёму."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "wooden platform"
@@ -337,8 +445,15 @@ msgstr "деревянная платформа"
 
 #. ~ Description for wooden platform
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
-msgid "A surface of wooden scaffolding extending out, supported by solid wooden joists and brackets to transfer the weight onto other supporting structure.  Solid enough to build further wood or similar constructions onto it."
-msgstr "Деревянный настил, выступающий за пределы основной конструкции и поддерживаемый прочными балками и подкосами, которые передают нагрузку на несущие элементы. Достаточно прочен, чтобы возводить на нём другие деревянные и подобные конструкции."
+msgid ""
+"A surface of wooden scaffolding extending out, supported by solid wooden "
+"joists and brackets to transfer the weight onto other supporting structure."
+"  Solid enough to build further wood or similar constructions onto it."
+msgstr ""
+"Деревянный настил, выступающий за пределы основной конструкции и "
+"поддерживаемый прочными балками и подкосами, которые передают нагрузку на "
+"несущие элементы. Достаточно прочен, чтобы возводить на нём другие "
+"деревянные и подобные конструкции."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "whump!"
@@ -350,8 +465,12 @@ msgstr "колодец с ведром и блоком"
 
 #. ~ Description for well with bucket and pulley
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
-msgid "Deep well collecting ground water.  A simple bucket and pulley allows drawing water from it."
-msgstr "Глубокий колодец, в котором скапливаются грунтовые воды. Ведро и простой блок позволяют поднимать из него воду."
+msgid ""
+"Deep well collecting ground water.  A simple bucket and pulley allows "
+"drawing water from it."
+msgstr ""
+"Глубокий колодец, в котором скапливаются грунтовые воды. Ведро и простой "
+"блок позволяют поднимать из него воду."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\traps.json
 msgid "light snare trap"
@@ -365,7 +484,8 @@ msgstr "тяжёлый силок"
 msgid "leather raincatcher"
 msgstr "кожаный дождесборник"
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\traps.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\traps.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
 #| msgid "woven storage basket"
 #| msgid_plural "woven storage baskets"
 msgid "woven straw bedding"
@@ -384,8 +504,10 @@ msgstr[2] "пар кожаных обмоток для рук"
 #. ~ Description for {'str': 'pair of leather armwraps', 'str_pl': 'pairs of
 #. leather armwraps'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-msgid "Leather patches wrapped around the arms, better than nothing in a pinch."
-msgstr "Кожаные обмотки для рук. Не лучшая защита, но в крайнем случае сойдут."
+msgid ""
+"Leather patches wrapped around the arms, better than nothing in a pinch."
+msgstr ""
+"Кожаные обмотки для рук. Не лучшая защита, но в крайнем случае сойдут."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "pair of fur armwraps"
@@ -398,7 +520,8 @@ msgstr[2] "пар меховых обмоток для рук"
 #. armwraps'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "Fur pelts wrapped around the arms, better than nothing in a pinch."
-msgstr "Меховые обмотки для рук. Не лучшая защита, но в крайнем случае сойдут."
+msgstr ""
+"Меховые обмотки для рук. Не лучшая защита, но в крайнем случае сойдут."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "pair of leather legwraps"
@@ -435,8 +558,14 @@ msgstr[2] "кустарных плащей из шторы"
 
 #. ~ Description for {'str': 'makeshift sheet cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-msgid "A bedsheet draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Штора, наброшенная на плечи и скреплённая так, чтобы носить её как плащ. Она меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+msgid ""
+"A bedsheet draped around the shoulders and pinned in place to wear like a "
+"cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+" up."
+msgstr ""
+"Штора, наброшенная на плечи и скреплённая так, чтобы носить её как плащ. Она"
+" меньше стесняет движения, поскольку оставляет руки свободными и не путается"
+" под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "makeshift blanket cloak"
@@ -447,8 +576,14 @@ msgstr[2] "кустарных плащей из одеяла"
 
 #. ~ Description for {'str': 'makeshift blanket cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-msgid "A blanket draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+msgid ""
+"A blanket draped around the shoulders and pinned in place to wear like a "
+"cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+" up."
+msgstr ""
+"Одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. "
+"Оно меньше стесняет движения, поскольку оставляет руки свободными и не "
+"путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "makeshift down-filled blanket cloak"
@@ -459,8 +594,14 @@ msgstr[2] "кустарных плащей из пухового одеяла"
 
 #. ~ Description for {'str': 'makeshift down-filled blanket cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-msgid "A warm blanket draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Тёплое одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+msgid ""
+"A warm blanket draped around the shoulders and pinned in place to wear like "
+"a cloak.  Less encumbering since it leaves your hands free, and won't trip "
+"you up."
+msgstr ""
+"Тёплое одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как "
+"плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не"
+" путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "makeshift fur blanket cloak"
@@ -471,8 +612,14 @@ msgstr[2] "кустарных плащей из мехового одеяла"
 
 #. ~ Description for {'str': 'makeshift fur blanket cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-msgid "A heavy fur blanket draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Тяжёлое меховое одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+msgid ""
+"A heavy fur blanket draped around the shoulders and pinned in place to wear "
+"like a cloak.  Less encumbering since it leaves your hands free, and won't "
+"trip you up."
+msgstr ""
+"Тяжёлое меховое одеяло, наброшенное на плечи и скреплённое так, чтобы носить"
+" его как плащ. Оно меньше стесняет движения, поскольку оставляет руки "
+"свободными и не путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 #| msgid "makeshift blanket cloak"
@@ -485,9 +632,18 @@ msgstr[2] "кустарных плащей из стёганого одеяла"
 
 #. ~ Description for {'str': 'makeshift quilt cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-#| msgid "A blanket draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgid "A comfy wool quilt, draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Уютное шерстяное стёганое одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+#| msgid ""
+#| "A blanket draped around the shoulders and pinned in place to wear like a "
+#| "cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+#| " up."
+msgid ""
+"A comfy wool quilt, draped around the shoulders and pinned in place to wear "
+"like a cloak.  Less encumbering since it leaves your hands free, and won't "
+"trip you up."
+msgstr ""
+"Уютное шерстяное стёганое одеяло, наброшенное на плечи и скреплённое так, "
+"чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет"
+" руки свободными и не путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 #| msgid "makeshift blanket cloak"
@@ -500,9 +656,18 @@ msgstr[2] "кустарных плащей из лоскутного одеял�
 
 #. ~ Description for {'str': 'makeshift patchwork quilt cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
-#| msgid "A blanket draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgid "A huge patchwork quilt, draped around the shoulders and pinned in place to wear like a cloak.  Less encumbering since it leaves your hands free, and won't trip you up."
-msgstr "Огромное лоскутное одеяло, наброшенное на плечи и скреплённое так, чтобы носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не путается под ногами."
+#| msgid ""
+#| "A blanket draped around the shoulders and pinned in place to wear like a "
+#| "cloak.  Less encumbering since it leaves your hands free, and won't trip you"
+#| " up."
+msgid ""
+"A huge patchwork quilt, draped around the shoulders and pinned in place to "
+"wear like a cloak.  Less encumbering since it leaves your hands free, and "
+"won't trip you up."
+msgstr ""
+"Огромное лоскутное одеяло, наброшенное на плечи и скреплённое так, чтобы "
+"носить его как плащ. Оно меньше стесняет движения, поскольку оставляет руки "
+"свободными и не путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 msgid "willow tea"
@@ -513,8 +678,12 @@ msgstr[2] "ивовый чай"
 
 #. ~ Description for {'str_sp': 'willow tea'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A bitter herbal tea made from willow bark, used since ancient times as a mild painkiller."
-msgstr "Горький травяной чай из ивовой коры. С древности его пьют как мягкое обезболивающее."
+msgid ""
+"A bitter herbal tea made from willow bark, used since ancient times as a "
+"mild painkiller."
+msgstr ""
+"Горький травяной чай из ивовой коры. С древности его пьют как мягкое "
+"обезболивающее."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 msgid "garlic oil"
@@ -525,8 +694,15 @@ msgstr[2] "чесночное масло"
 
 #. ~ Description for {'str_sp': 'garlic oil'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A strong-tasting extract made from garlic, traditionally used to help resist infection, especially in Eastern Europe.  Not as powerful as modern full-strength antibiotics, but better than nothing.  Use once every 12 hours."
-msgstr "Чесночный экстракт с резким вкусом. Традиционно его применяют против инфекций, особенно в Восточной Европе. До современных сильнодействующих антибиотиков ему далеко, но это лучше, чем ничего. Принимайте раз в 12 часов."
+msgid ""
+"A strong-tasting extract made from garlic, traditionally used to help resist"
+" infection, especially in Eastern Europe.  Not as powerful as modern full-"
+"strength antibiotics, but better than nothing.  Use once every 12 hours."
+msgstr ""
+"Чесночный экстракт с резким вкусом. Традиционно его применяют против "
+"инфекций, особенно в Восточной Европе. До современных сильнодействующих "
+"антибиотиков ему далеко, но это лучше, чем ничего. Принимайте раз в 12 "
+"часов."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 msgid "makeshift poultice"
@@ -537,8 +713,14 @@ msgstr[2] "кустарных припарок"
 
 #. ~ Description for {'str': 'makeshift poultice'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A primitive poultice using improvised antiseptic, held in place by a cloth or leather wrap.  Applied loosely, it is designed to stave off infection but can still help staunch bleeding."
-msgstr "Примитивная припарка с импровизированным антисептиком, закреплённая повязкой из ткани или кожи. Накладывается неплотно и предназначена прежде всего для защиты от инфекции, но также помогает остановить кровотечение."
+msgid ""
+"A primitive poultice using improvised antiseptic, held in place by a cloth "
+"or leather wrap.  Applied loosely, it is designed to stave off infection but"
+" can still help staunch bleeding."
+msgstr ""
+"Примитивная припарка с импровизированным антисептиком, закреплённая повязкой"
+" из ткани или кожи. Накладывается неплотно и предназначена прежде всего для "
+"защиты от инфекции, но также помогает остановить кровотечение."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 msgid "posca"
@@ -549,8 +731,13 @@ msgstr[2] "поска"
 
 #. ~ Description for {'str_sp': 'posca'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A traditional Roman drink made of water mixed with a bit of vinegar, then spiced up with herbs and honey.  A good way to quench one's thirst on a long march."
-msgstr "Традиционный римский напиток из воды с небольшим количеством уксуса, приправленный травами и мёдом. Хорошо утоляет жажду во время долгого похода."
+msgid ""
+"A traditional Roman drink made of water mixed with a bit of vinegar, then "
+"spiced up with herbs and honey.  A good way to quench one's thirst on a long"
+" march."
+msgstr ""
+"Традиционный римский напиток из воды с небольшим количеством уксуса, "
+"приправленный травами и мёдом. Хорошо утоляет жажду во время долгого похода."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 #| msgid "posca"
@@ -563,8 +750,13 @@ msgstr[2] "крепкая поска"
 
 #. ~ Description for {'str_sp': 'hard posca'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A traditional Roman drink made of water mixed with a bit of sour wine, then spiced up with herbs and honey.  Good for unwinding after a long march."
-msgstr "Традиционный римский напиток из воды с небольшим количеством кислого вина, приправленный травами и мёдом. Хорошо помогает расслабиться после долгого похода."
+msgid ""
+"A traditional Roman drink made of water mixed with a bit of sour wine, then "
+"spiced up with herbs and honey.  Good for unwinding after a long march."
+msgstr ""
+"Традиционный римский напиток из воды с небольшим количеством кислого вина, "
+"приправленный травами и мёдом. Хорошо помогает расслабиться после долгого "
+"похода."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
 msgid "cooked cattail rhizome"
@@ -575,8 +767,13 @@ msgstr[2] "приготовленных корневищ рогоза"
 
 #. ~ Description for {'str': 'cooked cattail rhizome'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
-msgid "A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit less stringy and more palatable after being cooked."
-msgstr "Приготовленное корневище рогоза. Хрустящее и крахмалистое; после приготовления становится заметно менее волокнистым и гораздо более приятным на вкус."
+msgid ""
+"A cooked rhizome from a cattail plant.  Crisp and starchy, it's a fair bit "
+"less stringy and more palatable after being cooked."
+msgstr ""
+"Приготовленное корневище рогоза. Хрустящее и крахмалистое; после "
+"приготовления становится заметно менее волокнистым и гораздо более приятным "
+"на вкус."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 msgid "birchbark canteen"
@@ -587,8 +784,14 @@ msgstr[2] "берестяных фляг"
 
 #. ~ Description for {'str': 'birchbark canteen'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-msgid "A small container make from pieces of birchbark stitched together, sealed with pitch or similar material.  Holds 1.5 liters and has a simple carry strap."
-msgstr "Небольшая ёмкость из сшитых между собой кусков бересты, герметизированная смолой или похожим материалом. Вмещает 1,5 литра и снабжена простым ремнём для переноски."
+msgid ""
+"A small container make from pieces of birchbark stitched together, sealed "
+"with pitch or similar material.  Holds 1.5 liters and has a simple carry "
+"strap."
+msgstr ""
+"Небольшая ёмкость из сшитых между собой кусков бересты, герметизированная "
+"смолой или похожим материалом. Вмещает 1,5 литра и снабжена простым ремнём "
+"для переноски."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 msgid "clay jar"
@@ -599,8 +802,12 @@ msgstr[2] "глиняных кувшинов"
 
 #. ~ Description for {'str': 'clay jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-msgid "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper."
-msgstr "Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и плотно закрывающийся деревянной пробкой."
+msgid ""
+"A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+"stopper."
+msgstr ""
+"Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и "
+"плотно закрывающийся деревянной пробкой."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 msgid "sealed clay jar"
@@ -611,20 +818,29 @@ msgstr[2] "закрытых глиняных кувшинов"
 
 #. ~ Description for {'str': 'sealed clay jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-msgid "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot."
-msgstr "Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и плотно закрывающийся деревянной пробкой. Герметично запечатан воском, чтобы содержимое не портилось."
+msgid ""
+"A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+"stopper.  Sealed tightly with wax, to preserve contents from rot."
+msgstr ""
+"Полулитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и "
+"плотно закрывающийся деревянной пробкой. Герметично запечатан воском, чтобы "
+"содержимое не портилось."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 msgid "makeshift wooden bucket"
 msgid_plural "makeshift wooden buckets"
 msgstr[0] "кустарное деревянное ведро"
 msgstr[1] "кустарных деревянных ведра"
-msgstr[2] "кустарное деревянное ведро"
+msgstr[2] "кустарных деревянных вёдер"
 
 #. ~ Description for {'str': 'makeshift wooden bucket'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-msgid "A large bucket for holding water, made from hollowing out a log and adding handles made of natural cordage.  Can hold 7 liters."
-msgstr "Большое ведро для воды, выдолбленное из бревна и снабжённое ручками из растительных волокон. Вмещает 7 литров."
+msgid ""
+"A large bucket for holding water, made from hollowing out a log and adding "
+"handles made of natural cordage.  Can hold 7 liters."
+msgstr ""
+"Большое ведро для воды, выдолбленное из бревна и снабжённое ручками из "
+"растительных волокон. Вмещает 7 литров."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 #| msgid "clay jar"
@@ -637,9 +853,15 @@ msgstr[2] "глиняных кувшинов (3 л)"
 
 #. ~ Description for {'str': '3L clay jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-#| msgid "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper."
-msgid "A three-liter clay, glazed for waterproofing with a tight-fitting wooden stopper."
-msgstr "Трёхлитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и плотно закрывающийся деревянной пробкой."
+#| msgid ""
+#| "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+#| "stopper."
+msgid ""
+"A three-liter clay, glazed for waterproofing with a tight-fitting wooden "
+"stopper."
+msgstr ""
+"Трёхлитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и "
+"плотно закрывающийся деревянной пробкой."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
 #| msgid "sealed clay jar"
@@ -647,14 +869,21 @@ msgstr "Трёхлитровый глиняный кувшин, покрытый
 msgid "sealed 3L clay jar"
 msgid_plural "sealed 3L clay jars"
 msgstr[0] "закрытый глиняный кувшин (3 л)"
-msgstr[1] "закрытых глиняный кувшина (3 л)"
-msgstr[2] "закрытых глиняный кувшинов (3 л)"
+msgstr[1] "закрытых глиняных кувшина (3 л)"
+msgstr[2] "закрытых глиняных кувшинов (3 л)"
 
 #. ~ Description for {'str': 'sealed 3L clay jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\containers.json
-#| msgid "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly with wax, to preserve contents from rot."
-msgid "A three-liter clay, glazed for waterproofing with a tight-fitting wooden stopper.  Sealed tightly to preserve contents from rot."
-msgstr "Трёхлитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и плотно закрывающийся деревянной пробкой. Герметично запечатан, чтобы содержимое не портилось."
+#| msgid ""
+#| "A half-liter clay jar, glazed for waterproofing with a tight-fitting wooden "
+#| "stopper.  Sealed tightly with wax, to preserve contents from rot."
+msgid ""
+"A three-liter clay, glazed for waterproofing with a tight-fitting wooden "
+"stopper.  Sealed tightly to preserve contents from rot."
+msgstr ""
+"Трёхлитровый глиняный кувшин, покрытый глазурью для водонепроницаемости и "
+"плотно закрывающийся деревянной пробкой. Герметично запечатан, чтобы "
+"содержимое не портилось."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "sealed yeast culture"
@@ -677,8 +906,12 @@ msgstr "Дрожжи ещё не готовы."
 
 #. ~ Description for {'str_sp': 'sealed yeast culture'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "A sealed clay jar holding sanitized yeast wort.  You may harvest the yeast inside when it's done culturing."
-msgstr "Герметично закрытый глиняный кувшин со стерилизованным дрожжевым суслом. Когда дрожжевая культура созреет, её можно будет извлечь."
+msgid ""
+"A sealed clay jar holding sanitized yeast wort.  You may harvest the yeast "
+"inside when it's done culturing."
+msgstr ""
+"Запечатанный глиняный кувшин с обеззараженным дрожжевым суслом. Когда дрожжи"
+" вырастут, их можно будет собрать."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "sealed wild yeast culture"
@@ -689,8 +922,12 @@ msgstr[2] "закрытых культур диких дрожжей"
 
 #. ~ Description for {'str_sp': 'sealed wild yeast culture'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "Mixture of water, sugar and fruits with some naturally occuring yeast in a clay jar, that will eventually produce a more sizeable yeast culture."
-msgstr "Смесь воды, сахара и фруктов с естественными дрожжами в глиняном кувшине. Со временем дрожжи размножатся и образуют более крупную культуру."
+msgid ""
+"Mixture of water, sugar and fruits with some naturally occuring yeast in a "
+"clay jar, that will eventually produce a more sizeable yeast culture."
+msgstr ""
+"Смесь воды, сахара и фруктов с естественными дрожжами в глиняном кувшине. Со"
+" временем дрожжи размножатся и образуют более крупную культуру."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "fermenting eggs jar"
@@ -701,8 +938,12 @@ msgstr[2] "кувшинов маринующихся яиц"
 
 #. ~ Use action msg for {'str': 'fermenting eggs jar'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "You examine the batch and see that the pickling solution has done its job, so you seal the clay jar up for storage."
-msgstr "Вы осматриваете содержимое и видите, что рассол сделал своё дело, после чего герметично закрываете глиняный кувшин для хранения."
+msgid ""
+"You examine the batch and see that the pickling solution has done its job, "
+"so you seal the clay jar up for storage."
+msgstr ""
+"Вы осматриваете содержимое и видите, что рассол сделал своё дело, после чего"
+" герметично закрываете глиняный кувшин для хранения."
 
 #. ~ Use action not_ready_msg for {'str': 'fermenting eggs jar'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
@@ -712,8 +953,12 @@ msgstr "Яйца ещё не готовы."
 
 #. ~ Description for {'str': 'fermenting eggs jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This clay jar contains a batch of eggs in a pickling solution.  You can seal up the clay jar once the process is completed."
-msgstr "В этом глиняном кувшине находятся яйца в рассоле. Когда засолка завершится, кувшин можно будет герметично закрыть."
+msgid ""
+"This clay jar contains a batch of eggs in a pickling solution.  You can seal"
+" up the clay jar once the process is completed."
+msgstr ""
+"В этом глиняном кувшине находятся яйца в рассоле. Когда процесс завершится, "
+"кувшин можно будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
@@ -747,8 +992,12 @@ msgstr "Вы открываете кувшин, впуская внутрь во
 #. ~ Description for {'str': 'sealed clay jar of eggs', 'str_pl': 'sealed clay
 #. jars of eggs'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This is a sealed clay jar containing pickled eggs.  Use to open and eat to enjoy."
-msgstr "Герметично закрытый глиняный кувшин с маринованными яйцами. Откройте его, чтобы добраться до яиц."
+msgid ""
+"This is a sealed clay jar containing pickled eggs.  Use to open and eat to "
+"enjoy."
+msgstr ""
+"Герметично закрытый глиняный кувшин с маринованными яйцами. Откройте её и "
+"ешьте на здоровье!"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "fermenting sauerkraut"
@@ -760,8 +1009,12 @@ msgstr[2] "квасящаяся капуста"
 #. ~ Use action msg for {'str': 'fermenting sauerkraut'}.
 #. ~ Use action msg for {'str': 'fermenting pickle in clay jar'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "You test the batch, and it tastes good, so you seal the clay jar up for storage."
-msgstr "Вы пробуете капусту и, убедившись, что она готова, герметично закрываете глиняный кувшин для хранения."
+msgid ""
+"You test the batch, and it tastes good, so you seal the clay jar up for "
+"storage."
+msgstr ""
+"Вы пробуете капусту и, убедившись, что она готова, герметично закрываете "
+"глиняный кувшин для хранения."
 
 #. ~ Use action not_ready_msg for {'str': 'fermenting sauerkraut'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
@@ -770,8 +1023,12 @@ msgstr "Капуста ещё не заквасилась."
 
 #. ~ Description for {'str': 'fermenting sauerkraut'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This clay jar contains a batch of sauerkraut set to ferment.  You can seal up the clay jar once the process is completed."
-msgstr "В этом глиняном кувшине квасится капуста. Когда процесс брожения завершится, кувшин можно будет герметично закрыть."
+msgid ""
+"This clay jar contains a batch of sauerkraut set to ferment.  You can seal "
+"up the clay jar once the process is completed."
+msgstr ""
+"В этом глиняном кувшине квасится капуста. Когда процесс завершится, кувшин "
+"можно будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
@@ -785,8 +1042,12 @@ msgstr[2] "закрытых глиняных кувшинов с квашёнк�
 #. ~ Description for {'str': 'sealed clay jar of sauerkraut', 'str_pl':
 #. 'sealed clay jars of sauerkraut'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This is a sealed clay jar containing sauerkraut.  Use to open and eat to enjoy."
-msgstr "Герметично закрытый глиняный кувшин с квашеной капустой. Откройте его, чтобы добраться до содержимого."
+msgid ""
+"This is a sealed clay jar containing sauerkraut.  Use to open and eat to "
+"enjoy."
+msgstr ""
+"Герметично закрытый глиняный кувшин с квашеной капустой. Откройте её и ешьте"
+" на здоровье!"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "fermenting pickle in clay jar"
@@ -802,35 +1063,47 @@ msgstr "Огурчики ещё маринуются."
 
 #. ~ Description for {'str': 'fermenting pickle in clay jar'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This clay jar contains a batch of pickles set to ferment.  You can seal up the clay jar once the process is completed."
-msgstr "В этом глиняном кувшине маринуются огурчики. Когда процесс завершится, кувшин можно будет герметично закрыть."
+msgid ""
+"This clay jar contains a batch of pickles set to ferment.  You can seal up "
+"the clay jar once the process is completed."
+msgstr ""
+"В этом глиняном кувшине маринуются огурчики. Когда процесс завершится, "
+"кувшин можно будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
 #| msgid_plural "sealed clay jars"
 msgid "sealed clay jar of pickles"
 msgid_plural "sealed clay jars of pickles"
-msgstr[0] "закрытый глиняный кувшин с маринованными огурчиками"
-msgstr[1] "закрытых глиняных кувшина с маринованными огурчиками"
-msgstr[2] "закрытых глиняных кувшинов с маринованными огурчиками"
+msgstr[0] "закрытый глиняный кувшин с маринованными огурцами"
+msgstr[1] "закрытых глиняных кувшина с маринованными огурцами"
+msgstr[2] "закрытых глиняных кувшинов с маринованными огурцами"
 
 #. ~ Description for {'str': 'sealed clay jar of pickles', 'str_pl': 'sealed
 #. clay jars of pickles'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "This is a sealed clay jar containing pickles.  Use to open and eat to enjoy."
-msgstr "Герметично закрытый глиняный кувшин с маринованными огурчиками. Откройте его, чтобы добраться до содержимого."
+msgid ""
+"This is a sealed clay jar containing pickles.  Use to open and eat to enjoy."
+msgstr ""
+"Герметично закрытый глиняный кувшин с маринованными огурчиками. Откройте её "
+"и ешьте на здоровье!"
 
 #. ~ Use action msg for {'str_sp': 'sealed yeast culture'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "You open the jar and harvest the culture."
-msgstr "Вы открываете кувшин и извлекаете дрожжевую культуру."
+msgstr "Вы открываете ёмкость и собираете дрожжевую культуру."
 
 #. ~ Description for {'str_sp': 'sealed yeast culture'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
-msgid "A sealed 3L clay jar holding sanitized yeast wort.  You may harvest the yeast inside when it's done culturing."
-msgstr "Герметично закрытый трёхлитровый глиняный кувшин со стерилизованным дрожжевым суслом. Когда дрожжевая культура созреет, её можно будет извлечь."
+msgid ""
+"A sealed 3L clay jar holding sanitized yeast wort.  You may harvest the "
+"yeast inside when it's done culturing."
+msgstr ""
+"Запечатанный трёхлитровый глиняный кувшин с обеззараженным дрожжевым суслом."
+" Когда дрожжи вырастут, их можно будет собрать."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 msgid "log frame"
 msgid_plural "log frames"
 msgstr[0] "бревенчатая рама"
@@ -839,8 +1112,14 @@ msgstr[2] "бревенчатых рам"
 
 #. ~ Description for {'str': 'log frame'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
-msgid "A heavy section of frame carved from a log, can be used for making sturdy wooden vehicle structures.  Also usable for a raft, log canoe, outriggers for a boat, etc due to its buoyancy."
-msgstr "Тяжёлая часть рамы, вытесанная из бревна. Подходит для прочных деревянных транспортных конструкций, а благодаря плавучести — для плотов, долблёнок и боковых поплавков лодки."
+msgid ""
+"A heavy section of frame carved from a log, can be used for making sturdy "
+"wooden vehicle structures.  Also usable for a raft, log canoe, outriggers "
+"for a boat, etc due to its buoyancy."
+msgstr ""
+"Тяжёлая часть рамы, вытесанная из бревна. Подходит для прочных деревянных "
+"транспортных конструкций, а благодаря плавучести — для плотов, долблёнок и "
+"боковых поплавков лодки."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
 #| msgid "birchbark canteen"
@@ -853,10 +1132,17 @@ msgstr[2] "берестяных панелей"
 
 #. ~ Description for {'str': 'birchbark panel'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
-msgid "A tightly-woven panel made of birch bark, for vehicle use.  It could be used for makeshift aisles and roofing, or with some waterproofing it could help keep a canoe afloat."
-msgstr "Плотно сплетённая панель из бересты для использования в транспортных средствах. Подойдёт для кустарных настилов и крыш, а после дополнительной гидроизоляции поможет обеспечить плавучесть лодки."
+msgid ""
+"A tightly-woven panel made of birch bark, for vehicle use.  It could be used"
+" for makeshift aisles and roofing, or with some waterproofing it could help "
+"keep a canoe afloat."
+msgstr ""
+"Плотно сплетённая панель из бересты для использования в транспортных "
+"средствах. Подойдёт для кустарных настилов и крыш, а после дополнительной "
+"гидроизоляции поможет обеспечить плавучесть лодки."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "log frame"
 #| msgid_plural "log frames"
 msgid "light woven frame"
@@ -870,7 +1156,8 @@ msgstr[2] "лёгких плетёных рам"
 msgid "A flexible frame made from wooden crosspieces lashed together."
 msgstr "Гибкая рама из связанных между собой деревянных поперечин."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 msgid "woven storage basket"
 msgid_plural "woven storage baskets"
 msgstr[0] "плетёная корзина для хранения"
@@ -879,8 +1166,11 @@ msgstr[2] "плетёных корзин для хранения"
 
 #. ~ Description for {'str': 'woven storage basket'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
-msgid "A folding basket made from woven straw or birchbark, supported by a wooden framework."
-msgstr "Складная корзина из плетёной соломы или бересты на деревянном каркасе."
+msgid ""
+"A folding basket made from woven straw or birchbark, supported by a wooden "
+"framework."
+msgstr ""
+"Складная корзина из плетёной соломы или бересты на деревянном каркасе."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
 msgid "side drum"
@@ -891,8 +1181,12 @@ msgstr[2] "малых барабанов"
 
 #. ~ Description for {'str': 'side drum'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
-msgid "A handmade side drum with a shoulder strap, allowing you to wear it while playing."
-msgstr "Самодельный малый барабан с плечевым ремнём: на нём можно играть прямо на ходу."
+msgid ""
+"A handmade side drum with a shoulder strap, allowing you to wear it while "
+"playing."
+msgstr ""
+"Самодельный малый барабан с плечевым ремнём: на нём можно играть прямо на "
+"ходу."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
 msgid "makeshift gas hood"
@@ -903,18 +1197,30 @@ msgstr[2] "кустарных противогазовых капюшонов"
 
 #. ~ Description for {'str': 'makeshift gas hood'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
-msgid "A hood with added lenses and pockets for filter material sewn between layers of fabric, similar to designs common in WWI.  It is designed to be worn over a helmet.  It must be prepared before use."
-msgstr "Капюшон со смотровыми линзами и карманами для фильтрующего материала, вшитыми между слоями ткани, — по конструкции напоминает противогазовые капюшоны времён Первой мировой войны. Рассчитан на ношение поверх шлема. Перед использованием его необходимо подготовить."
+msgid ""
+"A hood with added lenses and pockets for filter material sewn between layers"
+" of fabric, similar to designs common in WWI.  It is designed to be worn "
+"over a helmet.  It must be prepared before use."
+msgstr ""
+"Капюшон со смотровыми линзами и карманами для фильтрующего материала, "
+"вшитыми между слоями ткани, — по конструкции напоминает противогазовые "
+"капюшоны времён Первой мировой войны. Рассчитан на ношение поверх шлема. "
+"Перед использованием его необходимо подготовить."
 
 #. ~ Use action done_message for {'str_sp': 'woven straw bedding'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
 msgid "You unroll the woven straw bedding and lay it on the ground."
-msgstr "Вы разворачиваете плетёную соломенную подстилку и расстилаете её на земле."
+msgstr ""
+"Вы разворачиваете плетёную соломенную подстилку и расстилаете её на земле."
 
 #. ~ Description for {'str_sp': 'woven straw bedding'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tool_armor.json
-msgid "A thick mat of tightly-woven straw or pine boughs.  It could be worn as a thick blanket, or used to deploy it as a mat to sleep on."
-msgstr "Толстая подстилка из плотно сплетённой соломы или сосновых веток. Ею можно укрыться как тёплым одеялом или развернуть на земле и использовать для сна."
+msgid ""
+"A thick mat of tightly-woven straw or pine boughs.  It could be worn as a "
+"thick blanket, or used to deploy it as a mat to sleep on."
+msgstr ""
+"Толстая подстилка из плотно сплетённой соломы или сосновых веток. Ею можно "
+"укрыться как тёплым одеялом или развернуть на земле и использовать для сна."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "heavy snare kit"
@@ -931,8 +1237,13 @@ msgstr "Вы устанавливаете силок."
 
 #. ~ Description for {'str': 'heavy snare kit'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a kit for a simple trap consisting of a rope noose and a snare trigger.  It requires a tree nearby.  It is effective at trapping monsters."
-msgstr "Комплект для простой ловушки, состоящей из верёвочной петли и спускового механизма. Для установки требуется растущее поблизости дерево. Эффективен для ловли монстров."
+msgid ""
+"This is a kit for a simple trap consisting of a rope noose and a snare "
+"trigger.  It requires a tree nearby.  It is effective at trapping monsters."
+msgstr ""
+"Комплект для простой ловушки, состоящей из верёвочной петли и спускового "
+"механизма. Для установки требуется растущее поблизости дерево. Эффективен "
+"для ловли монстров."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "light snare kit"
@@ -943,8 +1254,14 @@ msgstr[2] "наборов для лёгкого силка"
 
 #. ~ Description for {'str': 'light snare kit'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a kit for a simple trap consisting of a string noose and a snare trigger.  It requires a young tree nearby.  It is effective at trapping and killing some small animals."
-msgstr "Комплект для простой ловушки, состоящей из петли из бечёвки и спускового механизма. Для установки требуется растущее поблизости молодое дерево. Подходит для ловли и умерщвления некоторых мелких животных."
+msgid ""
+"This is a kit for a simple trap consisting of a string noose and a snare "
+"trigger.  It requires a young tree nearby.  It is effective at trapping and "
+"killing some small animals."
+msgstr ""
+"Комплект для простой ловушки, состоящей из петли из бечёвки и спускового "
+"механизма. Для установки требуется растущее поблизости молодое дерево. "
+"Подходит для ловли и умерщвления некоторых мелких животных."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "snare trigger"
@@ -955,8 +1272,11 @@ msgstr[2] "спусковых механизмов силка"
 
 #. ~ Description for {'str': 'snare trigger'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a stick that has been cut into a trigger mechanism for a snare trap."
-msgstr "Палочка, вырезанная таким образом, чтобы служить спусковым механизмом для силка."
+msgid ""
+"This is a stick that has been cut into a trigger mechanism for a snare trap."
+msgstr ""
+"Палочка, вырезанная таким образом, чтобы служить спусковым механизмом для "
+"силка."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "stone hoe"
@@ -967,10 +1287,15 @@ msgstr[2] "каменных мотыг"
 
 #. ~ Description for {'str': 'stone hoe'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a farming implement made with a broad stone blade, that can be used to till earth."
-msgstr "Сельскохозяйственное орудие с широким каменным лезвием, предназначенное для обработки почвы."
+msgid ""
+"This is a farming implement made with a broad stone blade, that can be used "
+"to till earth."
+msgstr ""
+"Сельскохозяйственное орудие с широким каменным лезвием, предназначенное для "
+"обработки почвы."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicles.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicles.json
 msgid "makeshift sled"
 msgid_plural "makeshift sleds"
 msgstr[0] "кустарные сани-волокуши"
@@ -984,10 +1309,16 @@ msgstr "Вы раскладываете и устанавливаете куст
 
 #. ~ Description for {'str': 'makeshift sled'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "A simple pulk sled and folded framework that can hold a modest amount of gear, traditionally used to drag equipment across snowy terrain."
-msgstr "Простые сани-волокуши со складным каркасом, способные вместить некоторое количество снаряжения. Такие сани традиционно используют для перевозки грузов по заснеженной местности."
+msgid ""
+"A simple pulk sled and folded framework that can hold a modest amount of "
+"gear, traditionally used to drag equipment across snowy terrain."
+msgstr ""
+"Простые сани-волокуши со складным каркасом, способные вместить некоторое "
+"количество снаряжения. Такие сани традиционно используют для перевозки "
+"грузов по заснеженной местности."
 
-#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicles.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
+#: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicles.json
 msgid "log canoe"
 msgid_plural "log canoes"
 msgstr[0] "лодка-долблёнка"
@@ -1001,20 +1332,29 @@ msgstr "Вы спускаете лодку-долблёнку на воду."
 
 #. ~ Description for {'str': 'log canoe'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "A traditional dugout boat made from logs burned and carved to shape, along with handmade oars.  Heavy and bulky as it is, it can still be picked up and carried by a reasonably fit person.  Use it to deploy and make ready."
-msgstr "Традиционная лодка-долблёнка, выжженная и вытесанная из бревна, с самодельными вёслами. Несмотря на вес и размеры, достаточно сильный человек сможет поднять и перенести её. Активируйте, чтобы спустить лодку на воду."
+msgid ""
+"A traditional dugout boat made from logs burned and carved to shape, along "
+"with handmade oars.  Heavy and bulky as it is, it can still be picked up and"
+" carried by a reasonably fit person.  Use it to deploy and make ready."
+msgstr ""
+"Традиционная лодка-долблёнка, выжженная и вытесанная из бревна, с "
+"самодельными вёслами. Несмотря на вес и размеры, достаточно сильный человек "
+"сможет поднять и перенести её. Активируйте, чтобы спустить лодку на воду."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "makeshift distillation"
 msgid_plural "makeshift distillation"
 msgstr[0] "кустарная перегонка"
-msgstr[1] "кустарных перегонки"
+msgstr[1] "кустарные перегонки"
 msgstr[2] "кустарных перегонок"
 
 #. ~ Description for {'str_sp': 'makeshift distillation'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This exists only to allow makeshift stills to provide distilling quality."
-msgstr "Служебная запись, благодаря которой кустарные перегонные аппараты получают свойство перегонки."
+msgid ""
+"This exists only to allow makeshift stills to provide distilling quality."
+msgstr ""
+"Служебная запись, благодаря которой кустарные перегонные аппараты получают "
+"свойство перегонки."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "pulley lifting"
@@ -1025,15 +1365,19 @@ msgstr[2] "подъёмов с помощью блока и верёвки"
 
 #. ~ Description for {'str_sp': 'pulley lifting'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This exists only to allow rope and pulley lifters to provide some engineering qualities."
-msgstr "Этот элемент существует исключительно для того, чтобы подъёмные устройства из верёвки и блока обладали некоторыми инженерными свойствами."
+msgid ""
+"This exists only to allow rope and pulley lifters to provide some "
+"engineering qualities."
+msgstr ""
+"Этот элемент существует исключительно для того, чтобы подъёмные устройства "
+"из верёвки и блока обладали некоторыми инженерными свойствами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "leather tarp raincatcher"
 msgid_plural "leather tarp raincatchers"
-msgstr[0] "дождесборник с кожаным тентом"
-msgstr[1] "дождесборника с кожаным тентом"
-msgstr[2] "дождесборников с кожаным тентом"
+msgstr[0] "дождесборник из кожаного полотнища"
+msgstr[1] "дождесборника из кожаного полотнища"
+msgstr[2] "дождесборников из кожаного полотнища"
 
 #. ~ Use action done_message for {'str': 'leather tarp raincatcher'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
@@ -1042,15 +1386,17 @@ msgstr "Вы устанавливаете дождесборник, чтобы �
 
 #. ~ Description for {'str': 'leather tarp raincatcher'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "Some sticks and string with a leather tarp, to set up an improvised raincatcher."
-msgstr "Палки, бечёвка и кожаный тент для сборки простого дождесборника."
+msgid ""
+"Some sticks and string with a leather tarp, to set up an improvised "
+"raincatcher."
+msgstr "Палки, бечёвка и кожаное полотнище для сборки простого дождесборника."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay oil lamp (off)"
 msgid_plural "clay oil lamps (off)"
-msgstr[0] "глиняная масляная лампа"
-msgstr[1] "глиняные масляные лампы"
-msgstr[2] "глиняных масляных ламп"
+msgstr[0] "глиняная масляная лампа (выкл.)"
+msgstr[1] "глиняные масляные лампы (выкл.)"
+msgstr[2] "глиняных масляных ламп (выкл.)"
 
 #. ~ Use action msg for {'str': 'clay oil lamp (off)', 'str_pl': 'clay oil
 #. lamps (off)'}.
@@ -1067,8 +1413,14 @@ msgstr "Лампа пуста."
 #. ~ Description for {'str': 'clay oil lamp (off)', 'str_pl': 'clay oil lamps
 #. (off)'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a small clay container with a wick, an ancient form of oil lamp.  It does not provide much light, but it lasts a long time.  Use it to turn it on."
-msgstr "Небольшой глиняный сосуд с фитилём — древнейшая разновидность масляной лампы. Светит тускло, зато очень долго. Активируйте, чтобы зажечь."
+msgid ""
+"This is a small clay container with a wick, an ancient form of oil lamp.  It"
+" does not provide much light, but it lasts a long time.  Use it to turn it "
+"on."
+msgstr ""
+"Небольшой глиняный сосуд с фитилём — древнейшая разновидность масляной "
+"лампы. Даёт не слишком много света, зато горит долго. Активируйте, чтобы "
+"зажечь."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay oil lamp"
@@ -1089,8 +1441,15 @@ msgstr "Лампа гаснет."
 
 #. ~ Description for {'str': 'clay oil lamp'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a small clay container with a wick, an ancient form of oil lamp.  It does not provide much light, but it lasts a long time.  It does not provide much light, but it lasts a long time.  It is turned on.  Use it to turn it off."
-msgstr "Небольшой глиняный сосуд с фитилём — древнейшая разновидность масляной лампы. Светит тускло, зато очень долго. Сейчас лампа горит. Активируйте, чтобы погасить."
+msgid ""
+"This is a small clay container with a wick, an ancient form of oil lamp.  It"
+" does not provide much light, but it lasts a long time.  It does not provide"
+" much light, but it lasts a long time.  It is turned on.  Use it to turn it "
+"off."
+msgstr ""
+"Небольшой глиняный сосуд с фитилём — древнейшая разновидность масляной "
+"лампы. Даёт не слишком много света, зато горит долго. Сейчас лампа горит. "
+"Активируйте, чтобы погасить."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay lamp oil cooker"
@@ -1102,8 +1461,12 @@ msgstr[2] "глиняных масляных плиток"
 #. ~ Description for {'str': 'clay lamp oil cooker', 'str_pl': 'clay lamp oil
 #. cookers'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a small clay container for holding lamp oil, designed to set a pot over it.  It could be used for heating food."
-msgstr "Небольшой глиняный сосуд для лампового масла, устроенный так, чтобы сверху можно было поставить посуду. Можно использовать для разогрева пищи."
+msgid ""
+"This is a small clay container for holding lamp oil, designed to set a pot "
+"over it.  It could be used for heating food."
+msgstr ""
+"Небольшой глиняный сосуд для лампового масла, устроенный так, чтобы сверху "
+"можно было поставить посуду. Можно использовать для разогрева пищи."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay ember carrier"
@@ -1115,22 +1478,28 @@ msgstr[2] "глиняных сосудов для углей"
 #. ~ Use action msg for {'str': 'clay ember carrier'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "You light the tinder."
-msgstr "Вы зажигаете трут."
+msgstr "Вы поджигаете трут."
 
 #. ~ Use action need_charges_msg for {'str': 'clay ember carrier'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "The ember carrier is out of tinder."
-msgstr "В глиняном сосуде для углей закончился трут."
+msgstr "В глиняном контейнере для углей закончился трут."
 
 #. ~ Use action need_fire_msg for {'str': 'clay ember carrier'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "You need a lighter or fire to light this."
-msgstr "Чтобы зажечь это, понадобится зажигалка или другой источник огня."
+msgstr "Вам нужен огонь или зажигалка, чтобы зажечь это."
 
 #. ~ Description for {'str': 'clay ember carrier'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a small ceramic fire pot, with a lid and small holes for controlled airflow.  It can nurture a smoldering ember for a long time, to start fires without modern tools."
-msgstr "Небольшой керамический сосуд с крышкой и отверстиями для регулируемого притока воздуха. В нём можно подолгу сохранять тлеющие угли, чтобы затем разводить огонь без современных приспособлений."
+msgid ""
+"This is a small ceramic fire pot, with a lid and small holes for controlled "
+"airflow.  It can nurture a smoldering ember for a long time, to start fires "
+"without modern tools."
+msgstr ""
+"Небольшой керамический сосуд с крышкой и отверстиями для регулируемого "
+"притока воздуха. Медленно тлеющие угли могут храниться в нём долгое время, "
+"что позволяет разводить огонь без современных инструментов."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay ember carrier (lit)"
@@ -1154,8 +1523,13 @@ msgstr "Угольки погасли."
 #. ~ Description for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay ember
 #. carriers (lit)'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a small ceramic fire pot, with a lid and small holes for controlled airflow.  An ember is smoldering inside it, and can be used to start a campfire."
-msgstr "Небольшой керамический сосуд с крышкой и отверстиями для притока воздуха. Внутри тлеют угольки, от которых можно разжечь костёр."
+msgid ""
+"This is a small ceramic fire pot, with a lid and small holes for controlled "
+"airflow.  An ember is smoldering inside it, and can be used to start a "
+"campfire."
+msgstr ""
+"Небольшой керамический сосуд с крышкой и отверстиями для регулируемого "
+"притока воздуха. Внутри тлеют угольки, от которых можно разжечь костёр."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay oven"
@@ -1166,8 +1540,12 @@ msgstr[2] "глиняных печек"
 
 #. ~ Description for {'str': 'clay oven'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "This is a ancient style of portable ceramic oven.  Use it to place on the ground, allowing you to keep a small fire safe from wind and rain."
-msgstr "Переносная керамическая печка древнего типа. Активируйте, чтобы установить её на землю и развести внутри небольшой огонь, защищённый от ветра и дождя."
+msgid ""
+"This is a ancient style of portable ceramic oven.  Use it to place on the "
+"ground, allowing you to keep a small fire safe from wind and rain."
+msgstr ""
+"Переносная керамическая печка древнего типа. Активируйте, чтобы установить "
+"её на землю и развести внутри небольшой огонь, защищённый от ветра и дождя."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "flint drill"
@@ -1178,20 +1556,34 @@ msgstr[2] "кремнёвых лучковых дрелей"
 
 #. ~ Description for {'str': 'flint drill'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "A prehistoric woodworking tool, little more than a fine sharp blade tipping a makeshift bow drill.  It's rather limited in usage, primarily meant to be used on wood."
-msgstr "Доисторический инструмент для обработки дерева — кустарная лучковая дрель с небольшим острым кремнёвым наконечником. Возможности у неё скромные: предназначена главным образом для работы с деревом."
+msgid ""
+"A prehistoric woodworking tool, little more than a fine sharp blade tipping "
+"a makeshift bow drill.  It's rather limited in usage, primarily meant to be "
+"used on wood."
+msgstr ""
+"Доисторический инструмент для обработки дерева — кустарная лучковая дрель с "
+"небольшим острым кремнёвым наконечником. Возможности у неё скромные: "
+"предназначена главным образом для работы с деревом."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "fire plough"
 msgid_plural "fire ploughs"
 msgstr[0] "огневой плуг"
 msgstr[1] "огневых плуга"
-msgstr[2] "огневых плуга"
+msgstr[2] "огневых плугов"
 
 #. ~ Description for {'str': 'fire plough'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "A simple form of primitive firemaking, little more than two pieces of wood with a groove worn into one of them, to light an ember through friction.  Starting a fire with this will be laborious and slow, but it's better than nothing."
-msgstr "Примитивное приспособление для добывания огня — всего лишь две деревянные дощечки, в одной из которых проделана бороздка. Трением можно получить тлеющий уголёк. Разводить огонь таким способом долго и утомительно, но это лучше, чем ничего."
+msgid ""
+"A simple form of primitive firemaking, little more than two pieces of wood "
+"with a groove worn into one of them, to light an ember through friction.  "
+"Starting a fire with this will be laborious and slow, but it's better than "
+"nothing."
+msgstr ""
+"Примитивное приспособление для добывания огня — всего лишь две деревянные "
+"дощечки, в одной из которых проделана бороздка. Трением можно получить "
+"тлеющий уголёк. Разводить огонь таким способом долго и утомительно, но всё "
+"же лучше, чем ничего."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "makeshift water purifier"
@@ -1214,8 +1606,18 @@ msgstr[2] "глиняных кастрюль для консервации"
 
 #. ~ Description for {'str': 'clay canning pot'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
-msgid "A very large 25 liter earthenware pot, primarily meant for canning food via the water bath method, though it can cook normal foods just as well.  Canning foods with it will require a lot of water.  If you're only canning a couple of jars at a time, you'd fill it up with rocks or something to displace the water above the lids."
-msgstr "Очень большая глиняная кастрюля объёмом 25 литров, предназначенная прежде всего для консервирования продуктов на водяной бане, хотя в ней с тем же успехом можно готовить обычную еду. Для консервирования потребуется много воды. Если нужно обработать всего пару банок, свободное место можно заполнить камнями или чем-нибудь ещё, чтобы поднять уровень воды выше крышек."
+msgid ""
+"A very large 25 liter earthenware pot, primarily meant for canning food via "
+"the water bath method, though it can cook normal foods just as well.  "
+"Canning foods with it will require a lot of water.  If you're only canning a"
+" couple of jars at a time, you'd fill it up with rocks or something to "
+"displace the water above the lids."
+msgstr ""
+"Очень большая глиняная кастрюля объёмом 25 литров, предназначенная прежде "
+"всего для консервирования продуктов на водяной бане, хотя в ней с тем же "
+"успехом можно готовить обычную еду. Для консервирования потребуется много "
+"воды. Если вы консервируете пару банок за раз, нужно наполнить кастрюлю "
+"камнями или чем-то подобным, чтобы вода накрыла крышки."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\veggy_dishes.json
 msgid "clay jar of pickled veggy"
@@ -1227,8 +1629,11 @@ msgstr[2] "глиняных кувшинов с маринованными ов�
 #. ~ Description for {'str': 'clay jar of pickled veggy', 'str_pl': 'clay jar
 #. of pickled veggies'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\veggy_dishes.json
-msgid "This is a serving of crisply brined and canned vegetable matter.  Tasty and nutritious."
-msgstr "Порция хрустящих овощей, законсервированных в рассоле. Вкусно и питательно."
+msgid ""
+"This is a serving of crisply brined and canned vegetable matter.  Tasty and "
+"nutritious."
+msgstr ""
+"Порция хрустящих овощей, законсервированных в рассоле. Вкусно и питательно."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "birchbark sheath"
@@ -1239,7 +1644,8 @@ msgstr "берестяной корпус лодки"
 #. ~ Description for {'str': 'birchbark boat hull'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 msgid "A waterproofed board that keeps the water out of your boat."
-msgstr "Водонепроницаемая панель из бересты, не дающая воде проникать внутрь лодки."
+msgstr ""
+"Водонепроницаемый борт из бересты, не дающий воде проникать внутрь лодки."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "birchbark sheath"
@@ -1260,13 +1666,25 @@ msgstr "берестяная крыша"
 
 #. ~ Description for {'str': 'birchbark roof'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
-msgid "A roof made from a mat of tightly-woven birchbark.  Good enough to keep the rain out at least."
-msgstr "Крыша из циновки, плотно сплетённой из бересты. По крайней мере, от дождя защищает неплохо."
+msgid ""
+"A roof made from a mat of tightly-woven birchbark.  Good enough to keep the "
+"rain out at least."
+msgstr ""
+"Крыша — циновка из плотно сплетённой бересты. По крайней мере, от дождя "
+"защищает неплохо."
 
 #. ~ Description for log frame
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
-msgid "A heavy section of frame carved from a log, serving as a foundation or to keep a raft afloat.  Other vehicle components can be mounted on it.  If all the frames and components of a vehicle are foldable, the vehicle can be folded into a small package and picked up as a normal item."
-msgstr "Тяжёлая секция рамы, вытесанная из бревна. Служит основой конструкции или обеспечивает плавучесть плота. На неё можно устанавливать другие компоненты транспорта. Если все рамы и компоненты транспорта складные, его можно сложить до компактных размеров и переносить как обычный предмет."
+msgid ""
+"A heavy section of frame carved from a log, serving as a foundation or to "
+"keep a raft afloat.  Other vehicle components can be mounted on it.  If all "
+"the frames and components of a vehicle are foldable, the vehicle can be "
+"folded into a small package and picked up as a normal item."
+msgstr ""
+"Тяжёлая секция рамы, вытесанная из бревна. Служит основой конструкции или "
+"обеспечивает плавучесть плота. На неё можно устанавливать другие детали "
+"транспорта. Если все рамы и компоненты транспорта складные, его можно "
+"сложить до компактных размеров и переносить как обычный предмет."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "log frame"
@@ -1276,19 +1694,27 @@ msgstr "бревенчатая дверь"
 
 #. ~ Description for {'str': 'log frame door'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
-msgid "A heavy door made from a log frame.  Solid construction means you can't see through it when closed."
-msgstr "Тяжёлая дверь из бревенчатой рамы. Благодаря сплошной конструкции сквозь неё ничего не видно, когда она закрыта."
+msgid ""
+"A heavy door made from a log frame.  Solid construction means you can't see "
+"through it when closed."
+msgstr ""
+"Тяжёлая дверь из бревенчатой рамы. Она сплошная, и сквозь неё ничего не "
+"видно, когда она закрыта."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "log frame"
 #| msgid_plural "log frames"
 msgid "log frame board"
-msgstr "бревенчатый борт"
+msgstr "бревенчатый кузов"
 
 #. ~ Description for {'str': 'log frame board'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
-msgid "A wall made from a log frame.  Keeps zombies outside the vehicle and prevents people from seeing through it."
-msgstr "Борт из бревенчатой рамы. Не пускает зомби внутрь транспорта и закрывает его содержимое от посторонних глаз."
+msgid ""
+"A wall made from a log frame.  Keeps zombies outside the vehicle and "
+"prevents people from seeing through it."
+msgstr ""
+"Стена из бревенчатого каркаса. Не даёт зомби проникнуть внутрь транспорта и "
+"закрывает обзор."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 msgid "straw bedding"
@@ -1297,4 +1723,5 @@ msgstr "соломенная лежанка"
 #. ~ Description for {'str': 'straw bedding'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 msgid "A small but comfortable bed made from a mat of tightly-woven straw."
-msgstr "Небольшая, но удобная лежанка из циновки, плотно сплетённой из соломы."
+msgstr ""
+"Небольшая, но удобная лежанка из циновки, плотно сплетённой из соломы."
