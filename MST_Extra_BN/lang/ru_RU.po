@@ -82,8 +82,9 @@ msgid ""
 "A traditional beehive, dug in slightly and buzzing with slight activity.  "
 "Some bees have started work on this hive, but it won't be ready just yet."
 msgstr ""
-"Традиционный улей, слегка вкопанный в землю. В нём уже жужжат пчёлы, но "
-"семья пока не освоилась, и собирать мёд рано."
+"Традиционный пчелиный улей, слегка вкопанный в землю. Внутри слышно "
+"негромкое жужжание. Пчёлы уже принялись за работу, но собирать мёд пока "
+"рано."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "mature beehive"
@@ -96,9 +97,9 @@ msgid ""
 "colony is doing well enough that you could harvest a good amount without the"
 " hive dying off."
 msgstr ""
-"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
-"Семья достаточно окрепла, так что можно собрать немало мёда, не навредив "
-"улью."
+"Традиционный пчелиный улей, слегка вкопанный в землю. Внутри кипит жизнь. "
+"Семья достаточно окрепла, чтобы можно было забрать немало сот, не погубив "
+"её."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "recovering beehive"
@@ -110,8 +111,8 @@ msgid ""
 "A traditional beehive, dug in slightly and buzzing with activity.  The "
 "colony is still recovering from last harvest."
 msgstr ""
-"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
-"Семья всё ещё восстанавливается после последнего сбора мёда."
+"Традиционный пчелиный улей, слегка вкопанный в землю. Внутри кипит жизнь. "
+"Семья ещё восстанавливается после последнего сбора мёда."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "regrowing beehive"
@@ -124,7 +125,7 @@ msgid ""
 "colony is rebuilding honeycombs and producing more honey, but it still isn't"
 " ready."
 msgstr ""
-"Традиционный улей, слегка вкопанный в землю и наполненный пчелиным гулом. "
+"Традиционный пчелиный улей, слегка вкопанный в землю. Внутри кипит жизнь. "
 "Пчелиная семья восстанавливает соты и запасает новый мёд, но собирать его "
 "пока рано."
 
@@ -204,9 +205,8 @@ msgid ""
 "A small improvised wood stove, placed on the ground.  It can only burn small"
 " amounts of wood at a time, but it will keep a fire safe from wind and rain."
 msgstr ""
-"Небольшая импровизированная дровяная печка, установленная на земле. За раз в"
-" ней можно сжечь совсем немного дров, зато она защищает огонь от ветра и "
-"дождя."
+"Небольшая кустарная дровяная печка, установленная на земле. За раз в ней "
+"можно сжечь совсем немного дров, зато она защищает огонь от ветра и дождя."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\obsolete.json
 msgid "clatter!"
@@ -436,8 +436,8 @@ msgid ""
 "tied next to the doorway."
 msgstr ""
 "Шкура животного, подвешенная в дверном проёме вместо двери. Легко снять, "
-"чтобы использовать как материал или повесить в другом месте. Этот полог "
-"открыт, собран и привязан к проёму."
+"чтобы использовать как материал или повесить в другом месте. Сейчас она "
+"отодвинута, собрана и подвязана сбоку от проёма."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\furniture_and_terrain\terrain.json
 msgid "wooden platform"
@@ -552,9 +552,9 @@ msgstr "Меховые обмотки для ног, служащие импро
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "makeshift sheet cloak"
 msgid_plural "makeshift sheet cloaks"
-msgstr[0] "кустарный плащ из шторы"
-msgstr[1] "кустарных плаща из шторы"
-msgstr[2] "кустарных плащей из шторы"
+msgstr[0] "кустарный плащ из полотнища"
+msgstr[1] "кустарных плаща из полотнища"
+msgstr[2] "кустарных плащей из полотнища"
 
 #. ~ Description for {'str': 'makeshift sheet cloak'}
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
@@ -563,9 +563,9 @@ msgid ""
 "cloak.  Less encumbering since it leaves your hands free, and won't trip you"
 " up."
 msgstr ""
-"Штора, наброшенная на плечи и скреплённая так, чтобы носить её как плащ. Она"
-" меньше стесняет движения, поскольку оставляет руки свободными и не путается"
-" под ногами."
+"Полотнище, наброшенное на плечи и скреплённое так, чтобы носить его как "
+"плащ. Оно меньше стесняет движения, поскольку оставляет руки свободными и не"
+" путается под ногами."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\armor.json
 msgid "makeshift blanket cloak"
@@ -718,8 +718,8 @@ msgid ""
 "or leather wrap.  Applied loosely, it is designed to stave off infection but"
 " can still help staunch bleeding."
 msgstr ""
-"Примитивная припарка с импровизированным антисептиком, закреплённая повязкой"
-" из ткани или кожи. Накладывается неплотно и предназначена прежде всего для "
+"Примитивная припарка с кустарным антисептиком, закреплённая повязкой из "
+"ткани или кожи. Накладывается неплотно и предназначена прежде всего для "
 "защиты от инфекции, но также помогает остановить кровотечение."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\comestibles.json
@@ -896,7 +896,7 @@ msgstr[2] "закрытых дрожжевых культур"
 #. ~ Use action msg for {'str_sp': 'sealed wild yeast culture'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "You open the clay jar and harvest the culture."
-msgstr "Вы открываете глиняный кувшин и извлекаете дрожжевую культуру."
+msgstr "Вы открываете глиняный кувшин и собираете дрожжевую культуру."
 
 #. ~ Use action not_ready_msg for {'str_sp': 'sealed yeast culture'}.
 #. ~ Use action not_ready_msg for {'str_sp': 'sealed wild yeast culture'}.
@@ -910,8 +910,8 @@ msgid ""
 "A sealed clay jar holding sanitized yeast wort.  You may harvest the yeast "
 "inside when it's done culturing."
 msgstr ""
-"Запечатанный глиняный кувшин с обеззараженным дрожжевым суслом. Когда дрожжи"
-" вырастут, их можно будет собрать."
+"Герметично закрытый глиняный кувшин с обеззараженным дрожжевым суслом. Когда"
+" дрожжи вырастут, их можно будет собрать."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "sealed wild yeast culture"
@@ -926,8 +926,8 @@ msgid ""
 "Mixture of water, sugar and fruits with some naturally occuring yeast in a "
 "clay jar, that will eventually produce a more sizeable yeast culture."
 msgstr ""
-"Смесь воды, сахара и фруктов с естественными дрожжами в глиняном кувшине. Со"
-" временем дрожжи размножатся и образуют более крупную культуру."
+"Смесь воды, сахара и фруктов с некоторым количеством диких дрожжей в "
+"глиняном кувшине. Со временем дрожжи размножатся, и их станет больше."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "fermenting eggs jar"
@@ -942,8 +942,8 @@ msgid ""
 "You examine the batch and see that the pickling solution has done its job, "
 "so you seal the clay jar up for storage."
 msgstr ""
-"Вы осматриваете содержимое и видите, что рассол сделал своё дело, после чего"
-" герметично закрываете глиняный кувшин для хранения."
+"Вы осматриваете яйца и видите, что маринад сделал своё дело, после чего "
+"герметично закрываете глиняный кувшин для хранения."
 
 #. ~ Use action not_ready_msg for {'str': 'fermenting eggs jar'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
@@ -957,8 +957,8 @@ msgid ""
 "This clay jar contains a batch of eggs in a pickling solution.  You can seal"
 " up the clay jar once the process is completed."
 msgstr ""
-"В этом глиняном кувшине находятся яйца в рассоле. Когда процесс завершится, "
-"кувшин можно будет герметично закрыть."
+"Глиняный кувшин с яйцами в маринаде. Когда процесс завершится, кувшин можно "
+"будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
@@ -996,7 +996,7 @@ msgid ""
 "This is a sealed clay jar containing pickled eggs.  Use to open and eat to "
 "enjoy."
 msgstr ""
-"Герметично закрытый глиняный кувшин с маринованными яйцами. Откройте её и "
+"Герметично закрытый глиняный кувшин с маринованными яйцами. Откройте его и "
 "ешьте на здоровье!"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
@@ -1013,7 +1013,7 @@ msgid ""
 "You test the batch, and it tastes good, so you seal the clay jar up for "
 "storage."
 msgstr ""
-"Вы пробуете капусту и, убедившись, что она готова, герметично закрываете "
+"Вы снимаете пробу. На вкус отлично, так что вы герметично закрываете "
 "глиняный кувшин для хранения."
 
 #. ~ Use action not_ready_msg for {'str': 'fermenting sauerkraut'}.
@@ -1027,8 +1027,8 @@ msgid ""
 "This clay jar contains a batch of sauerkraut set to ferment.  You can seal "
 "up the clay jar once the process is completed."
 msgstr ""
-"В этом глиняном кувшине квасится капуста. Когда процесс завершится, кувшин "
-"можно будет герметично закрыть."
+"Глиняный кувшин с капустой, оставленной заквашиваться. Когда процесс "
+"завершится, кувшин можно будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
@@ -1046,8 +1046,8 @@ msgid ""
 "This is a sealed clay jar containing sauerkraut.  Use to open and eat to "
 "enjoy."
 msgstr ""
-"Герметично закрытый глиняный кувшин с квашеной капустой. Откройте её и ешьте"
-" на здоровье!"
+"Герметично закрытый глиняный кувшин с квашеной капустой. Откройте его и "
+"ешьте на здоровье!"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 msgid "fermenting pickle in clay jar"
@@ -1067,8 +1067,8 @@ msgid ""
 "This clay jar contains a batch of pickles set to ferment.  You can seal up "
 "the clay jar once the process is completed."
 msgstr ""
-"В этом глиняном кувшине маринуются огурчики. Когда процесс завершится, "
-"кувшин можно будет герметично закрыть."
+"Глиняный кувшин с огурчиками, оставленными для брожения. Когда процесс "
+"завершится, кувшин можно будет герметично закрыть."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
 #| msgid "sealed clay jar"
@@ -1085,8 +1085,8 @@ msgstr[2] "закрытых глиняных кувшинов с маринов�
 msgid ""
 "This is a sealed clay jar containing pickles.  Use to open and eat to enjoy."
 msgstr ""
-"Герметично закрытый глиняный кувшин с маринованными огурчиками. Откройте её "
-"и ешьте на здоровье!"
+"Герметично закрытый глиняный кувшин с маринованными огурчиками. Откройте его"
+" и ешьте на здоровье!"
 
 #. ~ Use action msg for {'str_sp': 'sealed yeast culture'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\cooking.json
@@ -1099,8 +1099,8 @@ msgid ""
 "A sealed 3L clay jar holding sanitized yeast wort.  You may harvest the "
 "yeast inside when it's done culturing."
 msgstr ""
-"Запечатанный трёхлитровый глиняный кувшин с обеззараженным дрожжевым суслом."
-" Когда дрожжи вырастут, их можно будет собрать."
+"Герметично закрытый трёхлитровый глиняный кувшин с обеззараженным дрожжевым "
+"суслом. Когда дрожжи вырастут, их можно будет собрать."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\generic.json
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
@@ -1448,8 +1448,8 @@ msgid ""
 "off."
 msgstr ""
 "Небольшой глиняный сосуд с фитилём — древнейшая разновидность масляной "
-"лампы. Даёт не слишком много света, зато горит долго. Сейчас лампа горит. "
-"Активируйте, чтобы погасить."
+"лампы. Даёт не слишком много света, зато горит долго. Сейчас она горит. "
+"Активируйте, чтобы потушить."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay lamp oil cooker"
@@ -1498,8 +1498,8 @@ msgid ""
 "without modern tools."
 msgstr ""
 "Небольшой керамический сосуд с крышкой и отверстиями для регулируемого "
-"притока воздуха. Медленно тлеющие угли могут храниться в нём долгое время, "
-"что позволяет разводить огонь без современных инструментов."
+"притока воздуха. В нём можно долго поддерживать тлеющий уголёк, чтобы "
+"разводить огонь без современных инструментов."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay ember carrier (lit)"
@@ -1518,7 +1518,7 @@ msgstr "Погасить"
 #. ember carriers (lit)'}.
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "The ember is extinguished."
-msgstr "Угольки погасли."
+msgstr "Уголёк гаснет."
 
 #. ~ Description for {'str': 'clay ember carrier (lit)', 'str_pl': 'clay ember
 #. carriers (lit)'}
@@ -1529,7 +1529,7 @@ msgid ""
 "campfire."
 msgstr ""
 "Небольшой керамический сосуд с крышкой и отверстиями для регулируемого "
-"притока воздуха. Внутри тлеют угольки, от которых можно разжечь костёр."
+"притока воздуха. Внутри тлеет уголёк, от которого можно разжечь костёр."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\items\tools.json
 msgid "clay oven"
@@ -1684,7 +1684,7 @@ msgstr ""
 "Тяжёлая секция рамы, вытесанная из бревна. Служит основой конструкции или "
 "обеспечивает плавучесть плота. На неё можно устанавливать другие детали "
 "транспорта. Если все рамы и компоненты транспорта складные, его можно "
-"сложить до компактных размеров и переносить как обычный предмет."
+"сложить в компактную конструкцию и подобрать как обычный предмет."
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\vehicles\vehicleparts.json
 #| msgid "log frame"
