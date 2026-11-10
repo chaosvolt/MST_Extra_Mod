@@ -2,7 +2,7 @@
   {
     "id": "jar_clay_yeast",
     "type": "GENERIC",
-    "name": { "str_sp": "sealed yeast culture" },
+    "name": { "str": "sealed yeast culture" },
     "description": "A sealed clay jar holding sanitized yeast wort.  You may harvest the yeast inside when it's done culturing.",
     "copy-from": "jar_clay",
     "use_action": {
@@ -19,8 +19,8 @@
   {
     "id": "jar_clay_wild_yeast",
     "type": "GENERIC",
-    "name": { "str_sp": "sealed wild yeast culture" },
-    "description": "Mixture of water, sugar and fruits with some naturally occuring yeast in a clay jar, that will eventually produce a more sizeable yeast culture.",
+    "name": { "str": "sealed wild yeast culture" },
+    "description": "Mixture of water, sugar and fruits with some naturally occurring yeast in a clay jar, that will eventually produce a more sizeable yeast culture.",
     "copy-from": "jar_clay",
     "use_action": {
       "target": "yeast",
@@ -183,7 +183,7 @@
     "id": "jar_3l_clay_yeast",
     "type": "GENERIC",
     "category": "food",
-    "name": { "str_sp": "sealed yeast culture" },
+    "name": { "str": "sealed yeast culture" },
     "description": "A sealed 3L clay jar holding sanitized yeast wort.  You may harvest the yeast inside when it's done culturing.",
     "weight": "900 g",
     "volume": "3 L",
