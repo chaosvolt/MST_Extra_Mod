@@ -35,7 +35,7 @@ msgstr "В тяжёлом силке"
 
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\modinfo.json
 msgid "MST Extra"
-msgstr "MST Extra "
+msgstr "MST Extra"
 
 #. ~ Description for MST Extra
 #: C:\Games\CataclysmBN\CBNE2\data\mods\MST_Extra_BN\modinfo.json
